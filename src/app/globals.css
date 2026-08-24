@@ -15,6 +15,8 @@
   --color-accent-soft: #7dd3fc1a;
   --color-gold: #d4af37;
   --color-good: #34d399;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 @theme inline {
