@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { Link } from "@/i18n/navigation";
@@ -45,16 +45,31 @@ function PatronStatusBanner() {
   );
 }
 
+/** The unclaimed list is ~3.8k models. Rendering them all mounts a next/image
+ *  each and locks up the page on a phone, so it grows a page at a time. */
+const UNCLAIMED_PAGE = 60;
+
 export default function PatronlarPage() {
   const { getPatron } = useCarsStore();
   const t = useTranslations("patronlarPage");
+  const tr = useTranslations("rankingSection");
   const locale = useLocale();
+  const [visible, setVisible] = useState(UNCLAIMED_PAGE);
 
-  const withPatron = CARS.map((c) => ({ car: c, patron: getPatron(c.slug) }));
-  const claimed = withPatron
-    .filter((x) => x.patron)
-    .sort((a, b) => (b.patron!.price ?? 0) - (a.patron!.price ?? 0));
-  const unclaimed = withPatron.filter((x) => !x.patron);
+  // CARS is 3861 entries; without this the whole list is rebuilt on every
+  // render, including every unrelated state change on the page.
+  const { claimed, unclaimed } = useMemo(() => {
+    const withPatron = CARS.map((c) => ({ car: c, patron: getPatron(c.slug) }));
+    return {
+      claimed: withPatron
+        .filter((x) => x.patron)
+        .sort((a, b) => (b.patron!.price ?? 0) - (a.patron!.price ?? 0)),
+      unclaimed: withPatron.filter((x) => !x.patron),
+    };
+  }, [getPatron]);
+
+  const shown = unclaimed.slice(0, visible);
+  const remaining = unclaimed.length - shown.length;
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
@@ -68,11 +83,17 @@ export default function PatronlarPage() {
         </Suspense>
       </div>
 
-      {claimed.length > 0 && (
-        <div className="mb-12">
-          <h2 className="text-sm font-bold text-text-muted uppercase tracking-wide mb-4">
-            {t("activePatrons", { count: claimed.length })}
-          </h2>
+      <div className="mb-12">
+        <h2 className="text-sm font-bold text-text-muted uppercase tracking-wide mb-4">
+          {t("activePatrons", { count: claimed.length })}
+        </h2>
+        {claimed.length === 0 ? (
+          // This page is about patrons; hiding the section when there are none
+          // left it looking broken rather than empty.
+          <div className="rounded-2xl border border-dashed border-border-soft bg-surface/40 px-6 py-10 text-center text-sm text-text-muted">
+            {t("noPatronsYet")}
+          </div>
+        ) : (
           <ScrollReveal
             y={16}
             stagger={0.04}
@@ -96,15 +117,15 @@ export default function PatronlarPage() {
               </div>
             ))}
           </ScrollReveal>
-        </div>
-      )}
+        )}
+      </div>
 
       <div>
         <h2 className="text-sm font-bold text-text-muted uppercase tracking-wide mb-4">
           {t("waitingModels", { count: unclaimed.length })}
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5">
-          {unclaimed.map(({ car }) => (
+          {shown.map(({ car }) => (
             <Link
               key={car.slug}
               href={`/araba/${car.slug}`}
@@ -115,6 +136,7 @@ export default function PatronlarPage() {
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
+                  alt={`${car.brand} ${car.model}`}
                   className="h-full w-full"
                   fallbackBadgeSize="sm"
                   sizes="40px"
@@ -127,6 +149,18 @@ export default function PatronlarPage() {
             </Link>
           ))}
         </div>
+
+        {remaining > 0 && (
+          <div className="mt-6 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setVisible((v) => v + UNCLAIMED_PAGE)}
+              className="rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-semibold text-text-muted transition-[border-color,color,transform] duration-150 ease-out hover:border-accent hover:text-accent active:scale-[0.98] [@media(pointer:coarse)]:min-h-11"
+            >
+              {tr("loadMore", { count: remaining })}
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

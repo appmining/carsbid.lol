@@ -23,8 +23,15 @@ export function CustomCursor() {
 
     const dot = dotRef.current;
     const ring = ringRef.current;
-    const prevCursor = document.body.style.cursor;
-    document.body.style.cursor = "none";
+    // Deliberately NOT hidden up front: if GSAP never runs, the visitor would
+    // be left with no pointer at all. The class goes on at the first tracked
+    // move, once the replacement is known to be following.
+    let hidden = false;
+    function hideSystemCursor() {
+      if (hidden) return;
+      hidden = true;
+      document.body.classList.add("cb-custom-cursor");
+    }
 
     const moveDotX = gsap.quickTo(dot, "x", { duration: 0.1, ease: "power3.out" });
     const moveDotY = gsap.quickTo(dot, "y", { duration: 0.1, ease: "power3.out" });
@@ -32,6 +39,7 @@ export function CustomCursor() {
     const moveRingY = gsap.quickTo(ring, "y", { duration: 0.35, ease: "power3.out" });
 
     function onMove(e: MouseEvent) {
+      hideSystemCursor();
       gsap.set([dot, ring], { opacity: 1 });
       moveDotX(e.clientX);
       moveDotY(e.clientY);
@@ -50,7 +58,7 @@ export function CustomCursor() {
     return () => {
       window.removeEventListener("mousemove", onMove);
       window.removeEventListener("mouseover", onOver);
-      document.body.style.cursor = prevCursor;
+      document.body.classList.remove("cb-custom-cursor");
     };
   }, [active]);
 

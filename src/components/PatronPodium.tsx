@@ -11,14 +11,15 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import type { SocialPlatform } from "@/lib/types";
 
 const MEDALS = [
-  { label: "1", ring: "ring-gold", chip: "bg-gold text-black", height: "sm:h-64" },
-  { label: "2", ring: "ring-zinc-300", chip: "bg-zinc-300 text-black", height: "sm:h-56" },
-  { label: "3", ring: "ring-amber-700", chip: "bg-amber-700 text-white", height: "sm:h-48" },
+  { label: "1", ring: "ring-gold", chip: "bg-gold text-bg", height: "sm:h-64" },
+  { label: "2", ring: "ring-silver", chip: "bg-silver text-bg", height: "sm:h-56" },
+  { label: "3", ring: "ring-bronze", chip: "bg-bronze text-bg", height: "sm:h-48" },
 ];
 
 export function PatronPodium() {
   const { getPatron } = useCarsStore();
   const t = useTranslations("patronPodium");
+  const tn = useTranslations("nav");
   const tp = useTranslations("platforms");
   const locale = useLocale();
 
@@ -27,7 +28,7 @@ export function PatronPodium() {
       Boolean(x.patron)
   );
 
-  if (withPatron.length === 0) return null;
+  const isEmpty = withPatron.length === 0;
 
   const top3 = [...withPatron].sort((a, b) => b.patron.price - a.patron.price).slice(0, 3);
   // Render order: 2nd, 1st, 3rd — the classic podium arrangement.
@@ -36,10 +37,21 @@ export function PatronPodium() {
   return (
     <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
       <div className="mb-6 text-center">
-        <h2 className="font-display text-lg font-bold">{t("title")}</h2>
-        <p className="text-sm text-text-dim mt-0.5">{t("subtitle")}</p>
+        <h2 className="font-display text-section font-bold">{t("title")}</h2>
+        <p className="text-sm text-text-dim mt-1">{t("subtitle")}</p>
       </div>
 
+      {isEmpty ? (
+        <div className="mx-auto max-w-md rounded-2xl border border-dashed border-border-soft bg-surface/40 px-6 py-10 text-center">
+          <p className="text-sm text-text-muted">{t("empty")}</p>
+          <Link
+            href="/patronlar"
+            className="mt-5 inline-block rounded-full border border-accent/35 bg-accent-soft px-5 py-2.5 text-sm font-semibold text-accent transition-[background-color,color,border-color,transform] duration-150 ease-out hover:border-accent hover:bg-accent hover:text-bg active:scale-[0.98]"
+          >
+            {tn("becomePatron")}
+          </Link>
+        </div>
+      ) : (
       <ScrollReveal
         y={20}
         stagger={0.08}
@@ -62,6 +74,7 @@ export function PatronPodium() {
                 <CarPhoto
                   slug={entry.car.slug}
                   brand={entry.car.brand}
+                  alt={`${entry.car.brand} ${entry.car.model}`}
                   className="h-full w-full"
                   fallbackBadgeSize="md"
                 />
@@ -92,6 +105,7 @@ export function PatronPodium() {
           );
         })}
       </ScrollReveal>
+      )}
     </section>
   );
 }

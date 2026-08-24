@@ -18,10 +18,13 @@ export function VoteButton({
     <button
       onClick={() => vote(slug)}
       disabled={voted}
-      className={`rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors ${
+      // transition-colors alone left the press scale snapping with no easing.
+      // 150ms is the press-feedback window; anything slower stops reading as
+      // a response to the tap.
+      className={`rounded-lg px-3.5 py-2 text-sm font-semibold transition-[background-color,color,transform] duration-150 ease-out [@media(pointer:coarse)]:min-h-11 ${
         voted
           ? "bg-good/15 text-good"
-          : "bg-accent text-bg hover:bg-accent-2 active:scale-[0.98]"
+          : "bg-accent text-bg hover:bg-accent-2 active:scale-[0.97]"
       } ${className}`}
     >
       {voted ? t("voted") : t("vote")}

@@ -12,6 +12,7 @@ import {
 import { CARS } from "@/data/cars";
 import type { Patron } from "@/lib/types";
 import { supabasePublic } from "@/lib/supabase/publicClient";
+import { HOME_COUNTRY_CODE, isCountryCode } from "@/lib/country";
 
 const STORAGE_KEY = "carsbid_v1";
 const VISIT_FLAG_KEY = "carsbid_visit_registered";
@@ -30,7 +31,10 @@ interface CarsStoreValue {
   refreshPatrons: () => void;
   totalVotes: number;
   totalVisits: number;
-  totalRevenue: number;
+  patronCount: number;
+  /** Visitor's country, ISO 3166-1 alpha-2. Starts at the home market so the
+   *  server-rendered markup matches, then updates once /api/stats lands. */
+  countryCode: string;
 }
 
 const CarsContext = createContext<CarsStoreValue | null>(null);
@@ -56,6 +60,7 @@ export function CarsProvider({ children }: { children: React.ReactNode }) {
   const [votes, setVotes] = useState<Record<string, number>>({});
   const [visits, setVisits] = useState(0);
   const [online, setOnline] = useState(0);
+  const [countryCode, setCountryCode] = useState(HOME_COUNTRY_CODE);
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const refreshPatrons = useCallback(() => {
@@ -71,6 +76,7 @@ export function CarsProvider({ children }: { children: React.ReactNode }) {
       .then((data) => {
         setVotes(data.votes ?? {});
         setVisits(data.visits ?? 0);
+        if (isCountryCode(data.country)) setCountryCode(data.country);
       })
       .catch(() => {});
   }, []);
@@ -145,18 +151,36 @@ export function CarsProvider({ children }: { children: React.ReactNode }) {
         next.add(slug);
         return next;
       });
+      // Optimistic: the count moves with the button press, not a round trip
+      // later. Without this the button flips to "voted" while the number under
+      // it sits still for a few hundred milliseconds.
+      setVotes((prev) => ({ ...prev, [slug]: (prev[slug] ?? 0) + 1 }));
+
       fetch("/api/vote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ slug }),
       })
-        .then((res) => res.json())
+        .then((res) => {
+          if (!res.ok) throw new Error(`vote failed: ${res.status}`);
+          return res.json();
+        })
         .then((data) => {
           if (typeof data.votes === "number") {
             setVotes((prev) => ({ ...prev, [slug]: data.votes }));
           }
         })
-        .catch(() => {});
+        .catch(() => {
+          // Roll back both. Leaving the button saying "voted" for a vote the
+          // server never recorded is worse than showing no vote at all — the
+          // visitor would never know to try again.
+          setVotes((prev) => ({ ...prev, [slug]: Math.max(0, (prev[slug] ?? 1) - 1) }));
+          setVotedSlugs((prev) => {
+            const next = new Set(prev);
+            next.delete(slug);
+            return next;
+          });
+        });
     },
     [votedSlugs]
   );
@@ -173,9 +197,9 @@ export function CarsProvider({ children }: { children: React.ReactNode }) {
     [votes]
   );
 
-  const totalRevenue = useMemo(() => {
-    return CARS.reduce((sum, c) => sum + (patrons[c.slug]?.price ?? 0), 0);
-  }, [patrons]);
+  // How many models currently have a patron. This is social proof — it says
+  // "people are claiming models" without putting the site's own take on screen.
+  const patronCount = useMemo(() => Object.keys(patrons).length, [patrons]);
 
   const value: CarsStoreValue = {
     hydrated,
@@ -187,7 +211,8 @@ export function CarsProvider({ children }: { children: React.ReactNode }) {
     refreshPatrons,
     totalVotes,
     totalVisits: visits,
-    totalRevenue,
+    patronCount,
+    countryCode,
   };
 
   return <CarsContext.Provider value={value}>{children}</CarsContext.Provider>;

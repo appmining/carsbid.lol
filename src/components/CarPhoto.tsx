@@ -28,6 +28,7 @@ function FallbackCard({
 export function CarPhoto({
   slug,
   brand,
+  alt = "",
   className = "",
   fallbackBadgeSize = "md",
   sizes = "160px",
@@ -35,6 +36,9 @@ export function CarPhoto({
 }: {
   slug: string;
   brand: string;
+  /** Leave empty only where the photo is decorative or repeats one already
+   *  described nearby — otherwise name the model, e.g. "Fiat Egea". */
+  alt?: string;
   className?: string;
   fallbackBadgeSize?: "sm" | "md" | "lg";
   sizes?: string;
@@ -53,7 +57,7 @@ export function CarPhoto({
     <div className={`relative overflow-hidden ${className}`}>
       <Image
         src={image.src}
-        alt=""
+        alt={alt}
         fill
         sizes={sizes}
         priority={priority}

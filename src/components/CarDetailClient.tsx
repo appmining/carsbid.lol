@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CARS } from "@/data/cars";
@@ -16,11 +17,13 @@ export function CarDetailClient({ car }: { car: CarModel }) {
   const ts = useTranslations("segments");
   const locale = useLocale();
 
-  const ranked = [...CARS]
-    .map((c) => ({ c, votes: getVotes(c.slug) }))
-    .sort((a, b) => b.votes - a.votes);
-  const rank = ranked.findIndex((r) => r.c.slug === car.slug) + 1;
+  // Only this model's own position is needed, so count the models ahead of it
+  // instead of sorting all 3861 on every render.
   const votes = getVotes(car.slug);
+  const rank = useMemo(
+    () => CARS.reduce((n, c) => (getVotes(c.slug) > votes ? n + 1 : n), 1),
+    [getVotes, votes]
+  );
   const percent = totalVotes > 0 ? (votes / totalVotes) * 100 : 0;
   const patron = getPatron(car.slug);
 
@@ -37,6 +40,7 @@ export function CarDetailClient({ car }: { car: CarModel }) {
         <CarPhoto
           slug={car.slug}
           brand={car.brand}
+          alt={`${car.brand} ${car.model}`}
           className="h-56 sm:h-72 w-full"
           fallbackBadgeSize="lg"
           sizes="(max-width: 768px) 100vw, 768px"
@@ -114,6 +118,7 @@ export function CarDetailClient({ car }: { car: CarModel }) {
                   <CarPhoto
                     slug={c.slug}
                     brand={c.brand}
+                    alt={`${c.brand} ${c.model}`}
                     className="h-full w-full"
                     fallbackBadgeSize="sm"
                   />

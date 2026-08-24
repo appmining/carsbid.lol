@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "carsbid.lol — Türkiye'nin En Popüler Araba Modeli Hangisi?",
+    "title": "carsbid.lol — {country} İçin En Popüler Araba Modeli Hangisi?",
     "description": "Ücretsiz oy ver, favori araba modelini zirveye taşı. Her modelin patronu ol, sosyal medya hesabını binlerce ziyaretçiye tanıt."
   },
   "nav": {
@@ -9,10 +9,12 @@
     "about": "Hakkında",
     "rules": "Kurallar",
     "becomePatron": "Patron Ol",
-    "menu": "Menü"
+    "menu": "Menü",
+    "language": "Dil",
+    "skipToContent": "İçeriğe atla"
   },
   "footer": {
-    "tagline": "Türkiye'nin en popüler araba modeli hangisi? Ücretsiz oy ver, favori modelini zirveye taşı.",
+    "tagline": "{country} için en popüler araba modeli hangisi? Ücretsiz oy ver, favori modelini zirveye taşı.",
     "disclaimer": "carsbid.lol'daki oylama ve sıralama eğlence amaçlıdır, gerçek satış rakamlarını yansıtmaz — patronluk ise gerçek ücret karşılığında devredilen bir reklam alanıdır."
   },
   "hero": {
@@ -27,7 +29,7 @@
     "online": "ONLINE",
     "visits": "ZİYARET",
     "votes": "OY",
-    "revenue": "HASILAT"
+    "patrons": "PATRON"
   },
   "showcaseGrid": {
     "title": "Canlı Vitrin",
@@ -39,7 +41,8 @@
   },
   "patronPodium": {
     "title": "En Yüksek Teklifi Verenler",
-    "subtitle": "Reklam alanına en çok ödeyen 3 patron — podyumdaki yerini kimse garanti edemez."
+    "subtitle": "Reklam alanına en çok ödeyen 3 patron — podyumdaki yerini kimse garanti edemez.",
+    "empty": "Henüz kimse bir modelin patronu olmadı. Podyumdaki ilk isim sen olabilirsin."
   },
   "patronCarousel": {
     "title": "Modellerin Patronları",
@@ -74,6 +77,7 @@
     "submit": "{price} Öde ve Patron Ol",
     "submitting": "Yönlendiriliyor…",
     "redirectNote": "Ödeme sayfasına yönlendirileceksin. Onaylandığında sayfanın patronu olursun.",
+    "close": "Kapat",
     "errorHandleName": "Hesap adı ve görünen ad zorunlu.",
     "errorMinPrice": "Teklif en az {min} olmalı.",
     "errorGeneric": "Ödeme başlatılamadı.",
@@ -92,7 +96,8 @@
     "mpv": "MPV / Ticari",
     "spor": "Spor",
     "elektrikli": "Elektrikli",
-    "offroad": "Arazi"
+    "offroad": "Arazi",
+    "groupLabel": "Segment filtresi"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -110,7 +115,8 @@
     "statusPaid": "Ödeme alındı — artık bu modelin patronusun!",
     "statusOutbid": "Ödeme alındı ama sen ödeme yaparken biri daha yüksek teklif verdi. Ücretin iade edilecek, bizimle iletişime geç.",
     "statusFailed": "Ödeme tamamlanamadı.",
-    "statusError": "Bir şeyler ters gitti, lütfen tekrar dene."
+    "statusError": "Bir şeyler ters gitti, lütfen tekrar dene.",
+    "noPatronsYet": "Henüz aktif patron yok. Aşağıdan bir model seç ve ilk patron sen ol."
   },
   "carDetail": {
     "backToRanking": "← Tüm sıralamaya dön",
@@ -124,7 +130,7 @@
     "title": "Hakkında",
     "metaTitle": "Hakkında — carsbid.lol",
     "metaDescription": "carsbid.lol nedir, nasıl çalışır?",
-    "p1": "<strong>carsbid.lol</strong>, Türkiye'de satılan araba modelleri arasında eğlence amaçlı bir popülerlik yarışması. Yıl fark etmiyor — Fiat Egea, Toyota Corolla ya da Tesla Model 3 fark etmeksizin sadece nameplate'e oy veriyorsun.",
+    "p1": "<strong>carsbid.lol</strong>, {country} pazarında satılan araba modelleri arasında eğlence amaçlı bir popülerlik yarışması. Yıl fark etmiyor — Fiat Egea, Toyota Corolla ya da Tesla Model 3 fark etmeksizin sadece nameplate'e oy veriyorsun.",
     "p2": "Her modelin bir <strong>patronu</strong> olabilir: o modelin sayfasında görünen küçük bir reklam alanı. Patron olmak isteyen biri, mevcut fiyatın üzerine teklif verip (Devral) o alanı devralır ve kendi sosyal medya hesabını — Instagram, TikTok, X, YouTube ya da web sitesini — o modelin hayranlarına tanıtabilir.",
     "p3": "Bu, aynı zamanda memleket.lol'dan ilham alan bir proje: aynı \"oy ver, zirveye taşı, reklam alanını devral\" mekaniğini şehirler yerine araba modellerine uyguluyoruz.",
     "p4": "Patronluk ödemeleri Lemon Squeezy üzerinden güvenle alınır; oy ve ziyaret sayıları sunucu tarafında gerçek zamanlı olarak tutulur."
@@ -143,5 +149,16 @@
     "rule4Body": "Instagram, TikTok, X, YouTube hesabını ya da web siteni tanıtabilirsin. Yanıltıcı, yasa dışı ya da nefret içeren içerik kabul edilmez.",
     "rule5Title": "Ödemeler",
     "rule5Body": "Patronluk ödemeleri Lemon Squeezy üzerinden alınır. Ödeme onaylandığında patron ataması sunucu tarafında anında güncellenir."
+  },
+  "notFoundPage": {
+    "title": "Bu sayfa yok",
+    "body": "Aradığın model ya da sayfa bulunamadı. Sıralamaya dönüp devam edebilirsin.",
+    "cta": "Sıralamaya dön"
+  },
+  "errorPage": {
+    "title": "Bir şeyler ters gitti",
+    "body": "Sayfa yüklenirken bir hata oluştu. Tekrar denemek genelde yeterli oluyor.",
+    "retry": "Tekrar dene",
+    "home": "Ana sayfaya dön"
   }
 }

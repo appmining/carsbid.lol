@@ -70,7 +70,7 @@ export function PatronCard({
 
           <button
             onClick={() => setOpen(true)}
-            className="mt-3 w-full rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-semibold text-text-muted transition-colors hover:border-accent hover:text-accent"
+            className="mt-3 w-full rounded-lg border border-border bg-surface px-3 py-2 text-xs font-semibold text-text-muted transition-[border-color,color,transform] duration-150 ease-out hover:border-accent hover:text-accent active:scale-[0.98] [@media(pointer:coarse)]:min-h-11"
           >
             {t("takeover", { price: formatUSD(nextPrice, locale) })}
           </button>
@@ -80,7 +80,10 @@ export function PatronCard({
           <p className="text-xs text-text-dim mb-2.5">{t("noPatronText")}</p>
           <button
             onClick={() => setOpen(true)}
-            className="w-full rounded-lg bg-accent px-3 py-2 text-xs font-semibold text-bg transition-colors hover:bg-accent-2"
+            // A tinted ghost, not solid amber. Almost every model is unclaimed,
+            // so a filled button here paints the whole ranking list amber and
+            // the colour stops meaning anything. It fills in on hover instead.
+            className="w-full rounded-lg border border-accent/35 bg-accent-soft px-3 py-2 text-xs font-semibold text-accent transition-[background-color,color,border-color,transform] duration-150 ease-out hover:border-accent hover:bg-accent hover:text-bg active:scale-[0.98] [@media(pointer:coarse)]:min-h-11"
           >
             {t("becomePatron", { price: formatUSD(1, locale) })}
           </button>

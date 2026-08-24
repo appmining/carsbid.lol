@@ -2,11 +2,16 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { useCarsStore } from "@/lib/store";
+import { countryName } from "@/lib/country";
 
 export function Footer() {
   const t = useTranslations("nav");
   const tf = useTranslations("footer");
   const locale = useLocale();
+  // Named on the client so the locale layout stays static — see /api/stats.
+  const { countryCode } = useCarsStore();
+  const country = countryName(countryCode, locale);
 
   return (
     <footer className="border-t border-border-soft mt-16">
@@ -15,7 +20,7 @@ export function Footer() {
           <div className="font-display text-base font-bold tracking-tight">
             carsbid<span className="text-accent">.lol</span>
           </div>
-          <p className="mt-1 text-sm text-text-dim max-w-sm">{tf("tagline")}</p>
+          <p className="mt-1 text-sm text-text-dim max-w-sm">{tf("tagline", { country })}</p>
         </div>
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-text-muted">
           <Link href="/#siralama" locale={locale} className="hover:text-text">

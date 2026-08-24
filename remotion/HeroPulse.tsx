@@ -1,7 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 
-const BG = "#08090b";
-const ACCENT = "#7dd3fc";
+const BG = "#050506";
+const ACCENT = "#ffb020";
 const CELL = 64;
 const PULSE_PERIODS = [60, 75, 100, 150]; // frame counts, all divisors of the 300-frame loop
 

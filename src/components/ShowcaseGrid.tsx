@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CARS } from "@/data/cars";
@@ -31,9 +32,9 @@ const TIER_MODEL_TEXT: Record<Tier, string> = {
 };
 
 const RANK_BADGE: Record<number, string> = {
-  1: "bg-gold text-black",
-  2: "bg-zinc-300 text-black",
-  3: "bg-amber-700 text-white",
+  1: "bg-gold text-bg",
+  2: "bg-silver text-bg",
+  3: "bg-bronze text-bg",
 };
 
 export function ShowcaseGrid() {
@@ -41,8 +42,11 @@ export function ShowcaseGrid() {
   const t = useTranslations("showcaseGrid");
   const locale = useLocale();
 
-  const withVotes = CARS.map((c) => ({ car: c, votes: getVotes(c.slug) })).sort(
-    (a, b) => b.votes - a.votes
+  // 3861 entries mapped and sorted; without useMemo this reran on every
+  // unrelated state change in the tree.
+  const withVotes = useMemo(
+    () => CARS.map((c) => ({ car: c, votes: getVotes(c.slug) })).sort((a, b) => b.votes - a.votes),
+    [getVotes]
   );
   const max = withVotes[0]?.votes ?? 1;
   const min = withVotes[withVotes.length - 1]?.votes ?? 0;
@@ -52,8 +56,8 @@ export function ShowcaseGrid() {
     <section className="rounded-2xl border border-border-soft bg-surface/60 p-4 sm:p-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-5">
         <div>
-          <h2 className="font-display text-lg font-bold">{t("title")}</h2>
-          <p className="text-sm text-text-dim mt-0.5">{t("subtitle")}</p>
+          <h2 className="font-display text-section font-bold">{t("title")}</h2>
+          <p className="text-sm text-text-dim mt-1">{t("subtitle")}</p>
         </div>
         <div className="flex items-center gap-2 text-xs text-text-dim">
           <span>{t("lowVotes")}</span>
@@ -87,6 +91,7 @@ export function ShowcaseGrid() {
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
+                  alt={`${car.brand} ${car.model}`}
                   className="h-full w-full"
                   priority={rank <= 3}
                   sizes={
@@ -101,7 +106,7 @@ export function ShowcaseGrid() {
               <div
                 className="absolute inset-0"
                 style={{
-                  background: `linear-gradient(180deg, transparent 25%, rgba(7,8,10,0.6) 65%, rgba(7,8,10,0.94) 100%), linear-gradient(180deg, transparent 55%, ${tint} 100%)`,
+                  background: `linear-gradient(180deg, transparent 25%, rgb(5 5 6 / 0.6) 65%, rgb(5 5 6 / 0.94) 100%), linear-gradient(180deg, transparent 55%, ${tint} 100%)`,
                 }}
               />
 

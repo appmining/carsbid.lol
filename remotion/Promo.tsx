@@ -7,9 +7,9 @@ import {
   Sequence,
 } from "remotion";
 
-const RED = "#e11d2e";
-const BG = "#07080a";
-const GOLD = "#d4af37";
+const RED = "#ffb020";
+const BG = "#050506";
+const GOLD = "#d9a441";
 
 function Digits({
   value,
@@ -36,14 +36,14 @@ function Digits({
               width: 64,
               height: 88,
               borderRadius: 10,
-              background: "linear-gradient(180deg,#1c1f26,#0e1013)",
-              border: "1px solid #262a33",
+              background: "linear-gradient(180deg,#1f1b16,#0b0a09)",
+              border: "1px solid #2a2621",
               display: "grid",
               placeItems: "center",
               fontFamily: "monospace",
               fontWeight: 700,
               fontSize: 52,
-              color: "#f5f6f7",
+              color: "#ede7da",
               boxShadow: "inset 0 -10px 16px rgba(0,0,0,0.5)",
             }}
           >
@@ -142,7 +142,7 @@ export function Promo() {
             opacity: statsOpacity,
             marginTop: 10,
             textAlign: "center",
-            color: "#9aa0ac",
+            color: "#9a9287",
             fontSize: 20,
             letterSpacing: 2,
           }}

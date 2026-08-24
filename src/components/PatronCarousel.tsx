@@ -21,8 +21,8 @@ export function PatronCarousel() {
   return (
     <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
       <div className="mb-4">
-        <h2 className="font-display text-lg font-bold">{t("title")}</h2>
-        <p className="text-sm text-text-dim mt-0.5">{t("subtitle")}</p>
+        <h2 className="font-display text-section font-bold">{t("title")}</h2>
+        <p className="text-sm text-text-dim mt-1">{t("subtitle")}</p>
       </div>
       <ScrollReveal
         y={16}
@@ -40,6 +40,7 @@ export function PatronCarousel() {
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
+                  alt={`${car.brand} ${car.model}`}
                   className="h-full w-full"
                   fallbackBadgeSize="sm"
                 />

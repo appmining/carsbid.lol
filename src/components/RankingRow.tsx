@@ -29,11 +29,11 @@ export function RankingRow({
   const barWidth = maxVotes > 0 ? Math.max(6, (votes / maxVotes) * 100) : 6;
   const rankStyle =
     rank === 1
-      ? "bg-gold text-black"
+      ? "bg-gold text-bg"
       : rank === 2
-      ? "bg-zinc-300 text-black"
+      ? "bg-silver text-bg"
       : rank === 3
-      ? "bg-amber-700 text-white"
+      ? "bg-bronze text-bg"
       : "bg-surface-2/80 text-text-muted backdrop-blur-sm";
 
   return (
@@ -41,7 +41,7 @@ export function RankingRow({
       <div className="relative h-20 sm:h-24">
         {/* dim full-photo backdrop, always visible */}
         <div className="absolute inset-0 opacity-[0.14]">
-          <CarPhoto slug={car.slug} brand={car.brand} className="h-full w-full" sizes="600px" />
+          <CarPhoto slug={car.slug} brand={car.brand} alt={`${car.brand} ${car.model}`} className="h-full w-full" sizes="600px" />
         </div>
 
         {/* vivid photo, revealed left-to-right in proportion to vote share */}

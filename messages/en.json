@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "carsbid.lol — Which Car Model Is Turkey's Most Popular?",
+    "title": "carsbid.lol — Which Car Model Is The Most Popular In {country}?",
     "description": "Vote for free, push your favorite car model to the top. Become the patron of any model and showcase your social account to thousands of visitors."
   },
   "nav": {
@@ -9,10 +9,12 @@
     "about": "About",
     "rules": "Rules",
     "becomePatron": "Become a Patron",
-    "menu": "Menu"
+    "menu": "Menu",
+    "language": "Language",
+    "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "Which car model is Turkey's most popular? Vote for free, push your favorite model to the top.",
+    "tagline": "Which car model is the most popular in {country}? Vote for free, push your favorite model to the top.",
     "disclaimer": "Voting and ranking on carsbid.lol are for fun and don't reflect real sales figures — patron sponsorship, however, is a real ad slot sold for a real fee."
   },
   "hero": {
@@ -27,7 +29,7 @@
     "online": "ONLINE",
     "visits": "VISITS",
     "votes": "VOTES",
-    "revenue": "REVENUE"
+    "patrons": "PATRONS"
   },
   "showcaseGrid": {
     "title": "Live Showcase",
@@ -39,7 +41,8 @@
   },
   "patronPodium": {
     "title": "Top Bidders",
-    "subtitle": "The 3 patrons who paid the most for ad space — no one's podium spot is guaranteed."
+    "subtitle": "The 3 patrons who paid the most for ad space — no one's podium spot is guaranteed.",
+    "empty": "No one has claimed a model yet. The first name on the podium could be yours."
   },
   "patronCarousel": {
     "title": "Model Patrons",
@@ -74,6 +77,7 @@
     "submit": "Pay {price} & Become Patron",
     "submitting": "Redirecting…",
     "redirectNote": "You'll be redirected to the payment page. Once confirmed, you become the page's patron.",
+    "close": "Close",
     "errorHandleName": "Handle and display name are required.",
     "errorMinPrice": "Offer must be at least {min}.",
     "errorGeneric": "Couldn't start checkout.",
@@ -92,7 +96,8 @@
     "mpv": "MPV / Van",
     "spor": "Sports",
     "elektrikli": "Electric",
-    "offroad": "Off-road"
+    "offroad": "Off-road",
+    "groupLabel": "Segment filter"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -110,7 +115,8 @@
     "statusPaid": "Payment received — you're now this model's patron!",
     "statusOutbid": "Your payment went through, but someone outbid you while it was processing. You'll be refunded — please contact us.",
     "statusFailed": "Payment could not be completed.",
-    "statusError": "Something went wrong, please try again."
+    "statusError": "Something went wrong, please try again.",
+    "noPatronsYet": "No active patrons yet. Pick a model below and be the first."
   },
   "carDetail": {
     "backToRanking": "← Back to full ranking",
@@ -124,7 +130,7 @@
     "title": "About",
     "metaTitle": "About — carsbid.lol",
     "metaDescription": "What is carsbid.lol and how does it work?",
-    "p1": "<strong>carsbid.lol</strong> is a for-fun popularity contest between car models sold in Turkey. The model year doesn't matter — whether it's a Fiat Egea, Toyota Corolla, or Tesla Model 3, you're voting for the nameplate alone.",
+    "p1": "<strong>carsbid.lol</strong> is a for-fun popularity contest between car models sold in {country}. The model year doesn't matter — whether it's a Fiat Egea, Toyota Corolla, or Tesla Model 3, you're voting for the nameplate alone.",
     "p2": "Every model can have a <strong>patron</strong>: a small ad slot shown on that model's page. Anyone who wants to become the patron bids above the current price (Take Over) to claim the slot and showcase their own social account — Instagram, TikTok, X, YouTube, or a website — to that model's fans.",
     "p3": "This project is inspired by memleket.lol: we apply the same \"vote, push to the top, take over the ad slot\" mechanic to car models instead of cities.",
     "p4": "Patron payments are securely processed through Lemon Squeezy; vote and visit counts are tracked server-side in real time."
@@ -143,5 +149,16 @@
     "rule4Body": "You can showcase your Instagram, TikTok, X, YouTube account, or a website. Misleading, illegal, or hateful content is not accepted.",
     "rule5Title": "Payments",
     "rule5Body": "Patron payments are processed through Lemon Squeezy. Once a payment is confirmed, the patron assignment updates instantly server-side."
+  },
+  "notFoundPage": {
+    "title": "This page doesn't exist",
+    "body": "We couldn't find that model or page. Head back to the ranking to keep going.",
+    "cta": "Back to the ranking"
+  },
+  "errorPage": {
+    "title": "Something went wrong",
+    "body": "The page failed to load. Trying again usually sorts it out.",
+    "retry": "Try again",
+    "home": "Back to home"
   }
 }

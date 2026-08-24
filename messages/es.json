@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "carsbid.lol — ¿Cuál Es El Modelo De Auto Más Popular De Turquía?",
+    "title": "carsbid.lol — ¿Cuál Es El Modelo De Auto Más Popular En {country}?",
     "description": "Vota gratis y lleva a tu modelo favorito a la cima. Conviértete en el patrón de cualquier modelo y muestra tu cuenta social a miles de visitantes."
   },
   "nav": {
@@ -9,10 +9,12 @@
     "about": "Acerca de",
     "rules": "Reglas",
     "becomePatron": "Sé Patrón",
-    "menu": "Menú"
+    "menu": "Menú",
+    "language": "Idioma",
+    "skipToContent": "Saltar al contenido"
   },
   "footer": {
-    "tagline": "¿Cuál es el modelo de auto más popular de Turquía? Vota gratis, lleva tu modelo favorito a la cima.",
+    "tagline": "¿Cuál es el modelo de auto más popular en {country}? Vota gratis, lleva tu modelo favorito a la cima.",
     "disclaimer": "Votar y el ranking en carsbid.lol son solo por diversión y no reflejan cifras de ventas reales — el patrocinio, en cambio, es un espacio publicitario real que se vende por una tarifa real."
   },
   "hero": {
@@ -27,7 +29,7 @@
     "online": "EN LÍNEA",
     "visits": "VISITAS",
     "votes": "VOTOS",
-    "revenue": "INGRESOS"
+    "patrons": "PATRONES"
   },
   "showcaseGrid": {
     "title": "Vitrina En Vivo",
@@ -39,7 +41,8 @@
   },
   "patronPodium": {
     "title": "Los Mejores Postores",
-    "subtitle": "Los 3 patrones que más pagaron por el espacio publicitario — nadie tiene garantizado su lugar en el podio."
+    "subtitle": "Los 3 patrones que más pagaron por el espacio publicitario — nadie tiene garantizado su lugar en el podio.",
+    "empty": "Nadie ha reclamado un modelo todavía. El primer nombre del podio puede ser el tuyo."
   },
   "patronCarousel": {
     "title": "Patrones De Los Modelos",
@@ -74,6 +77,7 @@
     "submit": "Pagar {price} Y Ser Patrón",
     "submitting": "Redirigiendo…",
     "redirectNote": "Serás redirigido a la página de pago. Una vez confirmado, serás el patrón de la página.",
+    "close": "Cerrar",
     "errorHandleName": "El usuario y el nombre a mostrar son obligatorios.",
     "errorMinPrice": "La oferta debe ser de al menos {min}.",
     "errorGeneric": "No se pudo iniciar el pago.",
@@ -92,7 +96,8 @@
     "mpv": "Monovolumen",
     "spor": "Deportivo",
     "elektrikli": "Eléctrico",
-    "offroad": "Todoterreno"
+    "offroad": "Todoterreno",
+    "groupLabel": "Filtro de segmento"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -110,7 +115,8 @@
     "statusPaid": "Pago recibido — ¡ahora eres el patrón de este modelo!",
     "statusOutbid": "Tu pago se procesó, pero alguien ofreció más mientras tanto. Se te reembolsará — por favor contáctanos.",
     "statusFailed": "El pago no pudo completarse.",
-    "statusError": "Algo salió mal, inténtalo de nuevo."
+    "statusError": "Algo salió mal, inténtalo de nuevo.",
+    "noPatronsYet": "Aún no hay patrones activos. Elige un modelo abajo y sé el primero."
   },
   "carDetail": {
     "backToRanking": "← Volver al ranking completo",
@@ -124,7 +130,7 @@
     "title": "Acerca De",
     "metaTitle": "Acerca de — carsbid.lol",
     "metaDescription": "¿Qué es carsbid.lol y cómo funciona?",
-    "p1": "<strong>carsbid.lol</strong> es un concurso de popularidad por diversión entre los modelos de autos que se venden en Turquía. El año del modelo no importa — ya sea un Fiat Egea, un Toyota Corolla o un Tesla Model 3, votas solo por el nombre del modelo.",
+    "p1": "<strong>carsbid.lol</strong> es un concurso de popularidad por diversión entre los modelos de autos que se venden en {country}. El año del modelo no importa — ya sea un Fiat Egea, un Toyota Corolla o un Tesla Model 3, votas solo por el nombre del modelo.",
     "p2": "Cada modelo puede tener un <strong>patrón</strong>: un pequeño espacio publicitario que aparece en la página de ese modelo. Cualquiera que quiera ser el patrón ofrece más que el precio actual (Tomar) para quedarse con el espacio y mostrar su propia cuenta social — Instagram, TikTok, X, YouTube o un sitio web — a los fans de ese modelo.",
     "p3": "Este proyecto está inspirado en memleket.lol: aplicamos la misma mecánica de \"votar, subir a la cima, tomar el espacio publicitario\" a modelos de autos en lugar de ciudades.",
     "p4": "Los pagos de patrocinio se procesan de forma segura a través de Lemon Squeezy; los votos y las visitas se registran en el servidor en tiempo real."
@@ -143,5 +149,16 @@
     "rule4Body": "Puedes mostrar tu cuenta de Instagram, TikTok, X, YouTube o un sitio web. No se acepta contenido engañoso, ilegal o de odio.",
     "rule5Title": "Pagos",
     "rule5Body": "Los pagos de patrocinio se procesan a través de Lemon Squeezy. Una vez confirmado el pago, la asignación del patrón se actualiza al instante en el servidor."
+  },
+  "notFoundPage": {
+    "title": "Esta página no existe",
+    "body": "No encontramos ese modelo o página. Vuelve al ranking para continuar.",
+    "cta": "Volver al ranking"
+  },
+  "errorPage": {
+    "title": "Algo salió mal",
+    "body": "La página no se pudo cargar. Volver a intentarlo suele resolverlo.",
+    "retry": "Reintentar",
+    "home": "Volver al inicio"
   }
 }

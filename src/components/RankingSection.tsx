@@ -30,7 +30,7 @@ export function RankingSection() {
   return (
     <section id="siralama" className="mx-auto max-w-6xl px-4 sm:px-6 py-12 scroll-mt-20">
       <div className="mb-5 flex flex-col gap-1">
-        <h2 className="font-display text-xl sm:text-2xl font-bold">{t("title")}</h2>
+        <h2 className="font-display text-section font-bold">{t("title")}</h2>
         <p className="text-sm text-text-dim">
           {t("subtitle", { count: formatNumber(totalVotes, locale) })}
         </p>

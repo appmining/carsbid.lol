@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "@/lib/gsapConfig";
+import { prefersReducedMotion } from "@/lib/motion";
 
 export function ScrollReveal({
   children,
@@ -20,10 +21,8 @@ export function ScrollReveal({
   useGSAP(
     () => {
       if (!ref.current) return;
-      const reduced =
-        window.matchMedia("(prefers-reduced-motion: reduce)").matches || document.hidden;
       const targets = stagger > 0 ? gsap.utils.toArray(ref.current.children) : ref.current;
-      if (reduced) {
+      if (prefersReducedMotion()) {
         gsap.set(targets, { opacity: 1, y: 0 });
         return;
       }
