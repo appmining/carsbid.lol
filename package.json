@@ -6,12 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "remotion:studio": "remotion studio remotion/index.ts",
+    "remotion:render": "remotion render remotion/index.ts Promo out/promo.mp4"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@lemonsqueezy/lemonsqueezy.js": "^4.0.0",
+    "@remotion/cli": "^4.0.515",
+    "@supabase/supabase-js": "^2.112.3",
+    "gsap": "^3.15.0",
     "next": "16.3.2",
+    "next-intl": "^4.13.7",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "remotion": "^4.0.515",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

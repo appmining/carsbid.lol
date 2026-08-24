@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "carsbid.lol — ¿Cuál Es El Modelo De Auto Más Popular De Turquía?",
+    "description": "Vota gratis y lleva a tu modelo favorito a la cima. Conviértete en el patrón de cualquier modelo y muestra tu cuenta social a miles de visitantes."
+  },
+  "nav": {
+    "ranking": "Ranking",
+    "patrons": "Patrones",
+    "about": "Acerca de",
+    "rules": "Reglas",
+    "becomePatron": "Sé Patrón",
+    "menu": "Menú"
+  },
+  "footer": {
+    "tagline": "¿Cuál es el modelo de auto más popular de Turquía? Vota gratis, lleva tu modelo favorito a la cima.",
+    "disclaimer": "carsbid.lol es un proyecto comunitario hecho por diversión — no refleja cifras de ventas reales."
+  },
+  "hero": {
+    "titleLine1": "¿Cuál Es El Modelo De Auto",
+    "titleLine2": "Más Popular De Turquía",
+    "titleLine3": "Ahora Mismo?",
+    "subtitle": "Vota gratis, lleva tu modelo favorito a la cima. El año no importa — solo gana el modelo.",
+    "ctaVote": "Empezar A Votar",
+    "ctaPatron": "Muestra Tu Cuenta →"
+  },
+  "statsBar": {
+    "online": "EN LÍNEA",
+    "visits": "VISITAS",
+    "votes": "VOTOS",
+    "revenue": "INGRESOS"
+  },
+  "showcaseGrid": {
+    "title": "Vitrina En Vivo",
+    "subtitle": "Los modelos más votados — cuanto más oscuro el rojo en el mapa de calor, más votos.",
+    "lowVotes": "Pocos Votos",
+    "highVotes": "Muchos Votos",
+    "photoCredit": "Las fotos provienen de Wikipedia — la fuente y la licencia están en la página de cada modelo.",
+    "votesSuffix": "votos"
+  },
+  "patronPodium": {
+    "title": "Los Mejores Postores",
+    "subtitle": "Los 3 patrones que más pagaron por el espacio publicitario — nadie tiene garantizado su lugar en el podio."
+  },
+  "patronCarousel": {
+    "title": "Patrones De Los Modelos",
+    "subtitle": "Toma el espacio publicitario de un modelo top y destaca tu cuenta social.",
+    "votesSuffix": "votos"
+  },
+  "rankingSection": {
+    "title": "Ranking De Modelos",
+    "subtitle": "De {count} votos totales — elige un segmento y lleva tu favorito a la cima.",
+    "loadMore": "Mostrar Más ({count} modelos restantes)"
+  },
+  "rankingRow": {
+    "votesLabel": "{percent} / {votes} votos"
+  },
+  "patronCard": {
+    "prevPatrons": "Patrones Anteriores",
+    "takeover": "Tomar · {price}",
+    "noPatronText": "Este modelo aún no tiene patrón. ¡Sé el primero en mostrar tu cuenta social!",
+    "becomePatron": "Ser Patrón · {price}"
+  },
+  "bidModal": {
+    "title": "Sé El Patrón De {model}",
+    "subtitle": "Muestra tu cuenta social a miles de visitantes.",
+    "platform": "Plataforma",
+    "displayName": "Nombre A Mostrar",
+    "displayNamePlaceholder": "Ej. Auto Vitrina",
+    "handle": "Usuario / Cuenta",
+    "handlePlaceholder": "@tucuenta",
+    "tagline": "Descripción Corta",
+    "taglinePlaceholder": "Describe tu cuenta en una frase",
+    "offer": "Oferta (mínimo {min})",
+    "submit": "Pagar {price} Y Ser Patrón",
+    "submitting": "Redirigiendo…",
+    "redirectNote": "Serás redirigido a la página de pago. Una vez confirmado, serás el patrón de la página.",
+    "errorHandleName": "El usuario y el nombre a mostrar son obligatorios.",
+    "errorMinPrice": "La oferta debe ser de al menos {min}.",
+    "errorGeneric": "No se pudo iniciar el pago.",
+    "errorNetwork": "Error de conexión, inténtalo de nuevo."
+  },
+  "voteButton": {
+    "vote": "Votar",
+    "voted": "Votado ✓"
+  },
+  "segments": {
+    "all": "Todos Los Segmentos",
+    "sedan": "Sedán",
+    "hatchback": "Hatchback",
+    "suv": "SUV / Crossover",
+    "pickup": "Pickup",
+    "mpv": "Monovolumen",
+    "spor": "Deportivo",
+    "elektrikli": "Eléctrico",
+    "offroad": "Todoterreno"
+  },
+  "platforms": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "x": "X",
+    "youtube": "YouTube",
+    "website": "Sitio Web",
+    "diger": "Otro"
+  },
+  "patronlarPage": {
+    "title": "Patrones",
+    "subtitle": "Cada modelo de auto tiene un espacio publicitario. Haz la oferta más alta, sé su patrón y muestra tu cuenta social a miles de visitantes.",
+    "activePatrons": "Patrones Activos ({count})",
+    "waitingModels": "Modelos Esperando Patrón ({count})",
+    "statusPaid": "Pago recibido — ¡ahora eres el patrón de este modelo!",
+    "statusOutbid": "Tu pago se procesó, pero alguien ofreció más mientras tanto. Se te reembolsará — por favor contáctanos.",
+    "statusFailed": "El pago no pudo completarse.",
+    "statusError": "Algo salió mal, inténtalo de nuevo."
+  },
+  "carDetail": {
+    "backToRanking": "← Volver al ranking completo",
+    "photoCredit": "Foto:",
+    "rank": "#{rank} en el ranking",
+    "votesOf": "{votes} votos · {percent} del total",
+    "patronOf": "Patrón De {model}",
+    "relatedModels": "Otros Modelos Del Mismo Segmento"
+  },
+  "hakkindaPage": {
+    "title": "Acerca De",
+    "metaTitle": "Acerca de — carsbid.lol",
+    "metaDescription": "¿Qué es carsbid.lol y cómo funciona?",
+    "p1": "<strong>carsbid.lol</strong> es un concurso de popularidad por diversión entre los modelos de autos que se venden en Turquía. El año del modelo no importa — ya sea un Fiat Egea, un Toyota Corolla o un Tesla Model 3, votas solo por el nombre del modelo.",
+    "p2": "Cada modelo puede tener un <strong>patrón</strong>: un pequeño espacio publicitario que aparece en la página de ese modelo. Cualquiera que quiera ser el patrón ofrece más que el precio actual (Tomar) para quedarse con el espacio y mostrar su propia cuenta social — Instagram, TikTok, X, YouTube o un sitio web — a los fans de ese modelo.",
+    "p3": "Este proyecto está inspirado en memleket.lol: aplicamos la misma mecánica de \"votar, subir a la cima, tomar el espacio publicitario\" a modelos de autos en lugar de ciudades.",
+    "p4": "Los pagos de patrocinio se procesan de forma segura a través de Lemon Squeezy; los votos y las visitas se registran en el servidor en tiempo real."
+  },
+  "kurallarPage": {
+    "title": "Reglas",
+    "metaTitle": "Reglas — carsbid.lol",
+    "metaDescription": "Reglas de votación y patrocinio.",
+    "rule1Title": "Votación",
+    "rule1Body": "Puedes votar una vez por modelo desde un dispositivo. Tu voto se refleja al instante en el ranking.",
+    "rule2Title": "El año no importa",
+    "rule2Body": "No importa el año del modelo — 'Corolla' es una sola opción, no se divide entre 2020 o 2024.",
+    "rule3Title": "Ser patrón",
+    "rule3Body": "Para tomar el espacio publicitario de un modelo, ofrece más que el precio actual. Cuando llega una nueva oferta, el patrón anterior pasa a la lista de 'Patrones Anteriores'.",
+    "rule4Title": "Qué puedes mostrar",
+    "rule4Body": "Puedes mostrar tu cuenta de Instagram, TikTok, X, YouTube o un sitio web. No se acepta contenido engañoso, ilegal o de odio.",
+    "rule5Title": "Pagos",
+    "rule5Body": "Los pagos de patrocinio se procesan a través de Lemon Squeezy. Una vez confirmado el pago, la asignación del patrón se actualiza al instante en el servidor."
+  }
+}

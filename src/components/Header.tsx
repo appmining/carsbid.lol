@@ -1,0 +1,135 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { useMagnetic } from "@/lib/useMagnetic";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+
+export function Header() {
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const ctaRef = useMagnetic<HTMLAnchorElement>(0.25);
+  const t = useTranslations("nav");
+  const locale = useLocale();
+
+  const NAV = [
+    { href: "/#siralama", label: t("ranking") },
+    { href: "/patronlar", label: t("patrons") },
+    { href: "/hakkinda", label: t("about") },
+    { href: "/kurallar", label: t("rules") },
+  ];
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 24);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <header
+      className={`sticky top-0 z-40 border-b transition-all duration-300 ${
+        scrolled
+          ? "border-border-soft/80 bg-bg/85 backdrop-blur-md supports-[backdrop-filter]:bg-bg/70"
+          : "border-transparent bg-transparent"
+      }`}
+    >
+      <div
+        className={`mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-6 transition-[height] duration-300 ${
+          scrolled ? "h-14" : "h-16"
+        }`}
+      >
+        <Link href="/" locale={locale} className="flex items-center gap-2 shrink-0">
+          <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent text-white">
+            <svg viewBox="0 0 24 24" fill="none" className="h-4.5 w-4.5">
+              <path
+                d="M4 16.5 5.4 12a2 2 0 0 1 1.9-1.4h9.4a2 2 0 0 1 1.9 1.4l1.4 4.5"
+                stroke="white"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <rect x="3" y="16.5" width="18" height="3" rx="1.2" stroke="white" strokeWidth="1.6" />
+              <circle cx="7.5" cy="19.6" r="1.1" fill="white" />
+              <circle cx="16.5" cy="19.6" r="1.1" fill="white" />
+            </svg>
+          </span>
+          <span className="font-display text-lg font-bold tracking-tight">
+            carsbid<span className="text-accent">.lol</span>
+          </span>
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-1">
+          {NAV.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              locale={locale}
+              className="rounded-lg px-3 py-2 text-sm font-medium text-text-muted transition-colors hover:bg-surface hover:text-text"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="hidden md:flex items-center gap-3">
+          <LanguageSwitcher />
+          <Link
+            ref={ctaRef}
+            href="/patronlar"
+            locale={locale}
+            className="inline-block rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-2"
+          >
+            {t("becomePatron")}
+          </Link>
+        </div>
+
+        <button
+          onClick={() => setOpen((o) => !o)}
+          className="grid h-9 w-9 place-items-center rounded-lg text-text-muted hover:bg-surface md:hidden"
+          aria-label={t("menu")}
+        >
+          <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+            {open ? (
+              <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+            ) : (
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+            )}
+          </svg>
+        </button>
+      </div>
+
+      {open && (
+        <div className="border-t border-border-soft bg-bg px-4 py-3 md:hidden">
+          <nav className="flex flex-col gap-1">
+            {NAV.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                locale={locale}
+                onClick={() => setOpen(false)}
+                className="rounded-lg px-3 py-2.5 text-sm font-medium text-text-muted hover:bg-surface hover:text-text"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <Link
+              href="/patronlar"
+              locale={locale}
+              onClick={() => setOpen(false)}
+              className="mt-1 rounded-lg bg-accent px-3 py-2.5 text-center text-sm font-semibold text-white"
+            >
+              {t("becomePatron")}
+            </Link>
+            <div className="mt-2 pt-2 border-t border-border-soft">
+              <LanguageSwitcher />
+            </div>
+          </nav>
+        </div>
+      )}
+    </header>
+  );
+}

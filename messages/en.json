@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "carsbid.lol — Which Car Model Is Turkey's Most Popular?",
+    "description": "Vote for free, push your favorite car model to the top. Become the patron of any model and showcase your social account to thousands of visitors."
+  },
+  "nav": {
+    "ranking": "Ranking",
+    "patrons": "Patrons",
+    "about": "About",
+    "rules": "Rules",
+    "becomePatron": "Become a Patron",
+    "menu": "Menu"
+  },
+  "footer": {
+    "tagline": "Which car model is Turkey's most popular? Vote for free, push your favorite model to the top.",
+    "disclaimer": "carsbid.lol is a community project made for fun — it does not reflect real sales figures."
+  },
+  "hero": {
+    "titleLine1": "Which Car Model Is",
+    "titleLine2": "Turkey's Most Popular",
+    "titleLine3": "Right Now?",
+    "subtitle": "Vote for free, push your favorite model to the top. The year doesn't matter — only the model wins.",
+    "ctaVote": "Start Voting",
+    "ctaPatron": "Showcase Your Account →"
+  },
+  "statsBar": {
+    "online": "ONLINE",
+    "visits": "VISITS",
+    "votes": "VOTES",
+    "revenue": "REVENUE"
+  },
+  "showcaseGrid": {
+    "title": "Live Showcase",
+    "subtitle": "The most-voted models — the deeper the red on the heatmap, the more votes.",
+    "lowVotes": "Fewer Votes",
+    "highVotes": "More Votes",
+    "photoCredit": "Photos are sourced from Wikipedia — source and license info is on each model's page.",
+    "votesSuffix": "votes"
+  },
+  "patronPodium": {
+    "title": "Top Bidders",
+    "subtitle": "The 3 patrons who paid the most for ad space — no one's podium spot is guaranteed."
+  },
+  "patronCarousel": {
+    "title": "Model Patrons",
+    "subtitle": "Take over a top model's ad space and put your social account front and center.",
+    "votesSuffix": "votes"
+  },
+  "rankingSection": {
+    "title": "Model Ranking",
+    "subtitle": "Out of {count} total votes — pick a segment and push your favorite to the top.",
+    "loadMore": "Show More ({count} models left)"
+  },
+  "rankingRow": {
+    "votesLabel": "{percent} / {votes} votes"
+  },
+  "patronCard": {
+    "prevPatrons": "Previous Patrons",
+    "takeover": "Take Over · {price}",
+    "noPatronText": "This model has no patron yet. Be the first to showcase your social account!",
+    "becomePatron": "Become Patron · {price}"
+  },
+  "bidModal": {
+    "title": "Become {model}'s Patron",
+    "subtitle": "Showcase your social account to thousands of visitors.",
+    "platform": "Platform",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "E.g. Auto Showroom",
+    "handle": "Username / Handle",
+    "handlePlaceholder": "@yourhandle",
+    "tagline": "Short Description",
+    "taglinePlaceholder": "Describe your account in one sentence",
+    "offer": "Offer (minimum {min})",
+    "submit": "Pay {price} & Become Patron",
+    "submitting": "Redirecting…",
+    "redirectNote": "You'll be redirected to the payment page. Once confirmed, you become the page's patron.",
+    "errorHandleName": "Handle and display name are required.",
+    "errorMinPrice": "Offer must be at least {min}.",
+    "errorGeneric": "Couldn't start checkout.",
+    "errorNetwork": "Connection error, please try again."
+  },
+  "voteButton": {
+    "vote": "Vote",
+    "voted": "Voted ✓"
+  },
+  "segments": {
+    "all": "All Segments",
+    "sedan": "Sedan",
+    "hatchback": "Hatchback",
+    "suv": "SUV / Crossover",
+    "pickup": "Pickup",
+    "mpv": "MPV / Van",
+    "spor": "Sports",
+    "elektrikli": "Electric",
+    "offroad": "Off-road"
+  },
+  "platforms": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "x": "X",
+    "youtube": "YouTube",
+    "website": "Website",
+    "diger": "Other"
+  },
+  "patronlarPage": {
+    "title": "Patrons",
+    "subtitle": "Every car model has an ad slot. Place the highest bid, become its patron, and showcase your social account to thousands of visitors.",
+    "activePatrons": "Active Patrons ({count})",
+    "waitingModels": "Models Waiting for a Patron ({count})",
+    "statusPaid": "Payment received — you're now this model's patron!",
+    "statusOutbid": "Your payment went through, but someone outbid you while it was processing. You'll be refunded — please contact us.",
+    "statusFailed": "Payment could not be completed.",
+    "statusError": "Something went wrong, please try again."
+  },
+  "carDetail": {
+    "backToRanking": "← Back to full ranking",
+    "photoCredit": "Photo:",
+    "rank": "#{rank} ranked",
+    "votesOf": "{votes} votes · {percent} of all votes",
+    "patronOf": "{model}'s Patron",
+    "relatedModels": "Other Models in the Same Segment"
+  },
+  "hakkindaPage": {
+    "title": "About",
+    "metaTitle": "About — carsbid.lol",
+    "metaDescription": "What is carsbid.lol and how does it work?",
+    "p1": "<strong>carsbid.lol</strong> is a for-fun popularity contest between car models sold in Turkey. The model year doesn't matter — whether it's a Fiat Egea, Toyota Corolla, or Tesla Model 3, you're voting for the nameplate alone.",
+    "p2": "Every model can have a <strong>patron</strong>: a small ad slot shown on that model's page. Anyone who wants to become the patron bids above the current price (Take Over) to claim the slot and showcase their own social account — Instagram, TikTok, X, YouTube, or a website — to that model's fans.",
+    "p3": "This project is inspired by memleket.lol: we apply the same \"vote, push to the top, take over the ad slot\" mechanic to car models instead of cities.",
+    "p4": "Patron payments are securely processed through Lemon Squeezy; vote and visit counts are tracked server-side in real time."
+  },
+  "kurallarPage": {
+    "title": "Rules",
+    "metaTitle": "Rules — carsbid.lol",
+    "metaDescription": "Voting and patronage rules.",
+    "rule1Title": "Voting",
+    "rule1Body": "You can vote once per model from one device. Your vote is reflected in the ranking instantly.",
+    "rule2Title": "Model year doesn't matter",
+    "rule2Body": "It doesn't matter which model year it is — 'Corolla' is a single option, not split into 2020 vs. 2024.",
+    "rule3Title": "Becoming a patron",
+    "rule3Body": "To take over a model's ad slot, bid above the current price. When a new bid comes in, the previous patron drops into the 'Previous Patrons' list.",
+    "rule4Title": "What you can showcase",
+    "rule4Body": "You can showcase your Instagram, TikTok, X, YouTube account, or a website. Misleading, illegal, or hateful content is not accepted.",
+    "rule5Title": "Payments",
+    "rule5Body": "Patron payments are processed through Lemon Squeezy. Once a payment is confirmed, the patron assignment updates instantly server-side."
+  }
+}
