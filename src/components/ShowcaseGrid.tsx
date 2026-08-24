@@ -83,11 +83,12 @@ export function ShowcaseGrid() {
               locale={locale}
               className={`group relative overflow-hidden rounded-xl border border-border-soft transition-transform hover:-translate-y-0.5 ${TIER_SPAN[tier]}`}
             >
-              <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-105">
+              <div className="absolute inset-0 bg-surface-2 transition-transform duration-500 group-hover:scale-105">
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
                   className="h-full w-full"
+                  priority={rank <= 3}
                   sizes={
                     tier === "hero"
                       ? "(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 380px"
