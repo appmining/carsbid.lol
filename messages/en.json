@@ -13,7 +13,7 @@
   },
   "footer": {
     "tagline": "Which car model is Turkey's most popular? Vote for free, push your favorite model to the top.",
-    "disclaimer": "carsbid.lol is a community project made for fun — it does not reflect real sales figures."
+    "disclaimer": "Voting and ranking on carsbid.lol are for fun and don't reflect real sales figures — patron sponsorship, however, is a real ad slot sold for a real fee."
   },
   "hero": {
     "titleLine1": "The Most Popular Car",
@@ -31,7 +31,7 @@
   },
   "showcaseGrid": {
     "title": "Live Showcase",
-    "subtitle": "The most-voted models — the deeper the red on the heatmap, the more votes.",
+    "subtitle": "The most-voted models — the bigger and brighter the tile, the more votes.",
     "lowVotes": "Fewer Votes",
     "highVotes": "More Votes",
     "photoCredit": "Photos are sourced from Wikipedia — source and license info is on each model's page.",

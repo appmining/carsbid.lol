@@ -13,7 +13,7 @@
   },
   "footer": {
     "tagline": "¿Cuál es el modelo de auto más popular de Turquía? Vota gratis, lleva tu modelo favorito a la cima.",
-    "disclaimer": "carsbid.lol es un proyecto comunitario hecho por diversión — no refleja cifras de ventas reales."
+    "disclaimer": "Votar y el ranking en carsbid.lol son solo por diversión y no reflejan cifras de ventas reales — el patrocinio, en cambio, es un espacio publicitario real que se vende por una tarifa real."
   },
   "hero": {
     "titleLine1": "¿Cuál Es El Modelo De Auto",
@@ -31,7 +31,7 @@
   },
   "showcaseGrid": {
     "title": "Vitrina En Vivo",
-    "subtitle": "Los modelos más votados — cuanto más oscuro el rojo en el mapa de calor, más votos.",
+    "subtitle": "Los modelos más votados — cuanto más grande y brillante el recuadro, más votos.",
     "lowVotes": "Pocos Votos",
     "highVotes": "Muchos Votos",
     "photoCredit": "Las fotos provienen de Wikipedia — la fuente y la licencia están en la página de cada modelo.",

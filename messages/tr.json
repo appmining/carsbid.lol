@@ -13,7 +13,7 @@
   },
   "footer": {
     "tagline": "Türkiye'nin en popüler araba modeli hangisi? Ücretsiz oy ver, favori modelini zirveye taşı.",
-    "disclaimer": "carsbid.lol — eğlence amaçlı bir topluluk projesidir, gerçek satış rakamlarını yansıtmaz."
+    "disclaimer": "carsbid.lol'daki oylama ve sıralama eğlence amaçlıdır, gerçek satış rakamlarını yansıtmaz — patronluk ise gerçek ücret karşılığında devredilen bir reklam alanıdır."
   },
   "hero": {
     "titleLine1": "{country} İçin En Popüler",
@@ -31,7 +31,7 @@
   },
   "showcaseGrid": {
     "title": "Canlı Vitrin",
-    "subtitle": "En çok oy alan modeller — ısı haritasında kırmızı ne kadar koyuysa, oy o kadar çok.",
+    "subtitle": "En çok oy alan modeller — kutu ne kadar büyük ve parlaksa, oy o kadar çok.",
     "lowVotes": "Az Oy",
     "highVotes": "Çok Oy",
     "photoCredit": "Fotoğraflar Wikipedia'dan alınmıştır — her modelin sayfasında kaynak ve lisans bilgisi bulunur.",
