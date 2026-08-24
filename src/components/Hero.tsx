@@ -16,7 +16,7 @@ function RevealWords({ text, className = "" }: { text: string; className?: strin
         <span key={i} className="inline-block overflow-hidden align-top pb-[0.08em]">
           <span data-hero-word className="inline-block">
             {word}
-            {i < words.length - 1 ? " " : ""}
+            {i < words.length - 1 ? " " : ""}
           </span>
         </span>
       ))}
