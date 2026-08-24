@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg: #07080a;
-  --color-bg-soft: #0c0e11;
+  --color-bg: #08090b;
+  --color-bg-soft: #0d0f13;
   --color-surface: #111318;
   --color-surface-2: #171a20;
-  --color-border: #262a33;
-  --color-border-soft: #1a1d24;
-  --color-text: #f5f6f7;
-  --color-text-muted: #9aa0ac;
-  --color-text-dim: #656b76;
-  --color-accent: #e11d2e;
-  --color-accent-2: #ff5a4e;
-  --color-accent-soft: #e11d2e1f;
+  --color-border: #2a2f3a;
+  --color-border-soft: #1f232b;
+  --color-text: #f4f6f8;
+  --color-text-muted: #b6bec8;
+  --color-text-dim: #7b8492;
+  --color-accent: #7dd3fc;
+  --color-accent-2: #38bdf8;
+  --color-accent-soft: #7dd3fc1a;
   --color-gold: #d4af37;
   --color-good: #34d399;
 }
@@ -128,7 +128,7 @@ body {
 
 .bg-grid-fade {
   background-image:
-    radial-gradient(60% 50% at 50% 0%, rgba(225, 29, 46, 0.14), transparent 70%),
+    radial-gradient(60% 50% at 50% 0%, rgba(125, 211, 252, 0.14), transparent 70%),
     linear-gradient(to bottom, transparent, var(--color-bg) 92%),
     repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 64px),
     repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 64px);

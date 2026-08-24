@@ -79,7 +79,7 @@ export function Hero() {
             ref={ctaRef}
             data-hero-cta
             href="#siralama"
-            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_30px_-8px_rgba(225,29,46,0.6)] transition-colors hover:bg-accent-2"
+            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_30px_-8px_rgba(125,211,252,0.45)] transition-colors hover:bg-accent-2"
           >
             {t("ctaVote")}
           </a>
