@@ -1,0 +1,376 @@
+[
+  {
+    "brand": "Mini",
+    "model": "Cooper",
+    "segment": "hatchback",
+    "slug": "mini-cooper",
+    "index": 26,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "Renault",
+    "model": "Broadway",
+    "segment": "sedan",
+    "slug": "renault-broadway",
+    "index": 52,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "Chery",
+    "model": "Tiggo 7 Pro",
+    "segment": "suv",
+    "slug": "chery-tiggo-7-pro",
+    "index": 79,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "Chery",
+    "model": "Tiggo 8 Pro",
+    "segment": "suv",
+    "slug": "chery-tiggo-8-pro",
+    "index": 80,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "Chery",
+    "model": "Tiggo 4 Pro",
+    "segment": "suv",
+    "slug": "chery-tiggo-4-pro",
+    "index": 81,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "GWM",
+    "model": "Haval Jolion",
+    "segment": "suv",
+    "slug": "gwm-haval-jolion",
+    "index": 83,
+    "reason": "brand not on auto-data.net"
+  },
+  {
+    "brand": "Karsan",
+    "model": "Jest",
+    "segment": "mpv",
+    "slug": "karsan-jest",
+    "index": 84,
+    "reason": "brand not on auto-data.net"
+  },
+  {
+    "brand": "JAC",
+    "model": "T8",
+    "segment": "pickup",
+    "slug": "jac-t8",
+    "index": 85,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "GWM",
+    "model": "Haval H6",
+    "segment": "suv",
+    "slug": "gwm-haval-h6",
+    "index": 211,
+    "reason": "brand not on auto-data.net"
+  },
+  {
+    "brand": "GWM",
+    "model": "Haval Dargo",
+    "segment": "suv",
+    "slug": "gwm-haval-dargo",
+    "index": 212,
+    "reason": "brand not on auto-data.net"
+  },
+  {
+    "brand": "Karsan",
+    "model": "Atak",
+    "segment": "mpv",
+    "slug": "karsan-atak",
+    "index": 213,
+    "reason": "brand not on auto-data.net"
+  },
+  {
+    "brand": "AITO",
+    "model": "5",
+    "segment": "suv",
+    "slug": "aito-5",
+    "index": 267,
+    "reason": "no generations parsed",
+    "href": "/en/aito-5-model-3864"
+  },
+  {
+    "brand": "AITO",
+    "model": "7",
+    "segment": "suv",
+    "slug": "aito-7",
+    "index": 268,
+    "reason": "no generations parsed",
+    "href": "/en/aito-7-model-3521"
+  },
+  {
+    "brand": "AITO",
+    "model": "8",
+    "segment": "suv",
+    "slug": "aito-8",
+    "index": 269,
+    "reason": "no generations parsed",
+    "href": "/en/aito-8-model-3865"
+  },
+  {
+    "brand": "AITO",
+    "model": "9",
+    "segment": "suv",
+    "slug": "aito-9",
+    "index": 270,
+    "reason": "no generations parsed",
+    "href": "/en/aito-9-model-3866"
+  },
+  {
+    "brand": "Arcfox",
+    "model": "ECF",
+    "segment": "elektrikli",
+    "slug": "arcfox-ecf",
+    "index": 353,
+    "reason": "no generations parsed",
+    "href": "/en/arcfox-ecf-model-2662"
+  },
+  {
+    "brand": "Arcfox",
+    "model": "T1",
+    "segment": "elektrikli",
+    "slug": "arcfox-t1",
+    "index": 356,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "Aston Martin",
+    "model": "Valiant",
+    "segment": "spor",
+    "slug": "aston-martin-valiant",
+    "index": 388,
+    "reason": "no generations parsed",
+    "href": "/en/aston-martin-valiant-model-3460"
+  },
+  {
+    "brand": "Aston Martin",
+    "model": "Valkyrie",
+    "segment": "spor",
+    "slug": "aston-martin-valkyrie",
+    "index": 389,
+    "reason": "no generations parsed",
+    "href": "/en/aston-martin-valkyrie-model-2633"
+  },
+  {
+    "brand": "Audi",
+    "model": "Aicon",
+    "segment": "elektrikli",
+    "slug": "audi-aicon",
+    "index": 406,
+    "reason": "no generations parsed",
+    "href": "/en/audi-aicon-model-2389"
+  },
+  {
+    "brand": "Audi",
+    "model": "Concept C",
+    "segment": "spor",
+    "slug": "audi-concept-c",
+    "index": 408,
+    "reason": "no generations parsed",
+    "href": "/en/audi-concept-c-model-3912"
+  },
+  {
+    "brand": "Audi",
+    "model": "Nuvolari",
+    "segment": "spor",
+    "slug": "audi-nuvolari",
+    "index": 414,
+    "reason": "no generations parsed",
+    "href": "/en/audi-nuvolari-model-4051"
+  },
+  {
+    "brand": "Audi",
+    "model": "Skysphere",
+    "segment": "spor",
+    "slug": "audi-skysphere",
+    "index": 445,
+    "reason": "no generations parsed",
+    "href": "/en/audi-skysphere-model-3213"
+  },
+  {
+    "brand": "Bentley",
+    "model": "Bacalar",
+    "segment": "spor",
+    "slug": "bentley-bacalar",
+    "index": 506,
+    "reason": "no generations parsed",
+    "href": "/en/bentley-bacalar-model-2795"
+  },
+  {
+    "brand": "Bentley",
+    "model": "Batur",
+    "segment": "spor",
+    "slug": "bentley-batur",
+    "index": 507,
+    "reason": "no generations parsed",
+    "href": "/en/bentley-batur-model-3156"
+  },
+  {
+    "brand": "Bentley",
+    "model": "Mark VI",
+    "segment": "sedan",
+    "slug": "bentley-mark-vi",
+    "index": 512,
+    "reason": "no generations parsed",
+    "href": "/en/bentley-mark-vi-model-2952"
+  },
+  {
+    "brand": "Bizzarrini",
+    "model": "1900 GT Europa",
+    "segment": "spor",
+    "slug": "bizzarrini-1900-gt-europa",
+    "index": 533,
+    "reason": "no generations parsed",
+    "href": "/en/bizzarrini-1900-gt-europa-model-2973"
+  },
+  {
+    "brand": "Bizzarrini",
+    "model": "P538",
+    "segment": "spor",
+    "slug": "bizzarrini-p538",
+    "index": 535,
+    "reason": "no generations parsed",
+    "href": "/en/bizzarrini-p538-model-2972"
+  },
+  {
+    "brand": "Blonell",
+    "model": "TF 2000",
+    "segment": "hatchback",
+    "slug": "blonell-tf-2000",
+    "index": 536,
+    "reason": "model not on brand page"
+  },
+  {
+    "brand": "BMW",
+    "model": "Speedtop",
+    "segment": "spor",
+    "slug": "bmw-speedtop",
+    "index": 569,
+    "reason": "no generations parsed",
+    "href": "/en/bmw-speedtop-model-3996"
+  },
+  {
+    "brand": "Borgward",
+    "model": "Isabella",
+    "segment": "sedan",
+    "slug": "borgward-isabella",
+    "index": 590,
+    "reason": "no generations parsed",
+    "href": "/en/borgward-isabella-model-2390"
+  },
+  {
+    "brand": "Bugatti",
+    "model": "Destrier",
+    "segment": "spor",
+    "slug": "bugatti-destrier",
+    "index": 610,
+    "reason": "no generations parsed",
+    "href": "/en/bugatti-destrier-model-4108"
+  },
+  {
+    "brand": "Bugatti",
+    "model": "La Voiture Noire",
+    "segment": "spor",
+    "slug": "bugatti-la-voiture-noire",
+    "index": 614,
+    "reason": "no generations parsed",
+    "href": "/en/bugatti-la-voiture-noire-model-2655"
+  },
+  {
+    "brand": "Bugatti",
+    "model": "Type 41 Royale",
+    "segment": "sedan",
+    "slug": "bugatti-type-41-royale",
+    "index": 616,
+    "reason": "no generations parsed",
+    "href": "/en/bugatti-type-41-royale-model-3399"
+  },
+  {
+    "brand": "Chery",
+    "model": "Arrizo 3",
+    "segment": "sedan",
+    "slug": "chery-arrizo-3",
+    "index": 766,
+    "reason": "no generations parsed",
+    "href": "/en/chery-arrizo-3-model-2215"
+  },
+  {
+    "brand": "Chery",
+    "model": "Arrizo 7",
+    "segment": "sedan",
+    "slug": "chery-arrizo-7",
+    "index": 768,
+    "reason": "no generations parsed",
+    "href": "/en/chery-arrizo-7-model-2213"
+  },
+  {
+    "brand": "Chery",
+    "model": "Arrizo S",
+    "segment": "sedan",
+    "slug": "chery-arrizo-s",
+    "index": 771,
+    "reason": "no generations parsed",
+    "href": "/en/chery-arrizo-s-model-3997"
+  },
+  {
+    "brand": "Chery",
+    "model": "Arrizo X",
+    "segment": "sedan",
+    "slug": "chery-arrizo-x",
+    "index": 772,
+    "reason": "no generations parsed",
+    "href": "/en/chery-arrizo-x-model-3998"
+  },
+  {
+    "brand": "Chery",
+    "model": "EQ1",
+    "segment": "elektrikli",
+    "slug": "chery-eq1",
+    "index": 775,
+    "reason": "no generations parsed",
+    "href": "/en/chery-eq1-model-3435"
+  },
+  {
+    "brand": "Chery",
+    "model": "Fulwin",
+    "segment": "sedan",
+    "slug": "chery-fulwin",
+    "index": 778,
+    "reason": "no generations parsed",
+    "href": "/en/chery-fulwin-model-3965"
+  },
+  {
+    "brand": "Chery",
+    "model": "Q",
+    "segment": "hatchback",
+    "slug": "chery-q",
+    "index": 783,
+    "reason": "no generations parsed",
+    "href": "/en/chery-q-model-3999"
+  },
+  {
+    "brand": "Chery",
+    "model": "Tiggo V",
+    "segment": "suv",
+    "slug": "chery-tiggo-v",
+    "index": 796,
+    "reason": "no generations parsed",
+    "href": "/en/chery-tiggo-v-model-4001"
+  },
+  {
+    "brand": "Chery",
+    "model": "Tiggo X",
+    "segment": "suv",
+    "slug": "chery-tiggo-x",
+    "index": 797,
+    "reason": "no generations parsed",
+    "href": "/en/chery-tiggo-x-model-4003"
+  }
+]

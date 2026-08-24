@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { useCarsStore } from "@/lib/store";
 import { CarPhoto } from "@/components/CarPhoto";
 import { SocialIcon } from "@/components/SocialIcon";
@@ -74,9 +74,11 @@ export function PatronPodium() {
                 <CarPhoto
                   slug={entry.car.slug}
                   brand={entry.car.brand}
+                  model={entry.car.model}
                   alt={`${entry.car.brand} ${entry.car.model}`}
+                  variant="square"
+                  sizes="64px"
                   className="h-full w-full"
-                  fallbackBadgeSize="md"
                 />
               </div>
               <span

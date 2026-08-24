@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { randomUUID } from "crypto";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { supabaseAdmin } from "@/lib/supabase/server";
 import { createPatronCheckout } from "@/lib/lemonsqueezy";
 import type { SocialPlatform } from "@/lib/types";

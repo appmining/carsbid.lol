@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
-import { CARS, getCar } from "@/data/cars";
+import { CARS, getCar } from "@/data/cars.generated";
 import { CarDetailClient } from "@/components/CarDetailClient";
 import { routing } from "@/i18n/routing";
 

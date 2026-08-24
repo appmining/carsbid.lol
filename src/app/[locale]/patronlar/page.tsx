@@ -4,7 +4,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { Link } from "@/i18n/navigation";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { useCarsStore } from "@/lib/store";
 import { BrandBadge } from "@/components/BrandBadge";
 import { CarPhoto } from "@/components/CarPhoto";
@@ -136,9 +136,10 @@ export default function PatronlarPage() {
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
+                  model={car.model}
                   alt={`${car.brand} ${car.model}`}
+                  variant="square"
                   className="h-full w-full"
-                  fallbackBadgeSize="sm"
                   sizes="40px"
                 />
               </div>

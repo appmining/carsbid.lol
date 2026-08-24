@@ -1,0 +1,8484 @@
+{
+  "fiat-egea": {
+    "titles": {
+      "en": "Fiat Tipo (2015)",
+      "tr": "Fiat Egea"
+    },
+    "views": {
+      "en": 80500,
+      "tr": 31195
+    },
+    "total": 330060
+  },
+  "renault-clio": {
+    "titles": {
+      "en": "Renault Clio",
+      "tr": "Renault Clio"
+    },
+    "views": {
+      "en": 326665,
+      "tr": 19192
+    },
+    "total": 480201
+  },
+  "toyota-corolla": {
+    "titles": {
+      "en": "Toyota Corolla",
+      "tr": "Toyota Corolla"
+    },
+    "views": {
+      "en": 841443,
+      "tr": 49820
+    },
+    "total": 1240003
+  },
+  "dacia-duster": {
+    "titles": {
+      "en": "Dacia Duster",
+      "tr": "Dacia Duster"
+    },
+    "views": {
+      "en": 259035,
+      "tr": 9773
+    },
+    "total": 337219
+  },
+  "volkswagen-passat": {
+    "titles": {
+      "en": "Volkswagen Passat",
+      "tr": "Volkswagen Passat"
+    },
+    "views": {
+      "en": 368635,
+      "tr": 30024
+    },
+    "total": 608827
+  },
+  "renault-megane": {
+    "titles": {
+      "en": "Renault Mégane",
+      "tr": "Renault Mégane"
+    },
+    "views": {
+      "en": 193630,
+      "tr": 35312
+    },
+    "total": 476126
+  },
+  "hyundai-i20": {
+    "titles": {
+      "en": "Hyundai i20",
+      "tr": "Hyundai i20"
+    },
+    "views": {
+      "en": 169606,
+      "tr": 13823
+    },
+    "total": 280190
+  },
+  "fiat-doblo": {
+    "titles": {
+      "en": "Fiat Doblò",
+      "tr": "Fiat Doblò"
+    },
+    "views": {
+      "en": 67964,
+      "tr": 14892
+    },
+    "total": 187100
+  },
+  "opel-corsa": {
+    "titles": {
+      "en": "Opel Corsa",
+      "tr": "Opel Corsa"
+    },
+    "views": {
+      "en": 263753,
+      "tr": 8352
+    },
+    "total": 330569
+  },
+  "toyota-c-hr": {
+    "titles": {
+      "en": "Toyota C-HR",
+      "tr": "Toyota C-HR"
+    },
+    "views": {
+      "en": 222801,
+      "tr": 13495
+    },
+    "total": 330761
+  },
+  "honda-civic": {
+    "titles": {
+      "en": "Honda Civic",
+      "tr": "Honda Civic"
+    },
+    "views": {
+      "en": 831705,
+      "tr": 52126
+    },
+    "total": 1248713
+  },
+  "peugeot-208": {
+    "titles": {
+      "en": "Peugeot 208",
+      "tr": "Peugeot 208"
+    },
+    "views": {
+      "en": 171010,
+      "tr": 4812
+    },
+    "total": 209506
+  },
+  "peugeot-308": {
+    "titles": {
+      "en": "Peugeot 308",
+      "tr": "Peugeot 308"
+    },
+    "views": {
+      "en": 162859,
+      "tr": 8560
+    },
+    "total": 231339
+  },
+  "citroen-c3": {
+    "titles": {
+      "en": "Citroën C3",
+      "tr": "Citroën C3"
+    },
+    "views": {
+      "en": 147743,
+      "tr": 3129
+    },
+    "total": 172775
+  },
+  "skoda-octavia": {
+    "titles": {
+      "en": "Škoda Octavia",
+      "tr": "Škoda Octavia"
+    },
+    "views": {
+      "en": 338846,
+      "tr": 7627
+    },
+    "total": 399862
+  },
+  "volkswagen-golf": {
+    "titles": {
+      "en": "Volkswagen Golf",
+      "tr": "Volkswagen Golf"
+    },
+    "views": {
+      "en": 492509,
+      "tr": 32856
+    },
+    "total": 755357
+  },
+  "nissan-qashqai": {
+    "titles": {
+      "en": "Nissan Qashqai",
+      "tr": "Nissan Qashqai"
+    },
+    "views": {
+      "en": 264806,
+      "tr": 17448
+    },
+    "total": 404390
+  },
+  "kia-sportage": {
+    "titles": {
+      "en": "Kia Sportage",
+      "tr": "Kia Sportage"
+    },
+    "views": {
+      "en": 273663,
+      "tr": 7802
+    },
+    "total": 336079
+  },
+  "hyundai-tucson": {
+    "titles": {
+      "en": "Hyundai Tucson",
+      "tr": "Hyundai Tucson"
+    },
+    "views": {
+      "en": 287432,
+      "tr": 12113
+    },
+    "total": 384336
+  },
+  "volkswagen-tiguan": {
+    "titles": {
+      "en": "Volkswagen Tiguan",
+      "tr": "Volkswagen Tiguan"
+    },
+    "views": {
+      "en": 322630,
+      "tr": 5432
+    },
+    "total": 366086
+  },
+  "fiat-fiorino": {
+    "titles": {
+      "en": "Fiat Fiorino",
+      "tr": "Fiat Fiorino"
+    },
+    "views": {
+      "en": 44642,
+      "tr": 6172
+    },
+    "total": 94018
+  },
+  "ford-focus": {
+    "titles": {
+      "en": "Ford Focus",
+      "tr": "Ford Focus"
+    },
+    "views": {
+      "en": 369638,
+      "tr": 22607
+    },
+    "total": 550494
+  },
+  "ford-puma": {
+    "titles": {
+      "en": "Ford Puma (crossover)",
+      "tr": "Ford Puma"
+    },
+    "views": {
+      "en": 104599,
+      "tr": 1911
+    },
+    "total": 119887
+  },
+  "suzuki-vitara": {
+    "titles": {
+      "en": "Suzuki Vitara",
+      "tr": "Suzuki Vitara"
+    },
+    "views": {
+      "en": 271333,
+      "tr": 1245
+    },
+    "total": 281293
+  },
+  "jeep-renegade": {
+    "titles": {
+      "en": "Jeep Renegade",
+      "tr": "Jeep Renegade"
+    },
+    "views": {
+      "en": 145288,
+      "tr": 3373
+    },
+    "total": 172272
+  },
+  "jeep-compass": {
+    "titles": {
+      "en": "Jeep Compass",
+      "tr": "Jeep Compass"
+    },
+    "views": {
+      "en": 202132,
+      "tr": 1988
+    },
+    "total": 218036
+  },
+  "mini-cooper": {
+    "titles": {
+      "en": "Mini Cooper",
+      "tr": "Mini Hatch"
+    },
+    "views": {
+      "en": 185213,
+      "tr": 3320
+    },
+    "total": 211773
+  },
+  "togg-t10x": {
+    "titles": {
+      "en": "Togg T10X",
+      "tr": "Togg T10X"
+    },
+    "views": {
+      "en": 39514,
+      "tr": 35505
+    },
+    "total": 323554
+  },
+  "tesla-model-3": {
+    "titles": {
+      "en": "Tesla Model 3",
+      "tr": "Tesla Model 3"
+    },
+    "views": {
+      "en": 349733,
+      "tr": 2270
+    },
+    "total": 367893
+  },
+  "byd-seal": {
+    "titles": {
+      "en": "BYD Seal",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 122709,
+      "tr": 20709
+    },
+    "total": 288381
+  },
+  "mg-zs": {
+    "titles": {
+      "en": "MG ZS (crossover)",
+      "tr": "Rover 400"
+    },
+    "views": {
+      "en": 98396,
+      "tr": 571
+    },
+    "total": 102964
+  },
+  "bmw-3-serisi": {
+    "titles": {
+      "en": "BMW N20",
+      "tr": "BMW 3 Serisi"
+    },
+    "views": {
+      "en": 104106,
+      "tr": 31310
+    },
+    "total": 354586
+  },
+  "mercedes-benz-c-serisi": {
+    "titles": {
+      "tr": "Mercedes C-Serisi"
+    },
+    "views": {
+      "tr": 28521
+    },
+    "total": 228168
+  },
+  "audi-a3": {
+    "titles": {
+      "en": "Audi A3",
+      "tr": "Audi A3"
+    },
+    "views": {
+      "en": 412717,
+      "tr": 14070
+    },
+    "total": 525277
+  },
+  "volvo-xc40": {
+    "titles": {
+      "en": "Volvo XC40",
+      "tr": "Volvo XC40"
+    },
+    "views": {
+      "en": 131636,
+      "tr": 5539
+    },
+    "total": 175948
+  },
+  "land-rover-defender": {
+    "titles": {
+      "en": "Land Rover Defender",
+      "tr": "Land Rover Defender"
+    },
+    "views": {
+      "en": 391517,
+      "tr": 2685
+    },
+    "total": 412997
+  },
+  "porsche-911": {
+    "titles": {
+      "en": "Porsche 911",
+      "tr": "Porsche 911"
+    },
+    "views": {
+      "en": 712107,
+      "tr": 8063
+    },
+    "total": 776611
+  },
+  "ford-mustang": {
+    "titles": {
+      "en": "Ford Mustang",
+      "tr": "Ford Mustang"
+    },
+    "views": {
+      "en": 800998,
+      "tr": 9875
+    },
+    "total": 879998
+  },
+  "renault-captur": {
+    "titles": {
+      "en": "Renault Captur",
+      "tr": "Renault Captur"
+    },
+    "views": {
+      "en": 125926,
+      "tr": 3433
+    },
+    "total": 153390
+  },
+  "dacia-sandero": {
+    "titles": {
+      "en": "Dacia Sandero",
+      "tr": "Dacia Sandero"
+    },
+    "views": {
+      "en": 168267,
+      "tr": 5250
+    },
+    "total": 210267
+  },
+  "dacia-jogger": {
+    "titles": {
+      "en": "Dacia Jogger",
+      "tr": "Dacia Jogger"
+    },
+    "views": {
+      "en": 54260,
+      "tr": 1382
+    },
+    "total": 65316
+  },
+  "fiat-500": {
+    "titles": {
+      "en": "Fiat 500",
+      "tr": "Fiat 500"
+    },
+    "views": {
+      "en": 207407,
+      "tr": 4970
+    },
+    "total": 247167
+  },
+  "peugeot-3008": {
+    "titles": {
+      "en": "Peugeot 3008",
+      "tr": "Peugeot 3008"
+    },
+    "views": {
+      "en": 152269,
+      "tr": 13226
+    },
+    "total": 258077
+  },
+  "peugeot-2008": {
+    "titles": {
+      "en": "Peugeot 2008",
+      "tr": "Peugeot 2008"
+    },
+    "views": {
+      "en": 107197,
+      "tr": 9012
+    },
+    "total": 179293
+  },
+  "citroen-c4-cactus": {
+    "titles": {
+      "en": "Citroën C4 Cactus",
+      "tr": "Citroën C4 Cactus"
+    },
+    "views": {
+      "en": 28928,
+      "tr": 876
+    },
+    "total": 35936
+  },
+  "skoda-fabia": {
+    "titles": {
+      "en": "Škoda Fabia",
+      "tr": "Škoda Fabia"
+    },
+    "views": {
+      "en": 163413,
+      "tr": 3994
+    },
+    "total": 195365
+  },
+  "hyundai-bayon": {
+    "titles": {
+      "en": "Hyundai Bayon",
+      "tr": "Hyundai Bayon"
+    },
+    "views": {
+      "en": 37932,
+      "tr": 14649
+    },
+    "total": 155124
+  },
+  "hyundai-kona": {
+    "titles": {
+      "en": "Hyundai Kona",
+      "tr": "Hyundai Kona"
+    },
+    "views": {
+      "en": 191722,
+      "tr": 2280
+    },
+    "total": 209962
+  },
+  "kia-stonic": {
+    "titles": {
+      "en": "Kia Stonic",
+      "tr": "Kia Stonic"
+    },
+    "views": {
+      "en": 68434,
+      "tr": 2485
+    },
+    "total": 88314
+  },
+  "kia-ceed": {
+    "titles": {
+      "en": "Kia Ceed",
+      "tr": "Kia cee'd"
+    },
+    "views": {
+      "en": 114336,
+      "tr": 962
+    },
+    "total": 122032
+  },
+  "kia-niro": {
+    "titles": {
+      "en": "Kia Niro",
+      "tr": "Kia Niro"
+    },
+    "views": {
+      "en": 141067,
+      "tr": 945
+    },
+    "total": 148627
+  },
+  "renault-taliant": {
+    "titles": {
+      "en": "Dacia Logan",
+      "tr": "Renault Taliant"
+    },
+    "views": {
+      "en": 159634,
+      "tr": 4961
+    },
+    "total": 199322
+  },
+  "renault-broadway": {
+    "titles": {
+      "en": "Renault 9 and 11",
+      "tr": "Renault 9"
+    },
+    "views": {
+      "en": 27432,
+      "tr": 12300
+    },
+    "total": 125832
+  },
+  "opel-astra": {
+    "titles": {
+      "en": "Opel Astra",
+      "tr": "Opel Astra"
+    },
+    "views": {
+      "en": 308949,
+      "tr": 19670
+    },
+    "total": 466309
+  },
+  "opel-mokka": {
+    "titles": {
+      "en": "Opel Mokka",
+      "tr": "Opel Mokka"
+    },
+    "views": {
+      "en": 83874,
+      "tr": 3198
+    },
+    "total": 109458
+  },
+  "nissan-juke": {
+    "titles": {
+      "en": "Nissan Juke",
+      "tr": "Nissan Juke"
+    },
+    "views": {
+      "en": 158336,
+      "tr": 2853
+    },
+    "total": 181160
+  },
+  "toyota-yaris": {
+    "titles": {
+      "en": "Toyota Yaris",
+      "tr": "Toyota Yaris"
+    },
+    "views": {
+      "en": 404608,
+      "tr": 6311
+    },
+    "total": 455096
+  },
+  "toyota-rav4": {
+    "titles": {
+      "en": "Toyota RAV4",
+      "tr": "Toyota RAV4"
+    },
+    "views": {
+      "en": 824786,
+      "tr": 3509
+    },
+    "total": 852858
+  },
+  "honda-cr-v": {
+    "titles": {
+      "en": "Honda CR-V",
+      "tr": "Honda CR-V"
+    },
+    "views": {
+      "en": 646103,
+      "tr": 5435
+    },
+    "total": 689583
+  },
+  "mazda-cx-5": {
+    "titles": {
+      "en": "Mazda CX-5",
+      "tr": "Mazda CX-5"
+    },
+    "views": {
+      "en": 356973,
+      "tr": 1643
+    },
+    "total": 370117
+  },
+  "subaru-forester": {
+    "titles": {
+      "en": "Subaru Forester",
+      "tr": "Subaru Forester"
+    },
+    "views": {
+      "en": 391354,
+      "tr": 1815
+    },
+    "total": 405874
+  },
+  "volkswagen-t-roc": {
+    "titles": {
+      "en": "Volkswagen T-Roc",
+      "tr": "Volkswagen T-Roc"
+    },
+    "views": {
+      "en": 164790,
+      "tr": 8963
+    },
+    "total": 236494
+  },
+  "volkswagen-polo": {
+    "titles": {
+      "en": "Volkswagen Polo",
+      "tr": "Volkswagen Polo"
+    },
+    "views": {
+      "en": 306778,
+      "tr": 11849
+    },
+    "total": 401570
+  },
+  "seat-leon": {
+    "titles": {
+      "en": "SEAT León",
+      "tr": "SEAT León"
+    },
+    "views": {
+      "en": 195980,
+      "tr": 10587
+    },
+    "total": 280676
+  },
+  "seat-ibiza": {
+    "titles": {
+      "en": "SEAT Ibiza",
+      "tr": "SEAT Ibiza"
+    },
+    "views": {
+      "en": 159616,
+      "tr": 5977
+    },
+    "total": 207432
+  },
+  "cupra-formentor": {
+    "titles": {
+      "en": "Cupra Formentor",
+      "tr": "Cupra Formentor"
+    },
+    "views": {
+      "en": 112948,
+      "tr": 11025
+    },
+    "total": 201148
+  },
+  "alfa-romeo-giulia": {
+    "titles": {
+      "en": "Alfa Romeo Giulia",
+      "tr": "Alfa Romeo Giulia"
+    },
+    "views": {
+      "en": 111652,
+      "tr": 466
+    },
+    "total": 115380
+  },
+  "mercedes-benz-gla": {
+    "titles": {
+      "en": "Mercedes-Benz GLA",
+      "tr": "Mercedes-Benz GLA Serisi"
+    },
+    "views": {
+      "en": 129468,
+      "tr": 1816
+    },
+    "total": 143996
+  },
+  "mercedes-benz-glc": {
+    "titles": {
+      "en": "Mercedes-Benz GLC",
+      "tr": "Mercedes-Benz GLC Serisi"
+    },
+    "views": {
+      "en": 251655,
+      "tr": 4485
+    },
+    "total": 287535
+  },
+  "mercedes-benz-a-serisi": {
+    "titles": {
+      "tr": "Mercedes-Benz A Serisi"
+    },
+    "views": {
+      "tr": 7045
+    },
+    "total": 56360
+  },
+  "bmw-x1": {
+    "titles": {
+      "en": "BMW X1",
+      "tr": "BMW X1"
+    },
+    "views": {
+      "en": 199862,
+      "tr": 8774
+    },
+    "total": 270054
+  },
+  "bmw-x3": {
+    "titles": {
+      "en": "BMW X3",
+      "tr": "BMW X3"
+    },
+    "views": {
+      "en": 441167,
+      "tr": 2337
+    },
+    "total": 459863
+  },
+  "audi-q3": {
+    "titles": {
+      "en": "Audi Q3",
+      "tr": "Audi Q3"
+    },
+    "views": {
+      "en": 166139,
+      "tr": 3629
+    },
+    "total": 195171
+  },
+  "audi-q5": {
+    "titles": {
+      "en": "Audi Q5",
+      "tr": "Audi Q5"
+    },
+    "views": {
+      "en": 246684,
+      "tr": 1817
+    },
+    "total": 261220
+  },
+  "jaguar-f-pace": {
+    "titles": {
+      "en": "Jaguar F-Pace",
+      "tr": "Jaguar F-Pace"
+    },
+    "views": {
+      "en": 86994,
+      "tr": 723
+    },
+    "total": 92778
+  },
+  "land-rover-range-rover-evoque": {
+    "titles": {
+      "en": "Range Rover Evoque",
+      "tr": "Land Rover"
+    },
+    "views": {
+      "en": 142101,
+      "tr": 12000
+    },
+    "total": 238101
+  },
+  "land-rover-range-rover-sport": {
+    "titles": {
+      "en": "Range Rover Sport",
+      "tr": "Land Rover"
+    },
+    "views": {
+      "en": 213640,
+      "tr": 12000
+    },
+    "total": 309640
+  },
+  "toyota-land-cruiser": {
+    "titles": {
+      "en": "Toyota Land Cruiser",
+      "tr": "Toyota Land Cruiser"
+    },
+    "views": {
+      "en": 999846,
+      "tr": 5736
+    },
+    "total": 1045734
+  },
+  "nissan-x-trail": {
+    "titles": {
+      "en": "Nissan X-Trail",
+      "tr": "Nissan X-Trail"
+    },
+    "views": {
+      "en": 252267,
+      "tr": 4961
+    },
+    "total": 291955
+  },
+  "chery-tiggo-7-pro": {
+    "titles": {
+      "en": "Chery Tiggo 7",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 57898,
+      "tr": 2174
+    },
+    "total": 75290
+  },
+  "chery-tiggo-8-pro": {
+    "titles": {
+      "en": "Chery Tiggo 8",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 82481,
+      "tr": 2174
+    },
+    "total": 99873
+  },
+  "chery-tiggo-4-pro": {
+    "titles": {
+      "en": "Chery Tiggo 5x",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 28929,
+      "tr": 2174
+    },
+    "total": 46321
+  },
+  "omoda-5": {
+    "titles": {
+      "en": "Omoda C5",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 25817,
+      "tr": 3587
+    },
+    "total": 54513
+  },
+  "gwm-haval-jolion": {
+    "titles": {
+      "en": "Haval Jolion",
+      "tr": "Haval"
+    },
+    "views": {
+      "en": 48727,
+      "tr": 2070
+    },
+    "total": 65287
+  },
+  "karsan-jest": {
+    "titles": {
+      "en": "Karsan",
+      "tr": "Karsan Jest"
+    },
+    "views": {
+      "en": 14944,
+      "tr": 3029
+    },
+    "total": 39176
+  },
+  "jac-t8": {
+    "titles": {
+      "en": "JAC Shuailing T8",
+      "tr": "Kamyonetler listesi"
+    },
+    "views": {
+      "en": 13473,
+      "tr": 472
+    },
+    "total": 17249
+  },
+  "byd-han": {
+    "titles": {
+      "en": "BYD Han",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 45972,
+      "tr": 20709
+    },
+    "total": 211644
+  },
+  "togg-t10f": {
+    "titles": {
+      "en": "Togg T10F",
+      "tr": "Togg T10F"
+    },
+    "views": {
+      "en": 23668,
+      "tr": 23881
+    },
+    "total": 214716
+  },
+  "ford-ranger": {
+    "titles": {
+      "en": "Ford Ranger",
+      "tr": "Ranger (anlam ayrımı)"
+    },
+    "views": {
+      "en": 261197,
+      "tr": 225
+    },
+    "total": 262997
+  },
+  "toyota-hilux": {
+    "titles": {
+      "en": "Toyota Hilux",
+      "tr": "Toyota Hilux"
+    },
+    "views": {
+      "en": 876950,
+      "tr": 4848
+    },
+    "total": 915734
+  },
+  "isuzu-d-max": {
+    "titles": {
+      "en": "Isuzu D-Max",
+      "tr": "Isuzu D-Max"
+    },
+    "views": {
+      "en": 208667,
+      "tr": 1184
+    },
+    "total": 218139
+  },
+  "volkswagen-amarok": {
+    "titles": {
+      "en": "Volkswagen Amarok",
+      "tr": "Volkswagen Amarok"
+    },
+    "views": {
+      "en": 129172,
+      "tr": 6311
+    },
+    "total": 179660
+  },
+  "mitsubishi-l200": {
+    "titles": {
+      "en": "Mitsubishi Triton",
+      "tr": "Mitsubishi L200"
+    },
+    "views": {
+      "en": 222783,
+      "tr": 3455
+    },
+    "total": 250423
+  },
+  "fiat-panda": {
+    "titles": {
+      "en": "Fiat Panda",
+      "tr": "Fiat Panda"
+    },
+    "views": {
+      "en": 197933,
+      "tr": 2455
+    },
+    "total": 217573
+  },
+  "fiat-500x": {
+    "titles": {
+      "en": "Fiat 500X",
+      "tr": "Fiat 500X"
+    },
+    "views": {
+      "en": 57072,
+      "tr": 1988
+    },
+    "total": 72976
+  },
+  "fiat-500l": {
+    "titles": {
+      "en": "Fiat 500L",
+      "tr": "Fiat 500L"
+    },
+    "views": {
+      "en": 45430,
+      "tr": 1428
+    },
+    "total": 56854
+  },
+  "renault-austral": {
+    "titles": {
+      "en": "Renault Austral",
+      "tr": "Renault Austral"
+    },
+    "views": {
+      "en": 49600,
+      "tr": 2802
+    },
+    "total": 72016
+  },
+  "renault-symbioz": {
+    "titles": {
+      "en": "Renault Symbioz",
+      "tr": "Renault Symbioz"
+    },
+    "views": {
+      "en": 42368,
+      "tr": 1222
+    },
+    "total": 52144
+  },
+  "renault-arkana": {
+    "titles": {
+      "en": "Renault Arkana",
+      "tr": "Renault"
+    },
+    "views": {
+      "en": 54498,
+      "tr": 30709
+    },
+    "total": 300170
+  },
+  "renault-twingo": {
+    "titles": {
+      "en": "Renault Twingo",
+      "tr": "Renault Twingo"
+    },
+    "views": {
+      "en": 188099,
+      "tr": 2385
+    },
+    "total": 207179
+  },
+  "renault-scenic": {
+    "titles": {
+      "en": "Renault Scénic",
+      "tr": "Renault Scénic"
+    },
+    "views": {
+      "en": 94628,
+      "tr": 3987
+    },
+    "total": 126524
+  },
+  "volkswagen-arteon": {
+    "titles": {
+      "en": "Volkswagen Arteon",
+      "tr": "Volkswagen Arteon"
+    },
+    "views": {
+      "en": 150106,
+      "tr": 2749
+    },
+    "total": 172098
+  },
+  "volkswagen-taigo": {
+    "titles": {
+      "en": "Volkswagen Taigo",
+      "tr": "Volkswagen Taigo"
+    },
+    "views": {
+      "en": 71665,
+      "tr": 1566
+    },
+    "total": 84193
+  },
+  "volkswagen-id-4": {
+    "titles": {
+      "en": "Volkswagen ID.4",
+      "tr": "Volkswagen ID.4"
+    },
+    "views": {
+      "en": 106011,
+      "tr": 5929
+    },
+    "total": 153443
+  },
+  "volkswagen-id-3": {
+    "titles": {
+      "en": "Volkswagen ID.3",
+      "tr": "Volkswagen ID.3"
+    },
+    "views": {
+      "en": 96339,
+      "tr": 759
+    },
+    "total": 102411
+  },
+  "volkswagen-t-cross": {
+    "titles": {
+      "en": "Volkswagen T-Cross",
+      "tr": "Volkswagen Taigo"
+    },
+    "views": {
+      "en": 110903,
+      "tr": 1566
+    },
+    "total": 123431
+  },
+  "volkswagen-touareg": {
+    "titles": {
+      "en": "Volkswagen Touareg",
+      "tr": "Volkswagen Touareg"
+    },
+    "views": {
+      "en": 308790,
+      "tr": 3526
+    },
+    "total": 336998
+  },
+  "toyota-aygo-x": {
+    "titles": {
+      "en": "Toyota Aygo X",
+      "tr": "Toyota Aygo"
+    },
+    "views": {
+      "en": 65793,
+      "tr": 2046
+    },
+    "total": 82161
+  },
+  "toyota-yaris-cross": {
+    "titles": {
+      "en": "Toyota Yaris Cross",
+      "tr": "Toyota"
+    },
+    "views": {
+      "en": 184009,
+      "tr": 34029
+    },
+    "total": 456241
+  },
+  "toyota-camry": {
+    "titles": {
+      "en": "Toyota Camry",
+      "tr": "Toyota Camry"
+    },
+    "views": {
+      "en": 579126,
+      "tr": 3440
+    },
+    "total": 606646
+  },
+  "toyota-highlander": {
+    "titles": {
+      "en": "Toyota Highlander",
+      "tr": "Toyota Highlander"
+    },
+    "views": {
+      "en": 365600,
+      "tr": 1443
+    },
+    "total": 377144
+  },
+  "toyota-corolla-cross": {
+    "titles": {
+      "en": "Toyota Corolla Cross",
+      "tr": "Toyota Corolla"
+    },
+    "views": {
+      "en": 301774,
+      "tr": 49820
+    },
+    "total": 700334
+  },
+  "toyota-prius": {
+    "titles": {
+      "en": "Toyota Prius",
+      "tr": "Toyota Prius"
+    },
+    "views": {
+      "en": 419095,
+      "tr": 2917
+    },
+    "total": 442431
+  },
+  "hyundai-i10": {
+    "titles": {
+      "en": "Hyundai i10",
+      "tr": "Hyundai i10"
+    },
+    "views": {
+      "en": 129856,
+      "tr": 2256
+    },
+    "total": 147904
+  },
+  "hyundai-i30": {
+    "titles": {
+      "en": "Hyundai i30",
+      "tr": "Hyundai i30"
+    },
+    "views": {
+      "en": 171157,
+      "tr": 6327
+    },
+    "total": 221773
+  },
+  "hyundai-creta": {
+    "titles": {
+      "en": "Hyundai Creta",
+      "tr": "Hyundai ix25"
+    },
+    "views": {
+      "en": 129749,
+      "tr": 255
+    },
+    "total": 131789
+  },
+  "hyundai-santa-fe": {
+    "titles": {
+      "en": "Hyundai Santa Fe",
+      "tr": "Hyundai Santa Fe"
+    },
+    "views": {
+      "en": 281444,
+      "tr": 1623
+    },
+    "total": 294428
+  },
+  "hyundai-ioniq-5": {
+    "titles": {
+      "en": "Hyundai Ioniq 5",
+      "tr": "Hyundai Ioniq"
+    },
+    "views": {
+      "en": 168495,
+      "tr": 1165
+    },
+    "total": 177815
+  },
+  "hyundai-accent": {
+    "titles": {
+      "en": "Hyundai Accent",
+      "tr": "Hyundai Accent"
+    },
+    "views": {
+      "en": 186660,
+      "tr": 13657
+    },
+    "total": 295916
+  },
+  "ford-fiesta": {
+    "titles": {
+      "en": "Ford Fiesta",
+      "tr": "Ford Fiesta"
+    },
+    "views": {
+      "en": 301695,
+      "tr": 12873
+    },
+    "total": 404679
+  },
+  "ford-ecosport": {
+    "titles": {
+      "en": "Ford EcoSport",
+      "tr": "Ford EcoSport"
+    },
+    "views": {
+      "en": 113960,
+      "tr": 957
+    },
+    "total": 121616
+  },
+  "ford-kuga": {
+    "titles": {
+      "en": "Ford Kuga",
+      "tr": "Ford Kuga"
+    },
+    "views": {
+      "en": 151581,
+      "tr": 5876
+    },
+    "total": 198589
+  },
+  "ford-bronco": {
+    "titles": {
+      "en": "Ford Bronco",
+      "tr": "Ford Bronco"
+    },
+    "views": {
+      "en": 401858,
+      "tr": 1393
+    },
+    "total": 413002
+  },
+  "peugeot-508": {
+    "titles": {
+      "en": "Peugeot 508",
+      "tr": "Peugeot 508"
+    },
+    "views": {
+      "en": 123387,
+      "tr": 8429
+    },
+    "total": 190819
+  },
+  "peugeot-408": {
+    "titles": {
+      "en": "Peugeot 408 (saloon)",
+      "tr": "Peugeot 408"
+    },
+    "views": {
+      "en": 34805,
+      "tr": 3051
+    },
+    "total": 59213
+  },
+  "peugeot-5008": {
+    "titles": {
+      "en": "Peugeot 5008",
+      "tr": "Peugeot 5008"
+    },
+    "views": {
+      "en": 94238,
+      "tr": 6271
+    },
+    "total": 144406
+  },
+  "peugeot-108": {
+    "titles": {
+      "en": "Peugeot 108",
+      "tr": "Peugeot 108"
+    },
+    "views": {
+      "en": 36176,
+      "tr": 555
+    },
+    "total": 40616
+  },
+  "citroen-c3-aircross": {
+    "titles": {
+      "en": "Citroën C3 Aircross",
+      "tr": "Citroën C3 Picasso"
+    },
+    "views": {
+      "en": 65895,
+      "tr": 763
+    },
+    "total": 71999
+  },
+  "citroen-c4": {
+    "titles": {
+      "en": "Citroën C4",
+      "tr": "Citroën C4"
+    },
+    "views": {
+      "en": 106681,
+      "tr": 6297
+    },
+    "total": 157057
+  },
+  "citroen-c5-aircross": {
+    "titles": {
+      "en": "Citroën C5 Aircross",
+      "tr": "Citroën C5 Aircross"
+    },
+    "views": {
+      "en": 60949,
+      "tr": 1132
+    },
+    "total": 70005
+  },
+  "citroen-berlingo": {
+    "titles": {
+      "en": "Citroën Berlingo",
+      "tr": "Citroën Berlingo"
+    },
+    "views": {
+      "en": 104188,
+      "tr": 2593
+    },
+    "total": 124932
+  },
+  "opel-grandland": {
+    "titles": {
+      "en": "Opel Grandland",
+      "tr": "Opel Grandland X"
+    },
+    "views": {
+      "en": 67231,
+      "tr": 2741
+    },
+    "total": 89159
+  },
+  "opel-insignia": {
+    "titles": {
+      "en": "Opel Insignia",
+      "tr": "Opel Insignia"
+    },
+    "views": {
+      "en": 142767,
+      "tr": 8031
+    },
+    "total": 207015
+  },
+  "opel-crossland": {
+    "titles": {
+      "en": "Opel Crossland",
+      "tr": "Opel Crossland X"
+    },
+    "views": {
+      "en": 36708,
+      "tr": 3090
+    },
+    "total": 61428
+  },
+  "dacia-spring": {
+    "titles": {
+      "en": "Renault Kwid",
+      "tr": "Dacia Spring"
+    },
+    "views": {
+      "en": 82973,
+      "tr": 1517
+    },
+    "total": 95109
+  },
+  "dacia-bigster": {
+    "titles": {
+      "en": "Dacia Bigster",
+      "tr": "Renault Duster"
+    },
+    "views": {
+      "en": 65547,
+      "tr": 3122
+    },
+    "total": 90523
+  },
+  "skoda-kamiq": {
+    "titles": {
+      "en": "Škoda Kamiq",
+      "tr": "Škoda Kamiq"
+    },
+    "views": {
+      "en": 55421,
+      "tr": 2838
+    },
+    "total": 78125
+  },
+  "skoda-karoq": {
+    "titles": {
+      "en": "Škoda Karoq",
+      "tr": "Škoda Karoq"
+    },
+    "views": {
+      "en": 70420,
+      "tr": 1776
+    },
+    "total": 84628
+  },
+  "skoda-kodiaq": {
+    "titles": {
+      "en": "Škoda Kodiaq",
+      "tr": "Škoda Kodiaq"
+    },
+    "views": {
+      "en": 128622,
+      "tr": 4314
+    },
+    "total": 163134
+  },
+  "skoda-superb": {
+    "titles": {
+      "en": "Škoda Superb",
+      "tr": "Škoda Superb"
+    },
+    "views": {
+      "en": 210035,
+      "tr": 12845
+    },
+    "total": 312795
+  },
+  "skoda-enyaq": {
+    "titles": {
+      "en": "Škoda Enyaq",
+      "tr": "Škoda Enyaq"
+    },
+    "views": {
+      "en": 63747,
+      "tr": 1382
+    },
+    "total": 74803
+  },
+  "kia-picanto": {
+    "titles": {
+      "en": "Kia Picanto",
+      "tr": "Kia Picanto"
+    },
+    "views": {
+      "en": 144181,
+      "tr": 2364
+    },
+    "total": 163093
+  },
+  "kia-rio": {
+    "titles": {
+      "en": "Kia Rio",
+      "tr": "Kia Rio"
+    },
+    "views": {
+      "en": 155637,
+      "tr": 1254
+    },
+    "total": 165669
+  },
+  "kia-sorento": {
+    "titles": {
+      "en": "Kia Sorento",
+      "tr": "Kia Sorento"
+    },
+    "views": {
+      "en": 215306,
+      "tr": 2155
+    },
+    "total": 232546
+  },
+  "kia-ev6": {
+    "titles": {
+      "en": "Kia EV6",
+      "tr": "Kia EV6"
+    },
+    "views": {
+      "en": 78570,
+      "tr": 1405
+    },
+    "total": 89810
+  },
+  "kia-ev9": {
+    "titles": {
+      "en": "Kia EV9",
+      "tr": "Kia EV9"
+    },
+    "views": {
+      "en": 56474,
+      "tr": 371
+    },
+    "total": 59442
+  },
+  "kia-seltos": {
+    "titles": {
+      "en": "Kia Seltos",
+      "tr": "Kia"
+    },
+    "views": {
+      "en": 251913,
+      "tr": 12450
+    },
+    "total": 351513
+  },
+  "nissan-micra": {
+    "titles": {
+      "en": "Nissan Micra",
+      "tr": "Nissan Micra"
+    },
+    "views": {
+      "en": 235360,
+      "tr": 2517
+    },
+    "total": 255496
+  },
+  "nissan-leaf": {
+    "titles": {
+      "en": "Nissan Leaf",
+      "tr": "Nissan Leaf"
+    },
+    "views": {
+      "en": 213466,
+      "tr": 691
+    },
+    "total": 218994
+  },
+  "nissan-navara": {
+    "titles": {
+      "en": "Nissan Navara",
+      "tr": "Nissan Navara"
+    },
+    "views": {
+      "en": 292583,
+      "tr": 1084
+    },
+    "total": 301255
+  },
+  "honda-jazz": {
+    "titles": {
+      "en": "Honda Jazz",
+      "tr": "Honda Jazz"
+    },
+    "views": {
+      "en": 24076,
+      "tr": 3205
+    },
+    "total": 49716
+  },
+  "honda-hr-v": {
+    "titles": {
+      "en": "Honda HR-V",
+      "tr": "Honda HR-V"
+    },
+    "views": {
+      "en": 336744,
+      "tr": 2729
+    },
+    "total": 358576
+  },
+  "honda-city": {
+    "titles": {
+      "en": "Honda City",
+      "tr": "Honda City"
+    },
+    "views": {
+      "en": 268879,
+      "tr": 3376
+    },
+    "total": 295887
+  },
+  "mercedes-benz-e-serisi": {
+    "titles": {
+      "tr": "Mercedes-Benz E Serisi"
+    },
+    "views": {
+      "tr": 31129
+    },
+    "total": 249032
+  },
+  "mercedes-benz-s-serisi": {
+    "titles": {
+      "tr": "Mercedes-Benz S Serisi"
+    },
+    "views": {
+      "tr": 14487
+    },
+    "total": 115896
+  },
+  "mercedes-benz-gle": {
+    "titles": {
+      "en": "Mercedes-Benz GLE",
+      "tr": "Audi Q8"
+    },
+    "views": {
+      "en": 375512,
+      "tr": 2265
+    },
+    "total": 393632
+  },
+  "mercedes-benz-gls": {
+    "titles": {
+      "en": "Mercedes-Benz GLS",
+      "tr": "Mercedes-Benz"
+    },
+    "views": {
+      "en": 115642,
+      "tr": 46146
+    },
+    "total": 484810
+  },
+  "mercedes-benz-eqa": {
+    "titles": {
+      "en": "Mercedes-Benz EQA"
+    },
+    "views": {
+      "en": 33577
+    },
+    "total": 33577
+  },
+  "mercedes-benz-cla": {
+    "titles": {
+      "en": "Mercedes-Benz CLA",
+      "tr": "Mercedes-Benz CLA Serisi"
+    },
+    "views": {
+      "en": 251182,
+      "tr": 7562
+    },
+    "total": 311678
+  },
+  "audi-a1": {
+    "titles": {
+      "en": "Audi A1",
+      "tr": "Audi A1"
+    },
+    "views": {
+      "en": 126306,
+      "tr": 2544
+    },
+    "total": 146658
+  },
+  "audi-a4": {
+    "titles": {
+      "en": "Audi A4",
+      "tr": "Audi A4"
+    },
+    "views": {
+      "en": 507982,
+      "tr": 12189
+    },
+    "total": 605494
+  },
+  "audi-a6": {
+    "titles": {
+      "en": "Audi A6",
+      "tr": "Audi A6"
+    },
+    "views": {
+      "en": 434065,
+      "tr": 10951
+    },
+    "total": 521673
+  },
+  "audi-q7": {
+    "titles": {
+      "en": "Audi Q7",
+      "tr": "Audi Q7"
+    },
+    "views": {
+      "en": 262920,
+      "tr": 4814
+    },
+    "total": 301432
+  },
+  "audi-e-tron": {
+    "titles": {
+      "en": "Audi e-tron",
+      "tr": "Audi e-tron"
+    },
+    "views": {
+      "en": 63490,
+      "tr": 1127
+    },
+    "total": 72506
+  },
+  "volvo-xc60": {
+    "titles": {
+      "en": "Volvo XC60",
+      "tr": "Volvo XC60"
+    },
+    "views": {
+      "en": 208084,
+      "tr": 2671
+    },
+    "total": 229452
+  },
+  "volvo-xc90": {
+    "titles": {
+      "en": "Volvo XC90",
+      "tr": "Volvo XC90"
+    },
+    "views": {
+      "en": 295391,
+      "tr": 5788
+    },
+    "total": 341695
+  },
+  "volvo-s60": {
+    "titles": {
+      "en": "Volvo S60",
+      "tr": "Volvo S60"
+    },
+    "views": {
+      "en": 253828,
+      "tr": 6870
+    },
+    "total": 308788
+  },
+  "volvo-ex30": {
+    "titles": {
+      "en": "Volvo EX30",
+      "tr": "Volvo EX30"
+    },
+    "views": {
+      "en": 76883,
+      "tr": 1188
+    },
+    "total": 86387
+  },
+  "land-rover-discovery-sport": {
+    "titles": {
+      "en": "Land Rover Discovery Sport",
+      "tr": "Land Rover Discovery Sport"
+    },
+    "views": {
+      "en": 82061,
+      "tr": 671
+    },
+    "total": 87429
+  },
+  "land-rover-range-rover": {
+    "titles": {
+      "en": "Range Rover",
+      "tr": "Range Rover Velar"
+    },
+    "views": {
+      "en": 520864,
+      "tr": 1547
+    },
+    "total": 533240
+  },
+  "land-rover-range-rover-velar": {
+    "titles": {
+      "en": "Range Rover Velar",
+      "tr": "Range Rover Velar"
+    },
+    "views": {
+      "en": 99714,
+      "tr": 1547
+    },
+    "total": 112090
+  },
+  "porsche-cayenne": {
+    "titles": {
+      "en": "Porsche Cayenne",
+      "tr": "Porsche Cayenne"
+    },
+    "views": {
+      "en": 545285,
+      "tr": 2956
+    },
+    "total": 568933
+  },
+  "porsche-macan": {
+    "titles": {
+      "en": "Porsche Macan",
+      "tr": "Porsche Macan"
+    },
+    "views": {
+      "en": 263179,
+      "tr": 1243
+    },
+    "total": 273123
+  },
+  "porsche-taycan": {
+    "titles": {
+      "en": "Porsche Taycan",
+      "tr": "Porsche Taycan"
+    },
+    "views": {
+      "en": 207627,
+      "tr": 5096
+    },
+    "total": 248395
+  },
+  "porsche-panamera": {
+    "titles": {
+      "en": "Porsche Panamera",
+      "tr": "Porsche Panamera"
+    },
+    "views": {
+      "en": 312254,
+      "tr": 2452
+    },
+    "total": 331870
+  },
+  "mitsubishi-outlander": {
+    "titles": {
+      "en": "Mitsubishi Outlander",
+      "tr": "Mitsubishi Outlander"
+    },
+    "views": {
+      "en": 254934,
+      "tr": 857
+    },
+    "total": 261790
+  },
+  "mitsubishi-asx": {
+    "titles": {
+      "en": "Mitsubishi ASX",
+      "tr": "Mitsubishi ASX"
+    },
+    "views": {
+      "en": 114012,
+      "tr": 2363
+    },
+    "total": 132916
+  },
+  "mitsubishi-eclipse-cross": {
+    "titles": {
+      "en": "Mitsubishi Eclipse Cross",
+      "tr": "Mitsubishi Eclipse Cross"
+    },
+    "views": {
+      "en": 71739,
+      "tr": 693
+    },
+    "total": 77283
+  },
+  "mitsubishi-xpander": {
+    "titles": {
+      "en": "Mitsubishi Xpander",
+      "tr": "Mitsubishi Motors"
+    },
+    "views": {
+      "en": 83292,
+      "tr": 7794
+    },
+    "total": 145644
+  },
+  "subaru-outback": {
+    "titles": {
+      "en": "Subaru Outback",
+      "tr": "Crossover (otomobil)"
+    },
+    "views": {
+      "en": 304856,
+      "tr": 2561
+    },
+    "total": 325344
+  },
+  "subaru-xv": {
+    "titles": {
+      "en": "Subaru Crosstrek",
+      "tr": "Mao Ichimichi"
+    },
+    "views": {
+      "en": 179209,
+      "tr": 193
+    },
+    "total": 180753
+  },
+  "subaru-impreza": {
+    "titles": {
+      "en": "Subaru Impreza",
+      "tr": "Subaru Impreza"
+    },
+    "views": {
+      "en": 410920,
+      "tr": 2579
+    },
+    "total": 431552
+  },
+  "seat-arona": {
+    "titles": {
+      "en": "SEAT Arona",
+      "tr": "SEAT Arona"
+    },
+    "views": {
+      "en": 53815,
+      "tr": 387
+    },
+    "total": 56911
+  },
+  "seat-ateca": {
+    "titles": {
+      "en": "SEAT Ateca",
+      "tr": "SEAT Ateca"
+    },
+    "views": {
+      "en": 52087,
+      "tr": 2431
+    },
+    "total": 71535
+  },
+  "seat-tarraco": {
+    "titles": {
+      "en": "SEAT Tarraco",
+      "tr": "SEAT Tarraco"
+    },
+    "views": {
+      "en": 29475,
+      "tr": 1003
+    },
+    "total": 37499
+  },
+  "cupra-born": {
+    "titles": {
+      "en": "Cupra Born",
+      "tr": "Cupra Born"
+    },
+    "views": {
+      "en": 54022,
+      "tr": 1998
+    },
+    "total": 70006
+  },
+  "cupra-tavascan": {
+    "titles": {
+      "en": "Cupra Tavascan",
+      "tr": "Cupra Tavascan"
+    },
+    "views": {
+      "en": 43919,
+      "tr": 840
+    },
+    "total": 50639
+  },
+  "cupra-terramar": {
+    "titles": {
+      "en": "Cupra Terramar",
+      "tr": "Cupra Terramar"
+    },
+    "views": {
+      "en": 52744,
+      "tr": 2520
+    },
+    "total": 72904
+  },
+  "alfa-romeo-stelvio": {
+    "titles": {
+      "en": "Alfa Romeo Stelvio",
+      "tr": "Alfa Romeo Stelvio"
+    },
+    "views": {
+      "en": 85636,
+      "tr": 1488
+    },
+    "total": 97540
+  },
+  "alfa-romeo-tonale": {
+    "titles": {
+      "en": "Alfa Romeo Tonale",
+      "tr": "Alfa Romeo"
+    },
+    "views": {
+      "en": 81494,
+      "tr": 12875
+    },
+    "total": 184494
+  },
+  "alfa-romeo-giulietta": {
+    "titles": {
+      "en": "Alfa Romeo Giulietta (2010)",
+      "tr": "Alfa Romeo Giulietta (1954)"
+    },
+    "views": {
+      "en": 48696,
+      "tr": 298
+    },
+    "total": 51080
+  },
+  "jaguar-e-pace": {
+    "titles": {
+      "en": "Jaguar E-Pace",
+      "tr": "Jaguar Cars"
+    },
+    "views": {
+      "en": 40108,
+      "tr": 8782
+    },
+    "total": 110364
+  },
+  "jaguar-f-type": {
+    "titles": {
+      "en": "Jaguar F-Type",
+      "tr": "Jaguar F-Type"
+    },
+    "views": {
+      "en": 202243,
+      "tr": 417
+    },
+    "total": 205579
+  },
+  "jaguar-i-pace": {
+    "titles": {
+      "en": "Jaguar I-Pace",
+      "tr": "Jaguar I-Pace"
+    },
+    "views": {
+      "en": 71055,
+      "tr": 718
+    },
+    "total": 76799
+  },
+  "chery-tiggo-2": {
+    "titles": {
+      "en": "Chery Tiggo",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 48318,
+      "tr": 1095
+    },
+    "total": 57078
+  },
+  "chery-tiggo-3": {
+    "titles": {
+      "en": "Chery Tiggo",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 48318,
+      "tr": 2174
+    },
+    "total": 65710
+  },
+  "mg-mg3": {
+    "titles": {
+      "en": "MG3 (automobile)",
+      "tr": "Rheinmetall MG3"
+    },
+    "views": {
+      "en": 55255,
+      "tr": 22485
+    },
+    "total": 235135
+  },
+  "mg-mg5": {
+    "titles": {
+      "en": "MG5 (automobile)",
+      "tr": "MG Cars"
+    },
+    "views": {
+      "en": 53818,
+      "tr": 19786
+    },
+    "total": 212106
+  },
+  "mg-hs": {
+    "titles": {
+      "en": "MG HS",
+      "tr": "MG Cars"
+    },
+    "views": {
+      "en": 75268,
+      "tr": 19786
+    },
+    "total": 233556
+  },
+  "mg-mg4": {
+    "titles": {
+      "en": "MG4 EV",
+      "tr": "Hafif makineli silah"
+    },
+    "views": {
+      "en": 71237,
+      "tr": 4724
+    },
+    "total": 109029
+  },
+  "byd-atto-3": {
+    "titles": {
+      "en": "BYD Atto 3",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 106596,
+      "tr": 20709
+    },
+    "total": 272268
+  },
+  "byd-dolphin": {
+    "titles": {
+      "en": "BYD Dolphin",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 88740,
+      "tr": 20709
+    },
+    "total": 254412
+  },
+  "byd-song": {
+    "titles": {
+      "en": "BYD Song",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 30202,
+      "tr": 20709
+    },
+    "total": 195874
+  },
+  "byd-tang": {
+    "titles": {
+      "en": "BYD Tang",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 40470,
+      "tr": 20709
+    },
+    "total": 206142
+  },
+  "tesla-model-y": {
+    "titles": {
+      "en": "Tesla Model Y",
+      "tr": "Tesla Model Y"
+    },
+    "views": {
+      "en": 393447,
+      "tr": 9378
+    },
+    "total": 468471
+  },
+  "tesla-model-s": {
+    "titles": {
+      "en": "Tesla Model S",
+      "tr": "Tesla Model S"
+    },
+    "views": {
+      "en": 270350,
+      "tr": 4101
+    },
+    "total": 303158
+  },
+  "tesla-model-x": {
+    "titles": {
+      "en": "Tesla Model X",
+      "tr": "Tesla Model X"
+    },
+    "views": {
+      "en": 181886,
+      "tr": 1662
+    },
+    "total": 195182
+  },
+  "isuzu-mu-x": {
+    "titles": {
+      "en": "Isuzu MU-X",
+      "tr": "Isuzu D-Max"
+    },
+    "views": {
+      "en": 78261,
+      "tr": 1184
+    },
+    "total": 87733
+  },
+  "jac-js4": {
+    "titles": {
+      "en": "Sehol X4",
+      "tr": "Moskviç"
+    },
+    "views": {
+      "en": 6891,
+      "tr": 2427
+    },
+    "total": 26307
+  },
+  "jac-js8": {
+    "titles": {
+      "en": "JAC X8"
+    },
+    "views": {
+      "en": 6545
+    },
+    "total": 6545
+  },
+  "omoda-7": {
+    "titles": {
+      "en": "Omoda C7",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 28409,
+      "tr": 3587
+    },
+    "total": 57105
+  },
+  "gwm-haval-h6": {
+    "titles": {
+      "en": "Haval H6",
+      "tr": "Haval"
+    },
+    "views": {
+      "en": 75090,
+      "tr": 2070
+    },
+    "total": 91650
+  },
+  "gwm-haval-dargo": {
+    "titles": {
+      "en": "Haval Jolion"
+    },
+    "views": {
+      "en": 48727
+    },
+    "total": 48727
+  },
+  "karsan-atak": {
+    "titles": {
+      "en": "Karsan",
+      "tr": "Karsan Atak"
+    },
+    "views": {
+      "en": 14944,
+      "tr": 2356
+    },
+    "total": 33792
+  },
+  "212-t01": {
+    "titles": {
+      "en": "212 T01",
+      "tr": "Tek çenekliler"
+    },
+    "views": {
+      "en": 24422,
+      "tr": 2743
+    },
+    "total": 46366
+  },
+  "abarth-124-spider": {
+    "titles": {
+      "en": "Fiat 124 Spider (2016)",
+      "tr": "Raffaele Pinto"
+    },
+    "views": {
+      "en": 78840,
+      "tr": 33
+    },
+    "total": 79104
+  },
+  "abarth-500": {
+    "titles": {
+      "en": "Abarth 500",
+      "tr": "Fiat 500"
+    },
+    "views": {
+      "en": 27395,
+      "tr": 4970
+    },
+    "total": 67155
+  },
+  "abarth-595": {
+    "titles": {
+      "en": "Fiat 500 (2007)"
+    },
+    "views": {
+      "en": 169346
+    },
+    "total": 169346
+  },
+  "abarth-600": {
+    "titles": {
+      "en": "Fiat 600 (2023)",
+      "tr": "Fiat 500"
+    },
+    "views": {
+      "en": 41141,
+      "tr": 4970
+    },
+    "total": 80901
+  },
+  "abarth-695": {
+    "titles": {
+      "en": "Fiat 500"
+    },
+    "views": {
+      "en": 207407
+    },
+    "total": 207407
+  },
+  "abarth-fastback": {
+    "titles": {
+      "en": "Fiat Fastback"
+    },
+    "views": {
+      "en": 23751
+    },
+    "total": 23751
+  },
+  "abarth-pulse": {
+    "titles": {
+      "en": "Fiat Pulse"
+    },
+    "views": {
+      "en": 20086
+    },
+    "total": 20086
+  },
+  "abarth-punto": {
+    "titles": {
+      "en": "Fiat Punto",
+      "tr": "Fiat Grande Punto"
+    },
+    "views": {
+      "en": 121861,
+      "tr": 4674
+    },
+    "total": 159253
+  },
+  "ac-ace": {
+    "titles": {
+      "en": "AC Ace",
+      "tr": "AC Cobra"
+    },
+    "views": {
+      "en": 32010,
+      "tr": 1368
+    },
+    "total": 42954
+  },
+  "ac-aceca": {
+    "titles": {
+      "en": "AC Aceca",
+      "tr": "Araba SOS bölümleri listesi"
+    },
+    "views": {
+      "en": 14045,
+      "tr": 106
+    },
+    "total": 14893
+  },
+  "ac-cobra": {
+    "titles": {
+      "en": "AC Cobra",
+      "tr": "AC Cobra"
+    },
+    "views": {
+      "en": 315945,
+      "tr": 1368
+    },
+    "total": 326889
+  },
+  "ac-cobra-gt-roadster": {
+    "titles": {
+      "en": "AC Cobra GT",
+      "tr": "Asphalt 8: Airborne"
+    },
+    "views": {
+      "en": 984,
+      "tr": 967
+    },
+    "total": 8720
+  },
+  "acura-adx": {
+    "titles": {
+      "en": "Acura ADX"
+    },
+    "views": {
+      "en": 51547
+    },
+    "total": 51547
+  },
+  "acura-cl": {
+    "titles": {
+      "en": "Acura CL",
+      "tr": "Acura"
+    },
+    "views": {
+      "en": 30711,
+      "tr": 7700
+    },
+    "total": 92311
+  },
+  "acura-csx": {
+    "titles": {
+      "en": "Acura CSX",
+      "tr": "Acura CSX"
+    },
+    "views": {
+      "en": 37333,
+      "tr": 527
+    },
+    "total": 41549
+  },
+  "acura-el": {
+    "titles": {
+      "en": "Acura EL",
+      "tr": "Acura CSX"
+    },
+    "views": {
+      "en": 24519,
+      "tr": 527
+    },
+    "total": 28735
+  },
+  "acura-ilx": {
+    "titles": {
+      "en": "Acura ILX",
+      "tr": "Honda Integra"
+    },
+    "views": {
+      "en": 68874,
+      "tr": 819
+    },
+    "total": 75426
+  },
+  "acura-integra": {
+    "titles": {
+      "en": "Honda Integra",
+      "tr": "Honda Integra"
+    },
+    "views": {
+      "en": 252217,
+      "tr": 819
+    },
+    "total": 258769
+  },
+  "acura-mdx": {
+    "titles": {
+      "en": "Acura MDX",
+      "tr": "Acura MDX"
+    },
+    "views": {
+      "en": 164463,
+      "tr": 820
+    },
+    "total": 171023
+  },
+  "acura-nsx": {
+    "titles": {
+      "en": "Honda NSX",
+      "tr": "Honda NSX"
+    },
+    "views": {
+      "en": 336850,
+      "tr": 4401
+    },
+    "total": 372058
+  },
+  "acura-rdx": {
+    "titles": {
+      "en": "Acura RDX",
+      "tr": "Acura RDX"
+    },
+    "views": {
+      "en": 118712,
+      "tr": 571
+    },
+    "total": 123280
+  },
+  "acura-rl": {
+    "titles": {
+      "en": "Acura RL",
+      "tr": "Acura"
+    },
+    "views": {
+      "en": 53696,
+      "tr": 7700
+    },
+    "total": 115296
+  },
+  "acura-rlx": {
+    "titles": {
+      "en": "Acura RLX"
+    },
+    "views": {
+      "en": 49146
+    },
+    "total": 49146
+  },
+  "acura-rsx": {
+    "titles": {
+      "en": "Acura RSX",
+      "tr": "Acura"
+    },
+    "views": {
+      "en": 71082,
+      "tr": 7700
+    },
+    "total": 132682
+  },
+  "acura-slx": {
+    "titles": {
+      "en": "Isuzu Trooper",
+      "tr": "Acura MDX"
+    },
+    "views": {
+      "en": 140266,
+      "tr": 820
+    },
+    "total": 146826
+  },
+  "acura-tl": {
+    "titles": {
+      "en": "Acura TL",
+      "tr": "Acura"
+    },
+    "views": {
+      "en": 121404,
+      "tr": 7700
+    },
+    "total": 183004
+  },
+  "acura-tlx": {
+    "titles": {
+      "en": "Acura TLX",
+      "tr": "Kompakt üst sınıf otomobil"
+    },
+    "views": {
+      "en": 143842,
+      "tr": 1317
+    },
+    "total": 154378
+  },
+  "acura-tsx": {
+    "titles": {
+      "en": "Acura TSX",
+      "tr": "Acura"
+    },
+    "views": {
+      "en": 115487,
+      "tr": 7700
+    },
+    "total": 177087
+  },
+  "acura-zdx": {
+    "titles": {
+      "en": "Acura ZDX"
+    },
+    "views": {
+      "en": 73197
+    },
+    "total": 73197
+  },
+  "aeolus-ax7": {
+    "titles": {
+      "en": "Aeolus AX7",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 5455,
+      "tr": 558
+    },
+    "total": 9919
+  },
+  "aeolus-e70": {
+    "titles": {
+      "en": "Aeolus A60",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 7332,
+      "tr": 558
+    },
+    "total": 11796
+  },
+  "aeolus-haohan": {
+    "titles": {
+      "en": "Aeolus Haohan",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 10652,
+      "tr": 558
+    },
+    "total": 15116
+  },
+  "aeolus-haoji": {
+    "titles": {
+      "en": "Aeolus Haoji",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 7233,
+      "tr": 558
+    },
+    "total": 11697
+  },
+  "aeolus-huge": {
+    "titles": {
+      "en": "Aeolus Haoji"
+    },
+    "views": {
+      "en": 7233
+    },
+    "total": 7233
+  },
+  "aeolus-l7": {
+    "titles": {
+      "en": "Aeolus Haohan",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 10652,
+      "tr": 558
+    },
+    "total": 15116
+  },
+  "aeolus-mage": {
+    "titles": {
+      "en": "Aeolus Haohan"
+    },
+    "views": {
+      "en": 10652
+    },
+    "total": 10652
+  },
+  "aeolus-shine": {
+    "titles": {
+      "en": "Aeolus Yixuan"
+    },
+    "views": {
+      "en": 9813
+    },
+    "total": 9813
+  },
+  "aeolus-shine-gs": {
+    "titles": {
+      "en": "Aeolus Yixuan GS"
+    },
+    "views": {
+      "en": 4696
+    },
+    "total": 4696
+  },
+  "aeolus-shine-max": {
+    "titles": {
+      "en": "Aeolus Yixuan Max"
+    },
+    "views": {
+      "en": 5822
+    },
+    "total": 5822
+  },
+  "aeolus-sky-ev01": {
+    "titles": {
+      "en": "Aeolus Haohan",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 10652,
+      "tr": 558
+    },
+    "total": 15116
+  },
+  "aeolus-yixuan": {
+    "titles": {
+      "en": "Aeolus Yixuan",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 9813,
+      "tr": 558
+    },
+    "total": 14277
+  },
+  "aeolus-yixuan-gs": {
+    "titles": {
+      "en": "Aeolus Yixuan GS",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 4696,
+      "tr": 558
+    },
+    "total": 9160
+  },
+  "aeolus-yixuan-max": {
+    "titles": {
+      "en": "Aeolus Yixuan Max",
+      "tr": "Aeolus"
+    },
+    "views": {
+      "en": 5822,
+      "tr": 558
+    },
+    "total": 10286
+  },
+  "aion-es": {
+    "titles": {
+      "en": "Aion S",
+      "tr": "Views"
+    },
+    "views": {
+      "en": 13736,
+      "tr": 257
+    },
+    "total": 15792
+  },
+  "aion-lx": {
+    "titles": {
+      "en": "Aion LX"
+    },
+    "views": {
+      "en": 5099
+    },
+    "total": 5099
+  },
+  "aion-n60": {
+    "titles": {
+      "en": "Aion N60"
+    },
+    "views": {
+      "en": 3485
+    },
+    "total": 3485
+  },
+  "aion-rt": {
+    "titles": {
+      "en": "Aion RT"
+    },
+    "views": {
+      "en": 5705
+    },
+    "total": 5705
+  },
+  "aion-s": {
+    "titles": {
+      "en": "Aion S",
+      "tr": "Aion (mitoloji)"
+    },
+    "views": {
+      "en": 13736,
+      "tr": 1227
+    },
+    "total": 23552
+  },
+  "aion-ut": {
+    "titles": {
+      "en": "Aion UT"
+    },
+    "views": {
+      "en": 23166
+    },
+    "total": 23166
+  },
+  "aion-v": {
+    "titles": {
+      "en": "Aion V",
+      "tr": "Dead Can Dance"
+    },
+    "views": {
+      "en": 38407,
+      "tr": 883
+    },
+    "total": 45471
+  },
+  "aion-y": {
+    "titles": {
+      "en": "Aion Y",
+      "tr": "Views"
+    },
+    "views": {
+      "en": 17581,
+      "tr": 257
+    },
+    "total": 19637
+  },
+  "aistaland-gt7": {
+    "titles": {
+      "en": "Aistaland GT7"
+    },
+    "views": {
+      "en": 7522
+    },
+    "total": 7522
+  },
+  "aito-5": {
+    "titles": {
+      "en": "AITO M7",
+      "tr": "Suitcase (dergi)"
+    },
+    "views": {
+      "en": 17935,
+      "tr": 52
+    },
+    "total": 18351
+  },
+  "aito-7": {
+    "titles": {
+      "en": "AITO M7",
+      "tr": "Gregor Kiczales"
+    },
+    "views": {
+      "en": 17935,
+      "tr": 61
+    },
+    "total": 18423
+  },
+  "aito-8": {
+    "titles": {
+      "en": "AITO M7",
+      "tr": "AITO"
+    },
+    "views": {
+      "en": 17935,
+      "tr": 535
+    },
+    "total": 22215
+  },
+  "aito-9": {
+    "titles": {
+      "en": "AITO M9",
+      "tr": "Suitcase (dergi)"
+    },
+    "views": {
+      "en": 44885,
+      "tr": 52
+    },
+    "total": 45301
+  },
+  "aito-m5": {
+    "titles": {
+      "en": "AITO M5",
+      "tr": "AITO"
+    },
+    "views": {
+      "en": 15331,
+      "tr": 535
+    },
+    "total": 19611
+  },
+  "aito-m6": {
+    "titles": {
+      "en": "AITO M6",
+      "tr": "Haval"
+    },
+    "views": {
+      "en": 6966,
+      "tr": 2070
+    },
+    "total": 23526
+  },
+  "aito-m7": {
+    "titles": {
+      "en": "AITO M7",
+      "tr": "AITO"
+    },
+    "views": {
+      "en": 17935,
+      "tr": 535
+    },
+    "total": 22215
+  },
+  "aito-m8": {
+    "titles": {
+      "en": "AITO M8",
+      "tr": "AITO"
+    },
+    "views": {
+      "en": 16154,
+      "tr": 535
+    },
+    "total": 20434
+  },
+  "aito-m9": {
+    "titles": {
+      "en": "AITO M9",
+      "tr": "AITO"
+    },
+    "views": {
+      "en": 44885,
+      "tr": 535
+    },
+    "total": 49165
+  },
+  "aiways-u5": {
+    "titles": {
+      "en": "Aiways U5",
+      "tr": "Aiways"
+    },
+    "views": {
+      "en": 6012,
+      "tr": 11
+    },
+    "total": 6100
+  },
+  "aiways-u6": {
+    "titles": {
+      "en": "Aiways U6",
+      "tr": "Aiways"
+    },
+    "views": {
+      "en": 2864,
+      "tr": 11
+    },
+    "total": 2952
+  },
+  "aixam-ambition": {
+    "titles": {
+      "en": "List of battery electric vehicles"
+    },
+    "views": {
+      "en": 69727
+    },
+    "total": 69727
+  },
+  "aixam-eaixam": {
+    "titles": {
+      "en": "Aixam City"
+    },
+    "views": {
+      "en": 7180
+    },
+    "total": 7180
+  },
+  "aixam-emotion": {
+    "titles": {
+      "en": "Aixam"
+    },
+    "views": {
+      "en": 39820
+    },
+    "total": 39820
+  },
+  "aixam-minauto": {
+    "titles": {
+      "en": "Aixam"
+    },
+    "views": {
+      "en": 39820
+    },
+    "total": 39820
+  },
+  "aixam-sensation": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "alfa-romeo-145": {
+    "titles": {
+      "en": "Alfa Romeo 145 and 146",
+      "tr": "Alfa Romeo 145"
+    },
+    "views": {
+      "en": 25974,
+      "tr": 861
+    },
+    "total": 32862
+  },
+  "alfa-romeo-146": {
+    "titles": {
+      "en": "Alfa Romeo 145 and 146",
+      "tr": "Alfa Romeo 145"
+    },
+    "views": {
+      "en": 25974,
+      "tr": 861
+    },
+    "total": 32862
+  },
+  "alfa-romeo-147": {
+    "titles": {
+      "en": "Alfa Romeo 147",
+      "tr": "Alfa Romeo 147"
+    },
+    "views": {
+      "en": 52039,
+      "tr": 2219
+    },
+    "total": 69791
+  },
+  "alfa-romeo-155": {
+    "titles": {
+      "en": "Alfa Romeo 155",
+      "tr": "Alfa Romeo 155"
+    },
+    "views": {
+      "en": 61257,
+      "tr": 1216
+    },
+    "total": 70985
+  },
+  "alfa-romeo-156": {
+    "titles": {
+      "en": "Alfa Romeo 156",
+      "tr": "Alfa Romeo 156"
+    },
+    "views": {
+      "en": 85350,
+      "tr": 3034
+    },
+    "total": 109622
+  },
+  "alfa-romeo-159": {
+    "titles": {
+      "en": "Alfa Romeo 159",
+      "tr": "Alfa Romeo 159"
+    },
+    "views": {
+      "en": 96530,
+      "tr": 2620
+    },
+    "total": 117490
+  },
+  "alfa-romeo-164": {
+    "titles": {
+      "en": "Alfa Romeo 164",
+      "tr": "Alfa Romeo 164"
+    },
+    "views": {
+      "en": 60311,
+      "tr": 863
+    },
+    "total": 67215
+  },
+  "alfa-romeo-166": {
+    "titles": {
+      "en": "Alfa Romeo 166",
+      "tr": "Alfa Romeo 166"
+    },
+    "views": {
+      "en": 35672,
+      "tr": 1050
+    },
+    "total": 44072
+  },
+  "alfa-romeo-1750-2000": {
+    "titles": {
+      "en": "Alfa Romeo 1750 Berlina",
+      "tr": "Alfa Romeo 1750"
+    },
+    "views": {
+      "en": 12465,
+      "tr": 202
+    },
+    "total": 14081
+  },
+  "alfa-romeo-33": {
+    "titles": {
+      "en": "Alfa Romeo 33",
+      "tr": "Alfa Romeo 33"
+    },
+    "views": {
+      "en": 37201,
+      "tr": 661
+    },
+    "total": 42489
+  },
+  "alfa-romeo-33-stradale": {
+    "titles": {
+      "en": "Alfa Romeo 33 Stradale",
+      "tr": "Alfa Romeo"
+    },
+    "views": {
+      "en": 81022,
+      "tr": 12875
+    },
+    "total": 184022
+  },
+  "alfa-romeo-4c": {
+    "titles": {
+      "en": "Alfa Romeo 4C",
+      "tr": "Alfa Romeo 4C"
+    },
+    "views": {
+      "en": 95808,
+      "tr": 1456
+    },
+    "total": 107456
+  },
+  "alfa-romeo-6": {
+    "titles": {
+      "en": "Alfa Romeo Alfa 6",
+      "tr": "Alfa Romeo Alfa 6"
+    },
+    "views": {
+      "en": 17751,
+      "tr": 168
+    },
+    "total": 19095
+  },
+  "alfa-romeo-75": {
+    "titles": {
+      "en": "Alfa Romeo 75",
+      "tr": "Alfa Romeo 75"
+    },
+    "views": {
+      "en": 47375,
+      "tr": 633
+    },
+    "total": 52439
+  },
+  "alfa-romeo-8c-competizione": {
+    "titles": {
+      "en": "Alfa Romeo 8C Competizione",
+      "tr": "Alfa Romeo 8C Competizione"
+    },
+    "views": {
+      "en": 60019,
+      "tr": 1405
+    },
+    "total": 71259
+  },
+  "alfa-romeo-90": {
+    "titles": {
+      "en": "Alfa Romeo 90",
+      "tr": "Alfa Romeo 90"
+    },
+    "views": {
+      "en": 15355,
+      "tr": 382
+    },
+    "total": 18411
+  },
+  "alfa-romeo-alfasud": {
+    "titles": {
+      "en": "Alfa Romeo Alfasud",
+      "tr": "Alfa Romeo Alfasud"
+    },
+    "views": {
+      "en": 36289,
+      "tr": 649
+    },
+    "total": 41481
+  },
+  "alfa-romeo-alfetta": {
+    "titles": {
+      "en": "Alfa Romeo Alfetta",
+      "tr": "Alfa Romeo Alfetta"
+    },
+    "views": {
+      "en": 71802,
+      "tr": 754
+    },
+    "total": 77834
+  },
+  "alfa-romeo-arna": {
+    "titles": {
+      "en": "Alfa Romeo Arna",
+      "tr": "Alfa Romeo Arna"
+    },
+    "views": {
+      "en": 15642,
+      "tr": 171
+    },
+    "total": 17010
+  },
+  "alfa-romeo-brera": {
+    "titles": {
+      "en": "Alfa Romeo Brera and Spider",
+      "tr": "Alfa Romeo Brera"
+    },
+    "views": {
+      "en": 58436,
+      "tr": 1401
+    },
+    "total": 69644
+  },
+  "alfa-romeo-gt": {
+    "titles": {
+      "en": "Alfa Romeo GT",
+      "tr": "Alfa Romeo GT"
+    },
+    "views": {
+      "en": 35817,
+      "tr": 995
+    },
+    "total": 43777
+  },
+  "alfa-romeo-gta-coupe": {
+    "titles": {
+      "en": "Alfa Romeo GTA",
+      "tr": "Alfa Romeo Alfetta"
+    },
+    "views": {
+      "en": 28626,
+      "tr": 754
+    },
+    "total": 34658
+  },
+  "alfa-romeo-gtv": {
+    "titles": {
+      "en": "Alfa Romeo GTV and Spider",
+      "tr": "Alfa Romeo GTV"
+    },
+    "views": {
+      "en": 61404,
+      "tr": 577
+    },
+    "total": 66020
+  },
+  "alfa-romeo-junior": {
+    "titles": {
+      "en": "Alfa Romeo 105/115 Series Coupés",
+      "tr": "Alfa Romeo"
+    },
+    "views": {
+      "en": 65467,
+      "tr": 12875
+    },
+    "total": 168467
+  },
+  "alfa-romeo-mito": {
+    "titles": {
+      "en": "Alfa Romeo MiTo",
+      "tr": "Alfa Romeo MiTo"
+    },
+    "views": {
+      "en": 52528,
+      "tr": 1247
+    },
+    "total": 62504
+  },
+  "alfa-romeo-montreal": {
+    "titles": {
+      "en": "Alfa Romeo Montreal",
+      "tr": "Alfa Romeo Montreal"
+    },
+    "views": {
+      "en": 43214,
+      "tr": 569
+    },
+    "total": 47766
+  },
+  "alfa-romeo-rz": {
+    "titles": {
+      "en": "Alfa Romeo SZ",
+      "tr": "Alfa Romeo SZ"
+    },
+    "views": {
+      "en": 29978,
+      "tr": 1099
+    },
+    "total": 38770
+  },
+  "alfa-romeo-spider": {
+    "titles": {
+      "en": "Alfa Romeo Spider",
+      "tr": "Alfa Romeo Spider"
+    },
+    "views": {
+      "en": 92995,
+      "tr": 777
+    },
+    "total": 99211
+  },
+  "alfa-romeo-sz": {
+    "titles": {
+      "en": "Alfa Romeo SZ",
+      "tr": "Alfa Romeo SZ"
+    },
+    "views": {
+      "en": 29978,
+      "tr": 1099
+    },
+    "total": 38770
+  },
+  "alpina-b10": {
+    "titles": {
+      "en": "Alpina B10 Bi-Turbo",
+      "tr": "BMW M62"
+    },
+    "views": {
+      "en": 18012,
+      "tr": 3424
+    },
+    "total": 45404
+  },
+  "alpina-b11": {
+    "titles": {
+      "en": "BMW 7 Series (E32)",
+      "tr": "BMW 7 Serisi"
+    },
+    "views": {
+      "en": 95151,
+      "tr": 7537
+    },
+    "total": 155447
+  },
+  "alpina-b12": {
+    "titles": {
+      "en": "Alpina B12",
+      "tr": "BMW 8 Serisi (E31)"
+    },
+    "views": {
+      "en": 40417,
+      "tr": 2661
+    },
+    "total": 61705
+  },
+  "alpina-b3": {
+    "titles": {
+      "en": "Alpina B3",
+      "tr": "Ben (albüm)"
+    },
+    "views": {
+      "en": 30260,
+      "tr": 736
+    },
+    "total": 36148
+  },
+  "alpina-b4": {
+    "titles": {
+      "en": "Alpina B4",
+      "tr": "B4.DA.$$"
+    },
+    "views": {
+      "en": 17164,
+      "tr": 203
+    },
+    "total": 18788
+  },
+  "alpina-b5": {
+    "titles": {
+      "en": "Alpina B5",
+      "tr": "Ben (albüm)"
+    },
+    "views": {
+      "en": 9185,
+      "tr": 736
+    },
+    "total": 15073
+  },
+  "alpina-b6": {
+    "titles": {
+      "en": "Alpina B6 (F12)",
+      "tr": "Sükse"
+    },
+    "views": {
+      "en": 14834,
+      "tr": 617
+    },
+    "total": 19770
+  },
+  "alpina-b7": {
+    "titles": {
+      "en": "Alpina B7 (G12)",
+      "tr": "Alpina"
+    },
+    "views": {
+      "en": 37990,
+      "tr": 2654
+    },
+    "total": 59222
+  },
+  "alpina-b8": {
+    "titles": {
+      "en": "BMW 8 Series (G15)",
+      "tr": "La Fête à L'Olympia"
+    },
+    "views": {
+      "en": 118030,
+      "tr": 412
+    },
+    "total": 121326
+  },
+  "alpina-c1": {
+    "titles": {
+      "en": "Alpina",
+      "tr": "La Fête à L'Olympia"
+    },
+    "views": {
+      "en": 204705,
+      "tr": 412
+    },
+    "total": 208001
+  },
+  "alpina-c2": {
+    "titles": {
+      "en": "Alpina",
+      "tr": "La Fête à L'Olympia"
+    },
+    "views": {
+      "en": 204705,
+      "tr": 412
+    },
+    "total": 208001
+  },
+  "alpina-d10": {
+    "titles": {
+      "en": "Alpina",
+      "tr": "Cemil Cem"
+    },
+    "views": {
+      "en": 204705,
+      "tr": 1105
+    },
+    "total": 213545
+  },
+  "alpina-d3": {
+    "titles": {
+      "en": "BMW 3 Series (G20)",
+      "tr": "La Fête à L'Olympia"
+    },
+    "views": {
+      "en": 368170,
+      "tr": 412
+    },
+    "total": 371466
+  },
+  "alpina-d4": {
+    "titles": {
+      "en": "Alpina B4",
+      "tr": "Albin Karşı Gambiti"
+    },
+    "views": {
+      "en": 17164,
+      "tr": 93
+    },
+    "total": 17908
+  },
+  "alpina-d5": {
+    "titles": {
+      "en": "Alpina B5 (G30)",
+      "tr": "Satranç açılışı"
+    },
+    "views": {
+      "en": 17038,
+      "tr": 5045
+    },
+    "total": 57398
+  },
+  "alpina-rle-roadster": {
+    "titles": {
+      "en": "Alpina Roadster S"
+    },
+    "views": {
+      "en": 8282
+    },
+    "total": 8282
+  },
+  "alpina-roadster-s": {
+    "titles": {
+      "en": "Alpina Roadster S",
+      "tr": "Almanya'da ulaşım"
+    },
+    "views": {
+      "en": 8282,
+      "tr": 712
+    },
+    "total": 13978
+  },
+  "alpina-roadster-v8": {
+    "titles": {
+      "en": "BMW Z8",
+      "tr": "BMW M62"
+    },
+    "views": {
+      "en": 79242,
+      "tr": 3424
+    },
+    "total": 106634
+  },
+  "alpina-xb7": {
+    "titles": {
+      "en": "BMW X7"
+    },
+    "views": {
+      "en": 154820
+    },
+    "total": 154820
+  },
+  "alpina-xd3": {
+    "titles": {
+      "en": "BMW X3"
+    },
+    "views": {
+      "en": 441167
+    },
+    "total": 441167
+  },
+  "alpina-xd4": {
+    "titles": {
+      "en": "BMW X4"
+    },
+    "views": {
+      "en": 99477
+    },
+    "total": 99477
+  },
+  "alpine-1300": {
+    "titles": {
+      "en": "Alpine A110",
+      "tr": "Konur Alp"
+    },
+    "views": {
+      "en": 125750,
+      "tr": 9365
+    },
+    "total": 200670
+  },
+  "alpine-1600": {
+    "titles": {
+      "en": "Alpine A110",
+      "tr": "Alpine A310"
+    },
+    "views": {
+      "en": 125750,
+      "tr": 532
+    },
+    "total": 130006
+  },
+  "alpine-a110": {
+    "titles": {
+      "en": "Alpine A110",
+      "tr": "Alpine A110"
+    },
+    "views": {
+      "en": 125750,
+      "tr": 981
+    },
+    "total": 133598
+  },
+  "alpine-a290": {
+    "titles": {
+      "en": "Renault 5 E-Tech",
+      "tr": "Alpine (otomobil üreticisi)"
+    },
+    "views": {
+      "en": 105585,
+      "tr": 4810
+    },
+    "total": 144065
+  },
+  "alpine-a310": {
+    "titles": {
+      "en": "Alpine A310",
+      "tr": "Alpine A310"
+    },
+    "views": {
+      "en": 48768,
+      "tr": 532
+    },
+    "total": 53024
+  },
+  "alpine-a390": {
+    "titles": {
+      "en": "Alpine A390",
+      "tr": "Alpine (otomobil üreticisi)"
+    },
+    "views": {
+      "en": 42384,
+      "tr": 4810
+    },
+    "total": 80864
+  },
+  "alpine-a610": {
+    "titles": {
+      "en": "Renault Alpine GTA/A610",
+      "tr": "Renault Alpine GTA/A610"
+    },
+    "views": {
+      "en": 49555,
+      "tr": 349
+    },
+    "total": 52347
+  },
+  "alpine-berlinette": {
+    "titles": {
+      "en": "Berlinette"
+    },
+    "views": {
+      "en": 179
+    },
+    "total": 179
+  },
+  "alpine-gta": {
+    "titles": {
+      "en": "Renault Alpine GTA/A610",
+      "tr": "Renault Alpine GTA/A610"
+    },
+    "views": {
+      "en": 49555,
+      "tr": 349
+    },
+    "total": 52347
+  },
+  "anfini-ms-8": {
+    "titles": {
+      "en": "Ɛ̃fini",
+      "tr": "Suriye"
+    },
+    "views": {
+      "en": 25281,
+      "tr": 211321
+    },
+    "total": 1715849
+  },
+  "apollo-ie": {
+    "titles": {
+      "en": "Apollo Intensa Emozione",
+      "tr": "Finn Bálor"
+    },
+    "views": {
+      "en": 105207,
+      "tr": 1328
+    },
+    "total": 115831
+  },
+  "appollen-a1": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "appollen-a2": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "appollen-s1": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "arcfox-alpha-s5": {
+    "titles": {
+      "en": "Arcfox αS5"
+    },
+    "views": {
+      "en": 6928
+    },
+    "total": 6928
+  },
+  "arcfox-alpha-s6": {
+    "titles": {
+      "en": "Arcfox Alpha-S6"
+    },
+    "views": {
+      "en": 4535
+    },
+    "total": 4535
+  },
+  "arcfox-alpha-t5": {
+    "titles": {
+      "en": "Arcfox αT5"
+    },
+    "views": {
+      "en": 6039
+    },
+    "total": 6039
+  },
+  "arcfox-alpha-s": {
+    "titles": {
+      "en": "Arcfox Alpha-S6"
+    },
+    "views": {
+      "en": 4535
+    },
+    "total": 4535
+  },
+  "arcfox-alpha-t": {
+    "titles": {
+      "en": "Arcfox Alpha-T6"
+    },
+    "views": {
+      "en": 4064
+    },
+    "total": 4064
+  },
+  "arcfox-beta-s3": {
+    "titles": {
+      "en": "Arcfox Beta S3",
+      "tr": "Arcfox"
+    },
+    "views": {
+      "en": 1037,
+      "tr": 13
+    },
+    "total": 1141
+  },
+  "arcfox-ecf": {
+    "titles": {
+      "en": "Arcfox",
+      "tr": "Arcfox"
+    },
+    "views": {
+      "en": 26897,
+      "tr": 13
+    },
+    "total": 27001
+  },
+  "arcfox-gt": {
+    "titles": {
+      "en": "Arcfox",
+      "tr": "Arcfox"
+    },
+    "views": {
+      "en": 26897,
+      "tr": 13
+    },
+    "total": 27001
+  },
+  "arcfox-kaola": {
+    "titles": {
+      "en": "Arcfox Kaola",
+      "tr": "Arcfox"
+    },
+    "views": {
+      "en": 5233,
+      "tr": 13
+    },
+    "total": 5337
+  },
+  "arcfox-t1": {
+    "titles": {
+      "en": "Arcfox Beta T1",
+      "tr": "Arcfox"
+    },
+    "views": {
+      "en": 556,
+      "tr": 13
+    },
+    "total": 660
+  },
+  "aria-fxe": {
+    "titles": {
+      "en": "Aria FXE"
+    },
+    "views": {
+      "en": 3570
+    },
+    "total": 3570
+  },
+  "ariel-atom": {
+    "titles": {
+      "en": "Ariel Atom",
+      "tr": "Ariel Atom"
+    },
+    "views": {
+      "en": 78869,
+      "tr": 304
+    },
+    "total": 81301
+  },
+  "ariel-nomad": {
+    "titles": {
+      "en": "Ariel Motor Company",
+      "tr": "Ariel Motor Company"
+    },
+    "views": {
+      "en": 20952,
+      "tr": 138
+    },
+    "total": 22056
+  },
+  "aro-10": {
+    "titles": {
+      "en": "ARO 10",
+      "tr": "Aron Gunnarsson"
+    },
+    "views": {
+      "en": 18446,
+      "tr": 246
+    },
+    "total": 20414
+  },
+  "aro-24": {
+    "titles": {
+      "en": "ARO 24 Series",
+      "tr": "Raymond Aron"
+    },
+    "views": {
+      "en": 24775,
+      "tr": 797
+    },
+    "total": 31151
+  },
+  "aro-spartana": {
+    "titles": {
+      "en": "ARO 10"
+    },
+    "views": {
+      "en": 18446
+    },
+    "total": 18446
+  },
+  "artega-gt": {
+    "titles": {
+      "en": "Artega GT",
+      "tr": "Asphalt Legends"
+    },
+    "views": {
+      "en": 13892,
+      "tr": 870
+    },
+    "total": 20852
+  },
+  "artega-scalo": {
+    "titles": {
+      "en": "Artega Automobile",
+      "tr": "Asphalt Legends"
+    },
+    "views": {
+      "en": 13978,
+      "tr": 870
+    },
+    "total": 20938
+  },
+  "asia-hi-topic": {
+    "titles": {
+      "en": "Lee Hi",
+      "tr": "Büyük Öğrenme"
+    },
+    "views": {
+      "en": 61255,
+      "tr": 185
+    },
+    "total": 62735
+  },
+  "asia-retona": {
+    "titles": {
+      "en": "Kia Retona",
+      "tr": "Kaktüsgiller"
+    },
+    "views": {
+      "en": 10641,
+      "tr": 8610
+    },
+    "total": 79521
+  },
+  "asia-rocsta": {
+    "titles": {
+      "en": "Asia Rocsta"
+    },
+    "views": {
+      "en": 10884
+    },
+    "total": 10884
+  },
+  "aspark-owl": {
+    "titles": {
+      "en": "Aspark Owl",
+      "tr": "Asphalt Legends"
+    },
+    "views": {
+      "en": 52966,
+      "tr": 870
+    },
+    "total": 59926
+  },
+  "aston-martin-amv8": {
+    "titles": {
+      "en": "Aston Martin V8"
+    },
+    "views": {
+      "en": 71004
+    },
+    "total": 71004
+  },
+  "aston-martin-bulldog": {
+    "titles": {
+      "en": "Aston Martin Bulldog"
+    },
+    "views": {
+      "en": 21552
+    },
+    "total": 21552
+  },
+  "aston-martin-cygnet": {
+    "titles": {
+      "en": "Toyota iQ",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 95966,
+      "tr": 7245
+    },
+    "total": 153926
+  },
+  "aston-martin-db11": {
+    "titles": {
+      "en": "Aston Martin DB11",
+      "tr": "Aston Martin DB11"
+    },
+    "views": {
+      "en": 159531,
+      "tr": 678
+    },
+    "total": 164955
+  },
+  "aston-martin-db12": {
+    "titles": {
+      "en": "Aston Martin DB12",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 154373,
+      "tr": 7245
+    },
+    "total": 212333
+  },
+  "aston-martin-db4": {
+    "titles": {
+      "en": "Aston Martin DB4",
+      "tr": "Aston Martin DB4"
+    },
+    "views": {
+      "en": 63737,
+      "tr": 334
+    },
+    "total": 66409
+  },
+  "aston-martin-db5": {
+    "titles": {
+      "en": "Aston Martin DB5",
+      "tr": "Aston Martin DB5"
+    },
+    "views": {
+      "en": 225709,
+      "tr": 618
+    },
+    "total": 230653
+  },
+  "aston-martin-db6": {
+    "titles": {
+      "en": "Aston Martin DB6",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 63227,
+      "tr": 7245
+    },
+    "total": 121187
+  },
+  "aston-martin-db7": {
+    "titles": {
+      "en": "Aston Martin DB7",
+      "tr": "Aston Martin DB7"
+    },
+    "views": {
+      "en": 122509,
+      "tr": 286
+    },
+    "total": 124797
+  },
+  "aston-martin-db9": {
+    "titles": {
+      "en": "Aston Martin DB9",
+      "tr": "Aston Martin DB9"
+    },
+    "views": {
+      "en": 168630,
+      "tr": 981
+    },
+    "total": 176478
+  },
+  "aston-martin-dbs": {
+    "titles": {
+      "en": "Aston Martin DBS",
+      "tr": "Aston Martin DBS V12"
+    },
+    "views": {
+      "en": 104846,
+      "tr": 359
+    },
+    "total": 107718
+  },
+  "aston-martin-dbx": {
+    "titles": {
+      "en": "Aston Martin DBX",
+      "tr": "Aston Martin DBX"
+    },
+    "views": {
+      "en": 95960,
+      "tr": 267
+    },
+    "total": 98096
+  },
+  "aston-martin-lagonda": {
+    "titles": {
+      "en": "Aston Martin",
+      "tr": "Aston Martin Lagonda"
+    },
+    "views": {
+      "en": 553649,
+      "tr": 230
+    },
+    "total": 555489
+  },
+  "aston-martin-one-77": {
+    "titles": {
+      "en": "Aston Martin One-77",
+      "tr": "Aston Martin One-77"
+    },
+    "views": {
+      "en": 77664,
+      "tr": 327
+    },
+    "total": 80280
+  },
+  "aston-martin-rapide": {
+    "titles": {
+      "en": "Aston Martin Rapide",
+      "tr": "Aston Martin Rapide"
+    },
+    "views": {
+      "en": 66548,
+      "tr": 616
+    },
+    "total": 71476
+  },
+  "aston-martin-tickford-capri": {
+    "titles": {
+      "en": "Aston Martin",
+      "tr": "Ford Sierra RS Cosworth"
+    },
+    "views": {
+      "en": 553649,
+      "tr": 870
+    },
+    "total": 560609
+  },
+  "aston-martin-v12-vantage": {
+    "titles": {
+      "en": "Aston Martin Vantage (2005)",
+      "tr": "Aston Martin V12 Vantage"
+    },
+    "views": {
+      "en": 113658,
+      "tr": 399
+    },
+    "total": 116850
+  },
+  "aston-martin-v8-vantage": {
+    "titles": {
+      "en": "Aston Martin Vantage (2005)",
+      "tr": "Aston Martin V8 Vantage"
+    },
+    "views": {
+      "en": 113658,
+      "tr": 348
+    },
+    "total": 116442
+  },
+  "aston-martin-valhalla": {
+    "titles": {
+      "en": "Aston Martin Valhalla",
+      "tr": "Aston Martin Valhalla"
+    },
+    "views": {
+      "en": 144694,
+      "tr": 422
+    },
+    "total": 148070
+  },
+  "aston-martin-valiant": {
+    "titles": {
+      "en": "Aston Martin Valour"
+    },
+    "views": {
+      "en": 42635
+    },
+    "total": 42635
+  },
+  "aston-martin-valkyrie": {
+    "titles": {
+      "en": "Aston Martin Valkyrie",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 183654,
+      "tr": 7245
+    },
+    "total": 241614
+  },
+  "aston-martin-valour": {
+    "titles": {
+      "en": "Aston Martin Valour",
+      "tr": "Asphalt Legends"
+    },
+    "views": {
+      "en": 42635,
+      "tr": 870
+    },
+    "total": 49595
+  },
+  "aston-martin-vanquish": {
+    "titles": {
+      "en": "Aston Martin Vanquish",
+      "tr": "Aston Martin Vanquish"
+    },
+    "views": {
+      "en": 210480,
+      "tr": 607
+    },
+    "total": 215336
+  },
+  "aston-martin-virage": {
+    "titles": {
+      "en": "Aston Martin Virage",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 114035,
+      "tr": 7245
+    },
+    "total": 171995
+  },
+  "aston-martin-zagato": {
+    "titles": {
+      "en": "Aston Martin V12 Zagato",
+      "tr": "Aston Martin"
+    },
+    "views": {
+      "en": 24334,
+      "tr": 7245
+    },
+    "total": 82294
+  },
+  "astro-11301": {
+    "titles": {
+      "en": "Oka (automobile)"
+    },
+    "views": {
+      "en": 25445
+    },
+    "total": 25445
+  },
+  "audi-100": {
+    "titles": {
+      "en": "Audi 100",
+      "tr": "Audi 100"
+    },
+    "views": {
+      "en": 170202,
+      "tr": 1574
+    },
+    "total": 182794
+  },
+  "audi-200": {
+    "titles": {
+      "en": "Audi 100",
+      "tr": "Audi TT"
+    },
+    "views": {
+      "en": 170202,
+      "tr": 5205
+    },
+    "total": 211842
+  },
+  "audi-50": {
+    "titles": {
+      "en": "Audi 50",
+      "tr": "Audi 50"
+    },
+    "views": {
+      "en": 25087,
+      "tr": 229
+    },
+    "total": 26919
+  },
+  "audi-5000": {
+    "titles": {
+      "en": "Audi 100",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 170202,
+      "tr": 26589
+    },
+    "total": 382914
+  },
+  "audi-80": {
+    "titles": {
+      "en": "Audi 80",
+      "tr": "Audi 80"
+    },
+    "views": {
+      "en": 157421,
+      "tr": 2062
+    },
+    "total": 173917
+  },
+  "audi-90": {
+    "titles": {
+      "en": "Audi 80",
+      "tr": "Audi F103"
+    },
+    "views": {
+      "en": 157421,
+      "tr": 259
+    },
+    "total": 159493
+  },
+  "audi-a2": {
+    "titles": {
+      "en": "Audi A2",
+      "tr": "Audi A2"
+    },
+    "views": {
+      "en": 75840,
+      "tr": 1483
+    },
+    "total": 87704
+  },
+  "audi-a5": {
+    "titles": {
+      "en": "Audi A5",
+      "tr": "Audi A5"
+    },
+    "views": {
+      "en": 330561,
+      "tr": 2978
+    },
+    "total": 354385
+  },
+  "audi-a6-e-tron": {
+    "titles": {
+      "en": "Audi A6 e-tron",
+      "tr": "Audi Q6 e-tron"
+    },
+    "views": {
+      "en": 37773,
+      "tr": 861
+    },
+    "total": 44661
+  },
+  "audi-a7": {
+    "titles": {
+      "en": "Audi A7",
+      "tr": "Audi A7"
+    },
+    "views": {
+      "en": 177102,
+      "tr": 2475
+    },
+    "total": 196902
+  },
+  "audi-a8": {
+    "titles": {
+      "en": "Audi A8",
+      "tr": "Audi A8"
+    },
+    "views": {
+      "en": 312923,
+      "tr": 3613
+    },
+    "total": 341827
+  },
+  "audi-aicon": {
+    "titles": {
+      "en": "Audi Pop.Up Next",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 2908,
+      "tr": 26589
+    },
+    "total": 215620
+  },
+  "audi-cabriolet": {
+    "titles": {
+      "en": "Audi Coupé",
+      "tr": "Audi A4"
+    },
+    "views": {
+      "en": 48150,
+      "tr": 12189
+    },
+    "total": 145662
+  },
+  "audi-concept-c": {
+    "titles": {
+      "en": "Audi Concept C",
+      "tr": "Audi R8"
+    },
+    "views": {
+      "en": 6411,
+      "tr": 5810
+    },
+    "total": 52891
+  },
+  "audi-coupe": {
+    "titles": {
+      "en": "Audi Coupé",
+      "tr": "Audi 100 Coupé S"
+    },
+    "views": {
+      "en": 48150,
+      "tr": 322
+    },
+    "total": 50726
+  },
+  "audi-e-tron-gt": {
+    "titles": {
+      "en": "Audi e-tron GT",
+      "tr": "Audi e-tron GT"
+    },
+    "views": {
+      "en": 79265,
+      "tr": 993
+    },
+    "total": 87209
+  },
+  "audi-fox": {
+    "titles": {
+      "en": "Audi 80",
+      "tr": "Audi 80"
+    },
+    "views": {
+      "en": 157421,
+      "tr": 2062
+    },
+    "total": 173917
+  },
+  "audi-nanuk-quattro-concept": {
+    "titles": {
+      "en": "List of Audi concept cars",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 9585,
+      "tr": 26589
+    },
+    "total": 222297
+  },
+  "audi-nsu-ro-80": {
+    "titles": {
+      "en": "NSU Ro 80",
+      "tr": "NSU Ro 80"
+    },
+    "views": {
+      "en": 47305,
+      "tr": 497
+    },
+    "total": 51281
+  },
+  "audi-nuvolari": {
+    "titles": {
+      "en": "Audi Nuvolari",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 28910,
+      "tr": 26589
+    },
+    "total": 241622
+  },
+  "audi-pb18": {
+    "titles": {
+      "en": "Audi AI:RACE",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 2390,
+      "tr": 26589
+    },
+    "total": 215102
+  },
+  "audi-q2": {
+    "titles": {
+      "en": "Audi Q2",
+      "tr": "Audi Q2"
+    },
+    "views": {
+      "en": 65127,
+      "tr": 4461
+    },
+    "total": 100815
+  },
+  "audi-q4-e-tron": {
+    "titles": {
+      "en": "Audi Q4 e-tron",
+      "tr": "Audi Q4 e-tron"
+    },
+    "views": {
+      "en": 57533,
+      "tr": 1127
+    },
+    "total": 66549
+  },
+  "audi-q5-e-tron": {
+    "titles": {
+      "en": "Audi Q5 e-tron",
+      "tr": "Audi e-tron"
+    },
+    "views": {
+      "en": 18786,
+      "tr": 1127
+    },
+    "total": 27802
+  },
+  "audi-q6": {
+    "titles": {
+      "en": "Audi Q6",
+      "tr": "Audi Q6 e-tron"
+    },
+    "views": {
+      "en": 36801,
+      "tr": 861
+    },
+    "total": 43689
+  },
+  "audi-q6-e-tron": {
+    "titles": {
+      "en": "Audi Q6 e-tron",
+      "tr": "Audi Q6 e-tron"
+    },
+    "views": {
+      "en": 36401,
+      "tr": 861
+    },
+    "total": 43289
+  },
+  "audi-q8": {
+    "titles": {
+      "en": "Audi Q8",
+      "tr": "Audi Q8"
+    },
+    "views": {
+      "en": 126480,
+      "tr": 2265
+    },
+    "total": 144600
+  },
+  "audi-q8-e-tron": {
+    "titles": {
+      "en": "Audi Q8 e-tron",
+      "tr": "Audi Q8"
+    },
+    "views": {
+      "en": 44275,
+      "tr": 2265
+    },
+    "total": 62395
+  },
+  "audi-q9": {
+    "titles": {
+      "en": "Audi Q9"
+    },
+    "views": {
+      "en": 25707
+    },
+    "total": 25707
+  },
+  "audi-quattro": {
+    "titles": {
+      "en": "Audi Quattro",
+      "tr": "Audi Quattro"
+    },
+    "views": {
+      "en": 181936,
+      "tr": 3113
+    },
+    "total": 206840
+  },
+  "audi-r8": {
+    "titles": {
+      "en": "Audi R8",
+      "tr": "Audi R8"
+    },
+    "views": {
+      "en": 290830,
+      "tr": 5810
+    },
+    "total": 337310
+  },
+  "audi-rs-e-tron-gt": {
+    "titles": {
+      "en": "Audi e-tron GT",
+      "tr": "Audi e-tron GT"
+    },
+    "views": {
+      "en": 79265,
+      "tr": 993
+    },
+    "total": 87209
+  },
+  "audi-rs2": {
+    "titles": {
+      "en": "Audi RS 2 Avant",
+      "tr": "Audi RS2"
+    },
+    "views": {
+      "en": 46629,
+      "tr": 1481
+    },
+    "total": 58477
+  },
+  "audi-rs3": {
+    "titles": {
+      "en": "Audi A3",
+      "tr": "Audi RS3"
+    },
+    "views": {
+      "en": 412717,
+      "tr": 1179
+    },
+    "total": 422149
+  },
+  "audi-rs4": {
+    "titles": {
+      "en": "Audi RS 4",
+      "tr": "Audi RS4"
+    },
+    "views": {
+      "en": 131176,
+      "tr": 968
+    },
+    "total": 138920
+  },
+  "audi-rs5": {
+    "titles": {
+      "en": "Audi A5",
+      "tr": "Audi RS5"
+    },
+    "views": {
+      "en": 330561,
+      "tr": 858
+    },
+    "total": 337425
+  },
+  "audi-rs6": {
+    "titles": {
+      "en": "Audi RS 6",
+      "tr": "Audi RS6"
+    },
+    "views": {
+      "en": 199941,
+      "tr": 2758
+    },
+    "total": 222005
+  },
+  "audi-rs7": {
+    "titles": {
+      "en": "Audi A7",
+      "tr": "Audi S7"
+    },
+    "views": {
+      "en": 177102,
+      "tr": 487
+    },
+    "total": 180998
+  },
+  "audi-rsq3": {
+    "titles": {
+      "en": "Audi S and RS models"
+    },
+    "views": {
+      "en": 66169
+    },
+    "total": 66169
+  },
+  "audi-rsq8": {
+    "titles": {
+      "en": "Audi Q8"
+    },
+    "views": {
+      "en": 126480
+    },
+    "total": 126480
+  },
+  "audi-s-e-tron-gt": {
+    "titles": {
+      "en": "Audi e-tron GT",
+      "tr": "Audi e-tron GT"
+    },
+    "views": {
+      "en": 79265,
+      "tr": 993
+    },
+    "total": 87209
+  },
+  "audi-s1": {
+    "titles": {
+      "en": "Audi A1",
+      "tr": "Audi Quattro"
+    },
+    "views": {
+      "en": 126306,
+      "tr": 3113
+    },
+    "total": 151210
+  },
+  "audi-s2": {
+    "titles": {
+      "en": "Audi S2",
+      "tr": "Audi Quattro"
+    },
+    "views": {
+      "en": 47099,
+      "tr": 3113
+    },
+    "total": 72003
+  },
+  "audi-s3": {
+    "titles": {
+      "en": "Audi S3",
+      "tr": "Audi S3"
+    },
+    "views": {
+      "en": 160314,
+      "tr": 810
+    },
+    "total": 166794
+  },
+  "audi-s4": {
+    "titles": {
+      "en": "Audi S4",
+      "tr": "Audi S4"
+    },
+    "views": {
+      "en": 155070,
+      "tr": 914
+    },
+    "total": 162382
+  },
+  "audi-s5": {
+    "titles": {
+      "en": "Audi S5",
+      "tr": "Audi A5"
+    },
+    "views": {
+      "en": 113251,
+      "tr": 2978
+    },
+    "total": 137075
+  },
+  "audi-s6": {
+    "titles": {
+      "en": "Audi S6",
+      "tr": "Audi S6"
+    },
+    "views": {
+      "en": 115506,
+      "tr": 899
+    },
+    "total": 122698
+  },
+  "audi-s6-e-tron": {
+    "titles": {
+      "en": "Audi A6 e-tron",
+      "tr": "Audi e-tron"
+    },
+    "views": {
+      "en": 37773,
+      "tr": 1127
+    },
+    "total": 46789
+  },
+  "audi-s7": {
+    "titles": {
+      "en": "Audi A7",
+      "tr": "Audi S7"
+    },
+    "views": {
+      "en": 177102,
+      "tr": 487
+    },
+    "total": 180998
+  },
+  "audi-s8": {
+    "titles": {
+      "en": "Audi S8",
+      "tr": "Audi S8"
+    },
+    "views": {
+      "en": 99995,
+      "tr": 923
+    },
+    "total": 107379
+  },
+  "audi-skysphere": {
+    "titles": {
+      "en": "International Motor Show Germany"
+    },
+    "views": {
+      "en": 33468
+    },
+    "total": 33468
+  },
+  "audi-sq2": {
+    "titles": {
+      "en": "Audi Q2",
+      "tr": "2026 Çin Grand Prix"
+    },
+    "views": {
+      "en": 65127,
+      "tr": 913
+    },
+    "total": 72431
+  },
+  "audi-sq5": {
+    "titles": {
+      "en": "Audi Q5"
+    },
+    "views": {
+      "en": 246684
+    },
+    "total": 246684
+  },
+  "audi-sq6-e-tron": {
+    "titles": {
+      "en": "Audi Q6 e-tron",
+      "tr": "Audi Q6 e-tron"
+    },
+    "views": {
+      "en": 36401,
+      "tr": 861
+    },
+    "total": 43289
+  },
+  "audi-sq7": {
+    "titles": {
+      "en": "Audi Q7",
+      "tr": "Audi"
+    },
+    "views": {
+      "en": 262920,
+      "tr": 26589
+    },
+    "total": 475632
+  },
+  "audi-sq8": {
+    "titles": {
+      "en": "Audi Q8"
+    },
+    "views": {
+      "en": 126480
+    },
+    "total": 126480
+  },
+  "audi-sq8-e-tron": {
+    "titles": {
+      "en": "Audi e-tron"
+    },
+    "views": {
+      "en": 63490
+    },
+    "total": 63490
+  },
+  "audi-sq9": {
+    "titles": {
+      "en": "Audi Q9"
+    },
+    "views": {
+      "en": 25707
+    },
+    "total": 25707
+  },
+  "audi-tt": {
+    "titles": {
+      "en": "Audi TT",
+      "tr": "Audi TT"
+    },
+    "views": {
+      "en": 305635,
+      "tr": 5205
+    },
+    "total": 347275
+  },
+  "audi-v8": {
+    "titles": {
+      "en": "Audi V8",
+      "tr": "Audi V8"
+    },
+    "views": {
+      "en": 46809,
+      "tr": 705
+    },
+    "total": 52449
+  },
+  "aurus-komendant": {
+    "titles": {
+      "en": "Aurus Komendant",
+      "tr": "Aurus"
+    },
+    "views": {
+      "en": 19218,
+      "tr": 1931
+    },
+    "total": 34666
+  },
+  "aurus-senat": {
+    "titles": {
+      "en": "Aurus Senat",
+      "tr": "Aurus"
+    },
+    "views": {
+      "en": 177812,
+      "tr": 1931
+    },
+    "total": 193260
+  },
+  "austin-allegro": {
+    "titles": {
+      "en": "Austin Allegro",
+      "tr": "Austin Allegro"
+    },
+    "views": {
+      "en": 49301,
+      "tr": 113
+    },
+    "total": 50205
+  },
+  "austin-ambassador": {
+    "titles": {
+      "en": "Austin Ambassador",
+      "tr": "James Hormel"
+    },
+    "views": {
+      "en": 18777,
+      "tr": 52
+    },
+    "total": 19193
+  },
+  "austin-maestro": {
+    "titles": {
+      "en": "Austin Maestro",
+      "tr": "Austin Maestro"
+    },
+    "views": {
+      "en": 39619,
+      "tr": 70
+    },
+    "total": 40179
+  },
+  "austin-maxi": {
+    "titles": {
+      "en": "Austin Maxi",
+      "tr": "Don't Forget About Us"
+    },
+    "views": {
+      "en": 33958,
+      "tr": 60
+    },
+    "total": 34438
+  },
+  "austin-metro": {
+    "titles": {
+      "en": "Austin Metro",
+      "tr": "Austin Metro"
+    },
+    "views": {
+      "en": 89161,
+      "tr": 216
+    },
+    "total": 90889
+  },
+  "austin-mini": {
+    "titles": {
+      "en": "Mini",
+      "tr": "MINI (BMW)"
+    },
+    "views": {
+      "en": 395796,
+      "tr": 8514
+    },
+    "total": 463908
+  },
+  "austin-montego": {
+    "titles": {
+      "en": "Austin Montego",
+      "tr": "Austin Maestro"
+    },
+    "views": {
+      "en": 43380,
+      "tr": 70
+    },
+    "total": 43940
+  },
+  "austin-princess": {
+    "titles": {
+      "en": "Austin Princess",
+      "tr": "David C. H. Austin"
+    },
+    "views": {
+      "en": 41468,
+      "tr": 124
+    },
+    "total": 42460
+  },
+  "austin-healey-100": {
+    "titles": {
+      "en": "Austin-Healey 100",
+      "tr": "Austin-Healey"
+    },
+    "views": {
+      "en": 25226,
+      "tr": 352
+    },
+    "total": 28042
+  },
+  "autobianchi-a-112": {
+    "titles": {
+      "en": "Autobianchi A112"
+    },
+    "views": {
+      "en": 29156
+    },
+    "total": 29156
+  },
+  "avatr-06": {
+    "titles": {
+      "en": "Avatr 06",
+      "tr": "Avatr Technology"
+    },
+    "views": {
+      "en": 14859,
+      "tr": 567
+    },
+    "total": 19395
+  },
+  "avatr-07": {
+    "titles": {
+      "en": "Avatr 07",
+      "tr": "Avatr Technology"
+    },
+    "views": {
+      "en": 17883,
+      "tr": 567
+    },
+    "total": 22419
+  },
+  "avatr-11": {
+    "titles": {
+      "en": "Avatr 11",
+      "tr": "Avatr Technology"
+    },
+    "views": {
+      "en": 37517,
+      "tr": 567
+    },
+    "total": 42053
+  },
+  "avatr-12": {
+    "titles": {
+      "en": "Avatr 12",
+      "tr": "Avatr Technology"
+    },
+    "views": {
+      "en": 32893,
+      "tr": 567
+    },
+    "total": 37429
+  },
+  "b-engineering-edonis": {
+    "titles": {
+      "en": "B Engineering Edonis",
+      "tr": "Edonis"
+    },
+    "views": {
+      "en": 10417,
+      "tr": 87
+    },
+    "total": 11113
+  },
+  "bac-mono": {
+    "titles": {
+      "en": "Briggs Automotive Company",
+      "tr": "Need for Speed: Most Wanted (2012 video oyunu)"
+    },
+    "views": {
+      "en": 25939,
+      "tr": 4535
+    },
+    "total": 62219
+  },
+  "baic-bj-2020": {
+    "titles": {
+      "en": "BAW BJ212"
+    },
+    "views": {
+      "en": 41396
+    },
+    "total": 41396
+  },
+  "baic-bj30": {
+    "titles": {
+      "en": "Beijing BJ30"
+    },
+    "views": {
+      "en": 14987
+    },
+    "total": 14987
+  },
+  "baic-bj41": {
+    "titles": {
+      "en": "List of busiest airports in South Africa"
+    },
+    "views": {
+      "en": 1084
+    },
+    "total": 1084
+  },
+  "baic-bj60": {
+    "titles": {
+      "en": "Beijing BJ60"
+    },
+    "views": {
+      "en": 9254
+    },
+    "total": 9254
+  },
+  "baic-senova-d50": {
+    "titles": {
+      "en": "Beijing U5"
+    },
+    "views": {
+      "en": 11016
+    },
+    "total": 11016
+  },
+  "baic-senova-x55": {
+    "titles": {
+      "en": "Senova"
+    },
+    "views": {
+      "en": 6547
+    },
+    "total": 6547
+  },
+  "baic-x55": {
+    "titles": {
+      "en": "Beijing Mofang"
+    },
+    "views": {
+      "en": 10736
+    },
+    "total": 10736
+  },
+  "baic-x75": {
+    "titles": {
+      "en": "Beijing X7"
+    },
+    "views": {
+      "en": 10429
+    },
+    "total": 10429
+  },
+  "baltasar-revolt": {
+    "titles": {
+      "en": "Baltasar Cars"
+    },
+    "views": {
+      "en": 840
+    },
+    "total": 840
+  },
+  "baltijas-dzips-bd": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "baojun-310": {
+    "titles": {
+      "en": "Baojun 310",
+      "tr": "Siyenpiler"
+    },
+    "views": {
+      "en": 3023,
+      "tr": 8461
+    },
+    "total": 70711
+  },
+  "baojun-330": {
+    "titles": {
+      "en": "Baojun",
+      "tr": "Lifan Group"
+    },
+    "views": {
+      "en": 31877,
+      "tr": 1671
+    },
+    "total": 45245
+  },
+  "baojun-360": {
+    "titles": {
+      "en": "Baojun 360",
+      "tr": "Siyenpiler"
+    },
+    "views": {
+      "en": 1771,
+      "tr": 8461
+    },
+    "total": 69459
+  },
+  "baojun-510": {
+    "titles": {
+      "en": "Baojun 510"
+    },
+    "views": {
+      "en": 11320
+    },
+    "total": 11320
+  },
+  "baojun-530": {
+    "titles": {
+      "en": "Baojun 530",
+      "tr": "Toyota ZZ motoru"
+    },
+    "views": {
+      "en": 34587,
+      "tr": 2302
+    },
+    "total": 53003
+  },
+  "baojun-730": {
+    "titles": {
+      "en": "Baojun 730",
+      "tr": "Toyota ZZ motoru"
+    },
+    "views": {
+      "en": 7162,
+      "tr": 2302
+    },
+    "total": 25578
+  },
+  "baojun-e100": {
+    "titles": {
+      "en": "Baojun E100",
+      "tr": "Toyota ZZ motoru"
+    },
+    "views": {
+      "en": 3369,
+      "tr": 2302
+    },
+    "total": 21785
+  },
+  "baojun-e300-kiwi-ev": {
+    "titles": {
+      "en": "Baojun KiWi EV"
+    },
+    "views": {
+      "en": 4547
+    },
+    "total": 4547
+  },
+  "baojun-rc-5-valli": {
+    "titles": {
+      "en": "Baojun RC-5"
+    },
+    "views": {
+      "en": 2277
+    },
+    "total": 2277
+  },
+  "baojun-rc-6": {
+    "titles": {
+      "en": "Baojun RC-6"
+    },
+    "views": {
+      "en": 1778
+    },
+    "total": 1778
+  },
+  "baojun-rm-5": {
+    "titles": {
+      "en": "Baojun RM-5"
+    },
+    "views": {
+      "en": 2135
+    },
+    "total": 2135
+  },
+  "baojun-rs-3": {
+    "titles": {
+      "en": "Baojun RS-3"
+    },
+    "views": {
+      "en": 3784
+    },
+    "total": 3784
+  },
+  "baojun-rs-5": {
+    "titles": {
+      "en": "Baojun RS-5"
+    },
+    "views": {
+      "en": 2087
+    },
+    "total": 2087
+  },
+  "baojun-yep": {
+    "titles": {
+      "en": "Baojun Yep"
+    },
+    "views": {
+      "en": 16801
+    },
+    "total": 16801
+  },
+  "baojun-yunduo": {
+    "titles": {
+      "en": "Baojun Yunduo"
+    },
+    "views": {
+      "en": 14341
+    },
+    "total": 14341
+  },
+  "baojun-yunhai": {
+    "titles": {
+      "en": "Baojun Yunhai"
+    },
+    "views": {
+      "en": 6086
+    },
+    "total": 6086
+  },
+  "baw-pony": {
+    "titles": {
+      "en": "BAW Yuanbao",
+      "tr": "Kamyonetler listesi"
+    },
+    "views": {
+      "en": 5646,
+      "tr": 472
+    },
+    "total": 9422
+  },
+  "bee-bee-xs": {
+    "titles": {
+      "en": "Wahoo Studios",
+      "tr": "Billboard Hot 100 liste başarıları ve kilometre taşları"
+    },
+    "views": {
+      "en": 2346,
+      "tr": 1317
+    },
+    "total": 12882
+  },
+  "belgee-s50": {
+    "titles": {
+      "en": "List of Geely vehicles"
+    },
+    "views": {
+      "en": 44684
+    },
+    "total": 44684
+  },
+  "belgee-x50": {
+    "titles": {
+      "en": "Geely Binyue"
+    },
+    "views": {
+      "en": 28197
+    },
+    "total": 28197
+  },
+  "belgee-x70": {
+    "titles": {
+      "en": "Geely Boyue"
+    },
+    "views": {
+      "en": 35768
+    },
+    "total": 35768
+  },
+  "bentley-arnage": {
+    "titles": {
+      "en": "Bentley Arnage",
+      "tr": "Bentley Arnage"
+    },
+    "views": {
+      "en": 71069,
+      "tr": 432
+    },
+    "total": 74525
+  },
+  "bentley-azure": {
+    "titles": {
+      "en": "Bentley Azure",
+      "tr": "Bentley Azure"
+    },
+    "views": {
+      "en": 39222,
+      "tr": 199
+    },
+    "total": 40814
+  },
+  "bentley-bacalar": {
+    "titles": {
+      "en": "Bentley Continental GT",
+      "tr": "Two Prudential Plaza"
+    },
+    "views": {
+      "en": 256260,
+      "tr": 94
+    },
+    "total": 257012
+  },
+  "bentley-batur": {
+    "titles": {
+      "en": "Bentley Continental GT"
+    },
+    "views": {
+      "en": 256260
+    },
+    "total": 256260
+  },
+  "bentley-bentayga": {
+    "titles": {
+      "en": "Bentley Bentayga",
+      "tr": "Bentley Bentayga"
+    },
+    "views": {
+      "en": 125166,
+      "tr": 756
+    },
+    "total": 131214
+  },
+  "bentley-brooklands": {
+    "titles": {
+      "en": "Bentley Brooklands",
+      "tr": "Bentley Brooklands"
+    },
+    "views": {
+      "en": 35874,
+      "tr": 186
+    },
+    "total": 37362
+  },
+  "bentley-continental": {
+    "titles": {
+      "en": "Bentley Continental GT",
+      "tr": "Bentley Continental Flying Spur"
+    },
+    "views": {
+      "en": 256260,
+      "tr": 386
+    },
+    "total": 259348
+  },
+  "bentley-flying-spur": {
+    "titles": {
+      "en": "Bentley Flying Spur (2005)",
+      "tr": "Bentley Continental Flying Spur"
+    },
+    "views": {
+      "en": 187177,
+      "tr": 386
+    },
+    "total": 190265
+  },
+  "bentley-mark-vi": {
+    "titles": {
+      "en": "Bentley Mark VI",
+      "tr": "2005"
+    },
+    "views": {
+      "en": 26134,
+      "tr": 4227
+    },
+    "total": 59950
+  },
+  "bentley-mulsanne": {
+    "titles": {
+      "en": "Bentley Mulsanne (2010)",
+      "tr": "Bentley Mulsanne (2010)"
+    },
+    "views": {
+      "en": 69889,
+      "tr": 294
+    },
+    "total": 72241
+  },
+  "bentley-turbo-r": {
+    "titles": {
+      "en": "Bentley Turbo R",
+      "tr": "Bentley Arnage"
+    },
+    "views": {
+      "en": 32966,
+      "tr": 432
+    },
+    "total": 36422
+  },
+  "bertone-freeclimber": {
+    "titles": {
+      "en": "Daihatsu Rugger",
+      "tr": "Bertone"
+    },
+    "views": {
+      "en": 26176,
+      "tr": 1506
+    },
+    "total": 38224
+  },
+  "bertone-gb110": {
+    "titles": {
+      "en": "Bertone GB110"
+    },
+    "views": {
+      "en": 11782
+    },
+    "total": 11782
+  },
+  "bertone-runabout": {
+    "titles": {
+      "en": "Autobianchi A112 Runabout",
+      "tr": "Bertone"
+    },
+    "views": {
+      "en": 11057,
+      "tr": 1506
+    },
+    "total": 23105
+  },
+  "bestune-b70s": {
+    "titles": {
+      "en": "Bestune B70S",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 3627,
+      "tr": 7
+    },
+    "total": 3683
+  },
+  "bestune-e01": {
+    "titles": {
+      "en": "Bestune E01",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 2272,
+      "tr": 7
+    },
+    "total": 2328
+  },
+  "bestune-e05": {
+    "titles": {
+      "en": "Bestune NAT",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 7996,
+      "tr": 7
+    },
+    "total": 8052
+  },
+  "bestune-pony": {
+    "titles": {
+      "en": "Bestune Pony",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 17366,
+      "tr": 7
+    },
+    "total": 17422
+  },
+  "bestune-t33": {
+    "titles": {
+      "en": "Bestune T33",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 2842,
+      "tr": 7
+    },
+    "total": 2898
+  },
+  "bestune-t55": {
+    "titles": {
+      "en": "Bestune T55",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 4334,
+      "tr": 7
+    },
+    "total": 4390
+  },
+  "bestune-t77": {
+    "titles": {
+      "en": "Bestune T77",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 10699,
+      "tr": 7
+    },
+    "total": 10755
+  },
+  "bestune-t90": {
+    "titles": {
+      "en": "Bestune T90",
+      "tr": "2010-11 Premier League"
+    },
+    "views": {
+      "en": 7682,
+      "tr": 1423
+    },
+    "total": 19066
+  },
+  "bestune-xiaoma": {
+    "titles": {
+      "en": "Bestune Pony",
+      "tr": "Xiaomi Mi 8"
+    },
+    "views": {
+      "en": 17366,
+      "tr": 515
+    },
+    "total": 21486
+  },
+  "bestune-yueyi-03": {
+    "titles": {
+      "en": "Yueyi 03",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 755,
+      "tr": 7
+    },
+    "total": 811
+  },
+  "bestune-yueyi-07": {
+    "titles": {
+      "en": "Bestune T90",
+      "tr": "Bestune"
+    },
+    "views": {
+      "en": 7682,
+      "tr": 7
+    },
+    "total": 7738
+  },
+  "bisu-m3": {
+    "titles": {
+      "en": "Bisu M3"
+    },
+    "views": {
+      "en": 801
+    },
+    "total": 801
+  },
+  "bisu-t3": {
+    "titles": {
+      "en": "Bisu T3"
+    },
+    "views": {
+      "en": 801
+    },
+    "total": 801
+  },
+  "bitter-type-3": {
+    "titles": {
+      "en": "Bitter Automotive",
+      "tr": "Martini (kokteyl)"
+    },
+    "views": {
+      "en": 28295,
+      "tr": 19551
+    },
+    "total": 184703
+  },
+  "bitter-vero": {
+    "titles": {
+      "en": "Bitter Automotive",
+      "tr": "Spritz"
+    },
+    "views": {
+      "en": 28295,
+      "tr": 28169
+    },
+    "total": 253647
+  },
+  "bizzarrini-1900-gt-europa": {
+    "titles": {
+      "en": "Bizzarrini Europa"
+    },
+    "views": {
+      "en": 1949
+    },
+    "total": 1949
+  },
+  "bizzarrini-5300-gt-strada": {
+    "titles": {
+      "en": "Bizzarrini Strada"
+    },
+    "views": {
+      "en": 20530
+    },
+    "total": 20530
+  },
+  "bizzarrini-p538": {
+    "titles": {
+      "en": "Bizzarrini P538"
+    },
+    "views": {
+      "en": 4388
+    },
+    "total": 4388
+  },
+  "blonell-tf-2000": {
+    "titles": {},
+    "views": {},
+    "total": 0
+  },
+  "bmw-02": {
+    "titles": {
+      "en": "BMW 02 Series",
+      "tr": "BMW 02 Serisi"
+    },
+    "views": {
+      "en": 122694,
+      "tr": 1392
+    },
+    "total": 133830
+  },
+  "bmw-1-series": {
+    "titles": {
+      "en": "BMW 1 Series",
+      "tr": "BMW 1 Serisi (E87)"
+    },
+    "views": {
+      "en": 297295,
+      "tr": 2488
+    },
+    "total": 317199
+  },
+  "bmw-1m": {
+    "titles": {
+      "en": "BMW 1 Series (E87)",
+      "tr": "Need for Speed: The Run"
+    },
+    "views": {
+      "en": 253436,
+      "tr": 2611
+    },
+    "total": 274324
+  },
+  "bmw-2-series": {
+    "titles": {
+      "en": "BMW 2 Series",
+      "tr": "BMW 2 Serisi (F44)"
+    },
+    "views": {
+      "en": 188327,
+      "tr": 4169
+    },
+    "total": 221679
+  },
+  "bmw-3-series": {
+    "titles": {
+      "en": "BMW 3 Series",
+      "tr": "BMW 3 Serisi (E36)"
+    },
+    "views": {
+      "en": 637903,
+      "tr": 13332
+    },
+    "total": 744559
+  },
+  "bmw-3-0-csl": {
+    "titles": {
+      "en": "BMW E9",
+      "tr": "BMW E9"
+    },
+    "views": {
+      "en": 110167,
+      "tr": 1434
+    },
+    "total": 121639
+  },
+  "bmw-4-series": {
+    "titles": {
+      "en": "BMW 4 Series",
+      "tr": "BMW 4 Serisi"
+    },
+    "views": {
+      "en": 174571,
+      "tr": 3678
+    },
+    "total": 203995
+  },
+  "bmw-5-series": {
+    "titles": {
+      "en": "BMW 5 Series",
+      "tr": "BMW 5 Serisi"
+    },
+    "views": {
+      "en": 531175,
+      "tr": 35342
+    },
+    "total": 813911
+  },
+  "bmw-6-series": {
+    "titles": {
+      "en": "BMW 6 Series",
+      "tr": "BMW 6 Serisi (E63)"
+    },
+    "views": {
+      "en": 134683,
+      "tr": 2103
+    },
+    "total": 151507
+  },
+  "bmw-7-series": {
+    "titles": {
+      "en": "BMW 7 Series",
+      "tr": "BMW 7 Serisi (E32)"
+    },
+    "views": {
+      "en": 401159,
+      "tr": 2345
+    },
+    "total": 419919
+  },
+  "bmw-700": {
+    "titles": {
+      "en": "BMW 700",
+      "tr": "BMW 700"
+    },
+    "views": {
+      "en": 36178,
+      "tr": 232
+    },
+    "total": 38034
+  },
+  "bmw-8-series": {
+    "titles": {
+      "en": "BMW 8 Series",
+      "tr": "BMW 8 Serisi (G15)"
+    },
+    "views": {
+      "en": 109732,
+      "tr": 1434
+    },
+    "total": 121204
+  },
+  "bmw-e9": {
+    "titles": {
+      "en": "BMW E9",
+      "tr": "BMW E9"
+    },
+    "views": {
+      "en": 110167,
+      "tr": 1434
+    },
+    "total": 121639
+  },
+  "bmw-i3": {
+    "titles": {
+      "en": "BMW i3",
+      "tr": "BMW i3"
+    },
+    "views": {
+      "en": 171769,
+      "tr": 2243
+    },
+    "total": 189713
+  },
+  "bmw-i4": {
+    "titles": {
+      "en": "BMW i4",
+      "tr": "BMW 1 Serisi (E87)"
+    },
+    "views": {
+      "en": 117439,
+      "tr": 2488
+    },
+    "total": 137343
+  },
+  "bmw-i5": {
+    "titles": {
+      "en": "BMW 5 Series (G60)",
+      "tr": "BMW 5 Serisi"
+    },
+    "views": {
+      "en": 145161,
+      "tr": 35342
+    },
+    "total": 427897
+  },
+  "bmw-i7": {
+    "titles": {
+      "en": "BMW 7 Series (G70)",
+      "tr": "BMW i"
+    },
+    "views": {
+      "en": 129883,
+      "tr": 370
+    },
+    "total": 132843
+  },
+  "bmw-i8": {
+    "titles": {
+      "en": "BMW i8",
+      "tr": "BMW i8"
+    },
+    "views": {
+      "en": 251246,
+      "tr": 4211
+    },
+    "total": 284934
+  },
+  "bmw-isetta": {
+    "titles": {
+      "en": "Isetta",
+      "tr": "Isetta"
+    },
+    "views": {
+      "en": 139609,
+      "tr": 955
+    },
+    "total": 147249
+  },
+  "bmw-ix": {
+    "titles": {
+      "en": "BMW iX",
+      "tr": "BMW iX"
+    },
+    "views": {
+      "en": 82490,
+      "tr": 1625
+    },
+    "total": 95490
+  },
+  "bmw-ix1": {
+    "titles": {
+      "en": "BMW X1 (U11)",
+      "tr": "BMW X1"
+    },
+    "views": {
+      "en": 72780,
+      "tr": 8774
+    },
+    "total": 142972
+  },
+  "bmw-ix2": {
+    "titles": {
+      "en": "BMW X2",
+      "tr": "BMW X2"
+    },
+    "views": {
+      "en": 97335,
+      "tr": 783
+    },
+    "total": 103599
+  },
+  "bmw-ix3": {
+    "titles": {
+      "en": "BMW iX3",
+      "tr": "BMW iX3"
+    },
+    "views": {
+      "en": 65569,
+      "tr": 567
+    },
+    "total": 70105
+  },
+  "bmw-ix5": {
+    "titles": {
+      "en": "BMW X5 (G65)",
+      "tr": "BMW M70"
+    },
+    "views": {
+      "en": 9894,
+      "tr": 1476
+    },
+    "total": 21702
+  },
+  "bmw-m1": {
+    "titles": {
+      "en": "BMW M1",
+      "tr": "BMW M1"
+    },
+    "views": {
+      "en": 147681,
+      "tr": 1806
+    },
+    "total": 162129
+  },
+  "bmw-m2": {
+    "titles": {
+      "en": "BMW M2",
+      "tr": "BMW M2"
+    },
+    "views": {
+      "en": 287320,
+      "tr": 1816
+    },
+    "total": 301848
+  },
+  "bmw-m3": {
+    "titles": {
+      "en": "BMW M3",
+      "tr": "BMW M3"
+    },
+    "views": {
+      "en": 740025,
+      "tr": 6652
+    },
+    "total": 793241
+  },
+  "bmw-m4": {
+    "titles": {
+      "en": "BMW M4",
+      "tr": "BMW M4"
+    },
+    "views": {
+      "en": 341060,
+      "tr": 4129
+    },
+    "total": 374092
+  },
+  "bmw-m5": {
+    "titles": {
+      "en": "BMW M5",
+      "tr": "BMW M5"
+    },
+    "views": {
+      "en": 478728,
+      "tr": 6185
+    },
+    "total": 528208
+  },
+  "bmw-m6": {
+    "titles": {
+      "en": "BMW M6",
+      "tr": "BMW M6"
+    },
+    "views": {
+      "en": 141547,
+      "tr": 1569
+    },
+    "total": 154099
+  },
+  "bmw-m8": {
+    "titles": {
+      "en": "BMW M8",
+      "tr": "BMW 8 Serisi"
+    },
+    "views": {
+      "en": 127556,
+      "tr": 1781
+    },
+    "total": 141804
+  },
+  "bmw-new-class": {
+    "titles": {
+      "en": "BMW New Class",
+      "tr": "BMW 3200 CS"
+    },
+    "views": {
+      "en": 87623,
+      "tr": 221
+    },
+    "total": 89391
+  },
+  "bmw-speedtop": {
+    "titles": {
+      "en": "BMW Skytop"
+    },
+    "views": {
+      "en": 33369
+    },
+    "total": 33369
+  },
+  "bmw-x2": {
+    "titles": {
+      "en": "BMW X2",
+      "tr": "BMW X2"
+    },
+    "views": {
+      "en": 97335,
+      "tr": 783
+    },
+    "total": 103599
+  },
+  "bmw-x3-m": {
+    "titles": {
+      "en": "BMW X3",
+      "tr": "BMW N47"
+    },
+    "views": {
+      "en": 441167,
+      "tr": 17296
+    },
+    "total": 579535
+  },
+  "bmw-x4": {
+    "titles": {
+      "en": "BMW X4",
+      "tr": "BMW X4"
+    },
+    "views": {
+      "en": 99477,
+      "tr": 604
+    },
+    "total": 104309
+  },
+  "bmw-x4-m": {
+    "titles": {
+      "en": "BMW X4",
+      "tr": "Kompakt SUV"
+    },
+    "views": {
+      "en": 99477,
+      "tr": 946
+    },
+    "total": 107045
+  },
+  "bmw-x5": {
+    "titles": {
+      "en": "BMW X5",
+      "tr": "BMW X5"
+    },
+    "views": {
+      "en": 419232,
+      "tr": 5396
+    },
+    "total": 462400
+  },
+  "bmw-x5-m": {
+    "titles": {
+      "en": "BMW X5",
+      "tr": "BMW X5"
+    },
+    "views": {
+      "en": 419232,
+      "tr": 5396
+    },
+    "total": 462400
+  },
+  "bmw-x6": {
+    "titles": {
+      "en": "BMW X6",
+      "tr": "BMW X6"
+    },
+    "views": {
+      "en": 198919,
+      "tr": 3120
+    },
+    "total": 223879
+  },
+  "bmw-x6-m": {
+    "titles": {
+      "en": "BMW X6",
+      "tr": "BMW X6"
+    },
+    "views": {
+      "en": 198919,
+      "tr": 3120
+    },
+    "total": 223879
+  },
+  "bmw-x7": {
+    "titles": {
+      "en": "BMW X7",
+      "tr": "BMW X7"
+    },
+    "views": {
+      "en": 154820,
+      "tr": 1347
+    },
+    "total": 165596
+  },
+  "bmw-xm": {
+    "titles": {
+      "en": "BMW XM",
+      "tr": "BMW modelleri listesi"
+    },
+    "views": {
+      "en": 92548,
+      "tr": 32424
+    },
+    "total": 351940
+  },
+  "bmw-z1": {
+    "titles": {
+      "en": "BMW Z1",
+      "tr": "BMW Z1"
+    },
+    "views": {
+      "en": 67638,
+      "tr": 2066
+    },
+    "total": 84166
+  },
+  "bmw-z3": {
+    "titles": {
+      "en": "BMW Z3",
+      "tr": "BMW Z3"
+    },
+    "views": {
+      "en": 177467,
+      "tr": 2175
+    },
+    "total": 194867
+  },
+  "bmw-z4": {
+    "titles": {
+      "en": "BMW Z4 (E89)",
+      "tr": "BMW Z4"
+    },
+    "views": {
+      "en": 150072,
+      "tr": 2070
+    },
+    "total": 166632
+  },
+  "bmw-z8": {
+    "titles": {
+      "en": "BMW Z8",
+      "tr": "BMW Z8"
+    },
+    "views": {
+      "en": 79242,
+      "tr": 1210
+    },
+    "total": 88922
+  },
+  "bollinger-b1": {
+    "titles": {
+      "en": "Bollinger B1"
+    },
+    "views": {
+      "en": 4955
+    },
+    "total": 4955
+  },
+  "bordrin-iv6": {
+    "titles": {
+      "en": "Bordrin"
+    },
+    "views": {
+      "en": 2209
+    },
+    "total": 2209
+  },
+  "borgward-bx5": {
+    "titles": {
+      "en": "Borgward BX5"
+    },
+    "views": {
+      "en": 3328
+    },
+    "total": 3328
+  },
+  "borgward-bx6": {
+    "titles": {
+      "en": "Borgward BX5"
+    },
+    "views": {
+      "en": 3328
+    },
+    "total": 3328
+  },
+  "borgward-bx7": {
+    "titles": {
+      "en": "Borgward"
+    },
+    "views": {
+      "en": 40134
+    },
+    "total": 40134
+  },
+  "borgward-bxi7": {
+    "titles": {
+      "en": "Borgward Group"
+    },
+    "views": {
+      "en": 8853
+    },
+    "total": 8853
+  },
+  "borgward-isabella": {
+    "titles": {
+      "en": "Borgward Isabella",
+      "tr": "Borgward Isabella"
+    },
+    "views": {
+      "en": 22236,
+      "tr": 182
+    },
+    "total": 23692
+  },
+  "brabham-bt62": {
+    "titles": {
+      "en": "Brabham BT62",
+      "tr": "Asphalt Legends"
+    },
+    "views": {
+      "en": 26602,
+      "tr": 870
+    },
+    "total": 33562
+  },
+  "bremach-suv": {
+    "titles": {
+      "en": "Bremach",
+      "tr": "UAZ Patriot"
+    },
+    "views": {
+      "en": 10311,
+      "tr": 964
+    },
+    "total": 18023
+  },
+  "brilliance-a1": {
+    "titles": {
+      "en": "Brilliance BS2",
+      "tr": "Büyük Patlama"
+    },
+    "views": {
+      "en": 5833,
+      "tr": 33629
+    },
+    "total": 274865
+  },
+  "brilliance-bs4": {
+    "titles": {
+      "en": "Brilliance BS4",
+      "tr": "Pininfarina"
+    },
+    "views": {
+      "en": 8863,
+      "tr": 8423
+    },
+    "total": 76247
+  },
+  "brilliance-bs6": {
+    "titles": {
+      "en": "Brilliance BS6",
+      "tr": "Italdesign Giugiaro"
+    },
+    "views": {
+      "en": 7604,
+      "tr": 1225
+    },
+    "total": 17404
+  },
+  "brilliance-m1": {
+    "titles": {
+      "en": "Brilliance BS6"
+    },
+    "views": {
+      "en": 7604
+    },
+    "total": 7604
+  },
+  "brilliance-m2": {
+    "titles": {
+      "en": "Brilliance BS4"
+    },
+    "views": {
+      "en": 8863
+    },
+    "total": 8863
+  },
+  "brilliance-m3": {
+    "titles": {
+      "en": "Brilliance BC3",
+      "tr": "BMW 3 Serisi (F30)"
+    },
+    "views": {
+      "en": 3533,
+      "tr": 63913
+    },
+    "total": 514837
+  },
+  "brilliance-v3": {
+    "titles": {
+      "en": "Brilliance V3",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 3272,
+      "tr": 5620
+    },
+    "total": 48232
+  },
+  "bristol-blenheim": {
+    "titles": {
+      "en": "Bristol Blenheim",
+      "tr": "Bristol Blenheim"
+    },
+    "views": {
+      "en": 131795,
+      "tr": 308
+    },
+    "total": 134259
+  },
+  "bristol-bullet": {
+    "titles": {
+      "en": "Bristol Bullet (automobile)",
+      "tr": "On ayaklılar"
+    },
+    "views": {
+      "en": 11229,
+      "tr": 2074
+    },
+    "total": 27821
+  },
+  "bristol-fighter": {
+    "titles": {
+      "en": "Bristol F.2 Fighter",
+      "tr": "Bristol Fighter"
+    },
+    "views": {
+      "en": 47444,
+      "tr": 204
+    },
+    "total": 49076
+  },
+  "bristol-speedster": {
+    "titles": {
+      "en": "Bristol Cars"
+    },
+    "views": {
+      "en": 68648
+    },
+    "total": 68648
+  },
+  "bufori-cs8": {
+    "titles": {
+      "en": "Bufori"
+    },
+    "views": {
+      "en": 33516
+    },
+    "total": 33516
+  },
+  "bufori-geneva": {
+    "titles": {
+      "en": "Bufori"
+    },
+    "views": {
+      "en": 33516
+    },
+    "total": 33516
+  },
+  "bufori-la-joya": {
+    "titles": {
+      "en": "Bufori"
+    },
+    "views": {
+      "en": 33516
+    },
+    "total": 33516
+  },
+  "bugatti-bolide": {
+    "titles": {
+      "en": "Bugatti Bolide",
+      "tr": "Bugatti Bolide"
+    },
+    "views": {
+      "en": 103474,
+      "tr": 3434
+    },
+    "total": 130946
+  },
+  "bugatti-centodieci": {
+    "titles": {
+      "en": "Bugatti Centodieci",
+      "tr": "Bugatti"
+    },
+    "views": {
+      "en": 61812,
+      "tr": 19727
+    },
+    "total": 219628
+  },
+  "bugatti-chiron": {
+    "titles": {
+      "en": "Bugatti Chiron",
+      "tr": "Bugatti Chiron"
+    },
+    "views": {
+      "en": 367155,
+      "tr": 9480
+    },
+    "total": 442995
+  },
+  "bugatti-destrier": {
+    "titles": {
+      "en": "Bugatti Bolide"
+    },
+    "views": {
+      "en": 103474
+    },
+    "total": 103474
+  },
+  "bugatti-divo": {
+    "titles": {
+      "en": "Bugatti Divo",
+      "tr": "Bugatti Divo"
+    },
+    "views": {
+      "en": 102247,
+      "tr": 4032
+    },
+    "total": 134503
+  },
+  "bugatti-eb-110": {
+    "titles": {
+      "en": "Bugatti EB 110",
+      "tr": "Bugatti Veyron"
+    },
+    "views": {
+      "en": 94740,
+      "tr": 9851
+    },
+    "total": 173548
+  },
+  "bugatti-eb-112": {
+    "titles": {
+      "en": "Bugatti EB 112"
+    },
+    "views": {
+      "en": 33939
+    },
+    "total": 33939
+  },
+  "bugatti-la-voiture-noire": {
+    "titles": {
+      "en": "Bugatti Chiron",
+      "tr": "Bugatti La Voiture Noire"
+    },
+    "views": {
+      "en": 367155,
+      "tr": 1164
+    },
+    "total": 376467
+  },
+  "bugatti-tourbillon": {
+    "titles": {
+      "en": "Bugatti Tourbillon",
+      "tr": "Bugatti"
+    },
+    "views": {
+      "en": 218351,
+      "tr": 19727
+    },
+    "total": 376167
+  },
+  "bugatti-type-41-royale": {
+    "titles": {
+      "en": "Bugatti Royale",
+      "tr": "Bugatti Type 41"
+    },
+    "views": {
+      "en": 67693,
+      "tr": 987
+    },
+    "total": 75589
+  },
+  "bugatti-type-57": {
+    "titles": {
+      "en": "Bugatti Type 57",
+      "tr": "Bugatti"
+    },
+    "views": {
+      "en": 99926,
+      "tr": 19727
+    },
+    "total": 257742
+  },
+  "bugatti-veyron": {
+    "titles": {
+      "en": "Bugatti Veyron",
+      "tr": "Bugatti Veyron"
+    },
+    "views": {
+      "en": 322875,
+      "tr": 9851
+    },
+    "total": 401683
+  },
+  "bugatti-w16-mistral": {
+    "titles": {
+      "en": "Bugatti Mistral"
+    },
+    "views": {
+      "en": 112755
+    },
+    "total": 112755
+  },
+  "buick-cascada": {
+    "titles": {
+      "en": "Opel Cascada",
+      "tr": "Opel Cascada"
+    },
+    "views": {
+      "en": 24215,
+      "tr": 485
+    },
+    "total": 28095
+  },
+  "buick-century": {
+    "titles": {
+      "en": "Buick Century",
+      "tr": "Buick Century"
+    },
+    "views": {
+      "en": 92639,
+      "tr": 125
+    },
+    "total": 93639
+  },
+  "buick-electra": {
+    "titles": {
+      "en": "Buick Electra",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 108370,
+      "tr": 5911
+    },
+    "total": 155658
+  },
+  "buick-enclave": {
+    "titles": {
+      "en": "Buick Enclave",
+      "tr": "Buick Enclave"
+    },
+    "views": {
+      "en": 91602,
+      "tr": 838
+    },
+    "total": 98306
+  },
+  "buick-encore": {
+    "titles": {
+      "en": "Buick Encore",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 72354,
+      "tr": 5911
+    },
+    "total": 119642
+  },
+  "buick-encore-gx": {
+    "titles": {
+      "en": "Buick Encore GX",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 46355,
+      "tr": 5911
+    },
+    "total": 93643
+  },
+  "buick-envision": {
+    "titles": {
+      "en": "Buick Envision",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 77176,
+      "tr": 5911
+    },
+    "total": 124464
+  },
+  "buick-envista": {
+    "titles": {
+      "en": "Buick Envista",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 67355,
+      "tr": 5911
+    },
+    "total": 114643
+  },
+  "buick-excelle": {
+    "titles": {
+      "en": "Buick Excelle",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 13961,
+      "tr": 5911
+    },
+    "total": 61249
+  },
+  "buick-excelle-gt": {
+    "titles": {
+      "en": "Buick Excelle",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 13961,
+      "tr": 5911
+    },
+    "total": 61249
+  },
+  "buick-gl6": {
+    "titles": {
+      "en": "Buick GL6",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 4562,
+      "tr": 5911
+    },
+    "total": 51850
+  },
+  "buick-gl8": {
+    "titles": {
+      "en": "Buick GL8",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 51127,
+      "tr": 5911
+    },
+    "total": 98415
+  },
+  "buick-hrv-excelle": {
+    "titles": {
+      "en": "Buick Excelle"
+    },
+    "views": {
+      "en": 13961
+    },
+    "total": 13961
+  },
+  "buick-lacrosse": {
+    "titles": {
+      "en": "Buick LaCrosse",
+      "tr": "Buick LaCrosse"
+    },
+    "views": {
+      "en": 122184,
+      "tr": 244
+    },
+    "total": 124136
+  },
+  "buick-le-sabre": {
+    "titles": {
+      "en": "Buick LeSabre",
+      "tr": "Buick LeSabre"
+    },
+    "views": {
+      "en": 141832,
+      "tr": 105
+    },
+    "total": 142672
+  },
+  "buick-lucerne": {
+    "titles": {
+      "en": "Buick Lucerne",
+      "tr": "Buick Lucerne"
+    },
+    "views": {
+      "en": 56041,
+      "tr": 82
+    },
+    "total": 56697
+  },
+  "buick-park-avenue": {
+    "titles": {
+      "en": "Buick Park Avenue",
+      "tr": "Giorgetto Giugiaro"
+    },
+    "views": {
+      "en": 70691,
+      "tr": 2199
+    },
+    "total": 88283
+  },
+  "buick-rainier": {
+    "titles": {
+      "en": "Buick Rainier",
+      "tr": "Buick Rainier"
+    },
+    "views": {
+      "en": 28699,
+      "tr": 31
+    },
+    "total": 28947
+  },
+  "buick-reatta": {
+    "titles": {
+      "en": "Buick Reatta"
+    },
+    "views": {
+      "en": 40648
+    },
+    "total": 40648
+  },
+  "buick-regal": {
+    "titles": {
+      "en": "Buick Regal",
+      "tr": "Buick Regal"
+    },
+    "views": {
+      "en": 281975,
+      "tr": 615
+    },
+    "total": 286895
+  },
+  "buick-rendezvous": {
+    "titles": {
+      "en": "Buick Rendezvous"
+    },
+    "views": {
+      "en": 36570
+    },
+    "total": 36570
+  },
+  "buick-riviera": {
+    "titles": {
+      "en": "Buick Riviera",
+      "tr": "Buick Riviera"
+    },
+    "views": {
+      "en": 170734,
+      "tr": 241
+    },
+    "total": 172662
+  },
+  "buick-roadmaster": {
+    "titles": {
+      "en": "Buick Roadmaster",
+      "tr": "Yağmur Adam"
+    },
+    "views": {
+      "en": 104099,
+      "tr": 9739
+    },
+    "total": 182011
+  },
+  "buick-skylark": {
+    "titles": {
+      "en": "Buick Skylark",
+      "tr": "Buick Regal"
+    },
+    "views": {
+      "en": 132297,
+      "tr": 615
+    },
+    "total": 137217
+  },
+  "buick-super": {
+    "titles": {
+      "en": "Buick Super",
+      "tr": "Buick Riviera"
+    },
+    "views": {
+      "en": 35918,
+      "tr": 241
+    },
+    "total": 37846
+  },
+  "buick-terraza": {
+    "titles": {
+      "en": "Buick Terraza"
+    },
+    "views": {
+      "en": 17998
+    },
+    "total": 17998
+  },
+  "buick-velite-6": {
+    "titles": {
+      "en": "Buick Velite 6",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 13697,
+      "tr": 5911
+    },
+    "total": 60985
+  },
+  "buick-velite-7": {
+    "titles": {
+      "en": "Buick Velite 7",
+      "tr": "Buick"
+    },
+    "views": {
+      "en": 5144,
+      "tr": 5911
+    },
+    "total": 52432
+  },
+  "byd-atto-1": {
+    "titles": {
+      "en": "BYD Seagull",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 136113,
+      "tr": 20709
+    },
+    "total": 301785
+  },
+  "byd-atto-2": {
+    "titles": {
+      "en": "BYD Atto 2",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 35945,
+      "tr": 20709
+    },
+    "total": 201617
+  },
+  "byd-atto-8": {
+    "titles": {
+      "en": "BYD Atto 3",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 106596,
+      "tr": 20709
+    },
+    "total": 272268
+  },
+  "byd-d1": {
+    "titles": {
+      "en": "BYD D1"
+    },
+    "views": {
+      "en": 8375
+    },
+    "total": 8375
+  },
+  "byd-datang": {
+    "titles": {
+      "en": "BYD Datang"
+    },
+    "views": {
+      "en": 17478
+    },
+    "total": 17478
+  },
+  "byd-destroyer-05": {
+    "titles": {
+      "en": "BYD Destroyer 05",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 48188,
+      "tr": 20709
+    },
+    "total": 213860
+  },
+  "byd-dolphin-g": {
+    "titles": {
+      "en": "BYD Dolphin G",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 8169,
+      "tr": 20709
+    },
+    "total": 173841
+  },
+  "byd-dolphin-surf": {
+    "titles": {
+      "en": "BYD Seagull"
+    },
+    "views": {
+      "en": 136113
+    },
+    "total": 136113
+  },
+  "byd-e2": {
+    "titles": {
+      "en": "BYD e2",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 12787,
+      "tr": 20709
+    },
+    "total": 178459
+  },
+  "byd-e3": {
+    "titles": {
+      "en": "BYD e2",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 12787,
+      "tr": 20709
+    },
+    "total": 178459
+  },
+  "byd-e6": {
+    "titles": {
+      "en": "BYD e6",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 32089,
+      "tr": 20709
+    },
+    "total": 197761
+  },
+  "byd-e7": {
+    "titles": {
+      "en": "BYD e7"
+    },
+    "views": {
+      "en": 8979
+    },
+    "total": 8979
+  },
+  "byd-emax-7": {
+    "titles": {
+      "en": "BYD Song Max",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 25629,
+      "tr": 20709
+    },
+    "total": 191301
+  },
+  "byd-etp3": {
+    "titles": {
+      "en": "BYD M3"
+    },
+    "views": {
+      "en": 5672
+    },
+    "total": 5672
+  },
+  "byd-f0": {
+    "titles": {
+      "en": "BYD F0"
+    },
+    "views": {
+      "en": 9938
+    },
+    "total": 9938
+  },
+  "byd-f3": {
+    "titles": {
+      "en": "BYD F3",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 37208,
+      "tr": 20709
+    },
+    "total": 202880
+  },
+  "byd-f6": {
+    "titles": {
+      "en": "BYD F6"
+    },
+    "views": {
+      "en": 3885
+    },
+    "total": 3885
+  },
+  "byd-f8": {
+    "titles": {
+      "en": "BYD S8"
+    },
+    "views": {
+      "en": 10411
+    },
+    "total": 10411
+  },
+  "byd-flyer-ii": {
+    "titles": {
+      "en": "BYD Flyer"
+    },
+    "views": {
+      "en": 7366
+    },
+    "total": 7366
+  },
+  "byd-m3e": {
+    "titles": {
+      "en": "Meizu"
+    },
+    "views": {
+      "en": 35960
+    },
+    "total": 35960
+  },
+  "byd-m6": {
+    "titles": {
+      "en": "BYD Song Max",
+      "tr": "Haval"
+    },
+    "views": {
+      "en": 25629,
+      "tr": 2070
+    },
+    "total": 42189
+  },
+  "byd-qin": {
+    "titles": {
+      "en": "BYD Qin",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 45297,
+      "tr": 20709
+    },
+    "total": 210969
+  },
+  "byd-racco": {
+    "titles": {
+      "en": "BYD Racco"
+    },
+    "views": {
+      "en": 22559
+    },
+    "total": 22559
+  },
+  "byd-s6": {
+    "titles": {
+      "en": "BYD S6"
+    },
+    "views": {
+      "en": 4658
+    },
+    "total": 4658
+  },
+  "byd-s7": {
+    "titles": {
+      "en": "BYD S6",
+      "tr": "Luxeed"
+    },
+    "views": {
+      "en": 4658,
+      "tr": 3739
+    },
+    "total": 34570
+  },
+  "byd-sea-lion-05": {
+    "titles": {
+      "en": "BYD Sealion",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 14040,
+      "tr": 20709
+    },
+    "total": 179712
+  },
+  "byd-sea-lion-06": {
+    "titles": {
+      "en": "BYD Sealion"
+    },
+    "views": {
+      "en": 14040
+    },
+    "total": 14040
+  },
+  "byd-sea-lion-07": {
+    "titles": {
+      "en": "BYD Sealion 7",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 67875,
+      "tr": 20709
+    },
+    "total": 233547
+  },
+  "byd-seagull": {
+    "titles": {
+      "en": "BYD Seagull",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 136113,
+      "tr": 20709
+    },
+    "total": 301785
+  },
+  "byd-seal-05": {
+    "titles": {
+      "en": "BYD Seal 05 DM-i",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 38666,
+      "tr": 20709
+    },
+    "total": 204338
+  },
+  "byd-seal-06": {
+    "titles": {
+      "en": "BYD Sealion 06"
+    },
+    "views": {
+      "en": 47391
+    },
+    "total": 47391
+  },
+  "byd-seal-07": {
+    "titles": {
+      "en": "BYD Seal 07",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 11995,
+      "tr": 20709
+    },
+    "total": 177667
+  },
+  "byd-seal-08": {
+    "titles": {
+      "en": "BYD Seal 08"
+    },
+    "views": {
+      "en": 17596
+    },
+    "total": 17596
+  },
+  "byd-seal-5": {
+    "titles": {
+      "en": "BYD Seal 05 DM-i",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 38666,
+      "tr": 20709
+    },
+    "total": 204338
+  },
+  "byd-seal-6": {
+    "titles": {
+      "en": "BYD Seal 06 DM-i",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 46255,
+      "tr": 20709
+    },
+    "total": 211927
+  },
+  "byd-seal-u": {
+    "titles": {
+      "en": "BYD Song Plus",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 87925,
+      "tr": 20709
+    },
+    "total": 253597
+  },
+  "byd-sealion-5": {
+    "titles": {
+      "en": "BYD Sealion",
+      "tr": "Taylîk"
+    },
+    "views": {
+      "en": 14040,
+      "tr": 242
+    },
+    "total": 15976
+  },
+  "byd-sealion-6": {
+    "titles": {
+      "en": "BYD Song Plus",
+      "tr": "Taylîk"
+    },
+    "views": {
+      "en": 87925,
+      "tr": 242
+    },
+    "total": 89861
+  },
+  "byd-sealion-7": {
+    "titles": {
+      "en": "BYD Sealion 7",
+      "tr": "Taylîk"
+    },
+    "views": {
+      "en": 67875,
+      "tr": 242
+    },
+    "total": 69811
+  },
+  "byd-sealion-8": {
+    "titles": {
+      "en": "BYD Sealion",
+      "tr": "Taylîk"
+    },
+    "views": {
+      "en": 14040,
+      "tr": 242
+    },
+    "total": 15976
+  },
+  "byd-shark": {
+    "titles": {
+      "en": "BYD Shark 6",
+      "tr": "Fangchengbao"
+    },
+    "views": {
+      "en": 36782,
+      "tr": 672
+    },
+    "total": 42158
+  },
+  "byd-shark-6": {
+    "titles": {
+      "en": "BYD Shark 6",
+      "tr": "Fangchengbao"
+    },
+    "views": {
+      "en": 36782,
+      "tr": 672
+    },
+    "total": 42158
+  },
+  "byd-song-l": {
+    "titles": {
+      "en": "BYD Song L DM-i",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 14209,
+      "tr": 20709
+    },
+    "total": 179881
+  },
+  "byd-song-max": {
+    "titles": {
+      "en": "BYD Song Max",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 25629,
+      "tr": 20709
+    },
+    "total": 191301
+  },
+  "byd-song-ultra": {
+    "titles": {
+      "en": "BYD Song Ultra"
+    },
+    "views": {
+      "en": 8963
+    },
+    "total": 8963
+  },
+  "byd-t3": {
+    "titles": {
+      "en": "BYD M3",
+      "tr": "Hafif ticari araç"
+    },
+    "views": {
+      "en": 5672,
+      "tr": 1860
+    },
+    "total": 20552
+  },
+  "byd-ti-7": {
+    "titles": {
+      "en": "Fangchengbao Ti7"
+    },
+    "views": {
+      "en": 30145
+    },
+    "total": 30145
+  },
+  "byd-xia": {
+    "titles": {
+      "en": "BYD Xia",
+      "tr": "XPeng"
+    },
+    "views": {
+      "en": 19357,
+      "tr": 1218
+    },
+    "total": 29101
+  },
+  "byd-yuan": {
+    "titles": {
+      "en": "BYD Yuan",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 12852,
+      "tr": 20709
+    },
+    "total": 178524
+  },
+  "byd-yuan-plus": {
+    "titles": {
+      "en": "BYD Yuan Plus",
+      "tr": "BYD Auto"
+    },
+    "views": {
+      "en": 2222,
+      "tr": 20709
+    },
+    "total": 167894
+  },
+  "byd-yuan-up": {
+    "titles": {
+      "en": "BYD Atto 2"
+    },
+    "views": {
+      "en": 35945
+    },
+    "total": 35945
+  },
+  "cadillac-allante": {
+    "titles": {
+      "en": "Cadillac Allanté",
+      "tr": "Cadillac Allanté"
+    },
+    "views": {
+      "en": 64979,
+      "tr": 187
+    },
+    "total": 66475
+  },
+  "cadillac-ats": {
+    "titles": {
+      "en": "Cadillac ATS",
+      "tr": "Cadillac ATS"
+    },
+    "views": {
+      "en": 71831,
+      "tr": 1042
+    },
+    "total": 80167
+  },
+  "cadillac-bls": {
+    "titles": {
+      "en": "Cadillac BLS",
+      "tr": "Cadillac BLS"
+    },
+    "views": {
+      "en": 31040,
+      "tr": 794
+    },
+    "total": 37392
+  },
+  "cadillac-brougham": {
+    "titles": {
+      "en": "Cadillac Brougham",
+      "tr": "Türkiye cumhurbaşkanının resmî makam araçları listesi"
+    },
+    "views": {
+      "en": 51331,
+      "tr": 11304
+    },
+    "total": 141763
+  },
+  "cadillac-catera": {
+    "titles": {
+      "en": "Cadillac Catera",
+      "tr": "Cadillac CTS"
+    },
+    "views": {
+      "en": 42660,
+      "tr": 791
+    },
+    "total": 48988
+  },
+  "cadillac-celestiq": {
+    "titles": {
+      "en": "Cadillac Celestiq"
+    },
+    "views": {
+      "en": 82446
+    },
+    "total": 82446
+  },
+  "cadillac-ct4": {
+    "titles": {
+      "en": "Cadillac CT4",
+      "tr": "Cadillac"
+    },
+    "views": {
+      "en": 82618,
+      "tr": 11233
+    },
+    "total": 172482
+  },
+  "cadillac-ct5": {
+    "titles": {
+      "en": "Cadillac CT5",
+      "tr": "Cadillac CT5"
+    },
+    "views": {
+      "en": 142979,
+      "tr": 624
+    },
+    "total": 147971
+  },
+  "cadillac-ct6": {
+    "titles": {
+      "en": "Cadillac CT6",
+      "tr": "Cadillac"
+    },
+    "views": {
+      "en": 113060,
+      "tr": 11233
+    },
+    "total": 202924
+  },
+  "cadillac-cts": {
+    "titles": {
+      "en": "Cadillac CTS",
+      "tr": "Cadillac CTS"
+    },
+    "views": {
+      "en": 215811,
+      "tr": 791
+    },
+    "total": 222139
+  },
+  "cadillac-deville": {
+    "titles": {
+      "en": "Cadillac de Ville series",
+      "tr": "Cadillac DeVille"
+    },
+    "views": {
+      "en": 211380,
+      "tr": 476
+    },
+    "total": 215188
+  },
+  "cadillac-dts": {
+    "titles": {
+      "en": "Cadillac DTS",
+      "tr": "Cadillac DTS"
+    },
+    "views": {
+      "en": 63346,
+      "tr": 648
+    },
+    "total": 68530
+  },
+  "cadillac-eldorado": {
+    "titles": {
+      "en": "Cadillac Eldorado",
+      "tr": "Cadillac Eldorado"
+    },
+    "views": {
+      "en": 251336,
+      "tr": 415
+    },
+    "total": 254656
+  },
+  "cadillac-elr": {
+    "titles": {
+      "en": "Cadillac ELR",
+      "tr": "Cadillac"
+    },
+    "views": {
+      "en": 36069,
+      "tr": 11233
+    },
+    "total": 125933
+  },
+  "cadillac-escalade": {
+    "titles": {
+      "en": "Cadillac Escalade",
+      "tr": "Cadillac Escalade"
+    },
+    "views": {
+      "en": 360461,
+      "tr": 2296
+    },
+    "total": 378829
+  },
+  "cadillac-fleetwood": {
+    "titles": {
+      "en": "Cadillac Fleetwood",
+      "tr": "Mercedes-Benz W100"
+    },
+    "views": {
+      "en": 105711,
+      "tr": 1225
+    },
+    "total": 115511
+  },
+  "cadillac-gt4": {
+    "titles": {
+      "en": "Cadillac GT4",
+      "tr": "Cadillac"
+    },
+    "views": {
+      "en": 15316,
+      "tr": 11233
+    },
+    "total": 105180
+  },
+  "cadillac-lse": {
+    "titles": {
+      "en": "Cadillac Catera"
+    },
+    "views": {
+      "en": 42660
+    },
+    "total": 42660
+  },
+  "cadillac-lyriq": {
+    "titles": {
+      "en": "Cadillac Lyriq"
+    },
+    "views": {
+      "en": 68109
+    },
+    "total": 68109
+  },
+  "cadillac-optiq": {
+    "titles": {
+      "en": "Cadillac Optiq"
+    },
+    "views": {
+      "en": 35071
+    },
+    "total": 35071
+  },
+  "cadillac-seville": {
+    "titles": {
+      "en": "Cadillac Seville",
+      "tr": "Cadillac Seville"
+    },
+    "views": {
+      "en": 105506,
+      "tr": 569
+    },
+    "total": 110058
+  },
+  "cadillac-sixteen": {
+    "titles": {
+      "en": "Cadillac Sixteen",
+      "tr": "Cadillac"
+    },
+    "views": {
+      "en": 33787,
+      "tr": 11233
+    },
+    "total": 123651
+  },
+  "cadillac-srx": {
+    "titles": {
+      "en": "Cadillac SRX",
+      "tr": "Cadillac SRX"
+    },
+    "views": {
+      "en": 63220,
+      "tr": 526
+    },
+    "total": 67428
+  },
+  "cadillac-sts": {
+    "titles": {
+      "en": "Cadillac STS",
+      "tr": "Cadillac STS"
+    },
+    "views": {
+      "en": 61896,
+      "tr": 487
+    },
+    "total": 65792
+  },
+  "cadillac-vistiq": {
+    "titles": {
+      "en": "Cadillac Vistiq"
+    },
+    "views": {
+      "en": 43461
+    },
+    "total": 43461
+  },
+  "cadillac-xlr": {
+    "titles": {
+      "en": "Cadillac XLR",
+      "tr": "Cadillac XLR"
+    },
+    "views": {
+      "en": 89520,
+      "tr": 552
+    },
+    "total": 93936
+  },
+  "cadillac-xt4": {
+    "titles": {
+      "en": "Cadillac XT4",
+      "tr": "Cadillac XT4"
+    },
+    "views": {
+      "en": 42078,
+      "tr": 343
+    },
+    "total": 44822
+  },
+  "cadillac-xt5": {
+    "titles": {
+      "en": "Cadillac XT5",
+      "tr": "Cadillac XT5"
+    },
+    "views": {
+      "en": 63833,
+      "tr": 479
+    },
+    "total": 67665
+  },
+  "cadillac-xt6": {
+    "titles": {
+      "en": "Cadillac XT6",
+      "tr": "Cadillac XT6"
+    },
+    "views": {
+      "en": 54916,
+      "tr": 485
+    },
+    "total": 58796
+  },
+  "cadillac-xts": {
+    "titles": {
+      "en": "Cadillac XTS",
+      "tr": "Cadillac XTS"
+    },
+    "views": {
+      "en": 64154,
+      "tr": 1008
+    },
+    "total": 72218
+  },
+  "callaway-c12": {
+    "titles": {
+      "en": "Callaway C12",
+      "tr": "2001 Le Mans 24 Saat Yarışı"
+    },
+    "views": {
+      "en": 11162,
+      "tr": 80
+    },
+    "total": 11802
+  },
+  "campagna-t-rex": {
+    "titles": {
+      "en": "Campagna T-Rex",
+      "tr": "T-Rex (otomobil)"
+    },
+    "views": {
+      "en": 23683,
+      "tr": 275
+    },
+    "total": 25883
+  },
+  "campagna-v13r": {
+    "titles": {
+      "en": "Campagna V13R"
+    },
+    "views": {
+      "en": 2395
+    },
+    "total": 2395
+  },
+  "carbodies-taxi": {
+    "titles": {
+      "en": "Austin FX4"
+    },
+    "views": {
+      "en": 42677
+    },
+    "total": 42677
+  },
+  "caterham-21": {
+    "titles": {
+      "en": "Caterham 21",
+      "tr": "Ethel Caterham"
+    },
+    "views": {
+      "en": 9328,
+      "tr": 6746
+    },
+    "total": 63296
+  },
+  "caterham-csr": {
+    "titles": {
+      "en": "Caterham 7 CSR"
+    },
+    "views": {
+      "en": 9035
+    },
+    "total": 9035
+  },
+  "caterham-project-v": {
+    "titles": {
+      "en": "Caterham Project V"
+    },
+    "views": {
+      "en": 7860
+    },
+    "total": 7860
+  },
+  "caterham-seven": {
+    "titles": {
+      "en": "Caterham 7",
+      "tr": "Caterham Cars"
+    },
+    "views": {
+      "en": 80351,
+      "tr": 497
+    },
+    "total": 84327
+  },
+  "changan-benben": {
+    "titles": {
+      "en": "Changan BenBen",
+      "tr": "Chang'e 1"
+    },
+    "views": {
+      "en": 4970,
+      "tr": 170
+    },
+    "total": 6330
+  },
+  "changan-cm8": {
+    "titles": {
+      "en": "Changan CM8",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 4639,
+      "tr": 5620
+    },
+    "total": 49599
+  },
+  "changan-cs15": {
+    "titles": {
+      "en": "Changan CS15",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 4387,
+      "tr": 5620
+    },
+    "total": 49347
+  },
+  "changan-cs35": {
+    "titles": {
+      "en": "Changan CS35 Plus",
+      "tr": "Changan CS35 Plus"
+    },
+    "views": {
+      "en": 13190,
+      "tr": 781
+    },
+    "total": 19438
+  },
+  "changan-cs55": {
+    "titles": {
+      "en": "Changan CS55",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 19975,
+      "tr": 5620
+    },
+    "total": 64935
+  },
+  "changan-cs85": {
+    "titles": {
+      "en": "Changan CS85",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 2865,
+      "tr": 5620
+    },
+    "total": 47825
+  },
+  "changan-cs95": {
+    "titles": {
+      "en": "Changan CS95",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 4439,
+      "tr": 5620
+    },
+    "total": 49399
+  },
+  "changan-cx70": {
+    "titles": {
+      "en": "Chana CX70"
+    },
+    "views": {
+      "en": 1718
+    },
+    "total": 1718
+  },
+  "changan-eado": {
+    "titles": {
+      "en": "Changan Eado",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 15629,
+      "tr": 5620
+    },
+    "total": 60589
+  },
+  "changan-lamore": {
+    "titles": {
+      "en": "Changan Lamore",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 5935,
+      "tr": 300
+    },
+    "total": 8335
+  },
+  "changan-linmax": {
+    "titles": {
+      "en": "Changan Linmax"
+    },
+    "views": {
+      "en": 1069
+    },
+    "total": 1069
+  },
+  "changan-lumin": {
+    "titles": {
+      "en": "Changan Lumin",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 16771,
+      "tr": 5620
+    },
+    "total": 61731
+  },
+  "changan-raeton": {
+    "titles": {
+      "en": "Changan Raeton Plus",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 14399,
+      "tr": 5620
+    },
+    "total": 59359
+  },
+  "changan-uni-k": {
+    "titles": {
+      "en": "Changan UNI-K",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 10633,
+      "tr": 5620
+    },
+    "total": 55593
+  },
+  "changan-uni-t": {
+    "titles": {
+      "en": "Changan UNI-T",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 18333,
+      "tr": 5620
+    },
+    "total": 63293
+  },
+  "changan-uni-v": {
+    "titles": {
+      "en": "Changan UNI-V",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 16976,
+      "tr": 5620
+    },
+    "total": 61936
+  },
+  "changan-uni-z": {
+    "titles": {
+      "en": "Changan UNI-Z",
+      "tr": "Changan Automobile"
+    },
+    "views": {
+      "en": 10724,
+      "tr": 5620
+    },
+    "total": 55684
+  },
+  "changan-z-chine": {
+    "titles": {
+      "en": "Chinese garden",
+      "tr": "Tennesin"
+    },
+    "views": {
+      "en": 30925,
+      "tr": 2693
+    },
+    "total": 52469
+  },
+  "changan-nevo-a05": {
+    "titles": {
+      "en": "Changan Lamore",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 5935,
+      "tr": 300
+    },
+    "total": 8335
+  },
+  "changan-nevo-a06": {
+    "titles": {
+      "en": "Changan Nevo A06",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 10821,
+      "tr": 300
+    },
+    "total": 13221
+  },
+  "changan-nevo-a07": {
+    "titles": {
+      "en": "Changan Nevo A07",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 12303,
+      "tr": 300
+    },
+    "total": 14703
+  },
+  "changan-nevo-e07": {
+    "titles": {
+      "en": "Changan Nevo A06",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 10821,
+      "tr": 300
+    },
+    "total": 13221
+  },
+  "changan-nevo-hunter-k50": {
+    "titles": {
+      "en": "Changan F70"
+    },
+    "views": {
+      "en": 32051
+    },
+    "total": 32051
+  },
+  "changan-nevo-q05": {
+    "titles": {
+      "en": "Changan Nevo Q05",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 11219,
+      "tr": 300
+    },
+    "total": 13619
+  },
+  "changan-nevo-q07": {
+    "titles": {
+      "en": "Changan Nevo Q07",
+      "tr": "Qiyuan"
+    },
+    "views": {
+      "en": 7220,
+      "tr": 300
+    },
+    "total": 9620
+  },
+  "changfeng-flying": {
+    "titles": {
+      "en": "Changfeng Motor",
+      "tr": "Jimmy Wang Yu"
+    },
+    "views": {
+      "en": 5466,
+      "tr": 1413
+    },
+    "total": 16770
+  },
+  "changfeng-suv": {
+    "titles": {
+      "en": "Changfeng Motor",
+      "tr": "Jaecoo"
+    },
+    "views": {
+      "en": 5466,
+      "tr": 3096
+    },
+    "total": 30234
+  },
+  "chery-a3": {
+    "titles": {
+      "en": "Chery A3",
+      "tr": "Alt orta sınıf otomobil"
+    },
+    "views": {
+      "en": 6421,
+      "tr": 2176
+    },
+    "total": 23829
+  },
+  "chery-amulet": {
+    "titles": {
+      "en": "Chery Cowin",
+      "tr": "SEAT Toledo"
+    },
+    "views": {
+      "en": 6218,
+      "tr": 2073
+    },
+    "total": 22802
+  },
+  "chery-arrizo-3": {
+    "titles": {
+      "en": "Chery Arrizo 3",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 2808,
+      "tr": 11339
+    },
+    "total": 93520
+  },
+  "chery-arrizo-5": {
+    "titles": {
+      "en": "Chery Arrizo 5",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 15943,
+      "tr": 11339
+    },
+    "total": 106655
+  },
+  "chery-arrizo-7": {
+    "titles": {
+      "en": "Chery Arrizo 7",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 3646,
+      "tr": 11339
+    },
+    "total": 94358
+  },
+  "chery-arrizo-8": {
+    "titles": {
+      "en": "Chery Arrizo 8",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 22327,
+      "tr": 11339
+    },
+    "total": 113039
+  },
+  "chery-arrizo-gx": {
+    "titles": {
+      "en": "Chery Arrizo 5 Plus",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 14687,
+      "tr": 11339
+    },
+    "total": 105399
+  },
+  "chery-arrizo-s": {
+    "titles": {
+      "en": "Chery"
+    },
+    "views": {
+      "en": 522036
+    },
+    "total": 522036
+  },
+  "chery-arrizo-x": {
+    "titles": {
+      "en": "Chery Arrizo 5 Plus"
+    },
+    "views": {
+      "en": 14687
+    },
+    "total": 14687
+  },
+  "chery-c5": {
+    "titles": {
+      "en": "Omoda C5",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 25817,
+      "tr": 3587
+    },
+    "total": 54513
+  },
+  "chery-e5": {
+    "titles": {
+      "en": "Chery E5"
+    },
+    "views": {
+      "en": 3869
+    },
+    "total": 3869
+  },
+  "chery-eq1": {
+    "titles": {
+      "en": "Chery eQ1",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 10063,
+      "tr": 11339
+    },
+    "total": 100775
+  },
+  "chery-eq7": {
+    "titles": {
+      "en": "Chery eQ7"
+    },
+    "views": {
+      "en": 5558
+    },
+    "total": 5558
+  },
+  "chery-fora": {
+    "titles": {
+      "en": "Chery A5",
+      "tr": "Mini Sınıf"
+    },
+    "views": {
+      "en": 5456,
+      "tr": 562
+    },
+    "total": 9952
+  },
+  "chery-fulwin": {
+    "titles": {
+      "en": "ICar 03",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 39945,
+      "tr": 11339
+    },
+    "total": 130657
+  },
+  "chery-fx": {
+    "titles": {
+      "en": "Omoda C5",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 25817,
+      "tr": 3587
+    },
+    "total": 54513
+  },
+  "chery-j6": {
+    "titles": {
+      "en": "ICar 03",
+      "tr": "Jaecoo"
+    },
+    "views": {
+      "en": 39945,
+      "tr": 3096
+    },
+    "total": 64713
+  },
+  "chery-kimo-a1": {
+    "titles": {
+      "en": "Chery A1"
+    },
+    "views": {
+      "en": 4802
+    },
+    "total": 4802
+  },
+  "chery-omoda-5": {
+    "titles": {
+      "en": "Omoda C5",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 25817,
+      "tr": 3587
+    },
+    "total": 54513
+  },
+  "chery-q": {
+    "titles": {
+      "en": "Chery QQ3",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 35225,
+      "tr": 11339
+    },
+    "total": 125937
+  },
+  "chery-qq6-s21": {
+    "titles": {
+      "en": "Chery QQ6"
+    },
+    "views": {
+      "en": 8540
+    },
+    "total": 8540
+  },
+  "chery-sweet-qq": {
+    "titles": {
+      "en": "Chery QQ3",
+      "tr": "Chery QQ"
+    },
+    "views": {
+      "en": 35225,
+      "tr": 11097
+    },
+    "total": 124001
+  },
+  "chery-tansuo-06": {
+    "titles": {
+      "en": "Chery Tansuo 06",
+      "tr": "Jaecoo"
+    },
+    "views": {
+      "en": 11031,
+      "tr": 3096
+    },
+    "total": 35799
+  },
+  "chery-tiggo": {
+    "titles": {
+      "en": "Chery Tiggo 8",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 82481,
+      "tr": 1095
+    },
+    "total": 91241
+  },
+  "chery-tiggo-4": {
+    "titles": {
+      "en": "Chery Tiggo 5x",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 28929,
+      "tr": 1095
+    },
+    "total": 37689
+  },
+  "chery-tiggo-5": {
+    "titles": {
+      "en": "Chery Tiggo 5",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 9078,
+      "tr": 1095
+    },
+    "total": 17838
+  },
+  "chery-tiggo-5x": {
+    "titles": {
+      "en": "Chery Tiggo 5x",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 28929,
+      "tr": 2174
+    },
+    "total": 46321
+  },
+  "chery-tiggo-6": {
+    "titles": {
+      "en": "Chery Tiggo",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 48318,
+      "tr": 1095
+    },
+    "total": 57078
+  },
+  "chery-tiggo-7": {
+    "titles": {
+      "en": "Chery Tiggo 7",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 57898,
+      "tr": 2174
+    },
+    "total": 75290
+  },
+  "chery-tiggo-8": {
+    "titles": {
+      "en": "Chery Tiggo 8",
+      "tr": "Chery Tiggo 8"
+    },
+    "views": {
+      "en": 82481,
+      "tr": 2174
+    },
+    "total": 99873
+  },
+  "chery-tiggo-9": {
+    "titles": {
+      "en": "Chery Tiggo 9",
+      "tr": "Chery"
+    },
+    "views": {
+      "en": 46954,
+      "tr": 11339
+    },
+    "total": 137666
+  },
+  "chery-tiggo-9x": {
+    "titles": {
+      "en": "Chery Tiggo 9X"
+    },
+    "views": {
+      "en": 15846
+    },
+    "total": 15846
+  },
+  "chery-tiggo-v": {
+    "titles": {
+      "en": "Chery Tiggo",
+      "tr": "Chery Tiggo"
+    },
+    "views": {
+      "en": 48318,
+      "tr": 1095
+    },
+    "total": 57078
+  },
+  "chery-tiggo-x": {
+    "titles": {
+      "en": "Chery Tiggo 8",
+      "tr": "Chery Omoda 5"
+    },
+    "views": {
+      "en": 82481,
+      "tr": 3587
+    },
+    "total": 111177
+  },
+  "chery-v23": {
+    "titles": {
+      "en": "ICar V23"
+    },
+    "views": {
+      "en": 34308
+    },
+    "total": 34308
+  },
+  "chevrolet-agile": {
+    "titles": {
+      "en": "Chevrolet Agile",
+      "tr": "GM4200 platformu"
+    },
+    "views": {
+      "en": 7442,
+      "tr": 75
+    },
+    "total": 8042
+  }
+}

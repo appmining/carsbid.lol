@@ -1,4 +1,4 @@
-import type { CarModel, Segment } from "@/lib/types";
+import type { Segment } from "@/lib/types";
 
 interface RawCar {
   brand: string;
@@ -4650,35 +4650,15 @@ const RAW_CARS: RawCar[] = [
   { brand: "ZX", model: "Landmark", segment: "offroad" },
 ];
 
-function slugify(brand: string, model: string): string {
-  const s = `${brand}-${model}`
-    .toLowerCase()
-    .replaceAll("ı", "i")
-    .replaceAll("ğ", "g")
-    .replaceAll("ü", "u")
-    .replaceAll("ş", "s")
-    .replaceAll("ö", "o")
-    .replaceAll("ç", "c")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-  return s;
-}
-
-export const CARS: CarModel[] = RAW_CARS.map((car) => ({
-  slug: slugify(car.brand, car.model),
-  brand: car.brand,
-  model: car.model,
-  segment: car.segment,
-}));
-
-export const CARS_BY_SLUG: Record<string, CarModel> = Object.fromEntries(
-  CARS.map((c) => [c.slug, c])
-);
-
-export const BRANDS = Array.from(new Set(CARS.map((c) => c.brand))).sort();
-
-export function getCar(slug: string): CarModel | undefined {
-  return CARS_BY_SLUG[slug];
-}
+// This file is the hand-edited SOURCE, not what the app reads.
+//
+// It holds two things nothing else can reconstruct: the identity of every model
+// (brand + model name) and the curated Turkish-market ordering of the first few
+// hundred entries. scripts/build-catalog.mjs enriches this with body type,
+// powertrain, production years and a prominence score, and emits
+// src/data/cars.generated.ts — which is what the app imports.
+//
+// Edit models here; run `node scripts/build-catalog.mjs` to regenerate.
+export type { RawCar };
+export const RAW_CAR_COUNT = RAW_CARS.length;
+export { RAW_CARS };

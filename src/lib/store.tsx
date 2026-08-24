@@ -9,7 +9,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import type { Patron } from "@/lib/types";
 import { supabasePublic } from "@/lib/supabase/publicClient";
 import { HOME_COUNTRY_CODE, isCountryCode } from "@/lib/country";

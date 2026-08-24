@@ -3,24 +3,43 @@
 import { useState } from "react";
 import Image from "next/image";
 import { CAR_IMAGES } from "@/data/carImages.generated";
-import { BrandBadge } from "@/components/BrandBadge";
-import { brandGradient } from "@/lib/color";
+import { brandPlate, initials } from "@/lib/color";
 
-function FallbackCard({
+/** Shown when a model has no photograph — most of the catalogue tail.
+ *
+ *  It reads as a type plate on the same dark panel as everything else rather
+ *  than a coloured hole in the grid, so a row of photos and placeholders still
+ *  looks like one surface. */
+function PlatePlaceholder({
   brand,
+  model,
+  compact,
   className,
-  fallbackBadgeSize,
 }: {
   brand: string;
+  model: string;
+  compact: boolean;
   className: string;
-  fallbackBadgeSize: "sm" | "md" | "lg";
 }) {
   return (
     <div
-      className={`relative grid place-items-center ${className}`}
-      style={{ background: brandGradient(brand) }}
+      className={`relative grid place-items-center overflow-hidden border-border-soft ${className}`}
+      style={{ background: brandPlate(brand) }}
     >
-      <BrandBadge brand={brand} size={fallbackBadgeSize} />
+      {compact ? (
+        <span className="font-mono-tab text-[11px] font-bold text-accent/70">
+          {initials(brand)}
+        </span>
+      ) : (
+        <span className="px-3 text-center">
+          <span className="block font-mono-tab text-eyebrow font-bold uppercase text-accent/70">
+            {brand}
+          </span>
+          <span className="mt-0.5 block truncate text-xs font-medium text-text-dim">
+            {model}
+          </span>
+        </span>
+      )}
     </div>
   );
 }
@@ -28,39 +47,53 @@ function FallbackCard({
 export function CarPhoto({
   slug,
   brand,
+  model = "",
   alt = "",
+  variant = "wide",
   className = "",
-  fallbackBadgeSize = "md",
+  compactFallback,
   sizes = "160px",
   priority = false,
 }: {
   slug: string;
   brand: string;
-  /** Leave empty only where the photo is decorative or repeats one already
-   *  described nearby — otherwise name the model, e.g. "Fiat Egea". */
+  model?: string;
+  /** Leave empty only where the photo repeats one already described nearby. */
   alt?: string;
+  /** `wide` is 16:9 for tiles and heroes; `square` is 1:1 for avatars and rows.
+   *  One wide photo squeezed into a 40px square left an unreadable sliver. */
+  variant?: "wide" | "square";
   className?: string;
-  fallbackBadgeSize?: "sm" | "md" | "lg";
+  /** Force initials-only placeholder; defaults to true for square. */
+  compactFallback?: boolean;
   sizes?: string;
   priority?: boolean;
 }) {
   const [failed, setFailed] = useState(false);
   const image = CAR_IMAGES[slug];
+  const src = image ? image[variant] : null;
 
-  if (!image || failed) {
+  if (!src || failed) {
     return (
-      <FallbackCard brand={brand} className={className} fallbackBadgeSize={fallbackBadgeSize} />
+      <PlatePlaceholder
+        brand={brand}
+        model={model}
+        compact={compactFallback ?? variant === "square"}
+        className={className}
+      />
     );
   }
 
   return (
     <div className={`relative overflow-hidden ${className}`}>
       <Image
-        src={image.src}
+        src={src}
         alt={alt}
         fill
         sizes={sizes}
         priority={priority}
+        placeholder={image.blurDataURL ? "blur" : "empty"}
+        blurDataURL={image.blurDataURL}
         className="object-cover"
         onError={() => setFailed(true)}
       />

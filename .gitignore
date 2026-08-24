@@ -42,3 +42,7 @@ next-env.d.ts
 .env*.local
 .superpowers/
 .claude/
+
+# Local credential dumps — never commit
+keyyyy.txt
+*.keys.txt

@@ -1,0 +1,2943 @@
+{
+  "munro-series-m": [
+    "ev"
+  ],
+  "jaecoo-j6": [
+    "ev"
+  ],
+  "byd-yuan": [
+    "ev"
+  ],
+  "m-hero-1": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-g-class": [
+    "ev"
+  ],
+  "m-hero-917": [
+    "ev",
+    "hybrid"
+  ],
+  "munro-mk-1": [
+    "ev"
+  ],
+  "maserati-grancabrio": [
+    "ev"
+  ],
+  "abarth-500": [
+    "ev"
+  ],
+  "smart-eq-fortwo": [
+    "ev"
+  ],
+  "fiat-500": [
+    "ev"
+  ],
+  "smart-fortwo": [
+    "ev"
+  ],
+  "bee-bee-xs": [
+    "ev"
+  ],
+  "citroen-e-mehari": [
+    "ev"
+  ],
+  "xpeng-mona-l03": [
+    "ev",
+    "hybrid"
+  ],
+  "xpeng-g6": [
+    "ev",
+    "hybrid"
+  ],
+  "maserati-granturismo": [
+    "ev"
+  ],
+  "skoda-enyaq": [
+    "ev"
+  ],
+  "mercedes-benz-amg-gt-4-door-coupe": [
+    "ev",
+    "hybrid"
+  ],
+  "volkswagen-id-5": [
+    "ev"
+  ],
+  "porsche-cayenne": [
+    "ev",
+    "hybrid"
+  ],
+  "nio-ec6": [
+    "ev"
+  ],
+  "toyota-c-hr": [
+    "ev",
+    "hybrid"
+  ],
+  "peugeot-408-crossover": [
+    "ev",
+    "hybrid"
+  ],
+  "genesis-gv60": [
+    "ev"
+  ],
+  "ford-capri-ev": [
+    "ev"
+  ],
+  "neta-gt": [
+    "ev"
+  ],
+  "perodua-qv-e": [
+    "ev"
+  ],
+  "zeekr-001": [
+    "ev"
+  ],
+  "ford-mustang-mach-e": [
+    "ev"
+  ],
+  "luxeed-r7": [
+    "ev",
+    "hybrid"
+  ],
+  "hyper-ssr": [
+    "ev"
+  ],
+  "hyptec-ssr": [
+    "ev"
+  ],
+  "nissan-leaf": [
+    "ev"
+  ],
+  "bmw-i4": [
+    "ev"
+  ],
+  "livan-7": [
+    "ev"
+  ],
+  "caterham-project-v": [
+    "ev"
+  ],
+  "mahindra-xev-9e": [
+    "ev"
+  ],
+  "alfa-romeo-33-stradale": [
+    "ev"
+  ],
+  "citroen-c4": [
+    "ev"
+  ],
+  "lynk-co-02": [
+    "ev",
+    "hybrid"
+  ],
+  "tata-curvv": [
+    "ev"
+  ],
+  "yangwang-u9": [
+    "ev"
+  ],
+  "volvo-ec40": [
+    "ev"
+  ],
+  "mercedes-benz-sls-amg": [
+    "ev"
+  ],
+  "appollen-s1": [
+    "ev"
+  ],
+  "appollen-a2": [
+    "ev"
+  ],
+  "rolls-royce-spectre": [
+    "ev"
+  ],
+  "smart-3": [
+    "ev"
+  ],
+  "buick-electra": [
+    "ev"
+  ],
+  "avatr-11": [
+    "ev",
+    "hybrid"
+  ],
+  "cupra-urbanrebel": [
+    "ev"
+  ],
+  "nio-ec7": [
+    "ev"
+  ],
+  "cupra-tavascan": [
+    "ev"
+  ],
+  "aiways-u6": [
+    "ev"
+  ],
+  "volvo-c40": [
+    "ev"
+  ],
+  "lotus-eletre": [
+    "ev",
+    "hybrid"
+  ],
+  "alpine-a110": [
+    "ev"
+  ],
+  "aixam-eaixam": [
+    "ev"
+  ],
+  "audi-e-tron": [
+    "ev"
+  ],
+  "cupra-e-racer": [
+    "ev"
+  ],
+  "mg-marvel-r": [
+    "ev"
+  ],
+  "opel-manta": [
+    "ev"
+  ],
+  "rimac-nevera": [
+    "ev"
+  ],
+  "arcfox-alpha-s6": [
+    "ev"
+  ],
+  "arcfox-alpha-s": [
+    "ev"
+  ],
+  "arcfox-alpha-s5": [
+    "ev",
+    "hybrid"
+  ],
+  "nio-ep9": [
+    "ev"
+  ],
+  "hispano-suiza-carmen": [
+    "ev"
+  ],
+  "drako-gte": [
+    "ev"
+  ],
+  "zacua-mx2": [
+    "ev"
+  ],
+  "aspark-owl": [
+    "ev"
+  ],
+  "qiantu-k50": [
+    "ev"
+  ],
+  "lotus-evija": [
+    "ev"
+  ],
+  "pininfarina-battista": [
+    "ev"
+  ],
+  "dr-3": [
+    "ev"
+  ],
+  "minemobility-sport-ev": [
+    "ev"
+  ],
+  "gleagle-ev-k12": [
+    "ev"
+  ],
+  "peugeot-e-legend": [
+    "ev"
+  ],
+  "audi-pb18": [
+    "ev"
+  ],
+  "isdera-commendatore": [
+    "ev"
+  ],
+  "mw-motors-luka-ev": [
+    "ev"
+  ],
+  "skoda-vision": [
+    "ev"
+  ],
+  "pininfarina-hk-gt": [
+    "ev"
+  ],
+  "rimac-ctwo": [
+    "ev"
+  ],
+  "artega-scalo": [
+    "ev"
+  ],
+  "byd-racco": [
+    "ev"
+  ],
+  "bestune-e05": [
+    "ev"
+  ],
+  "evolute-i-van": [
+    "ev"
+  ],
+  "hycan-v09": [
+    "ev"
+  ],
+  "ldv-mifa": [
+    "ev"
+  ],
+  "xpeng-x9": [
+    "ev",
+    "hybrid"
+  ],
+  "mg-m9": [
+    "ev"
+  ],
+  "hyundai-staria": [
+    "ev"
+  ],
+  "toyota-proace-city": [
+    "ev"
+  ],
+  "mg-maxus-7": [
+    "ev"
+  ],
+  "opel-combo": [
+    "ev"
+  ],
+  "geely-galaxy-wing-l380": [
+    "ev"
+  ],
+  "zeekr-009": [
+    "ev"
+  ],
+  "li-mega": [
+    "ev"
+  ],
+  "kia-pv5": [
+    "ev"
+  ],
+  "zeekr-mix": [
+    "ev"
+  ],
+  "voyah-dreamer": [
+    "ev",
+    "hybrid"
+  ],
+  "maxus-mifa-7": [
+    "ev"
+  ],
+  "ford-transit-connect": [
+    "ev",
+    "hybrid"
+  ],
+  "opel-zafira-life": [
+    "ev"
+  ],
+  "citroen-berlingo": [
+    "ev"
+  ],
+  "peugeot-traveller": [
+    "ev"
+  ],
+  "peugeot-rifter": [
+    "ev"
+  ],
+  "citroen-spacetourer": [
+    "ev"
+  ],
+  "mercedes-benz-eqt": [
+    "ev"
+  ],
+  "renault-kangoo": [
+    "ev"
+  ],
+  "toyota-proace": [
+    "ev"
+  ],
+  "nissan-townstar": [
+    "ev"
+  ],
+  "maxus-mifa-9": [
+    "ev"
+  ],
+  "fiat-doblo": [
+    "ev"
+  ],
+  "byd-t3": [
+    "ev"
+  ],
+  "maxus-euniq-5": [
+    "ev",
+    "hybrid"
+  ],
+  "citroen-jumpy": [
+    "ev"
+  ],
+  "vauxhall-combo": [
+    "ev"
+  ],
+  "vauxhall-vivaro": [
+    "ev"
+  ],
+  "renault-master": [
+    "ev"
+  ],
+  "peugeot-partner": [
+    "ev"
+  ],
+  "isuzu-d-max": [
+    "ev"
+  ],
+  "toyota-hilux": [
+    "ev"
+  ],
+  "kgm-musso": [
+    "ev"
+  ],
+  "jac-t9": [
+    "ev"
+  ],
+  "riddara-rd6": [
+    "ev"
+  ],
+  "maxus-eterron-9": [
+    "ev"
+  ],
+  "chevrolet-silverado-ev": [
+    "ev"
+  ],
+  "gmc-hummer-ev": [
+    "ev"
+  ],
+  "tesla-cybertruck": [
+    "ev"
+  ],
+  "lordstown-endurance": [
+    "ev"
+  ],
+  "maxus-t90": [
+    "ev"
+  ],
+  "rivian-r1t": [
+    "ev"
+  ],
+  "jmev-elight": [
+    "ev"
+  ],
+  "arcfox-beta-s3": [
+    "ev"
+  ],
+  "fulwin-a9": [
+    "ev"
+  ],
+  "byd-seal-08": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-cla": [
+    "ev",
+    "hybrid"
+  ],
+  "evolute-i-pro": [
+    "ev"
+  ],
+  "lynk-co-10": [
+    "ev",
+    "hybrid"
+  ],
+  "hycan-a06": [
+    "ev"
+  ],
+  "bmw-i7": [
+    "ev"
+  ],
+  "mercedes-benz-c-class": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-seal": [
+    "ev",
+    "hybrid"
+  ],
+  "nio-et5": [
+    "ev"
+  ],
+  "toyota-bozhi-7": [
+    "ev"
+  ],
+  "jy-air": [
+    "ev"
+  ],
+  "bmw-i3": [
+    "ev",
+    "hybrid"
+  ],
+  "xiaomi-su7": [
+    "ev"
+  ],
+  "byd-seal-07": [
+    "ev",
+    "hybrid"
+  ],
+  "luxeed-s7": [
+    "ev"
+  ],
+  "yangwang-u7": [
+    "ev",
+    "hybrid"
+  ],
+  "maextro-s800": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-qin": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-eqe": [
+    "ev"
+  ],
+  "hyundai-ioniq-6": [
+    "ev"
+  ],
+  "tesla-model-3": [
+    "ev"
+  ],
+  "neta-s": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-e7": [
+    "ev"
+  ],
+  "deepal-l06": [
+    "ev"
+  ],
+  "hyptec-gt": [
+    "ev"
+  ],
+  "hongqi-e-qm5": [
+    "ev"
+  ],
+  "changan-nevo-a06": [
+    "ev"
+  ],
+  "hiphi-z": [
+    "ev"
+  ],
+  "changan-nevo-a07": [
+    "ev",
+    "hybrid"
+  ],
+  "avatr-06": [
+    "ev",
+    "hybrid"
+  ],
+  "roewe-d6": [
+    "ev"
+  ],
+  "roewe-d7": [
+    "ev",
+    "hybrid"
+  ],
+  "hyper-gt": [
+    "ev"
+  ],
+  "aion-s": [
+    "ev"
+  ],
+  "aion-es": [
+    "ev"
+  ],
+  "aion-rt": [
+    "ev"
+  ],
+  "nio-et9": [
+    "ev"
+  ],
+  "stelato-s9": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-seal-06": [
+    "ev",
+    "hybrid"
+  ],
+  "leapmotor-b01": [
+    "ev"
+  ],
+  "nissan-n7": [
+    "ev"
+  ],
+  "lynk-co-z10": [
+    "ev"
+  ],
+  "denza-z9": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-han": [
+    "ev",
+    "hybrid"
+  ],
+  "jmev-eveasy-limo": [
+    "ev"
+  ],
+  "im-l7": [
+    "ev"
+  ],
+  "livan-maple-60s": [
+    "ev"
+  ],
+  "lexus-es": [
+    "ev"
+  ],
+  "hongqi-eh7": [
+    "ev"
+  ],
+  "aeolus-e70": [
+    "ev"
+  ],
+  "porsche-taycan": [
+    "ev"
+  ],
+  "ora-07": [
+    "ev"
+  ],
+  "genesis-g80": [
+    "ev"
+  ],
+  "geely-galaxy-e8": [
+    "ev"
+  ],
+  "tata-tigor": [
+    "ev"
+  ],
+  "toyota-bz3": [
+    "ev"
+  ],
+  "zeekr-007": [
+    "ev"
+  ],
+  "xpeng-p7": [
+    "ev",
+    "hybrid"
+  ],
+  "lucid-air": [
+    "ev"
+  ],
+  "bmw-i5": [
+    "ev"
+  ],
+  "exeed-sterra-es": [
+    "ev"
+  ],
+  "sony-vision-s-01": [
+    "ev"
+  ],
+  "voyah-passion": [
+    "ev",
+    "hybrid"
+  ],
+  "elaris-jaco": [
+    "ev"
+  ],
+  "weltmeister-e5": [
+    "ev"
+  ],
+  "leapmotor-c01": [
+    "ev",
+    "hybrid"
+  ],
+  "suda-sa01": [
+    "ev"
+  ],
+  "xpeng-p5": [
+    "ev"
+  ],
+  "byd-e3": [
+    "ev"
+  ],
+  "audi-a6-e-tron": [
+    "ev"
+  ],
+  "renault-fluence": [
+    "ev"
+  ],
+  "nio-et7": [
+    "ev"
+  ],
+  "fisker-emotion": [
+    "ev"
+  ],
+  "volkswagen-lavida": [
+    "ev"
+  ],
+  "nissan-sylphy": [
+    "ev"
+  ],
+  "geely-emgrand-ev": [
+    "ev"
+  ],
+  "renault-samsung-sm3": [
+    "ev"
+  ],
+  "honda-clarity": [
+    "ev",
+    "hybrid"
+  ],
+  "changan-eado": [
+    "ev",
+    "hybrid"
+  ],
+  "lvchi-venere": [
+    "ev"
+  ],
+  "porsche-mission-e": [
+    "ev"
+  ],
+  "mahindra-e-verito": [
+    "ev"
+  ],
+  "aistaland-gt7": [
+    "ev"
+  ],
+  "saic-z7": [
+    "ev"
+  ],
+  "zeekr-7gt": [
+    "ev"
+  ],
+  "opel-astra": [
+    "ev",
+    "hybrid"
+  ],
+  "peugeot-308": [
+    "ev",
+    "hybrid"
+  ],
+  "audi-a6": [
+    "ev",
+    "hybrid"
+  ],
+  "audi-s6": [
+    "ev"
+  ],
+  "volkswagen-id-7": [
+    "ev"
+  ],
+  "mg-mg5": [
+    "ev"
+  ],
+  "hyundai-ioniq-3": [
+    "ev"
+  ],
+  "jmev-eangel-03": [
+    "ev"
+  ],
+  "cupra-raval": [
+    "ev"
+  ],
+  "byd-atto-1": [
+    "ev"
+  ],
+  "honda-super-one": [
+    "ev"
+  ],
+  "proton-e-mas-5": [
+    "ev"
+  ],
+  "geely-ex2": [
+    "ev"
+  ],
+  "geely-xingyuan": [
+    "ev"
+  ],
+  "geely-e2": [
+    "ev"
+  ],
+  "renault-megane": [
+    "ev",
+    "hybrid"
+  ],
+  "peugeot-208": [
+    "ev"
+  ],
+  "dorcen-e20": [
+    "ev"
+  ],
+  "leapmotor-b05": [
+    "ev"
+  ],
+  "mg-mg4-urban": [
+    "ev"
+  ],
+  "volkswagen-id-3": [
+    "ev"
+  ],
+  "cupra-born": [
+    "ev"
+  ],
+  "byd-d1": [
+    "ev"
+  ],
+  "bestune-xiaoma": [
+    "ev"
+  ],
+  "kaiyi-e-qute": [
+    "ev"
+  ],
+  "leapmotor-lafa-5": [
+    "ev"
+  ],
+  "kaiyi-shiyue": [
+    "ev"
+  ],
+  "firefly-firefly": [
+    "ev"
+  ],
+  "renault-twingo": [
+    "ev"
+  ],
+  "arcfox-t1": [
+    "ev"
+  ],
+  "mg-mg4": [
+    "ev"
+  ],
+  "lancia-ypsilon": [
+    "ev"
+  ],
+  "aion-ut": [
+    "ev"
+  ],
+  "bestune-pony": [
+    "ev"
+  ],
+  "leapmotor-t03": [
+    "ev"
+  ],
+  "nissan-micra": [
+    "ev"
+  ],
+  "jmev-ev2-xiaoqilin": [
+    "ev"
+  ],
+  "byd-dolphin-surf": [
+    "ev"
+  ],
+  "jmev-ev3": [
+    "ev"
+  ],
+  "mini-electric": [
+    "ev"
+  ],
+  "byd-seagull": [
+    "ev"
+  ],
+  "byd-dolphin": [
+    "ev"
+  ],
+  "dongfeng-box": [
+    "ev"
+  ],
+  "mg-windsor-ev": [
+    "ev"
+  ],
+  "jac-e30x": [
+    "ev"
+  ],
+  "kia-ev4": [
+    "ev"
+  ],
+  "fiat-grande-panda": [
+    "ev"
+  ],
+  "hyundai-casper": [
+    "ev"
+  ],
+  "ora-03": [
+    "ev"
+  ],
+  "tata-tiago": [
+    "ev"
+  ],
+  "hyundai-inster": [
+    "ev"
+  ],
+  "alpine-a290": [
+    "ev"
+  ],
+  "dongfeng-nammi-01": [
+    "ev"
+  ],
+  "renault-5": [
+    "ev"
+  ],
+  "vauxhall-corsa": [
+    "ev"
+  ],
+  "baojun-yunduo": [
+    "ev"
+  ],
+  "vauxhall-astra": [
+    "ev",
+    "hybrid"
+  ],
+  "geometry-panda-mini": [
+    "ev"
+  ],
+  "appollen-a1": [
+    "ev"
+  ],
+  "elaris-pio": [
+    "ev"
+  ],
+  "elaris-finn": [
+    "ev"
+  ],
+  "elaris-dyo": [
+    "ev"
+  ],
+  "leapmotor-s01": [
+    "ev"
+  ],
+  "mg-comet-ev": [
+    "ev"
+  ],
+  "vinfast-vf-5": [
+    "ev"
+  ],
+  "opel-corsa": [
+    "ev"
+  ],
+  "ora-cat": [
+    "ev"
+  ],
+  "invicta-electric-pony": [
+    "ev"
+  ],
+  "invicta-electric-d2s": [
+    "ev"
+  ],
+  "dr-1": [
+    "ev"
+  ],
+  "volkswagen-id-2all": [
+    "ev"
+  ],
+  "changan-lumin": [
+    "ev"
+  ],
+  "mg-mulan": [
+    "ev"
+  ],
+  "citroen-saxo": [
+    "ev"
+  ],
+  "nissan-sakura": [
+    "ev"
+  ],
+  "byd-e2": [
+    "ev"
+  ],
+  "peugeot-ion": [
+    "ev"
+  ],
+  "chevrolet-spark": [
+    "ev"
+  ],
+  "renault-zoe": [
+    "ev"
+  ],
+  "ford-focus": [
+    "ev"
+  ],
+  "zotye-e200": [
+    "ev"
+  ],
+  "volkswagen-golf": [
+    "ev",
+    "hybrid"
+  ],
+  "sono-motors-sion": [
+    "ev"
+  ],
+  "chevrolet-bolt-ev": [
+    "ev"
+  ],
+  "toyota-c-pod": [
+    "ev"
+  ],
+  "zacua-mx3": [
+    "ev"
+  ],
+  "uniti-one": [
+    "ev"
+  ],
+  "ora-r1": [
+    "ev"
+  ],
+  "seat-mii": [
+    "ev"
+  ],
+  "honda-e": [
+    "ev"
+  ],
+  "skoda-citigo": [
+    "ev"
+  ],
+  "minemobility-city-ev": [
+    "ev"
+  ],
+  "gleagle-ev-k17": [
+    "ev"
+  ],
+  "e-go-life": [
+    "ev"
+  ],
+  "zotye-z100": [
+    "ev"
+  ],
+  "zhidou-d3": [
+    "ev"
+  ],
+  "zhidou-d2": [
+    "ev"
+  ],
+  "zhidou-d1": [
+    "ev"
+  ],
+  "changan-benben": [
+    "ev"
+  ],
+  "smart-forfour": [
+    "ev"
+  ],
+  "baojun-e100": [
+    "ev"
+  ],
+  "citroen-c-zero": [
+    "ev"
+  ],
+  "opel-ampera": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-b-class": [
+    "ev",
+    "hybrid"
+  ],
+  "mitsubishi-i-miev": [
+    "ev"
+  ],
+  "arcfox-alpha-t": [
+    "ev"
+  ],
+  "arcfox-alpha-t5": [
+    "ev",
+    "hybrid"
+  ],
+  "lucid-gravity": [
+    "ev"
+  ],
+  "avatr-07": [
+    "ev",
+    "hybrid"
+  ],
+  "jmev-ewind": [
+    "ev"
+  ],
+  "aito-m9": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-gla": [
+    "ev",
+    "hybrid"
+  ],
+  "subaru-solterra": [
+    "ev"
+  ],
+  "tata-sierra": [
+    "ev"
+  ],
+  "volkswagen-id-cross": [
+    "ev"
+  ],
+  "evolute-i-joy": [
+    "ev"
+  ],
+  "leapmotor-b03x": [
+    "ev"
+  ],
+  "kia-ev3": [
+    "ev"
+  ],
+  "evolute-i-jet": [
+    "ev"
+  ],
+  "umo-5": [
+    "ev"
+  ],
+  "byd-yuan-plus": [
+    "ev"
+  ],
+  "dongfeng-vigo": [
+    "ev"
+  ],
+  "skoda-peaq": [
+    "ev"
+  ],
+  "byd-datang": [
+    "ev"
+  ],
+  "forthing-friday": [
+    "ev"
+  ],
+  "maserati-grecale": [
+    "ev"
+  ],
+  "leapmotor-a10": [
+    "ev"
+  ],
+  "mercedes-benz-glc": [
+    "ev",
+    "hybrid"
+  ],
+  "kgm-torres": [
+    "ev"
+  ],
+  "zeekr-7x": [
+    "ev"
+  ],
+  "zeekr-x": [
+    "ev"
+  ],
+  "volkswagen-id-4": [
+    "ev"
+  ],
+  "skoda-elroq": [
+    "ev"
+  ],
+  "xiaomi-yu7": [
+    "ev"
+  ],
+  "mg-4x": [
+    "ev"
+  ],
+  "hycan-z03": [
+    "ev"
+  ],
+  "hycan-007": [
+    "ev"
+  ],
+  "enovate-me7": [
+    "ev"
+  ],
+  "chery-j6": [
+    "ev"
+  ],
+  "jeep-avenger": [
+    "ev"
+  ],
+  "chery-e5": [
+    "ev"
+  ],
+  "exeed-ex7": [
+    "ev",
+    "hybrid"
+  ],
+  "xpeng-gx": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-sea-lion-05": [
+    "ev",
+    "hybrid"
+  ],
+  "citroen-c3-aircross": [
+    "ev"
+  ],
+  "tata-harrier": [
+    "ev"
+  ],
+  "fulwin-x3": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-glb": [
+    "ev"
+  ],
+  "audi-q4-e-tron": [
+    "ev"
+  ],
+  "lepas-l6": [
+    "ev",
+    "hybrid"
+  ],
+  "lepas-l4": [
+    "ev",
+    "hybrid"
+  ],
+  "aito-m6": [
+    "ev",
+    "hybrid"
+  ],
+  "aion-n60": [
+    "ev"
+  ],
+  "nissan-ariya": [
+    "ev"
+  ],
+  "nio-es9": [
+    "ev"
+  ],
+  "nio-es8": [
+    "ev"
+  ],
+  "nio-es6": [
+    "ev"
+  ],
+  "kia-ev2": [
+    "ev"
+  ],
+  "skoda-epiq": [
+    "ev"
+  ],
+  "rivian-r2": [
+    "ev"
+  ],
+  "byd-sea-lion-06": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-song-ultra": [
+    "ev",
+    "hybrid"
+  ],
+  "kia-ev5": [
+    "ev"
+  ],
+  "ford-puma": [
+    "ev"
+  ],
+  "toyota-bz4x": [
+    "ev"
+  ],
+  "lexus-rz": [
+    "ev"
+  ],
+  "vauxhall-grandland": [
+    "ev",
+    "hybrid"
+  ],
+  "hyundai-kauai": [
+    "ev"
+  ],
+  "toyota-bz": [
+    "ev"
+  ],
+  "toyota-highlander": [
+    "ev"
+  ],
+  "byd-atto-3": [
+    "ev"
+  ],
+  "subaru-trailseeker": [
+    "ev"
+  ],
+  "mini-countryman": [
+    "ev",
+    "hybrid"
+  ],
+  "ford-explorer-ev": [
+    "ev"
+  ],
+  "hyundai-eo": [
+    "ev"
+  ],
+  "nio-el6": [
+    "ev"
+  ],
+  "mercedes-benz-eqb": [
+    "ev"
+  ],
+  "mercedes-benz-eqa": [
+    "ev"
+  ],
+  "volvo-ex60": [
+    "ev"
+  ],
+  "mercedes-benz-eqe-suv": [
+    "ev"
+  ],
+  "mercedes-benz-eqs-suv": [
+    "ev"
+  ],
+  "mitsubishi-eclipse-cross": [
+    "ev",
+    "hybrid"
+  ],
+  "skywell-be11": [
+    "ev"
+  ],
+  "skywell-et5": [
+    "ev"
+  ],
+  "mazda-cx-6e": [
+    "ev"
+  ],
+  "deepal-s07": [
+    "ev",
+    "hybrid"
+  ],
+  "tesla-model-y": [
+    "ev"
+  ],
+  "bestune-yueyi-03": [
+    "ev"
+  ],
+  "neta-u": [
+    "ev"
+  ],
+  "neta-x": [
+    "ev"
+  ],
+  "neta-v": [
+    "ev"
+  ],
+  "neta-l": [
+    "ev",
+    "hybrid"
+  ],
+  "dongfeng-nammi-06": [
+    "ev"
+  ],
+  "aito-m5": [
+    "ev",
+    "hybrid"
+  ],
+  "changan-nevo-q05": [
+    "ev",
+    "hybrid"
+  ],
+  "jaecoo-j5": [
+    "ev"
+  ],
+  "omoda-5": [
+    "ev"
+  ],
+  "mg-mgs6": [
+    "ev"
+  ],
+  "jeep-recon": [
+    "ev"
+  ],
+  "emc-yudo": [
+    "ev"
+  ],
+  "ora-5": [
+    "ev"
+  ],
+  "chery-eq7": [
+    "ev"
+  ],
+  "chery-tiggo-6": [
+    "ev"
+  ],
+  "deepal-s05": [
+    "ev",
+    "hybrid"
+  ],
+  "porsche-macan": [
+    "ev"
+  ],
+  "hiphi-y": [
+    "ev"
+  ],
+  "hiphi-x": [
+    "ev"
+  ],
+  "geely-galaxy-e5": [
+    "ev"
+  ],
+  "opel-grandland": [
+    "ev",
+    "hybrid"
+  ],
+  "changan-nevo-e07": [
+    "ev",
+    "hybrid"
+  ],
+  "chery-v23": [
+    "ev"
+  ],
+  "baojun-yunhai": [
+    "ev",
+    "hybrid"
+  ],
+  "vauxhall-mokka": [
+    "ev"
+  ],
+  "smart-5": [
+    "ev"
+  ],
+  "li-i6": [
+    "ev"
+  ],
+  "honda-m-nv": [
+    "ev"
+  ],
+  "mazda-ez-60": [
+    "ev",
+    "hybrid"
+  ],
+  "saic-h5": [
+    "ev",
+    "hybrid"
+  ],
+  "volvo-ex90": [
+    "ev"
+  ],
+  "aito-m7": [
+    "ev",
+    "hybrid"
+  ],
+  "icar-03": [
+    "ev"
+  ],
+  "icaur-03": [
+    "ev"
+  ],
+  "icar-v23": [
+    "ev"
+  ],
+  "im-ls6": [
+    "ev",
+    "hybrid"
+  ],
+  "opel-mokka": [
+    "ev"
+  ],
+  "chevrolet-spark-euv": [
+    "ev"
+  ],
+  "citroen-c5-aircross": [
+    "ev",
+    "hybrid"
+  ],
+  "onvo-l90": [
+    "ev"
+  ],
+  "onvo-l60": [
+    "ev"
+  ],
+  "voyah-courage": [
+    "ev"
+  ],
+  "hyundai-kona": [
+    "ev"
+  ],
+  "byd-atto-2": [
+    "ev",
+    "hybrid"
+  ],
+  "hyper-ht": [
+    "ev"
+  ],
+  "deepal-e07": [
+    "ev"
+  ],
+  "hyptec-hl": [
+    "ev",
+    "hybrid"
+  ],
+  "hyptec-ht": [
+    "ev"
+  ],
+  "aion-y": [
+    "ev"
+  ],
+  "aion-v": [
+    "ev"
+  ],
+  "leapmotor-c16": [
+    "ev",
+    "hybrid"
+  ],
+  "leapmotor-c11": [
+    "ev",
+    "hybrid"
+  ],
+  "audi-q6": [
+    "ev"
+  ],
+  "leapmotor-c10": [
+    "ev",
+    "hybrid"
+  ],
+  "aion-lx": [
+    "ev"
+  ],
+  "xpeng-g9": [
+    "ev"
+  ],
+  "lynk-co-z20": [
+    "ev"
+  ],
+  "xpeng-g7": [
+    "ev"
+  ],
+  "opel-frontera": [
+    "ev"
+  ],
+  "dongfeng-e-pi-008": [
+    "ev",
+    "hybrid"
+  ],
+  "mg-im6": [
+    "ev"
+  ],
+  "leapmotor-b10": [
+    "ev",
+    "hybrid"
+  ],
+  "hyundai-creta": [
+    "ev"
+  ],
+  "geely-ex5": [
+    "ev"
+  ],
+  "byd-song-l": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-tang": [
+    "ev",
+    "hybrid"
+  ],
+  "cadillac-optiq": [
+    "ev"
+  ],
+  "volkswagen-id-unyx": [
+    "ev"
+  ],
+  "audi-q5-e-tron": [
+    "ev"
+  ],
+  "im-ls7": [
+    "ev"
+  ],
+  "alpine-a390": [
+    "ev"
+  ],
+  "livan-9": [
+    "ev"
+  ],
+  "toyota-urban-cruiser": [
+    "ev"
+  ],
+  "mini-aceman": [
+    "ev"
+  ],
+  "toyota-bz7": [
+    "ev"
+  ],
+  "kia-ev9": [
+    "ev"
+  ],
+  "honda-s7": [
+    "ev"
+  ],
+  "honda-p7": [
+    "ev"
+  ],
+  "jeep-compass": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-yuan-up": [
+    "ev"
+  ],
+  "tata-punch": [
+    "ev"
+  ],
+  "baojun-yep": [
+    "ev"
+  ],
+  "geometry-ex3": [
+    "ev"
+  ],
+  "geometry-e": [
+    "ev"
+  ],
+  "mitsubishi-ek-x": [
+    "ev"
+  ],
+  "evo-3": [
+    "ev"
+  ],
+  "renault-city-k-ze": [
+    "ev"
+  ],
+  "toyota-rav4": [
+    "ev",
+    "hybrid"
+  ],
+  "kia-kx3": [
+    "ev"
+  ],
+  "roewe-rx5": [
+    "ev",
+    "hybrid"
+  ],
+  "changan-cs15": [
+    "ev"
+  ],
+  "kia-ev6": [
+    "ev"
+  ],
+  "mg-mgs5": [
+    "ev"
+  ],
+  "mg-es5": [
+    "ev"
+  ],
+  "aeolus-sky-ev01": [
+    "ev"
+  ],
+  "aeolus-l7": [
+    "ev",
+    "hybrid"
+  ],
+  "maxus-mifa-6": [
+    "ev",
+    "hybrid"
+  ],
+  "mahindra-xuv400": [
+    "ev"
+  ],
+  "suzuki-vitara": [
+    "ev"
+  ],
+  "citroen-c4-x": [
+    "ev"
+  ],
+  "hyundai-ioniq-5": [
+    "ev"
+  ],
+  "alfa-romeo-junior": [
+    "ev"
+  ],
+  "fiat-600": [
+    "ev"
+  ],
+  "kgm-korando": [
+    "ev"
+  ],
+  "jac-js4": [
+    "ev"
+  ],
+  "vinfast-vf-6": [
+    "ev"
+  ],
+  "elaris-leo": [
+    "ev"
+  ],
+  "tata-nexon": [
+    "ev"
+  ],
+  "renault-scenic": [
+    "ev"
+  ],
+  "vinfast-vf-e34": [
+    "ev"
+  ],
+  "peugeot-2008": [
+    "ev"
+  ],
+  "ford-territory": [
+    "ev"
+  ],
+  "buick-velite-7": [
+    "ev"
+  ],
+  "dongfeng-fengon-e3": [
+    "ev"
+  ],
+  "byd-song": [
+    "ev",
+    "hybrid"
+  ],
+  "xpeng-g3": [
+    "ev"
+  ],
+  "ssangyong-korando": [
+    "ev"
+  ],
+  "mg-zs": [
+    "ev"
+  ],
+  "maxus-euniq-6": [
+    "ev",
+    "hybrid"
+  ],
+  "dfsk-seres-3": [
+    "ev"
+  ],
+  "volkswagen-id-6": [
+    "ev"
+  ],
+  "chevrolet-bolt-euv": [
+    "ev"
+  ],
+  "ora-iq": [
+    "ev"
+  ],
+  "mazda-mx-30": [
+    "ev",
+    "hybrid"
+  ],
+  "roewe-marvel-x": [
+    "ev"
+  ],
+  "kia-niro": [
+    "ev",
+    "hybrid"
+  ],
+  "bordrin-iv6": [
+    "ev"
+  ],
+  "honda-ve-1": [
+    "ev"
+  ],
+  "faw-besturn-x40": [
+    "ev"
+  ],
+  "proton-e-mas-7": [
+    "ev",
+    "hybrid"
+  ],
+  "toyota-bz3x": [
+    "ev"
+  ],
+  "hyundai-ioniq-9": [
+    "ev"
+  ],
+  "byd-sealion-7": [
+    "ev"
+  ],
+  "mahindra-be-6e": [
+    "ev"
+  ],
+  "honda-prologue": [
+    "ev"
+  ],
+  "abarth-600": [
+    "ev"
+  ],
+  "audi-q6-e-tron": [
+    "ev"
+  ],
+  "denza-n7": [
+    "ev"
+  ],
+  "chevrolet-blazer-ev": [
+    "ev"
+  ],
+  "exeed-sterra-et": [
+    "ev",
+    "hybrid"
+  ],
+  "chevrolet-equinox-ev": [
+    "ev"
+  ],
+  "chery-omoda-5": [
+    "ev"
+  ],
+  "byd-sea-lion-07": [
+    "ev",
+    "hybrid"
+  ],
+  "peugeot-5008": [
+    "ev",
+    "hybrid"
+  ],
+  "volvo-ex40": [
+    "ev"
+  ],
+  "byd-seal-u": [
+    "ev",
+    "hybrid"
+  ],
+  "ssangyong-torres": [
+    "ev"
+  ],
+  "peugeot-3008": [
+    "ev",
+    "hybrid"
+  ],
+  "vinfast-vf-7": [
+    "ev"
+  ],
+  "elaris-beo": [
+    "ev"
+  ],
+  "weltmeister-ex5": [
+    "ev"
+  ],
+  "weltmeister-w5": [
+    "ev"
+  ],
+  "weltmeister-ex6": [
+    "ev"
+  ],
+  "weltmeister-w6": [
+    "ev"
+  ],
+  "lexus-ux": [
+    "ev"
+  ],
+  "honda-e-ny1": [
+    "ev"
+  ],
+  "volvo-ex30": [
+    "ev"
+  ],
+  "togg-t10x": [
+    "ev"
+  ],
+  "volvo-xc40": [
+    "ev",
+    "hybrid"
+  ],
+  "fisker-ocean": [
+    "ev"
+  ],
+  "changan-cs55": [
+    "ev",
+    "hybrid"
+  ],
+  "toyota-izoa": [
+    "ev"
+  ],
+  "smart-1": [
+    "ev"
+  ],
+  "bmw-ix3": [
+    "ev"
+  ],
+  "aiways-u5": [
+    "ev"
+  ],
+  "jaguar-i-pace": [
+    "ev"
+  ],
+  "baic-senova-x55": [
+    "ev"
+  ],
+  "hongqi-ehs7": [
+    "ev"
+  ],
+  "genesis-gv70": [
+    "ev"
+  ],
+  "jeep-wagoneer-s": [
+    "ev"
+  ],
+  "audi-q8-e-tron": [
+    "ev"
+  ],
+  "audi-sq6-e-tron": [
+    "ev"
+  ],
+  "acura-zdx": [
+    "ev"
+  ],
+  "sony-vision-s-02": [
+    "ev"
+  ],
+  "voyah-free": [
+    "ev",
+    "hybrid"
+  ],
+  "cadillac-lyriq": [
+    "ev"
+  ],
+  "bollinger-b1": [
+    "ev"
+  ],
+  "audi-sq8-e-tron": [
+    "ev"
+  ],
+  "vinfast-vf-9": [
+    "ev"
+  ],
+  "vinfast-vf-8": [
+    "ev"
+  ],
+  "hongqi-e-hs9": [
+    "ev"
+  ],
+  "tesla-model-x": [
+    "ev"
+  ],
+  "mercedes-benz-eqc": [
+    "ev"
+  ],
+  "cadillac-escalade": [
+    "ev"
+  ],
+  "cadillac-vistiq": [
+    "ev"
+  ],
+  "nio-el8": [
+    "ev"
+  ],
+  "nio-es7": [
+    "ev"
+  ],
+  "nio-el7": [
+    "ev"
+  ],
+  "rivian-r1s": [
+    "ev"
+  ],
+  "evolute-i-sky": [
+    "ev"
+  ],
+  "citroen-c3": [
+    "ev"
+  ],
+  "dacia-spring": [
+    "ev"
+  ],
+  "renault-4": [
+    "ev"
+  ],
+  "chery-fx": [
+    "ev"
+  ],
+  "kia-soul": [
+    "ev"
+  ],
+  "mercedes-benz-vle": [
+    "ev"
+  ],
+  "arcfox-kaola": [
+    "ev"
+  ],
+  "li-i8": [
+    "ev"
+  ],
+  "ford-tourneo-courier": [
+    "ev"
+  ],
+  "kia-carens": [
+    "ev"
+  ],
+  "livan-8": [
+    "ev"
+  ],
+  "mercedes-benz-eqv": [
+    "ev"
+  ],
+  "livan-maple-80v": [
+    "ev"
+  ],
+  "byd-emax-7": [
+    "ev"
+  ],
+  "volkswagen-id-buzz": [
+    "ev"
+  ],
+  "byd-m6": [
+    "ev",
+    "hybrid"
+  ],
+  "denza-d9": [
+    "ev",
+    "hybrid"
+  ],
+  "haima-7x": [
+    "ev"
+  ],
+  "volvo-em90": [
+    "ev"
+  ],
+  "byd-song-max": [
+    "ev",
+    "hybrid"
+  ],
+  "byd-m3e": [
+    "ev"
+  ],
+  "minemobility-mpv-ev": [
+    "ev"
+  ],
+  "byd-e6": [
+    "ev"
+  ],
+  "farizon-sv": [
+    "ev"
+  ],
+  "volkswagen-transporter": [
+    "ev",
+    "hybrid"
+  ],
+  "volkswagen-caravelle": [
+    "ev"
+  ],
+  "mercedes-benz-vito": [
+    "ev"
+  ],
+  "byd-etp3": [
+    "ev"
+  ],
+  "ford-tourneo-custom": [
+    "ev",
+    "hybrid"
+  ],
+  "fiat-scudo": [
+    "ev"
+  ],
+  "bmw-ix5": [
+    "ev"
+  ],
+  "bmw-ix": [
+    "ev"
+  ],
+  "bmw-ix1": [
+    "ev"
+  ],
+  "subaru-uncharted": [
+    "ev"
+  ],
+  "bestune-e01": [
+    "ev"
+  ],
+  "vinfast-vf-3": [
+    "ev"
+  ],
+  "moskvich-3": [
+    "ev"
+  ],
+  "chevrolet-menlo": [
+    "ev"
+  ],
+  "mg-cyberster": [
+    "ev"
+  ],
+  "baltasar-revolt": [
+    "ev"
+  ],
+  "tesla-roadster": [
+    "ev"
+  ],
+  "arcfox-gt": [
+    "ev"
+  ],
+  "audi-e-tron-gt": [
+    "ev"
+  ],
+  "audi-rs-e-tron-gt": [
+    "ev"
+  ],
+  "audi-s-e-tron-gt": [
+    "ev"
+  ],
+  "togg-t10f": [
+    "ev"
+  ],
+  "avatr-12": [
+    "ev"
+  ],
+  "aston-martin-rapide": [
+    "ev"
+  ],
+  "mg-07": [
+    "ev",
+    "hybrid"
+  ],
+  "mercedes-benz-eqs": [
+    "ev"
+  ],
+  "mazda-6e": [
+    "ev"
+  ],
+  "cadillac-celestiq": [
+    "ev"
+  ],
+  "dodge-charger": [
+    "ev"
+  ],
+  "forthing-xinghai-s7": [
+    "ev",
+    "hybrid"
+  ],
+  "dongfeng-e-pi-007": [
+    "ev",
+    "hybrid"
+  ],
+  "mg-im5": [
+    "ev"
+  ],
+  "im-l6": [
+    "ev"
+  ],
+  "volvo-es90": [
+    "ev"
+  ],
+  "deepal-l07": [
+    "ev",
+    "hybrid"
+  ],
+  "deepal-sl03": [
+    "ev",
+    "hybrid"
+  ],
+  "mazda-ez-6": [
+    "ev",
+    "hybrid"
+  ],
+  "xpeng-mona-m03": [
+    "ev"
+  ],
+  "lotus-emeya": [
+    "ev"
+  ],
+  "buick-velite-6": [
+    "ev",
+    "hybrid"
+  ],
+  "tesla-model-s": [
+    "ev"
+  ],
+  "hyundai-ioniq": [
+    "ev",
+    "hybrid"
+  ],
+  "bmw-ix2": [
+    "ev"
+  ],
+  "linktour-alumi": [
+    "ev"
+  ],
+  "aixam-ambition": [
+    "ev"
+  ],
+  "ligier-js50": [
+    "ev"
+  ],
+  "ligier-myli": [
+    "ev"
+  ],
+  "citroen-ami-electric": [
+    "ev"
+  ],
+  "opel-rocks-e": [
+    "ev"
+  ],
+  "aixam-minauto": [
+    "ev"
+  ],
+  "mega-e-scouty": [
+    "ev"
+  ],
+  "silence-s04-nanocar": [
+    "ev"
+  ],
+  "baw-pony": [
+    "ev"
+  ],
+  "fiat-topolino": [
+    "ev"
+  ],
+  "moke-electric": [
+    "ev"
+  ],
+  "micro-microlino": [
+    "ev"
+  ],
+  "renault-twizy": [
+    "ev"
+  ],
+  "baic-bj41": [
+    "hybrid"
+  ],
+  "icar-v27": [
+    "hybrid"
+  ],
+  "m-hero-m817": [
+    "hybrid"
+  ],
+  "land-rover-defender": [
+    "hybrid"
+  ],
+  "haval-raptor": [
+    "hybrid"
+  ],
+  "deepal-g318": [
+    "hybrid"
+  ],
+  "jeep-wrangler": [
+    "hybrid"
+  ],
+  "bentley-continental": [
+    "hybrid"
+  ],
+  "lamborghini-revuelto": [
+    "hybrid"
+  ],
+  "ferrari-cz26": [
+    "hybrid"
+  ],
+  "mercedes-benz-gle": [
+    "hybrid"
+  ],
+  "ferrari-849-testarossa": [
+    "hybrid"
+  ],
+  "audi-q3": [
+    "hybrid"
+  ],
+  "lamborghini-fenomeno": [
+    "hybrid"
+  ],
+  "ferrari-296": [
+    "hybrid"
+  ],
+  "aston-martin-valhalla": [
+    "hybrid"
+  ],
+  "mclaren-w1": [
+    "hybrid"
+  ],
+  "renault-rafale": [
+    "hybrid"
+  ],
+  "lamborghini-temerario": [
+    "hybrid"
+  ],
+  "mercedes-benz-cle": [
+    "hybrid"
+  ],
+  "bugatti-tourbillon": [
+    "hybrid"
+  ],
+  "mercedes-benz-amg-gt": [
+    "hybrid"
+  ],
+  "lynk-co-05": [
+    "hybrid"
+  ],
+  "mclaren-artura": [
+    "hybrid"
+  ],
+  "ferrari-sf90": [
+    "hybrid"
+  ],
+  "mercedes-benz-amg-one": [
+    "hybrid"
+  ],
+  "bmw-i8": [
+    "hybrid"
+  ],
+  "geely-xingyue": [
+    "hybrid"
+  ],
+  "puritalia-berlinetta": [
+    "hybrid"
+  ],
+  "cadillac-elr": [
+    "hybrid"
+  ],
+  "mclaren-p1": [
+    "hybrid"
+  ],
+  "wey-gaoshan": [
+    "hybrid"
+  ],
+  "volkswagen-caddy": [
+    "hybrid"
+  ],
+  "forthing-v9": [
+    "hybrid"
+  ],
+  "wey-g9": [
+    "hybrid"
+  ],
+  "wey-80": [
+    "hybrid"
+  ],
+  "byd-xia": [
+    "hybrid"
+  ],
+  "levc-vn5": [
+    "hybrid"
+  ],
+  "chrysler-pacifica": [
+    "hybrid"
+  ],
+  "byd-shark": [
+    "hybrid"
+  ],
+  "byd-shark-6": [
+    "hybrid"
+  ],
+  "ford-ranger": [
+    "hybrid"
+  ],
+  "changan-nevo-hunter-k50": [
+    "hybrid"
+  ],
+  "deepal-hunter-k50": [
+    "hybrid"
+  ],
+  "ram-1500": [
+    "hybrid"
+  ],
+  "byd-seal-05": [
+    "hybrid"
+  ],
+  "nissan-n6": [
+    "hybrid"
+  ],
+  "bentley-flying-spur": [
+    "hybrid"
+  ],
+  "fulwin-a8": [
+    "hybrid"
+  ],
+  "fulwin-a9l": [
+    "hybrid"
+  ],
+  "bmw-7-series": [
+    "hybrid"
+  ],
+  "bmw-m5": [
+    "hybrid"
+  ],
+  "byd-seal-5": [
+    "hybrid"
+  ],
+  "mercedes-benz-s-class": [
+    "hybrid"
+  ],
+  "changan-nevo-a05": [
+    "hybrid"
+  ],
+  "byd-seal-6": [
+    "hybrid"
+  ],
+  "roewe-m7": [
+    "hybrid"
+  ],
+  "byd-destroyer-05": [
+    "hybrid"
+  ],
+  "lynk-co-07": [
+    "hybrid"
+  ],
+  "audi-a8": [
+    "hybrid"
+  ],
+  "bmw-5-series": [
+    "hybrid"
+  ],
+  "bmw-3-series": [
+    "hybrid"
+  ],
+  "lynk-co-03": [
+    "hybrid"
+  ],
+  "mercedes-benz-e-class": [
+    "hybrid"
+  ],
+  "levc-tx": [
+    "hybrid"
+  ],
+  "mercedes-benz-a-class": [
+    "hybrid"
+  ],
+  "volvo-s60": [
+    "hybrid"
+  ],
+  "volvo-s90": [
+    "hybrid"
+  ],
+  "fisker-karma": [
+    "hybrid"
+  ],
+  "volkswagen-passat": [
+    "hybrid"
+  ],
+  "ford-fusion": [
+    "hybrid"
+  ],
+  "cadillac-ct6": [
+    "hybrid"
+  ],
+  "karma-revero": [
+    "hybrid"
+  ],
+  "kia-optima": [
+    "hybrid"
+  ],
+  "kia-k3": [
+    "hybrid"
+  ],
+  "honda-accord": [
+    "hybrid"
+  ],
+  "roewe-950": [
+    "hybrid"
+  ],
+  "roewe-i6": [
+    "hybrid"
+  ],
+  "hyundai-sonata": [
+    "hybrid"
+  ],
+  "audi-rs5": [
+    "hybrid"
+  ],
+  "audi-a5": [
+    "hybrid"
+  ],
+  "seat-leon": [
+    "hybrid"
+  ],
+  "cupra-leon": [
+    "hybrid"
+  ],
+  "skoda-superb": [
+    "hybrid"
+  ],
+  "citroen-c5-x": [
+    "hybrid"
+  ],
+  "peugeot-508": [
+    "hybrid"
+  ],
+  "volvo-v60": [
+    "hybrid"
+  ],
+  "volvo-v90": [
+    "hybrid"
+  ],
+  "kia-ceed": [
+    "hybrid"
+  ],
+  "porsche-panamera": [
+    "hybrid"
+  ],
+  "skoda-octavia": [
+    "hybrid"
+  ],
+  "volkswagen-arteon": [
+    "hybrid"
+  ],
+  "byd-dolphin-g": [
+    "hybrid"
+  ],
+  "audi-a3": [
+    "hybrid"
+  ],
+  "chevrolet-volt": [
+    "hybrid"
+  ],
+  "freelander-8": [
+    "hybrid"
+  ],
+  "wey-mocha": [
+    "hybrid"
+  ],
+  "wey-blue-mountain": [
+    "hybrid"
+  ],
+  "wey-v9x": [
+    "hybrid"
+  ],
+  "wey-v8x": [
+    "hybrid"
+  ],
+  "tank-700": [
+    "hybrid"
+  ],
+  "jetour-g700": [
+    "hybrid"
+  ],
+  "geely-galaxy-m7": [
+    "hybrid"
+  ],
+  "evolute-i-space": [
+    "hybrid"
+  ],
+  "tank-300": [
+    "hybrid"
+  ],
+  "lamborghini-urus": [
+    "hybrid"
+  ],
+  "li-l8": [
+    "hybrid"
+  ],
+  "byd-atto-8": [
+    "hybrid"
+  ],
+  "leapmotor-d19": [
+    "hybrid"
+  ],
+  "zeekr-8x": [
+    "hybrid"
+  ],
+  "voyah-taishan": [
+    "hybrid"
+  ],
+  "enovate-me5": [
+    "hybrid"
+  ],
+  "byd-ti-7": [
+    "hybrid"
+  ],
+  "chery-tiggo-9": [
+    "hybrid"
+  ],
+  "omoda-7": [
+    "hybrid"
+  ],
+  "fulwin-t10": [
+    "hybrid"
+  ],
+  "fulwin-t9": [
+    "hybrid"
+  ],
+  "fulwin-t8": [
+    "hybrid"
+  ],
+  "fulwin-t9l": [
+    "hybrid"
+  ],
+  "fulwin-t11": [
+    "hybrid"
+  ],
+  "mg-mgs9": [
+    "hybrid"
+  ],
+  "lepas-l8": [
+    "hybrid"
+  ],
+  "ebro-s900": [
+    "hybrid"
+  ],
+  "byd-sealion-8": [
+    "hybrid"
+  ],
+  "byd-sealion-5": [
+    "hybrid"
+  ],
+  "geely-starray-em-i": [
+    "hybrid"
+  ],
+  "denza-b8": [
+    "hybrid"
+  ],
+  "denza-b5": [
+    "hybrid"
+  ],
+  "suzuki-across": [
+    "hybrid"
+  ],
+  "dfsk-e5": [
+    "hybrid"
+  ],
+  "kia-sportage": [
+    "hybrid"
+  ],
+  "yangwang-u8": [
+    "hybrid"
+  ],
+  "hyundai-tucson": [
+    "hybrid"
+  ],
+  "nissan-rogue": [
+    "hybrid"
+  ],
+  "im-ls9": [
+    "hybrid"
+  ],
+  "kaiyi-kunlun": [
+    "hybrid"
+  ],
+  "volvo-xc60": [
+    "hybrid"
+  ],
+  "jeep-grand-cherokee": [
+    "hybrid"
+  ],
+  "haval-h6": [
+    "hybrid"
+  ],
+  "geely-galaxy-m9": [
+    "hybrid"
+  ],
+  "tank-400": [
+    "hybrid"
+  ],
+  "alfa-romeo-tonale": [
+    "hybrid"
+  ],
+  "wey-07": [
+    "hybrid"
+  ],
+  "changan-nevo-q07": [
+    "hybrid"
+  ],
+  "bestune-yueyi-07": [
+    "hybrid"
+  ],
+  "tank-500": [
+    "hybrid"
+  ],
+  "denza-n8l": [
+    "hybrid"
+  ],
+  "volvo-xc70": [
+    "hybrid"
+  ],
+  "omoda-9": [
+    "hybrid"
+  ],
+  "byd-sealion-6": [
+    "hybrid"
+  ],
+  "deepal-s09": [
+    "hybrid"
+  ],
+  "roewe-d5x": [
+    "hybrid"
+  ],
+  "zeekr-9x": [
+    "hybrid"
+  ],
+  "changan-uni-z": [
+    "hybrid"
+  ],
+  "ebro-s800": [
+    "hybrid"
+  ],
+  "ebro-s700": [
+    "hybrid"
+  ],
+  "li-one": [
+    "hybrid"
+  ],
+  "li-l7": [
+    "hybrid"
+  ],
+  "li-l9": [
+    "hybrid"
+  ],
+  "li-l6": [
+    "hybrid"
+  ],
+  "aito-m8": [
+    "hybrid"
+  ],
+  "lynk-co-01": [
+    "hybrid"
+  ],
+  "lynk-co-08": [
+    "hybrid"
+  ],
+  "lynk-co-900": [
+    "hybrid"
+  ],
+  "bentley-bentayga": [
+    "hybrid"
+  ],
+  "denza-n9": [
+    "hybrid"
+  ],
+  "audi-q5": [
+    "hybrid"
+  ],
+  "dr-6": [
+    "hybrid"
+  ],
+  "jetour-dashing": [
+    "hybrid"
+  ],
+  "soueast-s06": [
+    "hybrid"
+  ],
+  "jetour-t2": [
+    "hybrid"
+  ],
+  "jaguar-e-pace": [
+    "hybrid"
+  ],
+  "mg-hs": [
+    "hybrid"
+  ],
+  "dfsk-fengon-e5": [
+    "hybrid"
+  ],
+  "jaecoo-j7": [
+    "hybrid"
+  ],
+  "swm-tiger": [
+    "hybrid"
+  ],
+  "haval-xiaolong-max": [
+    "hybrid"
+  ],
+  "haval-xiaolong": [
+    "hybrid"
+  ],
+  "chery-tiggo-7": [
+    "hybrid"
+  ],
+  "mitsubishi-outlander": [
+    "hybrid"
+  ],
+  "ford-equator": [
+    "hybrid"
+  ],
+  "cupra-terramar": [
+    "hybrid"
+  ],
+  "cupra-formentor": [
+    "hybrid"
+  ],
+  "wey-latte": [
+    "hybrid"
+  ],
+  "wey-coffee-02": [
+    "hybrid"
+  ],
+  "wey-05": [
+    "hybrid"
+  ],
+  "wey-03": [
+    "hybrid"
+  ],
+  "volkswagen-tayron": [
+    "hybrid"
+  ],
+  "volvo-xc90": [
+    "hybrid"
+  ],
+  "kia-sorento": [
+    "hybrid"
+  ],
+  "sportequipe-8": [
+    "hybrid"
+  ],
+  "chery-tansuo-06": [
+    "hybrid"
+  ],
+  "audi-q8": [
+    "hybrid"
+  ],
+  "audi-q7": [
+    "hybrid"
+  ],
+  "hyundai-santa-fe": [
+    "hybrid"
+  ],
+  "mazda-cx-80": [
+    "hybrid"
+  ],
+  "lynk-co-06": [
+    "hybrid"
+  ],
+  "lynk-co-09": [
+    "hybrid"
+  ],
+  "volkswagen-tiguan": [
+    "hybrid"
+  ],
+  "mazda-cx-70": [
+    "hybrid"
+  ],
+  "bmw-xm": [
+    "hybrid"
+  ],
+  "exeed-lx": [
+    "hybrid"
+  ],
+  "ford-kuga": [
+    "hybrid"
+  ],
+  "volkswagen-touareg": [
+    "hybrid"
+  ],
+  "toyota-crown": [
+    "hybrid"
+  ],
+  "land-rover-range-rover-sport": [
+    "hybrid"
+  ],
+  "land-rover-range-rover": [
+    "hybrid"
+  ],
+  "land-rover-range-rover-evoque": [
+    "hybrid"
+  ],
+  "lexus-tx": [
+    "hybrid"
+  ],
+  "honda-cr-v": [
+    "hybrid"
+  ],
+  "toyota-century": [
+    "hybrid"
+  ],
+  "skoda-kodiaq": [
+    "hybrid"
+  ],
+  "chery-tiggo-8": [
+    "hybrid"
+  ],
+  "ford-escape": [
+    "hybrid"
+  ],
+  "mazda-cx-90": [
+    "hybrid"
+  ],
+  "mitsubishi-asx": [
+    "hybrid"
+  ],
+  "land-rover-range-rover-velar": [
+    "hybrid"
+  ],
+  "changan-uni-k": [
+    "hybrid"
+  ],
+  "lexus-rx": [
+    "hybrid"
+  ],
+  "wey-coffee-01": [
+    "hybrid"
+  ],
+  "kia-xceed": [
+    "hybrid"
+  ],
+  "subaru-crosstrek": [
+    "hybrid"
+  ],
+  "mg-pilot": [
+    "hybrid"
+  ],
+  "mazda-cx-60": [
+    "hybrid"
+  ],
+  "lexus-nx": [
+    "hybrid"
+  ],
+  "bmw-x1": [
+    "hybrid"
+  ],
+  "jeep-renegade": [
+    "hybrid"
+  ],
+  "subaru-xv": [
+    "hybrid"
+  ],
+  "seat-tarraco": [
+    "hybrid"
+  ],
+  "land-rover-discovery-sport": [
+    "hybrid"
+  ],
+  "bmw-x2": [
+    "hybrid"
+  ],
+  "geely-binyue": [
+    "hybrid"
+  ],
+  "jaguar-f-pace": [
+    "hybrid"
+  ],
+  "chrysler-aspen": [
+    "hybrid"
+  ],
+  "ford-explorer": [
+    "hybrid"
+  ],
+  "lincoln-aviator": [
+    "hybrid"
+  ],
+  "kia-telluride": [
+    "hybrid"
+  ],
+  "wey-p8": [
+    "hybrid"
+  ],
+  "renault-captur": [
+    "hybrid"
+  ],
+  "luxeed-v9": [
+    "hybrid"
+  ],
+  "ford-tourneo-connect": [
+    "hybrid"
+  ],
+  "bmw-2-series": [
+    "hybrid"
+  ],
+  "geely-jia-ji": [
+    "hybrid"
+  ],
+  "ford-c-max": [
+    "hybrid"
+  ],
+  "volkswagen-multivan": [
+    "hybrid"
+  ],
+  "bmw-x5": [
+    "hybrid"
+  ],
+  "bmw-x3": [
+    "hybrid"
+  ],
+  "haval-big-dog": [
+    "hybrid"
+  ],
+  "dodge-hornet": [
+    "hybrid"
+  ],
+  "mercedes-benz-sl": [
+    "hybrid"
+  ],
+  "porsche-918": [
+    "hybrid"
+  ],
+  "geely-bo-rui-ge": [
+    "hybrid"
+  ],
+  "changan-uni-v": [
+    "hybrid"
+  ],
+  "audi-a7": [
+    "hybrid"
+  ],
+  "toyota-prius": [
+    "hybrid"
+  ],
+  "mg-mg6": [
+    "hybrid"
+  ],
+  "koenigsegg-regera": [
+    "hybrid"
+  ],
+  "koenigsegg-gemera": [
+    "hybrid"
+  ],
+  "pininfarina-h2": [
+    "hybrid"
+  ]
+}

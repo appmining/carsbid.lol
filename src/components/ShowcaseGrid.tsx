@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { useCarsStore } from "@/lib/store";
 import { CarPhoto } from "@/components/CarPhoto";
 import { formatNumber } from "@/lib/format";
@@ -38,9 +38,14 @@ const RANK_BADGE: Record<number, string> = {
 };
 
 export function ShowcaseGrid() {
-  const { getVotes } = useCarsStore();
+  const { getVotes, totalVotes } = useCarsStore();
   const t = useTranslations("showcaseGrid");
+  const te = useTranslations("emptyState");
+  const tb = useTranslations("bodyTypes");
   const locale = useLocale();
+  // Until the first vote lands there is no ranking to show, so the grid reads
+  // as a showcase: no rank badges, no "0 oy", the car's own spec instead.
+  const ranked = totalVotes > 0;
 
   // 3861 entries mapped and sorted; without useMemo this reran on every
   // unrelated state change in the tree.
@@ -57,9 +62,11 @@ export function ShowcaseGrid() {
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-5">
         <div>
           <h2 className="font-display text-section font-bold">{t("title")}</h2>
-          <p className="text-sm text-text-dim mt-1">{t("subtitle")}</p>
+          <p className="text-sm text-text-dim mt-1">
+            {ranked ? t("subtitle") : te("showcaseSubtitle")}
+          </p>
         </div>
-        <div className="flex items-center gap-2 text-xs text-text-dim">
+        <div className={`items-center gap-2 text-xs text-text-dim ${ranked ? "flex" : "hidden"}`}>
           <span>{t("lowVotes")}</span>
           <span className="h-2 w-20 rounded-full bg-gradient-to-r from-surface-2 to-accent" />
           <span>{t("highVotes")}</span>
@@ -74,7 +81,7 @@ export function ShowcaseGrid() {
         {top.map(({ car, votes }, i) => {
           const rank = i + 1;
           const tier = tierFor(rank);
-          const intensity = max === min ? 0.5 : (votes - min) / (max - min);
+          const intensity = !ranked || max === min ? 0 : (votes - min) / (max - min);
           const tint = `color-mix(in oklab, var(--color-accent) ${Math.round(
             20 + intensity * 55
           )}%, transparent)`;
@@ -110,7 +117,7 @@ export function ShowcaseGrid() {
                 }}
               />
 
-              {badge && (
+              {ranked && badge && (
                 <div
                   className={`absolute left-2.5 top-2.5 grid h-6 w-6 place-items-center rounded-md text-[11px] font-bold ${badge}`}
                 >
@@ -126,7 +133,9 @@ export function ShowcaseGrid() {
                   {car.model}
                 </div>
                 <div className="mt-0.5 text-[11px] font-medium text-white/85">
-                  {formatNumber(votes, locale)} {t("votesSuffix")}
+                  {ranked
+                    ? `${formatNumber(votes, locale)} ${t("votesSuffix")}`
+                    : tb(car.body)}
                 </div>
               </div>
             </Link>

@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { useCarsStore } from "@/lib/store";
 import { CarPhoto } from "@/components/CarPhoto";
 import { PatronCard } from "@/components/PatronCard";
@@ -40,9 +40,11 @@ export function PatronCarousel() {
                 <CarPhoto
                   slug={car.slug}
                   brand={car.brand}
+                  model={car.model}
                   alt={`${car.brand} ${car.model}`}
+                  variant="square"
+                  sizes="40px"
                   className="h-full w-full"
-                  fallbackBadgeSize="sm"
                 />
               </div>
               <div className="min-w-0 flex-1">

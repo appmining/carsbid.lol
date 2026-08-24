@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/lib/site";
 

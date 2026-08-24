@@ -55,7 +55,10 @@
     "loadMore": "Show More ({count} models left)"
   },
   "rankingRow": {
-    "votesLabel": "{percent} / {votes} votes"
+    "votesLabel": "{percent} / {votes} votes",
+    "spec": "{body} · {years}",
+    "yearsOpen": "{from} –",
+    "yearsClosed": "{from}–{to}"
   },
   "patronCard": {
     "prevPatrons": "Previous Patrons",
@@ -86,18 +89,6 @@
   "voteButton": {
     "vote": "Vote",
     "voted": "Voted ✓"
-  },
-  "segments": {
-    "all": "All Segments",
-    "sedan": "Sedan",
-    "hatchback": "Hatchback",
-    "suv": "SUV / Crossover",
-    "pickup": "Pickup",
-    "mpv": "MPV / Van",
-    "spor": "Sports",
-    "elektrikli": "Electric",
-    "offroad": "Off-road",
-    "groupLabel": "Segment filter"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -160,5 +151,39 @@
     "body": "The page failed to load. Trying again usually sorts it out.",
     "retry": "Try again",
     "home": "Back to home"
+  },
+  "bodyTypes": {
+    "suv": "SUV",
+    "sedan": "Sedan",
+    "hatchback": "Hatchback",
+    "station": "Estate",
+    "spor": "Sports",
+    "mpv": "MPV / Van",
+    "pickup": "Pickup",
+    "offroad": "Off-road"
+  },
+  "powertrains": {
+    "ev": "⚡ Electric",
+    "hybrid": "Hybrid",
+    "ice": "Petrol / Diesel"
+  },
+  "filters": {
+    "searchPlaceholder": "Search brand or model…",
+    "searchLabel": "Search models",
+    "brandLabel": "Brand",
+    "allBrands": "All brands",
+    "clear": "Clear",
+    "bodyLegend": "Body",
+    "powerLegend": "Engine",
+    "allBodies": "All",
+    "allPowertrains": "All",
+    "resultCount": "{count} models",
+    "noResultsTitle": "No models match these filters",
+    "noResultsBody": "Try a shorter search, or drop one of the filters."
+  },
+  "emptyState": {
+    "rankingSubtitle": "{count} models in the catalogue. Cast the first vote and start the ranking.",
+    "showcaseSubtitle": "Models from the catalogue. As votes come in, the most-voted rise to the top.",
+    "beFirst": "Be the first to vote"
   }
 }

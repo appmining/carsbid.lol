@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { CARS } from "@/data/cars";
+import { CARS } from "@/data/cars.generated";
 import type { CarModel } from "@/lib/types";
 import { useCarsStore } from "@/lib/store";
 import { CarPhoto, getCarImageCredit } from "@/components/CarPhoto";
@@ -14,7 +14,10 @@ import { formatNumber, formatPercent } from "@/lib/format";
 export function CarDetailClient({ car }: { car: CarModel }) {
   const { getVotes, getPatron, totalVotes } = useCarsStore();
   const t = useTranslations("carDetail");
-  const ts = useTranslations("segments");
+  const ts = useTranslations("bodyTypes");
+  const tpw = useTranslations("powertrains");
+  const tr = useTranslations("rankingRow");
+  const te = useTranslations("emptyState");
   const locale = useLocale();
 
   // Only this model's own position is needed, so count the models ahead of it
@@ -25,9 +28,10 @@ export function CarDetailClient({ car }: { car: CarModel }) {
     [getVotes, votes]
   );
   const percent = totalVotes > 0 ? (votes / totalVotes) * 100 : 0;
+  const ranked = totalVotes > 0;
   const patron = getPatron(car.slug);
 
-  const related = CARS.filter((c) => c.segment === car.segment && c.slug !== car.slug).slice(0, 4);
+  const related = CARS.filter((c) => c.body === car.body && c.slug !== car.slug).slice(0, 4);
   const credit = getCarImageCredit(car.slug);
 
   return (
@@ -40,9 +44,10 @@ export function CarDetailClient({ car }: { car: CarModel }) {
         <CarPhoto
           slug={car.slug}
           brand={car.brand}
+          model={car.model}
           alt={`${car.brand} ${car.model}`}
+          variant="wide"
           className="h-56 sm:h-72 w-full"
-          fallbackBadgeSize="lg"
           sizes="(max-width: 768px) 100vw, 768px"
           priority
         />
@@ -65,22 +70,45 @@ export function CarDetailClient({ car }: { car: CarModel }) {
 
       <div className="mt-4 flex items-start gap-4">
         <div className="min-w-0 flex-1">
+          {/* Body, powertrain and production years now come from the scraped
+              catalogue, so a model page says something even before any votes. */}
           <div className="flex flex-wrap items-center gap-2">
             <span className="rounded-full bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-text-muted">
-              {ts(car.segment)}
+              {ts(car.body)}
             </span>
-            <span className="rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-bold text-gold">
-              {t("rank", { rank })}
-            </span>
+            {car.powertrain
+              .filter((p) => p !== "ice")
+              .map((p) => (
+                <span
+                  key={p}
+                  className="rounded-full bg-accent-soft px-2.5 py-0.5 text-xs font-medium text-accent"
+                >
+                  {tpw(p)}
+                </span>
+              ))}
+            {car.years && (
+              <span className="rounded-full bg-surface-2 px-2.5 py-0.5 font-mono-tab text-xs font-medium text-text-muted">
+                {car.years[1] === null
+                  ? tr("yearsOpen", { from: car.years[0] })
+                  : tr("yearsClosed", { from: car.years[0], to: car.years[1] })}
+              </span>
+            )}
+            {ranked && (
+              <span className="rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-bold text-gold">
+                {t("rank", { rank })}
+              </span>
+            )}
           </div>
           <h1 className="font-display mt-2 text-2xl sm:text-3xl font-bold tracking-tight">
             {car.brand} <span className="text-text-muted font-semibold">{car.model}</span>
           </h1>
           <p className="mt-1 text-sm text-text-dim">
-            {t("votesOf", {
-              votes: formatNumber(votes, locale),
-              percent: formatPercent(percent, locale),
-            })}
+            {ranked
+              ? t("votesOf", {
+                  votes: formatNumber(votes, locale),
+                  percent: formatPercent(percent, locale),
+                })
+              : te("beFirst")}
           </p>
         </div>
       </div>
@@ -118,9 +146,11 @@ export function CarDetailClient({ car }: { car: CarModel }) {
                   <CarPhoto
                     slug={c.slug}
                     brand={c.brand}
+                    model={c.model}
                     alt={`${c.brand} ${c.model}`}
+                    variant="square"
+                    sizes="40px"
                     className="h-full w-full"
-                    fallbackBadgeSize="sm"
                   />
                 </div>
                 <div className="min-w-0">

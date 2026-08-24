@@ -7,18 +7,17 @@ function hashString(input: string): number {
   return Math.abs(hash);
 }
 
-export function brandHue(brand: string): number {
-  return hashString(brand) % 360;
-}
-
-export function brandGradient(brand: string): string {
-  const h = brandHue(brand);
-  return `linear-gradient(135deg, hsl(${h} 70% 46%), hsl(${(h + 34) % 360} 75% 34%))`;
-}
-
-export function brandSolid(brand: string): string {
-  const h = brandHue(brand);
-  return `hsl(${h} 65% 52%)`;
+/** Backdrop for a model with no photograph.
+ *
+ *  Deliberately not a hash-derived hue. The old version rolled a random colour
+ *  off the brand name — Audi purple, BMW green — which meant nothing, matched
+ *  no real brand identity, and put neon rectangles next to photographs on a
+ *  near-black panel. These stay inside the panel's own warm range and vary only
+ *  in lightness, just enough that a grid of them doesn't read as one flat block. */
+export function brandPlate(brand: string): string {
+  const step = hashString(brand) % 5;
+  const base = 7 + step;
+  return `linear-gradient(160deg, hsl(35 9% ${base + 3}%), hsl(30 10% ${base}%))`;
 }
 
 export function initials(brand: string): string {

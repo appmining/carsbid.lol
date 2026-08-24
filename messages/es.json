@@ -55,7 +55,10 @@
     "loadMore": "Mostrar Más ({count} modelos restantes)"
   },
   "rankingRow": {
-    "votesLabel": "{percent} / {votes} votos"
+    "votesLabel": "{percent} / {votes} votos",
+    "spec": "{body} · {years}",
+    "yearsOpen": "{from} –",
+    "yearsClosed": "{from}–{to}"
   },
   "patronCard": {
     "prevPatrons": "Patrones Anteriores",
@@ -86,18 +89,6 @@
   "voteButton": {
     "vote": "Votar",
     "voted": "Votado ✓"
-  },
-  "segments": {
-    "all": "Todos Los Segmentos",
-    "sedan": "Sedán",
-    "hatchback": "Hatchback",
-    "suv": "SUV / Crossover",
-    "pickup": "Pickup",
-    "mpv": "Monovolumen",
-    "spor": "Deportivo",
-    "elektrikli": "Eléctrico",
-    "offroad": "Todoterreno",
-    "groupLabel": "Filtro de segmento"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -160,5 +151,39 @@
     "body": "La página no se pudo cargar. Volver a intentarlo suele resolverlo.",
     "retry": "Reintentar",
     "home": "Volver al inicio"
+  },
+  "bodyTypes": {
+    "suv": "SUV",
+    "sedan": "Sedán",
+    "hatchback": "Hatchback",
+    "station": "Familiar",
+    "spor": "Deportivo",
+    "mpv": "Monovolumen",
+    "pickup": "Pickup",
+    "offroad": "Todoterreno"
+  },
+  "powertrains": {
+    "ev": "⚡ Eléctrico",
+    "hybrid": "Híbrido",
+    "ice": "Gasolina / Diésel"
+  },
+  "filters": {
+    "searchPlaceholder": "Busca marca o modelo…",
+    "searchLabel": "Buscar modelos",
+    "brandLabel": "Marca",
+    "allBrands": "Todas las marcas",
+    "clear": "Limpiar",
+    "bodyLegend": "Carrocería",
+    "powerLegend": "Motor",
+    "allBodies": "Todos",
+    "allPowertrains": "Todos",
+    "resultCount": "{count} modelos",
+    "noResultsTitle": "Ningún modelo coincide",
+    "noResultsBody": "Prueba una búsqueda más corta o quita un filtro."
+  },
+  "emptyState": {
+    "rankingSubtitle": "{count} modelos en el catálogo. Da el primer voto y arranca el ranking.",
+    "showcaseSubtitle": "Modelos del catálogo. A medida que lleguen votos, los más votados subirán.",
+    "beFirst": "Sé el primero en votar"
   }
 }

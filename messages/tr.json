@@ -55,7 +55,10 @@
     "loadMore": "Daha Fazla Göster ({count} model kaldı)"
   },
   "rankingRow": {
-    "votesLabel": "{percent} / {votes} oy"
+    "votesLabel": "{percent} / {votes} oy",
+    "spec": "{body} · {years}",
+    "yearsOpen": "{from} –",
+    "yearsClosed": "{from}–{to}"
   },
   "patronCard": {
     "prevPatrons": "Önceki Patronlar",
@@ -86,18 +89,6 @@
   "voteButton": {
     "vote": "Oy Ver",
     "voted": "Oy Verildi ✓"
-  },
-  "segments": {
-    "all": "Tüm Segmentler",
-    "sedan": "Sedan",
-    "hatchback": "Hatchback",
-    "suv": "SUV / Crossover",
-    "pickup": "Pickup",
-    "mpv": "MPV / Ticari",
-    "spor": "Spor",
-    "elektrikli": "Elektrikli",
-    "offroad": "Arazi",
-    "groupLabel": "Segment filtresi"
   },
   "platforms": {
     "instagram": "Instagram",
@@ -160,5 +151,39 @@
     "body": "Sayfa yüklenirken bir hata oluştu. Tekrar denemek genelde yeterli oluyor.",
     "retry": "Tekrar dene",
     "home": "Ana sayfaya dön"
+  },
+  "bodyTypes": {
+    "suv": "SUV",
+    "sedan": "Sedan",
+    "hatchback": "Hatchback",
+    "station": "Station Wagon",
+    "spor": "Spor",
+    "mpv": "MPV / Van",
+    "pickup": "Pickup",
+    "offroad": "Arazi"
+  },
+  "powertrains": {
+    "ev": "⚡ Elektrikli",
+    "hybrid": "Hibrit",
+    "ice": "Benzin / Dizel"
+  },
+  "filters": {
+    "searchPlaceholder": "Marka veya model ara…",
+    "searchLabel": "Modellerde ara",
+    "brandLabel": "Marka",
+    "allBrands": "Tüm markalar",
+    "clear": "Temizle",
+    "bodyLegend": "Gövde",
+    "powerLegend": "Motor",
+    "allBodies": "Tümü",
+    "allPowertrains": "Tümü",
+    "resultCount": "{count} model",
+    "noResultsTitle": "Bu filtrelerle model yok",
+    "noResultsBody": "Aramayı kısaltmayı ya da bir filtreyi kaldırmayı dene."
+  },
+  "emptyState": {
+    "rankingSubtitle": "{count} model listede. İlk oyu sen ver, sıralamayı başlat.",
+    "showcaseSubtitle": "Katalogdaki modeller. Oylar geldikçe en çok oy alanlar öne çıkacak.",
+    "beFirst": "İlk oyu sen ver"
   }
 }
