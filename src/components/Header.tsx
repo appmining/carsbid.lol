@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useMagnetic } from "@/lib/useMagnetic";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { Logo } from "@/components/Logo";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -44,18 +45,7 @@ export function Header() {
       >
         <Link href="/" locale={locale} className="flex items-center gap-2 shrink-0">
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent text-white">
-            <svg viewBox="0 0 24 24" fill="none" className="h-4.5 w-4.5">
-              <path
-                d="M4 16.5 5.4 12a2 2 0 0 1 1.9-1.4h9.4a2 2 0 0 1 1.9 1.4l1.4 4.5"
-                stroke="white"
-                strokeWidth="1.8"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <rect x="3" y="16.5" width="18" height="3" rx="1.2" stroke="white" strokeWidth="1.6" />
-              <circle cx="7.5" cy="19.6" r="1.1" fill="white" />
-              <circle cx="16.5" cy="19.6" r="1.1" fill="white" />
-            </svg>
+            <Logo />
           </span>
           <span className="font-display text-lg font-bold tracking-tight">
             carsbid<span className="text-accent">.lol</span>
