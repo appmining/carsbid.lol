@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remo
 const BG = "#08090b";
 const ACCENT = "#7dd3fc";
 const CELL = 64;
-const PULSE_PERIODS = [60, 90, 150, 180]; // frame counts, all divisors of the 300-frame loop
+const PULSE_PERIODS = [60, 75, 100, 150]; // frame counts, all divisors of the 300-frame loop
 
 function hash(n: number): number {
   const x = Math.sin(n * 12.9898) * 43758.5453;

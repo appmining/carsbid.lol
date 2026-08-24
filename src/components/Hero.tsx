@@ -32,7 +32,8 @@ function HeroVideoBackground() {
   /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!reduced) setEnabled(true);
+    const wide = window.matchMedia("(min-width: 768px)").matches;
+    if (!reduced && wide) setEnabled(true);
   }, []);
   /* eslint-enable react-hooks/set-state-in-effect */
 
@@ -117,7 +118,7 @@ export function Hero() {
             ref={ctaRef}
             data-hero-cta
             href="#siralama"
-            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_30px_-8px_rgba(125,211,252,0.45)] transition-colors hover:bg-accent-2"
+            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-bg shadow-[0_8px_30px_-8px_rgba(125,211,252,0.45)] transition-colors hover:bg-accent-2"
           >
             {t("ctaVote")}
           </a>

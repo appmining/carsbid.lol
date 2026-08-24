@@ -80,7 +80,7 @@ export function PatronCard({
           <p className="text-xs text-text-dim mb-2.5">{t("noPatronText")}</p>
           <button
             onClick={() => setOpen(true)}
-            className="w-full rounded-lg bg-accent px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-accent-2"
+            className="w-full rounded-lg bg-accent px-3 py-2 text-xs font-semibold text-bg transition-colors hover:bg-accent-2"
           >
             {t("becomePatron", { price: formatUSD(1, locale) })}
           </button>

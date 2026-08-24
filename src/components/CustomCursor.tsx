@@ -32,6 +32,7 @@ export function CustomCursor() {
     const moveRingY = gsap.quickTo(ring, "y", { duration: 0.35, ease: "power3.out" });
 
     function onMove(e: MouseEvent) {
+      gsap.set([dot, ring], { opacity: 1 });
       moveDotX(e.clientX);
       moveDotY(e.clientY);
       moveRingX(e.clientX);
@@ -59,11 +60,11 @@ export function CustomCursor() {
     <>
       <div
         ref={dotRef}
-        className="pointer-events-none fixed left-0 top-0 z-[100] h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent"
+        className="pointer-events-none fixed left-0 top-0 z-[100] h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent opacity-0"
       />
       <div
         ref={ringRef}
-        className="pointer-events-none fixed left-0 top-0 z-[100] h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent"
+        className="pointer-events-none fixed left-0 top-0 z-[100] h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent opacity-0"
       />
     </>
   );

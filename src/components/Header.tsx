@@ -44,7 +44,7 @@ export function Header() {
         }`}
       >
         <Link href="/" locale={locale} className="flex items-center gap-2 shrink-0">
-          <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent text-white">
+          <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent text-bg">
             <Logo />
           </span>
           <span className="font-display text-lg font-bold tracking-tight">
@@ -71,7 +71,7 @@ export function Header() {
             ref={ctaRef}
             href="/patronlar"
             locale={locale}
-            className="inline-block rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-2"
+            className="inline-block rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-bg transition-colors hover:bg-accent-2"
           >
             {t("becomePatron")}
           </Link>
@@ -110,7 +110,7 @@ export function Header() {
               href="/patronlar"
               locale={locale}
               onClick={() => setOpen(false)}
-              className="mt-1 rounded-lg bg-accent px-3 py-2.5 text-center text-sm font-semibold text-white"
+              className="mt-1 rounded-lg bg-accent px-3 py-2.5 text-center text-sm font-semibold text-bg"
             >
               {t("becomePatron")}
             </Link>

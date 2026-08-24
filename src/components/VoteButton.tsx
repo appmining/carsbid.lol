@@ -20,8 +20,8 @@ export function VoteButton({
       disabled={voted}
       className={`rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors ${
         voted
-          ? "bg-good/15 text-good cursor-default"
-          : "bg-accent text-white hover:bg-accent-2 active:scale-[0.98]"
+          ? "bg-good/15 text-good"
+          : "bg-accent text-bg hover:bg-accent-2 active:scale-[0.98]"
       } ${className}`}
     >
       {voted ? t("voted") : t("vote")}

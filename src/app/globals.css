@@ -46,12 +46,12 @@ html {
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
 }
 
 ::selection {
   background: var(--color-accent);
-  color: white;
+  color: var(--color-bg);
 }
 
 * {
@@ -97,7 +97,7 @@ body {
 }
 
 .font-display {
-  font-family: var(--font-display), var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-display), var(--font-sans);
 }
 
 .font-mono-tab {
