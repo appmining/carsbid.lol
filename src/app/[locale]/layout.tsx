@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { CarsProvider } from "@/lib/store";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CustomCursor } from "@/components/CustomCursor";
 
 const monoFont = JetBrains_Mono({
   variable: "--font-mono",
@@ -49,6 +50,7 @@ export default async function LocaleLayout({
       className={`${monoFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-text">
+        <CustomCursor />
         <NextIntlClientProvider>
           <CarsProvider>
             <Header />
