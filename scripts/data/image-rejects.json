@@ -1,1 +1,597 @@
-[]
+[
+  {
+    "slug": "renault-taliant",
+    "name": "Renault Taliant",
+    "reason": "model \"Taliant\" absent from \"Renault\""
+  },
+  {
+    "slug": "renault-broadway",
+    "name": "Renault Broadway",
+    "reason": "model \"Broadway\" absent from \"Oyak-Renault\""
+  },
+  {
+    "slug": "gwm-haval-jolion",
+    "name": "GWM Haval Jolion",
+    "reason": "model \"Haval Jolion\" absent from \"Great Wall Motor\""
+  },
+  {
+    "slug": "jac-js4",
+    "name": "JAC JS4",
+    "reason": "brand \"JAC\" absent from \"Moskvitch\""
+  },
+  {
+    "slug": "jac-js8",
+    "name": "JAC JS8",
+    "reason": "model \"JS8\" absent from \"JAC X8\""
+  },
+  {
+    "slug": "gwm-haval-h6",
+    "name": "GWM Haval H6",
+    "reason": "\"Haval (marque)\" has no image"
+  },
+  {
+    "slug": "gwm-haval-dargo",
+    "name": "GWM Haval Dargo",
+    "reason": "brand \"GWM\" absent from \"Haval Jolion\""
+  },
+  {
+    "slug": "karsan-atak",
+    "name": "Karsan Atak",
+    "reason": "brand \"Karsan\" absent from \"Budapesti Közlekedési Zrt.\""
+  },
+  {
+    "slug": "abarth-124-spider",
+    "name": "Abarth 124 Spider",
+    "reason": "model \"124 Spider\" absent from \"Abarth\""
+  },
+  {
+    "slug": "abarth-500",
+    "name": "Abarth 500",
+    "reason": "model \"500\" absent from \"Abarth\""
+  },
+  {
+    "slug": "abarth-595",
+    "name": "Abarth 595",
+    "reason": "brand \"Abarth\" absent from \"Fiat 500\""
+  },
+  {
+    "slug": "abarth-695",
+    "name": "Abarth 695",
+    "reason": "model \"695\" absent from \"Abarth\""
+  },
+  {
+    "slug": "abarth-punto",
+    "name": "Abarth Punto",
+    "reason": "brand \"Abarth\" absent from \"Fiat Cinquecento\""
+  },
+  {
+    "slug": "acura-slx",
+    "name": "Acura SLX",
+    "reason": "model \"SLX\" absent from \"Acura MDX\""
+  },
+  {
+    "slug": "aeolus-e70",
+    "name": "Aeolus E70",
+    "reason": "model \"E70\" absent from \"Aeolus S30\""
+  },
+  {
+    "slug": "aeolus-l7",
+    "name": "Aeolus L7",
+    "reason": "brand \"Aeolus\" absent from \"Dongfeng Motor Corporation\""
+  },
+  {
+    "slug": "aeolus-shine",
+    "name": "Aeolus Shine",
+    "reason": "model \"Shine\" absent from \"Aeolus Yixuan Max\""
+  },
+  {
+    "slug": "aeolus-sky-ev01",
+    "name": "Aeolus Sky EV01",
+    "reason": "model \"Sky EV01\" absent from \"List of Dongfeng vehicles\""
+  },
+  {
+    "slug": "aion-rt",
+    "name": "Aion RT",
+    "reason": "\"GAC Aion\" has no image"
+  },
+  {
+    "slug": "aixam-ambition",
+    "name": "Aixam AMBITION",
+    "reason": "brand \"Aixam\" absent from \"Mia electric\""
+  },
+  {
+    "slug": "aixam-eaixam",
+    "name": "Aixam eAIXAM",
+    "reason": "brand \"Aixam\" absent from \"Dacia Hipster\""
+  },
+  {
+    "slug": "aixam-emotion",
+    "name": "Aixam EMOTION",
+    "reason": "brand \"Aixam\" absent from \"Citroën\""
+  },
+  {
+    "slug": "aixam-minauto",
+    "name": "Aixam MINAUTO",
+    "reason": "model \"MINAUTO\" absent from \"Aixam\""
+  },
+  {
+    "slug": "aixam-sensation",
+    "name": "Aixam SENSATION",
+    "reason": "no search result"
+  },
+  {
+    "slug": "alfa-romeo-rz",
+    "name": "Alfa Romeo RZ",
+    "reason": "model \"RZ\" absent from \"Alfa Romeo\""
+  },
+  {
+    "slug": "alpina-b8",
+    "name": "Alpina B8",
+    "reason": "brand \"Alpina\" absent from \"BMW 3 Series (E36)\""
+  },
+  {
+    "slug": "alpina-c1",
+    "name": "Alpina C1",
+    "reason": "brand \"Alpina\" absent from \"BMW 3 Series (E21)\""
+  },
+  {
+    "slug": "alpina-c2",
+    "name": "Alpina C2",
+    "reason": "model \"C2\" absent from \"Alpina B3\""
+  },
+  {
+    "slug": "alpina-d10",
+    "name": "Alpina D10",
+    "reason": "model \"D10\" absent from \"Via Alpina\""
+  },
+  {
+    "slug": "alpina-xb7",
+    "name": "Alpina XB7",
+    "reason": "brand \"Alpina\" absent from \"BMW N63\""
+  },
+  {
+    "slug": "alpina-xd3",
+    "name": "Alpina XD3",
+    "reason": "brand \"Alpina\" absent from \"BMW X4\""
+  },
+  {
+    "slug": "alpina-xd4",
+    "name": "Alpina XD4",
+    "reason": "brand \"Alpina\" absent from \"ZF 8HP transmission\""
+  },
+  {
+    "slug": "alpine-1300",
+    "name": "Alpine 1300",
+    "reason": "model \"1300\" absent from \"Automobiles Alpine\""
+  },
+  {
+    "slug": "alpine-1600",
+    "name": "Alpine 1600",
+    "reason": "model \"1600\" absent from \"Automobiles Alpine\""
+  },
+  {
+    "slug": "alpine-a290",
+    "name": "Alpine A290",
+    "reason": "brand \"Alpine\" absent from \"Renault–Nissan Common Module Family\""
+  },
+  {
+    "slug": "alpine-a310",
+    "name": "Alpine A310",
+    "reason": "model \"A310\" absent from \"Automobiles Alpine\""
+  },
+  {
+    "slug": "alpine-a610",
+    "name": "Alpine A610",
+    "reason": "\"A610\" has no image"
+  },
+  {
+    "slug": "alpine-berlinette",
+    "name": "Alpine Berlinette",
+    "reason": "model \"Berlinette\" absent from \"Alpine A110\""
+  },
+  {
+    "slug": "alpine-gta",
+    "name": "Alpine GTA",
+    "reason": "brand \"Alpine\" absent from \"GTA\""
+  },
+  {
+    "slug": "anfini-ms-8",
+    "name": "Anfini MS-8",
+    "reason": "brand \"Anfini\" absent from \"Mazda MX-5 (NC)\""
+  },
+  {
+    "slug": "appollen-a1",
+    "name": "Appollen A1",
+    "reason": "no search result"
+  },
+  {
+    "slug": "appollen-a2",
+    "name": "Appollen A2",
+    "reason": "no search result"
+  },
+  {
+    "slug": "appollen-s1",
+    "name": "Appollen S1",
+    "reason": "no search result"
+  },
+  {
+    "slug": "arcfox-ecf",
+    "name": "Arcfox ECF",
+    "reason": "model \"ECF\" absent from \"Arcfox Alpha-T6\""
+  },
+  {
+    "slug": "ariel-nomad",
+    "name": "Ariel Nomad",
+    "reason": "brand \"Ariel\" absent from \"List of The Grand Tour episodes\""
+  },
+  {
+    "slug": "aro-spartana",
+    "name": "Aro Spartana",
+    "reason": "model \"Spartana\" absent from \"ARO 10\""
+  },
+  {
+    "slug": "artega-scalo",
+    "name": "Artega Scalo",
+    "reason": "brand \"Artega\" absent from \"Geneva International Motor Show\""
+  },
+  {
+    "slug": "asia-hi-topic",
+    "name": "Asia Hi-topic",
+    "reason": "brand \"Asia\" absent from \"Hi-5 House\""
+  },
+  {
+    "slug": "asia-rocsta",
+    "name": "Asia Rocsta",
+    "reason": "brand \"Asia\" absent from \"Kia Sportage\""
+  },
+  {
+    "slug": "aston-martin-amv8",
+    "name": "Aston Martin AMV8",
+    "reason": "model \"AMV8\" absent from \"Aston Martin V8\""
+  },
+  {
+    "slug": "aston-martin-tickford-capri",
+    "name": "Aston Martin Tickford Capri",
+    "reason": "model \"Tickford Capri\" absent from \"Victor Gauntlett\""
+  },
+  {
+    "slug": "aston-martin-valiant",
+    "name": "Aston Martin Valiant",
+    "reason": "model \"Valiant\" absent from \"Aston Martin\""
+  },
+  {
+    "slug": "audi-50",
+    "name": "Audi 50",
+    "reason": "model \"50\" absent from \"List of Audi vehicles\""
+  },
+  {
+    "slug": "audi-90",
+    "name": "Audi 90",
+    "reason": "model \"90\" absent from \"Audi F103\""
+  },
+  {
+    "slug": "audi-aicon",
+    "name": "Audi Aicon",
+    "reason": "model \"Aicon\" absent from \"List of Audi concept cars\""
+  },
+  {
+    "slug": "audi-fox",
+    "name": "Audi Fox",
+    "reason": "model \"Fox\" absent from \"Audi\""
+  },
+  {
+    "slug": "audi-nanuk-quattro-concept",
+    "name": "Audi nanuk quattro concept",
+    "reason": "brand \"Audi\" absent from \"List of cars with non-standard door designs\""
+  },
+  {
+    "slug": "audi-rs2",
+    "name": "Audi RS2",
+    "reason": "model \"RS2\" absent from \"Audi S and RS models\""
+  },
+  {
+    "slug": "audi-rs3",
+    "name": "Audi RS3",
+    "reason": "brand \"Audi\" absent from \"RS3\""
+  },
+  {
+    "slug": "audi-rs4",
+    "name": "Audi RS4",
+    "reason": "model \"RS4\" absent from \"Audi TT\""
+  },
+  {
+    "slug": "audi-rs6",
+    "name": "Audi RS6",
+    "reason": "model \"RS6\" absent from \"Audi S6\""
+  },
+  {
+    "slug": "audi-rs7",
+    "name": "Audi RS7",
+    "reason": "model \"RS7\" absent from \"Audi A3\""
+  },
+  {
+    "slug": "audi-rsq3",
+    "name": "Audi RSQ3",
+    "reason": "brand \"Audi\" absent from \"International Engine of the Year\""
+  },
+  {
+    "slug": "audi-rsq8",
+    "name": "Audi RSQ8",
+    "reason": "brand \"Audi\" absent from \"Torsen\""
+  },
+  {
+    "slug": "audi-s1",
+    "name": "Audi S1",
+    "reason": "model \"S1\" absent from \"Audi e-tron\""
+  },
+  {
+    "slug": "audi-skysphere",
+    "name": "Audi Skysphere",
+    "reason": "brand \"Audi\" absent from \"List of sports cars\""
+  },
+  {
+    "slug": "audi-sq2",
+    "name": "Audi SQ2",
+    "reason": "model \"SQ2\" absent from \"Audi S and RS models\""
+  },
+  {
+    "slug": "audi-sq5",
+    "name": "Audi SQ5",
+    "reason": "model \"SQ5\" absent from \"Audi A4\""
+  },
+  {
+    "slug": "audi-sq7",
+    "name": "Audi SQ7",
+    "reason": "model \"SQ7\" absent from \"Volkswagen-Audi V8 engine\""
+  },
+  {
+    "slug": "audi-sq8",
+    "name": "Audi SQ8",
+    "reason": "model \"SQ8\" absent from \"Audi Q8 e-tron\""
+  },
+  {
+    "slug": "audi-sq9",
+    "name": "Audi SQ9",
+    "reason": "model \"SQ9\" absent from \"Audi Q9\""
+  },
+  {
+    "slug": "austin-healey-100",
+    "name": "Austin-Healey 100",
+    "reason": "model \"100\" absent from \"Austin-Healey 3000\""
+  },
+  {
+    "slug": "autobianchi-a-112",
+    "name": "Autobianchi A 112",
+    "reason": "\"A112\" has no image"
+  },
+  {
+    "slug": "b-engineering-edonis",
+    "name": "B.Engineering Edonis",
+    "reason": "model \"Edonis\" absent from \"B Engineering\""
+  },
+  {
+    "slug": "bac-mono",
+    "name": "BAC Mono",
+    "reason": "brand \"BAC\" absent from \"Mono\""
+  },
+  {
+    "slug": "baic-bj41",
+    "name": "BAIC BJ41",
+    "reason": "brand \"BAIC\" absent from \"Toyota concept vehicles (1970–1979)\""
+  },
+  {
+    "slug": "baic-x75",
+    "name": "BAIC X75",
+    "reason": "brand \"BAIC\" absent from \"Jaguar F-Type\""
+  },
+  {
+    "slug": "baltasar-revolt",
+    "name": "Baltasar Revolt",
+    "reason": "model \"Revolt\" absent from \"Baltasar de Ocampo Conejeros\""
+  },
+  {
+    "slug": "baltijas-dzips-bd",
+    "name": "Baltijas Dzips BD",
+    "reason": "no search result"
+  },
+  {
+    "slug": "baojun-330",
+    "name": "Baojun 330",
+    "reason": "model \"330\" absent from \"Baojun Yep\""
+  },
+  {
+    "slug": "baojun-510",
+    "name": "Baojun 510",
+    "reason": "brand \"Baojun\" absent from \"List of best-selling automobiles\""
+  },
+  {
+    "slug": "baw-pony",
+    "name": "BAW Pony",
+    "reason": "model \"Pony\" absent from \"Toongabbie, Victoria\""
+  },
+  {
+    "slug": "bee-bee-xs",
+    "name": "Bee Bee XS",
+    "reason": "brand \"Bee Bee\" absent from \"Limburgish\""
+  },
+  {
+    "slug": "belgee-s50",
+    "name": "BelGee S50",
+    "reason": "brand \"BelGee\" absent from \"List of sport utility vehicles\""
+  },
+  {
+    "slug": "belgee-x50",
+    "name": "BelGee X50",
+    "reason": "brand \"BelGee\" absent from \"Geely\""
+  },
+  {
+    "slug": "belgee-x70",
+    "name": "BelGee X70",
+    "reason": "brand \"BelGee\" absent from \"Geely Binyue\""
+  },
+  {
+    "slug": "bentley-bacalar",
+    "name": "Bentley Bacalar",
+    "reason": "brand \"Bentley\" absent from \"Geneva International Motor Show\""
+  },
+  {
+    "slug": "bentley-batur",
+    "name": "Bentley Batur",
+    "reason": "brand \"Bentley\" absent from \"Naim Audio\""
+  },
+  {
+    "slug": "bertone-freeclimber",
+    "name": "Bertone Freeclimber",
+    "reason": "model \"Freeclimber\" absent from \"Gruppo Bertone\""
+  },
+  {
+    "slug": "bitter-vero",
+    "name": "Bitter Vero",
+    "reason": "brand \"Bitter\" absent from \"Holden Caprice (WM)\""
+  },
+  {
+    "slug": "bizzarrini-1900-gt-europa",
+    "name": "Bizzarrini 1900 GT Europa",
+    "reason": "brand \"Bizzarrini\" absent from \"John Fitch (racing driver)\""
+  },
+  {
+    "slug": "blonell-tf-2000",
+    "name": "Blonell TF 2000",
+    "reason": "no search result"
+  },
+  {
+    "slug": "bmw-1m",
+    "name": "BMW 1M",
+    "reason": "model \"1M\" absent from \"BMW M3\""
+  },
+  {
+    "slug": "bmw-3-0-csl",
+    "name": "BMW 3.0 CSL",
+    "reason": "\"BMW Art Car\" has no image"
+  },
+  {
+    "slug": "bmw-i5",
+    "name": "BMW i5",
+    "reason": "brand \"BMW\" absent from \"I5\""
+  },
+  {
+    "slug": "bmw-ix1",
+    "name": "BMW iX1",
+    "reason": "model \"iX1\" absent from \"BMW i\""
+  },
+  {
+    "slug": "bmw-ix2",
+    "name": "BMW iX2",
+    "reason": "model \"iX2\" absent from \"BMW X3\""
+  },
+  {
+    "slug": "bmw-speedtop",
+    "name": "BMW Speedtop",
+    "reason": "brand \"BMW\" absent from \"List of sports cars\""
+  },
+  {
+    "slug": "bordrin-iv6",
+    "name": "Bordrin iV6",
+    "reason": "brand \"Bordrin\" absent from \"Auto China\""
+  },
+  {
+    "slug": "borgward-bxi7",
+    "name": "Borgward BXi7",
+    "reason": "model \"BXi7\" absent from \"Borgward Group\""
+  },
+  {
+    "slug": "bremach-suv",
+    "name": "Bremach SUV",
+    "reason": "brand \"Bremach\" absent from \"GM 6L transmission\""
+  },
+  {
+    "slug": "brilliance-a1",
+    "name": "Brilliance A1",
+    "reason": "brand \"Brilliance\" absent from \"Jaecoo\""
+  },
+  {
+    "slug": "brilliance-m3",
+    "name": "Brilliance M3",
+    "reason": "brand \"Brilliance\" absent from \"BMW 3 Series (F30)\""
+  },
+  {
+    "slug": "bristol-speedster",
+    "name": "Bristol Speedster",
+    "reason": "model \"Speedster\" absent from \"Ellie Kildunne\""
+  },
+  {
+    "slug": "bufori-cs8",
+    "name": "Bufori CS8",
+    "reason": "brand \"Bufori\" absent from \"List of sports cars\""
+  },
+  {
+    "slug": "bufori-geneva",
+    "name": "Bufori Geneva",
+    "reason": "brand \"Bufori\" absent from \"List of current automobile marques\""
+  },
+  {
+    "slug": "bufori-la-joya",
+    "name": "Bufori La Joya",
+    "reason": "brand \"Bufori\" absent from \"International Motor Show Germany\""
+  },
+  {
+    "slug": "bugatti-destrier",
+    "name": "Bugatti Destrier",
+    "reason": "model \"Destrier\" absent from \"Bugatti W16 engine\""
+  },
+  {
+    "slug": "bugatti-la-voiture-noire",
+    "name": "Bugatti La Voiture Noire",
+    "reason": "model \"La Voiture Noire\" absent from \"List of Bugatti vehicles\""
+  },
+  {
+    "slug": "buick-park-avenue",
+    "name": "Buick Park Avenue",
+    "reason": "model \"Park Avenue\" absent from \"Buick Roadmaster\""
+  },
+  {
+    "slug": "byd-m3e",
+    "name": "BYD M3e",
+    "reason": "brand \"BYD\" absent from \"Meizu\""
+  },
+  {
+    "slug": "cadillac-lse",
+    "name": "Cadillac LSE",
+    "reason": "brand \"Cadillac\" absent from \"North American International Auto Show\""
+  },
+  {
+    "slug": "cadillac-xt4",
+    "name": "Cadillac XT4",
+    "reason": "model \"XT4\" absent from \"Cadillac GT4\""
+  },
+  {
+    "slug": "changan-z-chine",
+    "name": "ChangAn Z-Chine",
+    "reason": "brand \"ChangAn\" absent from \"Giant panda\""
+  },
+  {
+    "slug": "changan-nevo-a05",
+    "name": "Changan Nevo A05",
+    "reason": "model \"A05\" absent from \"List of Changan Automobile vehicles\""
+  },
+  {
+    "slug": "changfeng-flying",
+    "name": "ChangFeng Flying",
+    "reason": "brand \"ChangFeng\" absent from \"Feng shui\""
+  },
+  {
+    "slug": "chery-arrizo-s",
+    "name": "Chery Arrizo S",
+    "reason": "model \"Arrizo S\" absent from \"List of Chery vehicles\""
+  },
+  {
+    "slug": "chery-fora",
+    "name": "Chery Fora",
+    "reason": "brand \"Chery\" absent from \"FORA\""
+  },
+  {
+    "slug": "chery-fx",
+    "name": "Chery FX",
+    "reason": "model \"FX\" absent from \"List of Chery vehicles\""
+  }
+]

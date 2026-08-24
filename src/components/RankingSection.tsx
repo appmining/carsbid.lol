@@ -39,9 +39,19 @@ export function RankingSection() {
     ).map((car) => ({ car, votes: getVotes(car.slug) }));
 
     // CARS already arrives ordered by curated position then prominence, so a
-    // stable sort on votes alone keeps well-known models on top while the vote
-    // table is empty — which is what stops the Sports tab opening with AC Ace.
-    return matched.sort((a, b) => b.votes - a.votes);
+    // stable sort keeps well-known models on top while the vote table is empty
+    // — which is what stops the Sports tab opening with AC Ace.
+    //
+    // With a powertrain filter on, models that are ONLY that powertrain come
+    // first. Filtering "electric" and being shown a Renault Mégane before a
+    // Tesla is technically correct — there is a Mégane E-Tech — but reads as a
+    // broken filter. Purpose-built EVs lead; nameplates with an EV variant follow.
+    const purity = (c: (typeof matched)[number]) =>
+      filters.power !== "all" && c.car.powertrain.length === 1 ? 0 : 1;
+
+    return matched.sort(
+      (a, b) => b.votes - a.votes || purity(a) - purity(b)
+    );
   }, [filters, getVotes]);
 
   const maxVotes = results[0]?.votes ?? 0;

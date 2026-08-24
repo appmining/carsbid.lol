@@ -141,6 +141,38 @@
     "reason": "model not on brand page"
   },
   {
+    "brand": "Ariel",
+    "model": "Atom",
+    "segment": "spor",
+    "slug": "ariel-atom",
+    "index": 358,
+    "reason": "brand page failed: fetch failed"
+  },
+  {
+    "brand": "Ariel",
+    "model": "Nomad",
+    "segment": "offroad",
+    "slug": "ariel-nomad",
+    "index": 359,
+    "reason": "brand page failed: fetch failed"
+  },
+  {
+    "brand": "Aro",
+    "model": "10",
+    "segment": "offroad",
+    "slug": "aro-10",
+    "index": 360,
+    "reason": "brand page failed: fetch failed"
+  },
+  {
+    "brand": "Aro",
+    "model": "24",
+    "segment": "offroad",
+    "slug": "aro-24",
+    "index": 361,
+    "reason": "brand page failed: fetch failed"
+  },
+  {
     "brand": "Aston Martin",
     "model": "Valiant",
     "segment": "spor",

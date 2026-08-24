@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# carsbid.lol
 
-## Getting Started
+A for-fun popularity contest between car models. Vote for free; buy the "patron"
+ad slot on any model for a dollar more than the current holder.
 
-First, run the development server:
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Needs a `.env.local` with Supabase and Lemon Squeezy credentials — see
+`src/lib/supabase/` and `src/lib/lemonsqueezy.ts` for the variables read.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## The car catalogue
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`src/data/cars.ts` is the hand-edited source: it holds the identity of every
+model and the curated Turkish-market ordering of the first few hundred entries.
+Nothing else can reconstruct those, so edit models there.
 
-## Learn More
+Everything else is generated. The scripts in `scripts/` enrich that list and
+emit `src/data/cars.generated.ts` (what the app imports) and
+`src/data/carImages.generated.ts`:
 
-To learn more about Next.js, take a look at the following resources:
+| Command | What it does | Source |
+|---|---|---|
+| `npm run data:catalog` | body type, production years, generation count | auto-data.net |
+| `npm run data:powertrain` | electric / hybrid tagging | auto-data.net search filters |
+| `npm run data:prominence` | how well known each model is | Wikipedia pageviews (en + tr) |
+| `npm run data:images` | photos → two derivatives → Supabase Storage | Wikipedia / Wikimedia Commons |
+| `npm run data:build` | merges the above into the generated files | local caches |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Each script writes its cache to `scripts/data/` and resumes from it, so an
+interrupted run costs nothing. All of them take `--limit N` to process only the
+first N models. Requests are spaced at least a second apart and identify
+themselves; `scripts/lib/http.mjs` holds that policy.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Photos are CC-licensed and carry their attribution through to the model pages.
 
-## Deploy on Vercel
+## Video
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Remotion compositions live in `remotion/`. `npm run remotion:studio` to preview,
+`npm run remotion:render:hero` to regenerate the hero background.

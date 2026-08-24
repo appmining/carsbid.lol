@@ -10,7 +10,13 @@
     "remotion:studio": "remotion studio remotion/index.ts",
     "remotion:render": "remotion render remotion/index.ts Promo out/promo.mp4",
     "remotion:render:hero": "remotion render remotion/index.ts HeroPulse public/hero-pulse.mp4",
-    "remotion:still:hero": "remotion still remotion/index.ts HeroPulse public/hero-pulse-poster.png --frame=0"
+    "remotion:still:hero": "remotion still remotion/index.ts HeroPulse public/hero-pulse-poster.png --frame=0",
+    "data:catalog": "node scripts/scrape-auto-data.mjs",
+    "data:powertrain": "node scripts/scrape-powertrain.mjs",
+    "data:prominence": "node scripts/fetch-prominence.mjs",
+    "data:images": "node scripts/fetch-car-images.mjs --target supabase",
+    "data:build": "node scripts/build-catalog.mjs",
+    "data:all": "npm run data:catalog && npm run data:powertrain && npm run data:prominence && npm run data:images && npm run data:build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

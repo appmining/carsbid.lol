@@ -17,7 +17,6 @@ export type BodyType =
   | "sedan"
   | "hatchback"
   | "suv"
-  | "station"
   | "mpv"
   | "spor"
   | "pickup"
@@ -27,7 +26,6 @@ export const BODY_TYPES: BodyType[] = [
   "suv",
   "sedan",
   "hatchback",
-  "station",
   "spor",
   "mpv",
   "pickup",

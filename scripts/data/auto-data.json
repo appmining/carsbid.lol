@@ -1330,5 +1330,8167 @@
     "from": 2021,
     "to": null,
     "generations": 2
+  },
+  "toyota-yaris-cross": {
+    "source": "/en/toyota-yaris-cross-model-2826",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 4
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 2
+  },
+  "toyota-camry": {
+    "source": "/en/toyota-camry-model-476",
+    "bodyCounts": {
+      "Sedan": 54,
+      "Cabriolet": 12,
+      "Coupe": 12,
+      "Station wagon (estate)": 6,
+      "Hatchback": 3
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1982,
+    "to": null,
+    "generations": 25
+  },
+  "toyota-highlander": {
+    "source": "/en/toyota-highlander-model-398",
+    "bodyCounts": {
+      "SUV": 27
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2000,
+    "to": null,
+    "generations": 6
+  },
+  "toyota-corolla-cross": {
+    "source": "/en/toyota-corolla-cross-model-2816",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 2
+  },
+  "toyota-prius": {
+    "source": "/en/toyota-prius-model-429",
+    "bodyCounts": {
+      "Liftback": 24,
+      "Hatchback": 6,
+      "MPV": 9,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 1997,
+    "to": null,
+    "generations": 10
+  },
+  "hyundai-i10": {
+    "source": "/en/hyundai-i10-model-1498",
+    "bodyCounts": {
+      "Hatchback": 54
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 10
+  },
+  "hyundai-i30": {
+    "source": "/en/hyundai-i30-model-1474",
+    "bodyCounts": {
+      "Station wagon (estate)": 39,
+      "Hatchback": 39,
+      "Fastback": 18,
+      "Coupe": 9
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2007,
+    "to": null,
+    "generations": 21
+  },
+  "hyundai-creta": {
+    "source": "/en/hyundai-creta-model-3720",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 3
+  },
+  "hyundai-santa-fe": {
+    "source": "/en/hyundai-santa-fe-model-1480",
+    "bodyCounts": {
+      "SUV": 48
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2000,
+    "to": null,
+    "generations": 10
+  },
+  "hyundai-ioniq-5": {
+    "source": "/en/hyundai-ioniq-5-model-2873",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "hyundai-accent": {
+    "source": "/en/hyundai-accent-model-1472",
+    "bodyCounts": {
+      "Hatchback": 21,
+      "Sedan": 21
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1994,
+    "to": null,
+    "generations": 10
+  },
+  "ford-fiesta": {
+    "source": "/en/ford-fiesta-model-829",
+    "bodyCounts": {
+      "Hatchback": 87,
+      "Crossover": 4,
+      "Sedan": 9
+    },
+    "newestBodies": [
+      "Hatchback",
+      "Crossover"
+    ],
+    "from": 1976,
+    "to": 2023,
+    "generations": 23
+  },
+  "ford-ecosport": {
+    "source": "/en/ford-ecosport-model-2038",
+    "bodyCounts": {
+      "SUV": 21
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2003,
+    "to": 2022,
+    "generations": 4
+  },
+  "ford-kuga": {
+    "source": "/en/ford-kuga-model-796",
+    "bodyCounts": {
+      "SUV": 27
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 6
+  },
+  "ford-bronco": {
+    "source": "/en/ford-bronco-model-803",
+    "bodyCounts": {
+      "Off-road vehicle": 12,
+      "Cabriolet": 4,
+      "SUV": 19
+    },
+    "newestBodies": [
+      "Off-road vehicle",
+      "Cabriolet",
+      "SUV"
+    ],
+    "from": 1966,
+    "to": null,
+    "generations": 7
+  },
+  "peugeot-508": {
+    "source": "/en/peugeot-508-model-1952",
+    "bodyCounts": {
+      "Station wagon (estate)": 21,
+      "Fastback": 12,
+      "Sedan": 21,
+      "Crossover": 9
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 12
+  },
+  "peugeot-408": {
+    "source": "/en/peugeot-408-model-2513",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2010,
+    "to": 2022,
+    "generations": 3
+  },
+  "peugeot-5008": {
+    "source": "/en/peugeot-5008-model-1953",
+    "bodyCounts": {
+      "SUV": 18,
+      "MPV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2009,
+    "to": null,
+    "generations": 5
+  },
+  "peugeot-108": {
+    "source": "/en/peugeot-108-model-2049",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Hatchback": 8
+    },
+    "newestBodies": [
+      "Cabriolet",
+      "Hatchback"
+    ],
+    "from": 2014,
+    "to": 2022,
+    "generations": 2
+  },
+  "citroen-c3-aircross": {
+    "source": "/en/citroen-c3-aircross-model-3383",
+    "bodyCounts": {
+      "SUV": 24,
+      "Crossover": 8
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 4
+  },
+  "citroen-c4": {
+    "source": "/en/citroen-c4-model-1695",
+    "bodyCounts": {
+      "Coupe": 18,
+      "SUV": 4,
+      "Sedan": 21,
+      "Hatchback": 15
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2004,
+    "to": null,
+    "generations": 13
+  },
+  "citroen-c5-aircross": {
+    "source": "/en/citroen-c5-aircross-model-2900",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "citroen-berlingo": {
+    "source": "/en/citroen-berlingo-model-1694",
+    "bodyCounts": {
+      "Minivan": 42
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 1996,
+    "to": null,
+    "generations": 9
+  },
+  "opel-grandland": {
+    "source": "/en/opel-grandland-model-2257",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "opel-insignia": {
+    "source": "/en/opel-insignia-model-239",
+    "bodyCounts": {
+      "Liftback": 6,
+      "Station wagon (estate)": 33,
+      "Hatchback": 15,
+      "Sedan": 9
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 12
+  },
+  "opel-crossland": {
+    "source": "/en/opel-crossland-model-2203",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 2
+  },
+  "dacia-spring": {
+    "source": "/en/dacia-spring-model-2829",
+    "bodyCounts": {
+      "Crossover": 18
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 3
+  },
+  "dacia-bigster": {
+    "source": "/en/dacia-bigster-model-3499",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "skoda-kamiq": {
+    "source": "/en/skoda-kamiq-model-2473",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "skoda-karoq": {
+    "source": "/en/skoda-karoq-model-2242",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "skoda-kodiaq": {
+    "source": "/en/skoda-kodiaq-model-2174",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 4
+  },
+  "skoda-superb": {
+    "source": "/en/skoda-superb-model-1557",
+    "bodyCounts": {
+      "Liftback": 24,
+      "Station wagon (estate)": 30,
+      "Crossover": 2,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2001,
+    "to": null,
+    "generations": 13
+  },
+  "skoda-enyaq": {
+    "source": "/en/skoda-enyaq-model-2847",
+    "bodyCounts": {
+      "Coupe": 12,
+      "SUV": 16
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 4
+  },
+  "kia-picanto": {
+    "source": "/en/kia-picanto-model-291",
+    "bodyCounts": {
+      "Hatchback": 39
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2004,
+    "to": null,
+    "generations": 8
+  },
+  "kia-rio": {
+    "source": "/en/kia-rio-model-282",
+    "bodyCounts": {
+      "Sedan": 33,
+      "Hatchback": 39
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1999,
+    "to": null,
+    "generations": 15
+  },
+  "kia-sorento": {
+    "source": "/en/kia-sorento-model-278",
+    "bodyCounts": {
+      "SUV": 36
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2002,
+    "to": null,
+    "generations": 8
+  },
+  "kia-ev6": {
+    "source": "/en/kia-ev6-model-2896",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 4
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "kia-ev9": {
+    "source": "/en/kia-ev9-model-3043",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "kia-seltos": {
+    "source": "/en/kia-seltos-model-2739",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 3
+  },
+  "nissan-micra": {
+    "source": "/en/nissan-micra-model-89",
+    "bodyCounts": {
+      "Hatchback": 27,
+      "Cabriolet": 3
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1982,
+    "to": null,
+    "generations": 8
+  },
+  "nissan-leaf": {
+    "source": "/en/nissan-leaf-model-2078",
+    "bodyCounts": {
+      "Coupe": 6,
+      "Crossover": 2,
+      "Hatchback": 9
+    },
+    "newestBodies": [
+      "Coupe",
+      "Crossover"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 3
+  },
+  "nissan-navara": {
+    "source": "/en/nissan-navara-model-109",
+    "bodyCounts": {
+      "Pick-up": 36
+    },
+    "newestBodies": [
+      "Pick-up"
+    ],
+    "from": 1998,
+    "to": null,
+    "generations": 7
+  },
+  "honda-jazz": {
+    "source": "/en/honda-jazz-model-1289",
+    "bodyCounts": {
+      "Hatchback": 36
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1984,
+    "to": null,
+    "generations": 8
+  },
+  "honda-hr-v": {
+    "source": "/en/honda-hr-v-model-1318",
+    "bodyCounts": {
+      "SUV": 27,
+      "Crossover": 9
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 1998,
+    "to": null,
+    "generations": 5
+  },
+  "honda-city": {
+    "source": "/en/honda-city-model-1302",
+    "bodyCounts": {
+      "Sedan": 18,
+      "Hatchback": 3
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1986,
+    "to": null,
+    "generations": 5
+  },
+  "mercedes-benz-e-serisi": {
+    "source": "/en/mercedes-benz-e-class-model-1393",
+    "bodyCounts": {
+      "Sedan": 54,
+      "Station wagon (estate)": 60,
+      "Crossover": 6,
+      "Coupe": 24,
+      "Cabriolet": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1992,
+    "to": null,
+    "generations": 35
+  },
+  "mercedes-benz-s-serisi": {
+    "source": "/en/mercedes-benz-s-class-model-1394",
+    "bodyCounts": {
+      "Sedan": 123,
+      "Coupe": 18,
+      "Cabriolet": 15
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1972,
+    "to": null,
+    "generations": 39
+  },
+  "mercedes-benz-gle": {
+    "source": "/en/mercedes-benz-gle-model-2052",
+    "bodyCounts": {
+      "Coupe": 21,
+      "SUV": 28
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 8
+  },
+  "mercedes-benz-gls": {
+    "source": "/en/mercedes-benz-gls-model-2084",
+    "bodyCounts": {
+      "SUV": 39
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 7
+  },
+  "mercedes-benz-eqa": {
+    "source": "/en/mercedes-benz-eqa-model-2845",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "mercedes-benz-cla": {
+    "source": "/en/mercedes-benz-cla-model-2015",
+    "bodyCounts": {
+      "Station wagon (estate)": 30,
+      "Sedan": 12,
+      "Coupe": 21
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 11
+  },
+  "audi-a1": {
+    "source": "/en/audi-a1-model-1975",
+    "bodyCounts": {
+      "Crossover": 12,
+      "Hatchback": 27
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 7
+  },
+  "audi-a4": {
+    "source": "/en/audi-a4-model-501",
+    "bodyCounts": {
+      "Sedan": 39,
+      "Station wagon (estate)": 63,
+      "Crossover": 8,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1994,
+    "to": 2025,
+    "generations": 24
+  },
+  "audi-a6": {
+    "source": "/en/audi-a6-model-511",
+    "bodyCounts": {
+      "Station wagon (estate)": 78,
+      "Crossover": 11,
+      "Sedan": 51
+    },
+    "newestBodies": [
+      "Station wagon (estate)",
+      "Crossover"
+    ],
+    "from": 1994,
+    "to": null,
+    "generations": 31
+  },
+  "audi-q7": {
+    "source": "/en/audi-q7-model-517",
+    "bodyCounts": {
+      "SUV": 27
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2005,
+    "to": null,
+    "generations": 6
+  },
+  "audi-e-tron": {
+    "source": "/en/audi-e-tron-model-2517",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 8
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2018,
+    "to": 2022,
+    "generations": 2
+  },
+  "volvo-xc60": {
+    "source": "/en/volvo-xc60-model-928",
+    "bodyCounts": {
+      "SUV": 24,
+      "Crossover": 8
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 5
+  },
+  "volvo-xc90": {
+    "source": "/en/volvo-xc90-model-938",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2002,
+    "to": null,
+    "generations": 5
+  },
+  "volvo-s60": {
+    "source": "/en/volvo-s60-model-917",
+    "bodyCounts": {
+      "Sedan": 27
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2000,
+    "to": null,
+    "generations": 5
+  },
+  "volvo-ex30": {
+    "source": "/en/volvo-ex30-model-3265",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "land-rover-discovery-sport": {
+    "source": "/en/land-rover-discovery-sport-model-2109",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 2
+  },
+  "land-rover-range-rover": {
+    "source": "/en/land-rover-range-rover-model-562",
+    "bodyCounts": {
+      "SUV": 53,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 1981,
+    "to": null,
+    "generations": 12
+  },
+  "land-rover-range-rover-velar": {
+    "source": "/en/land-rover-range-rover-velar-model-2211",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "porsche-cayenne": {
+    "source": "/en/porsche-cayenne-model-732",
+    "bodyCounts": {
+      "Coupe": 18,
+      "SUV": 36
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2002,
+    "to": null,
+    "generations": 10
+  },
+  "porsche-macan": {
+    "source": "/en/porsche-macan-model-2056",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 4
+  },
+  "porsche-taycan": {
+    "source": "/en/porsche-taycan-model-2719",
+    "bodyCounts": {
+      "Station wagon (estate)": 24,
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 6
+  },
+  "porsche-panamera": {
+    "source": "/en/porsche-panamera-model-733",
+    "bodyCounts": {
+      "Liftback": 45,
+      "Station wagon (estate)": 12
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2009,
+    "to": null,
+    "generations": 11
+  },
+  "mitsubishi-outlander": {
+    "source": "/en/mitsubishi-outlander-model-1721",
+    "bodyCounts": {
+      "SUV": 36,
+      "Crossover": 12
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2001,
+    "to": null,
+    "generations": 8
+  },
+  "mitsubishi-asx": {
+    "source": "/en/mitsubishi-asx-model-1940",
+    "bodyCounts": {
+      "SUV": 30,
+      "Crossover": 10
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 6
+  },
+  "mitsubishi-eclipse-cross": {
+    "source": "/en/mitsubishi-eclipse-cross-model-2209",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 3
+  },
+  "mitsubishi-xpander": {
+    "source": "/en/mitsubishi-xpander-model-2497",
+    "bodyCounts": {
+      "Crossover": 18,
+      "MPV": 18
+    },
+    "newestBodies": [
+      "Crossover",
+      "MPV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 5
+  },
+  "subaru-outback": {
+    "source": "/en/subaru-outback-model-1840",
+    "bodyCounts": {
+      "SUV": 6,
+      "Station wagon (estate)": 36
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 1994,
+    "to": null,
+    "generations": 10
+  },
+  "subaru-xv": {
+    "source": "/en/subaru-xv-model-1959",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2011,
+    "to": null,
+    "generations": 4
+  },
+  "subaru-impreza": {
+    "source": "/en/subaru-impreza-model-1834",
+    "bodyCounts": {
+      "Hatchback": 30,
+      "Sedan": 36,
+      "Station wagon (estate)": 12,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1992,
+    "to": null,
+    "generations": 20
+  },
+  "seat-arona": {
+    "source": "/en/seat-arona-model-2253",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "seat-ateca": {
+    "source": "/en/seat-ateca-model-2105",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 2
+  },
+  "seat-tarraco": {
+    "source": "/en/seat-tarraco-model-2520",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": 2024,
+    "generations": 1
+  },
+  "cupra-born": {
+    "source": "/en/cupra-born-model-2934",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "cupra-tavascan": {
+    "source": "/en/cupra-tavascan-model-3248",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "cupra-terramar": {
+    "source": "/en/cupra-terramar-model-3489",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "alfa-romeo-stelvio": {
+    "source": "/en/alfa-romeo-stelvio-model-2208",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 2
+  },
+  "alfa-romeo-tonale": {
+    "source": "/en/alfa-romeo-tonale-model-2660",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "alfa-romeo-giulietta": {
+    "source": "/en/alfa-romeo-giulietta-model-182",
+    "bodyCounts": {
+      "Hatchback": 12,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1977,
+    "to": 2020,
+    "generations": 3
+  },
+  "jaguar-e-pace": {
+    "source": "/en/jaguar-e-pace-model-2259",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": 2024,
+    "generations": 2
+  },
+  "jaguar-f-type": {
+    "source": "/en/jaguar-f-type-model-2010",
+    "bodyCounts": {
+      "Coupe": 18,
+      "Cabriolet": 18
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 6
+  },
+  "jaguar-i-pace": {
+    "source": "/en/jaguar-i-pace-model-2365",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 4
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "chery-tiggo-2": {
+    "source": "/en/chery-tiggo-2-model-3853",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 3
+  },
+  "chery-tiggo-3": {
+    "source": "/en/chery-tiggo-3-model-2219",
+    "bodyCounts": {
+      "Crossover": 6
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 1
+  },
+  "mg-mg3": {
+    "source": "/en/mg-mg3-model-2075",
+    "bodyCounts": {
+      "Hatchback": 15
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 3
+  },
+  "mg-mg5": {
+    "source": "/en/mg-mg5-model-2825",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 3
+  },
+  "mg-hs": {
+    "source": "/en/mg-hs-model-2606",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 3
+  },
+  "mg-mg4": {
+    "source": "/en/mg-mg4-model-3151",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "byd-atto-3": {
+    "source": "/en/byd-atto-3-model-3161",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "byd-dolphin": {
+    "source": "/en/byd-dolphin-model-3087",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "byd-song": {
+    "source": "/en/byd-song-model-3192",
+    "bodyCounts": {
+      "SUV": 48
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 8
+  },
+  "byd-tang": {
+    "source": "/en/byd-tang-model-3095",
+    "bodyCounts": {
+      "SUV": 24,
+      "Crossover": 8
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 4
+  },
+  "tesla-model-y": {
+    "source": "/en/tesla-model-y-model-2851",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 4
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 2
+  },
+  "tesla-model-s": {
+    "source": "/en/tesla-model-s-model-2013",
+    "bodyCounts": {
+      "Liftback": 18
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2012,
+    "to": null,
+    "generations": 3
+  },
+  "tesla-model-x": {
+    "source": "/en/tesla-model-x-model-2014",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 2
+  },
+  "isuzu-mu-x": {
+    "source": "/en/isuzu-mu-x-model-2516",
+    "bodyCounts": {
+      "SUV": 21,
+      "Off-road vehicle": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 5
+  },
+  "jac-js4": {
+    "source": "/en/jac-js4-model-3357",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "jac-js8": {
+    "source": "/en/jac-js8-model-3692",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "omoda-7": {
+    "source": "/en/omoda-7-model-3871",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "212-t01": {
+    "source": "/en/212-t01-model-3882",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "abarth-124-spider": {
+    "source": "/en/abarth-124-spider-model-2152",
+    "bodyCounts": {
+      "Roadster": 6,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2016,
+    "to": 2019,
+    "generations": 2
+  },
+  "abarth-500": {
+    "source": "/en/abarth-500-model-2872",
+    "bodyCounts": {
+      "Cabriolet": 9,
+      "Hatchback": 9
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 4
+  },
+  "abarth-595": {
+    "source": "/en/abarth-595-model-2149",
+    "bodyCounts": {
+      "Cabriolet": 12,
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2012,
+    "to": null,
+    "generations": 4
+  },
+  "abarth-600": {
+    "source": "/en/abarth-600-model-3524",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "abarth-695": {
+    "source": "/en/abarth-695-model-2150",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 1
+  },
+  "abarth-fastback": {
+    "source": "/en/abarth-fastback-model-3527",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "abarth-pulse": {
+    "source": "/en/abarth-pulse-model-3532",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "abarth-punto": {
+    "source": "/en/abarth-punto-model-3182",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2007,
+    "to": 2014,
+    "generations": 3
+  },
+  "ac-ace": {
+    "source": "/en/ac-ace-model-1",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Roadster": 3
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1956,
+    "to": 2000,
+    "generations": 2
+  },
+  "ac-aceca": {
+    "source": "/en/ac-aceca-model-2",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1998,
+    "to": 2000,
+    "generations": 1
+  },
+  "ac-cobra": {
+    "source": "/en/ac-cobra-model-3",
+    "bodyCounts": {
+      "Coupe - Cabriolet": 6
+    },
+    "newestBodies": [
+      "Coupe - Cabriolet"
+    ],
+    "from": 1990,
+    "to": 2001,
+    "generations": 1
+  },
+  "ac-cobra-gt-roadster": {
+    "source": "/en/ac-cobra-gt-roadster-model-3232",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "acura-adx": {
+    "source": "/en/acura-adx-model-3586",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "acura-cl": {
+    "source": "/en/acura-cl-model-138",
+    "bodyCounts": {
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1996,
+    "to": 2003,
+    "generations": 2
+  },
+  "acura-csx": {
+    "source": "/en/acura-csx-model-143",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2005,
+    "to": 2011,
+    "generations": 2
+  },
+  "acura-el": {
+    "source": "/en/acura-el-model-148",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1997,
+    "to": 2000,
+    "generations": 1
+  },
+  "acura-ilx": {
+    "source": "/en/acura-ilx-model-1994",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 3
+  },
+  "acura-integra": {
+    "source": "/en/acura-integra-model-2258",
+    "bodyCounts": {
+      "Liftback": 6,
+      "Sedan": 6,
+      "Coupe": 3,
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 1986,
+    "to": null,
+    "generations": 6
+  },
+  "acura-mdx": {
+    "source": "/en/acura-mdx-model-144",
+    "bodyCounts": {
+      "SUV": 27
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2001,
+    "to": null,
+    "generations": 6
+  },
+  "acura-nsx": {
+    "source": "/en/acura-nsx-model-149",
+    "bodyCounts": {
+      "Coupe": 9,
+      "Targa": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1990,
+    "to": 2022,
+    "generations": 4
+  },
+  "acura-rdx": {
+    "source": "/en/acura-rdx-model-140",
+    "bodyCounts": {
+      "SUV": 30
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2007,
+    "to": null,
+    "generations": 6
+  },
+  "acura-rl": {
+    "source": "/en/acura-rl-model-145",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1995,
+    "to": 2012,
+    "generations": 2
+  },
+  "acura-rlx": {
+    "source": "/en/acura-rlx-model-1982",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2013,
+    "to": 2020,
+    "generations": 2
+  },
+  "acura-rsx": {
+    "source": "/en/acura-rsx-model-141",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2002,
+    "to": 2007,
+    "generations": 1
+  },
+  "acura-slx": {
+    "source": "/en/acura-slx-model-146",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 1996,
+    "to": 1999,
+    "generations": 1
+  },
+  "acura-tl": {
+    "source": "/en/acura-tl-model-142",
+    "bodyCounts": {
+      "Sedan": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1995,
+    "to": 2014,
+    "generations": 5
+  },
+  "acura-tlx": {
+    "source": "/en/acura-tlx-model-2241",
+    "bodyCounts": {
+      "Sedan": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 4
+  },
+  "acura-tsx": {
+    "source": "/en/acura-tsx-model-147",
+    "bodyCounts": {
+      "Sedan": 18,
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2003,
+    "to": 2014,
+    "generations": 4
+  },
+  "acura-zdx": {
+    "source": "/en/acura-zdx-model-1995",
+    "bodyCounts": {
+      "SUV": 7,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2009,
+    "to": null,
+    "generations": 2
+  },
+  "aeolus-ax7": {
+    "source": "/en/aeolus-ax7-model-3626",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 3
+  },
+  "aeolus-e70": {
+    "source": "/en/aeolus-e70-model-3587",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 3
+  },
+  "aeolus-haohan": {
+    "source": "/en/aeolus-haohan-model-3584",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-haoji": {
+    "source": "/en/aeolus-haoji-model-3590",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-huge": {
+    "source": "/en/aeolus-huge-model-3635",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-l7": {
+    "source": "/en/aeolus-l7-model-3583",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-mage": {
+    "source": "/en/aeolus-mage-model-3636",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-shine": {
+    "source": "/en/aeolus-shine-model-3627",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-shine-gs": {
+    "source": "/en/aeolus-shine-gs-model-3633",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-shine-max": {
+    "source": "/en/aeolus-shine-max-model-3632",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-sky-ev01": {
+    "source": "/en/aeolus-sky-ev01-model-3585",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-yixuan": {
+    "source": "/en/aeolus-yixuan-model-3593",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-yixuan-gs": {
+    "source": "/en/aeolus-yixuan-gs-model-3634",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "aeolus-yixuan-max": {
+    "source": "/en/aeolus-yixuan-max-model-3625",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "aion-es": {
+    "source": "/en/aion-es-model-3762",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aion-lx": {
+    "source": "/en/aion-lx-model-3761",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "aion-n60": {
+    "source": "/en/aion-n60-model-3972",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "aion-rt": {
+    "source": "/en/aion-rt-model-3759",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "aion-s": {
+    "source": "/en/aion-s-model-3764",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 3
+  },
+  "aion-ut": {
+    "source": "/en/aion-ut-model-3758",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "aion-v": {
+    "source": "/en/aion-v-model-3757",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 3
+  },
+  "aion-y": {
+    "source": "/en/aion-y-model-3760",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 4
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "aistaland-gt7": {
+    "source": "/en/aistaland-gt7-model-4015",
+    "bodyCounts": {
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "aito-m5": {
+    "source": "/en/aito-m5-model-3152",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "aito-m6": {
+    "source": "/en/aito-m6-model-3973",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "aito-m7": {
+    "source": "/en/aito-m7-model-3153",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "aito-m8": {
+    "source": "/en/aito-m8-model-3741",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "aito-m9": {
+    "source": "/en/aito-m9-model-3477",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "aiways-u5": {
+    "source": "/en/aiways-u5-model-2987",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "aiways-u6": {
+    "source": "/en/aiways-u6-model-3234",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "aixam-ambition": {
+    "source": "/en/aixam-ambition-model-3910",
+    "bodyCounts": {
+      "Quadricycle": 18
+    },
+    "newestBodies": [
+      "Quadricycle"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 3
+  },
+  "aixam-eaixam": {
+    "source": "/en/aixam-eaixam-model-2616",
+    "bodyCounts": {
+      "Hatchback": 18,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 4
+  },
+  "aixam-emotion": {
+    "source": "/en/aixam-emotion-model-3187",
+    "bodyCounts": {
+      "Crossover": 6,
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2020,
+    "to": 2023,
+    "generations": 3
+  },
+  "aixam-minauto": {
+    "source": "/en/aixam-minauto-model-2614",
+    "bodyCounts": {
+      "Quadricycle": 6,
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Quadricycle"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 3
+  },
+  "aixam-sensation": {
+    "source": "/en/aixam-sensation-model-2615",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2016,
+    "to": 2020,
+    "generations": 3
+  },
+  "alfa-romeo-145": {
+    "source": "/en/alfa-romeo-145-model-174",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1994,
+    "to": 2000,
+    "generations": 3
+  },
+  "alfa-romeo-146": {
+    "source": "/en/alfa-romeo-146-model-179",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1994,
+    "to": 2000,
+    "generations": 3
+  },
+  "alfa-romeo-147": {
+    "source": "/en/alfa-romeo-147-model-184",
+    "bodyCounts": {
+      "Hatchback": 30
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2000,
+    "to": 2010,
+    "generations": 5
+  },
+  "alfa-romeo-155": {
+    "source": "/en/alfa-romeo-155-model-189",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1992,
+    "to": 1998,
+    "generations": 1
+  },
+  "alfa-romeo-156": {
+    "source": "/en/alfa-romeo-156-model-194",
+    "bodyCounts": {
+      "Station wagon (estate)": 24,
+      "Crossover": 2,
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Station wagon (estate)",
+      "Crossover"
+    ],
+    "from": 1997,
+    "to": 2007,
+    "generations": 7
+  },
+  "alfa-romeo-159": {
+    "source": "/en/alfa-romeo-159-model-199",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2005,
+    "to": 2011,
+    "generations": 2
+  },
+  "alfa-romeo-164": {
+    "source": "/en/alfa-romeo-164-model-175",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1987,
+    "to": 1998,
+    "generations": 1
+  },
+  "alfa-romeo-166": {
+    "source": "/en/alfa-romeo-166-model-180",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1998,
+    "to": 2007,
+    "generations": 2
+  },
+  "alfa-romeo-1750-2000": {
+    "source": "/en/alfa-romeo-1750-2000-model-185",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1968,
+    "to": 1983,
+    "generations": 1
+  },
+  "alfa-romeo-33": {
+    "source": "/en/alfa-romeo-33-model-190",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Hatchback": 12,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1967,
+    "to": 1994,
+    "generations": 5
+  },
+  "alfa-romeo-33-stradale": {
+    "source": "/en/alfa-romeo-33-stradale-model-3313",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "alfa-romeo-4c": {
+    "source": "/en/alfa-romeo-4c-model-2016",
+    "bodyCounts": {
+      "Coupe": 12,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2013,
+    "to": 2019,
+    "generations": 3
+  },
+  "alfa-romeo-6": {
+    "source": "/en/alfa-romeo-6-model-195",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1979,
+    "to": 1988,
+    "generations": 1
+  },
+  "alfa-romeo-75": {
+    "source": "/en/alfa-romeo-75-model-200",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1985,
+    "to": 1992,
+    "generations": 2
+  },
+  "alfa-romeo-8c-competizione": {
+    "source": "/en/alfa-romeo-8c-competizione-model-176",
+    "bodyCounts": {
+      "Roadster": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2007,
+    "to": 2010,
+    "generations": 2
+  },
+  "alfa-romeo-90": {
+    "source": "/en/alfa-romeo-90-model-181",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1984,
+    "to": 1987,
+    "generations": 1
+  },
+  "alfa-romeo-alfasud": {
+    "source": "/en/alfa-romeo-alfasud-model-186",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Coupe": 6,
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1972,
+    "to": 1989,
+    "generations": 3
+  },
+  "alfa-romeo-alfetta": {
+    "source": "/en/alfa-romeo-alfetta-model-191",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1974,
+    "to": 1986,
+    "generations": 2
+  },
+  "alfa-romeo-arna": {
+    "source": "/en/alfa-romeo-arna-model-196",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1983,
+    "to": 1986,
+    "generations": 1
+  },
+  "alfa-romeo-brera": {
+    "source": "/en/alfa-romeo-brera-model-201",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2005,
+    "to": 2010,
+    "generations": 1
+  },
+  "alfa-romeo-gt": {
+    "source": "/en/alfa-romeo-gt-model-187",
+    "bodyCounts": {
+      "Coupe": 9
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1963,
+    "to": 2010,
+    "generations": 2
+  },
+  "alfa-romeo-gta-coupe": {
+    "source": "/en/alfa-romeo-gta-coupe-model-192",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1968,
+    "to": 1976,
+    "generations": 1
+  },
+  "alfa-romeo-gtv": {
+    "source": "/en/alfa-romeo-gtv-model-197",
+    "bodyCounts": {
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1978,
+    "to": 2004,
+    "generations": 3
+  },
+  "alfa-romeo-junior": {
+    "source": "/en/alfa-romeo-junior-model-3429",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "alfa-romeo-mito": {
+    "source": "/en/alfa-romeo-mito-model-178",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": 2018,
+    "generations": 3
+  },
+  "alfa-romeo-montreal": {
+    "source": "/en/alfa-romeo-montreal-model-183",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1970,
+    "to": 1977,
+    "generations": 1
+  },
+  "alfa-romeo-rz": {
+    "source": "/en/alfa-romeo-rz-model-188",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1988,
+    "to": 1993,
+    "generations": 1
+  },
+  "alfa-romeo-spider": {
+    "source": "/en/alfa-romeo-spider-model-193",
+    "bodyCounts": {
+      "Cabriolet": 21
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1966,
+    "to": 2010,
+    "generations": 5
+  },
+  "alfa-romeo-sz": {
+    "source": "/en/alfa-romeo-sz-model-198",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1989,
+    "to": 1991,
+    "generations": 1
+  },
+  "alpina-b10": {
+    "source": "/en/alpina-b10-model-214",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Sedan": 9
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1987,
+    "to": 2004,
+    "generations": 4
+  },
+  "alpina-b11": {
+    "source": "/en/alpina-b11-model-219",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1987,
+    "to": 1994,
+    "generations": 1
+  },
+  "alpina-b12": {
+    "source": "/en/alpina-b12-model-224",
+    "bodyCounts": {
+      "Sedan": 12,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1988,
+    "to": 2000,
+    "generations": 3
+  },
+  "alpina-b3": {
+    "source": "/en/alpina-b3-model-229",
+    "bodyCounts": {
+      "Station wagon (estate)": 36,
+      "Sedan": 39,
+      "Cabriolet": 12,
+      "Coupe": 9
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1987,
+    "to": null,
+    "generations": 24
+  },
+  "alpina-b4": {
+    "source": "/en/alpina-b4-model-2125",
+    "bodyCounts": {
+      "Coupe": 24,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 6
+  },
+  "alpina-b5": {
+    "source": "/en/alpina-b5-model-215",
+    "bodyCounts": {
+      "Sedan": 27,
+      "Station wagon (estate)": 27
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2005,
+    "to": null,
+    "generations": 10
+  },
+  "alpina-b6": {
+    "source": "/en/alpina-b6-model-220",
+    "bodyCounts": {
+      "Coupe": 30,
+      "Cabriolet": 18,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1978,
+    "to": 2018,
+    "generations": 10
+  },
+  "alpina-b7": {
+    "source": "/en/alpina-b7-model-225",
+    "bodyCounts": {
+      "Sedan": 33,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1978,
+    "to": null,
+    "generations": 8
+  },
+  "alpina-b8": {
+    "source": "/en/alpina-b8-model-216",
+    "bodyCounts": {
+      "Coupe": 15,
+      "Cabriolet": 3,
+      "Station wagon (estate)": 3,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1993,
+    "to": null,
+    "generations": 6
+  },
+  "alpina-c1": {
+    "source": "/en/alpina-c1-model-226",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1980,
+    "to": 1988,
+    "generations": 2
+  },
+  "alpina-c2": {
+    "source": "/en/alpina-c2-model-217",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1985,
+    "to": 1988,
+    "generations": 2
+  },
+  "alpina-d10": {
+    "source": "/en/alpina-d10-model-222",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1999,
+    "to": 2003,
+    "generations": 2
+  },
+  "alpina-d3": {
+    "source": "/en/alpina-d3-model-227",
+    "bodyCounts": {
+      "Sedan": 27,
+      "Station wagon (estate)": 27,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2005,
+    "to": null,
+    "generations": 11
+  },
+  "alpina-d4": {
+    "source": "/en/alpina-d4-model-2124",
+    "bodyCounts": {
+      "Coupe": 24,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 6
+  },
+  "alpina-d5": {
+    "source": "/en/alpina-d5-model-1997",
+    "bodyCounts": {
+      "Sedan": 24,
+      "Station wagon (estate)": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2011,
+    "to": null,
+    "generations": 8
+  },
+  "alpina-rle-roadster": {
+    "source": "/en/alpina-rle-roadster-model-218",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 1990,
+    "to": 1991,
+    "generations": 1
+  },
+  "alpina-roadster-s": {
+    "source": "/en/alpina-roadster-s-model-223",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2003,
+    "to": 2006,
+    "generations": 1
+  },
+  "alpina-roadster-v8": {
+    "source": "/en/alpina-roadster-v8-model-228",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2002,
+    "to": 2006,
+    "generations": 1
+  },
+  "alpina-xb7": {
+    "source": "/en/alpina-xb7-model-2891",
+    "bodyCounts": {
+      "SAV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 2
+  },
+  "alpina-xd3": {
+    "source": "/en/alpina-xd3-model-1996",
+    "bodyCounts": {
+      "SAV": 12,
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 4
+  },
+  "alpina-xd4": {
+    "source": "/en/alpina-xd4-model-2489",
+    "bodyCounts": {
+      "SAC": 12
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "alpine-1300": {
+    "source": "/en/alpine-1300-model-263",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1970,
+    "to": 1975,
+    "generations": 1
+  },
+  "alpine-1600": {
+    "source": "/en/alpine-1600-model-268",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1969,
+    "to": 1975,
+    "generations": 1
+  },
+  "alpine-a110": {
+    "source": "/en/alpine-a110-model-264",
+    "bodyCounts": {
+      "Coupe": 9
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1966,
+    "to": null,
+    "generations": 2
+  },
+  "alpine-a290": {
+    "source": "/en/alpine-a290-model-3451",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "alpine-a310": {
+    "source": "/en/alpine-a310-model-269",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1971,
+    "to": 1984,
+    "generations": 1
+  },
+  "alpine-a390": {
+    "source": "/en/alpine-a390-model-3519",
+    "bodyCounts": {
+      "SUV": 6,
+      "Fastback": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Fastback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "alpine-a610": {
+    "source": "/en/alpine-a610-model-265",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1991,
+    "to": 1995,
+    "generations": 1
+  },
+  "alpine-berlinette": {
+    "source": "/en/alpine-berlinette-model-266",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1976,
+    "to": 1977,
+    "generations": 1
+  },
+  "alpine-gta": {
+    "source": "/en/alpine-gta-model-267",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1985,
+    "to": 1990,
+    "generations": 1
+  },
+  "anfini-ms-8": {
+    "source": "/en/anfini-ms-8-model-1163",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1992,
+    "to": 1998,
+    "generations": 1
+  },
+  "apollo-ie": {
+    "source": "/en/apollo-ie-model-2317",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2017,
+    "to": 2018,
+    "generations": 1
+  },
+  "appollen-a1": {
+    "source": "/en/appollen-a1-model-3348",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "appollen-a2": {
+    "source": "/en/appollen-a2-model-3349",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "appollen-s1": {
+    "source": "/en/appollen-s1-model-3352",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "arcfox-alpha-s5": {
+    "source": "/en/arcfox-alpha-s5-model-3814",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "arcfox-alpha-s6": {
+    "source": "/en/arcfox-alpha-s6-model-4109",
+    "bodyCounts": {
+      "SUV": 6,
+      "Liftback": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Liftback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "arcfox-alpha-t5": {
+    "source": "/en/arcfox-alpha-t5-model-3810",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "arcfox-alpha-s": {
+    "source": "/en/arcfox-alpha-s-model-2920",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "arcfox-alpha-t": {
+    "source": "/en/arcfox-alpha-t-model-2923",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2020,
+    "to": 2025,
+    "generations": 1
+  },
+  "arcfox-beta-s3": {
+    "source": "/en/arcfox-beta-s3-model-4110",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "arcfox-gt": {
+    "source": "/en/arcfox-gt-model-2657",
+    "bodyCounts": {
+      "Roadster": 12
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "arcfox-kaola": {
+    "source": "/en/arcfox-kaola-model-3809",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aria-fxe": {
+    "source": "/en/aria-fxe-model-2337",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "aro-spartana": {
+    "source": "/en/aro-spartana-model-306",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1999,
+    "to": 2006,
+    "generations": 1
+  },
+  "artega-gt": {
+    "source": "/en/artega-gt-model-2261",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2010,
+    "to": 2012,
+    "generations": 1
+  },
+  "artega-scalo": {
+    "source": "/en/artega-scalo-model-2260",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 1
+  },
+  "asia-hi-topic": {
+    "source": "/en/asia-hi-topic-model-331",
+    "bodyCounts": {
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1987,
+    "to": 1999,
+    "generations": 1
+  },
+  "asia-retona": {
+    "source": "/en/asia-retona-model-332",
+    "bodyCounts": {
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1997,
+    "to": 2003,
+    "generations": 1
+  },
+  "asia-rocsta": {
+    "source": "/en/asia-rocsta-model-333",
+    "bodyCounts": {
+      "Off-road vehicle": 6
+    },
+    "newestBodies": [
+      "Off-road vehicle"
+    ],
+    "from": 1993,
+    "to": 1997,
+    "generations": 1
+  },
+  "aspark-owl": {
+    "source": "/en/aspark-owl-model-2306",
+    "bodyCounts": {
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 2
+  },
+  "aston-martin-amv8": {
+    "source": "/en/aston-martin-amv8-model-2134",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1972,
+    "to": 1989,
+    "generations": 2
+  },
+  "aston-martin-bulldog": {
+    "source": "/en/aston-martin-bulldog-model-358",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1980,
+    "to": 1982,
+    "generations": 1
+  },
+  "aston-martin-cygnet": {
+    "source": "/en/aston-martin-cygnet-model-2129",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2011,
+    "to": null,
+    "generations": 2
+  },
+  "aston-martin-db11": {
+    "source": "/en/aston-martin-db11-model-2128",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2016,
+    "to": 2023,
+    "generations": 2
+  },
+  "aston-martin-db12": {
+    "source": "/en/aston-martin-db12-model-3261",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "aston-martin-db4": {
+    "source": "/en/aston-martin-db4-model-2131",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 18,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1958,
+    "to": 1963,
+    "generations": 5
+  },
+  "aston-martin-db5": {
+    "source": "/en/aston-martin-db5-model-2132",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1963,
+    "to": 1965,
+    "generations": 1
+  },
+  "aston-martin-db6": {
+    "source": "/en/aston-martin-db6-model-2133",
+    "bodyCounts": {
+      "Coupe": 12,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1965,
+    "to": 1970,
+    "generations": 3
+  },
+  "aston-martin-db7": {
+    "source": "/en/aston-martin-db7-model-363",
+    "bodyCounts": {
+      "Coupe": 30,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1994,
+    "to": 2004,
+    "generations": 6
+  },
+  "aston-martin-db9": {
+    "source": "/en/aston-martin-db9-model-368",
+    "bodyCounts": {
+      "Cabriolet": 15,
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2004,
+    "to": 2016,
+    "generations": 6
+  },
+  "aston-martin-dbs": {
+    "source": "/en/aston-martin-dbs-model-359",
+    "bodyCounts": {
+      "Cabriolet": 12,
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1967,
+    "to": null,
+    "generations": 6
+  },
+  "aston-martin-dbx": {
+    "source": "/en/aston-martin-dbx-model-2759",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "aston-martin-lagonda": {
+    "source": "/en/aston-martin-lagonda-model-364",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1976,
+    "to": 1997,
+    "generations": 2
+  },
+  "aston-martin-one-77": {
+    "source": "/en/aston-martin-one-77-model-2130",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2009,
+    "to": 2012,
+    "generations": 1
+  },
+  "aston-martin-rapide": {
+    "source": "/en/aston-martin-rapide-model-369",
+    "bodyCounts": {
+      "Fastback": 24
+    },
+    "newestBodies": [
+      "Fastback"
+    ],
+    "from": 2010,
+    "to": 2020,
+    "generations": 4
+  },
+  "aston-martin-tickford-capri": {
+    "source": "/en/aston-martin-tickford-capri-model-360",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1982,
+    "to": 1985,
+    "generations": 1
+  },
+  "aston-martin-v12-vantage": {
+    "source": "/en/aston-martin-v12-vantage-model-361",
+    "bodyCounts": {
+      "Roadster": 12,
+      "Coupe": 9
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 4
+  },
+  "aston-martin-v8-vantage": {
+    "source": "/en/aston-martin-v8-vantage-model-366",
+    "bodyCounts": {
+      "Roadster": 15,
+      "Coupe": 24,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 1977,
+    "to": null,
+    "generations": 11
+  },
+  "aston-martin-valhalla": {
+    "source": "/en/aston-martin-valhalla-model-2976",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "aston-martin-valour": {
+    "source": "/en/aston-martin-valour-model-3469",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "aston-martin-vanquish": {
+    "source": "/en/aston-martin-vanquish-model-2138",
+    "bodyCounts": {
+      "Cabriolet": 15,
+      "Coupe": 21
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2001,
+    "to": null,
+    "generations": 8
+  },
+  "aston-martin-virage": {
+    "source": "/en/aston-martin-virage-model-362",
+    "bodyCounts": {
+      "Cabriolet": 9,
+      "Coupe": 9,
+      "Sedan": 6,
+      "Station wagon (estate)": 3
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1988,
+    "to": 2012,
+    "generations": 7
+  },
+  "aston-martin-zagato": {
+    "source": "/en/aston-martin-zagato-model-367",
+    "bodyCounts": {
+      "Coupe": 6,
+      "Sedan": 3,
+      "Cabriolet": 3
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1986,
+    "to": 2012,
+    "generations": 3
+  },
+  "astro-11301": {
+    "source": "/en/astro-11301-model-1356",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2003,
+    "to": 2006,
+    "generations": 1
+  },
+  "audi-100": {
+    "source": "/en/audi-100-model-495",
+    "bodyCounts": {
+      "Station wagon (estate)": 24,
+      "Sedan": 30,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1968,
+    "to": 1994,
+    "generations": 13
+  },
+  "audi-200": {
+    "source": "/en/audi-200-model-500",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1979,
+    "to": 1991,
+    "generations": 3
+  },
+  "audi-50": {
+    "source": "/en/audi-50-model-505",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1974,
+    "to": 1978,
+    "generations": 1
+  },
+  "audi-5000": {
+    "source": "/en/audi-5000-model-3001",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1976,
+    "to": 1982,
+    "generations": 1
+  },
+  "audi-80": {
+    "source": "/en/audi-80-model-510",
+    "bodyCounts": {
+      "Station wagon (estate)": 9,
+      "Sedan": 27
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1972,
+    "to": 1995,
+    "generations": 8
+  },
+  "audi-90": {
+    "source": "/en/audi-90-model-515",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1984,
+    "to": 1991,
+    "generations": 2
+  },
+  "audi-a2": {
+    "source": "/en/audi-a2-model-520",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2000,
+    "to": 2005,
+    "generations": 1
+  },
+  "audi-a5": {
+    "source": "/en/audi-a5-model-506",
+    "bodyCounts": {
+      "Liftback": 12,
+      "Sedan": 6,
+      "Station wagon (estate)": 6,
+      "Fastback": 18,
+      "Coupe": 18,
+      "Cabriolet": 18
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2007,
+    "to": null,
+    "generations": 16
+  },
+  "audi-a6-e-tron": {
+    "source": "/en/audi-a6-e-tron-model-2922",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Liftback": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 3
+  },
+  "audi-a7": {
+    "source": "/en/audi-a7-model-1976",
+    "bodyCounts": {
+      "Liftback": 21,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 5
+  },
+  "audi-a8": {
+    "source": "/en/audi-a8-model-516",
+    "bodyCounts": {
+      "Sedan": 75
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1994,
+    "to": null,
+    "generations": 18
+  },
+  "audi-cabriolet": {
+    "source": "/en/audi-cabriolet-model-497",
+    "bodyCounts": {
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1991,
+    "to": 2001,
+    "generations": 2
+  },
+  "audi-coupe": {
+    "source": "/en/audi-coupe-model-502",
+    "bodyCounts": {
+      "Coupe": 21
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1980,
+    "to": 1996,
+    "generations": 4
+  },
+  "audi-e-tron-gt": {
+    "source": "/en/audi-e-tron-gt-model-2792",
+    "bodyCounts": {
+      "Grand Tourer": 18
+    },
+    "newestBodies": [
+      "Grand Tourer"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 3
+  },
+  "audi-fox": {
+    "source": "/en/audi-fox-model-3055",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1973,
+    "to": 1979,
+    "generations": 1
+  },
+  "audi-nanuk-quattro-concept": {
+    "source": "/en/audi-nanuk-quattro-concept-model-2980",
+    "bodyCounts": {
+      "Crossover": 6
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2013,
+    "to": 2013,
+    "generations": 1
+  },
+  "audi-nsu-ro-80": {
+    "source": "/en/audi-nsu-ro-80-model-507",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1967,
+    "to": 1977,
+    "generations": 1
+  },
+  "audi-pb18": {
+    "source": "/en/audi-pb18-model-2501",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 1
+  },
+  "audi-q2": {
+    "source": "/en/audi-q2-model-2098",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 4
+  },
+  "audi-q4-e-tron": {
+    "source": "/en/audi-q4-e-tron-model-2647",
+    "bodyCounts": {
+      "SUV": 30
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 5
+  },
+  "audi-q5-e-tron": {
+    "source": "/en/audi-q5-e-tron-model-3705",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "audi-q6": {
+    "source": "/en/audi-q6-model-3706",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "audi-q6-e-tron": {
+    "source": "/en/audi-q6-e-tron-model-3413",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 4
+  },
+  "audi-q8": {
+    "source": "/en/audi-q8-model-2443",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "audi-q8-e-tron": {
+    "source": "/en/audi-q8-e-tron-model-3188",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "audi-q9": {
+    "source": "/en/audi-q9-model-4099",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "audi-quattro": {
+    "source": "/en/audi-quattro-model-522",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1980,
+    "to": 1991,
+    "generations": 1
+  },
+  "audi-r8": {
+    "source": "/en/audi-r8-model-498",
+    "bodyCounts": {
+      "Coupe": 45,
+      "Cabriolet": 18
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2006,
+    "to": 2024,
+    "generations": 11
+  },
+  "audi-rs-e-tron-gt": {
+    "source": "/en/audi-rs-e-tron-gt-model-2864",
+    "bodyCounts": {
+      "Grand Tourer": 12
+    },
+    "newestBodies": [
+      "Grand Tourer"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "audi-rs2": {
+    "source": "/en/audi-rs2-model-503",
+    "bodyCounts": {
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1994,
+    "to": 1996,
+    "generations": 1
+  },
+  "audi-rs3": {
+    "source": "/en/audi-rs3-model-2067",
+    "bodyCounts": {
+      "Hatchback": 27,
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2011,
+    "to": null,
+    "generations": 8
+  },
+  "audi-rs4": {
+    "source": "/en/audi-rs4-model-508",
+    "bodyCounts": {
+      "Station wagon (estate)": 24,
+      "Cabriolet": 3,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1999,
+    "to": null,
+    "generations": 7
+  },
+  "audi-rs5": {
+    "source": "/en/audi-rs5-model-2023",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Liftback": 6,
+      "Fastback": 12,
+      "Coupe": 18,
+      "Cabriolet": 3
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 9
+  },
+  "audi-rs6": {
+    "source": "/en/audi-rs6-model-513",
+    "bodyCounts": {
+      "Station wagon (estate)": 24,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2002,
+    "to": 2025,
+    "generations": 7
+  },
+  "audi-rs7": {
+    "source": "/en/audi-rs7-model-1978",
+    "bodyCounts": {
+      "Liftback": 12
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2013,
+    "to": 2025,
+    "generations": 2
+  },
+  "audi-rsq3": {
+    "source": "/en/audi-rsq3-model-2025",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 4
+  },
+  "audi-rsq8": {
+    "source": "/en/audi-rsq8-model-2760",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "audi-s-e-tron-gt": {
+    "source": "/en/audi-s-e-tron-gt-model-3454",
+    "bodyCounts": {
+      "Grand Tourer": 6
+    },
+    "newestBodies": [
+      "Grand Tourer"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "audi-s1": {
+    "source": "/en/audi-s1-model-2045",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2014,
+    "to": 2018,
+    "generations": 2
+  },
+  "audi-s2": {
+    "source": "/en/audi-s2-model-518",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Station wagon (estate)": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1990,
+    "to": 1995,
+    "generations": 3
+  },
+  "audi-s3": {
+    "source": "/en/audi-s3-model-523",
+    "bodyCounts": {
+      "Hatchback": 45,
+      "Sedan": 21,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1998,
+    "to": null,
+    "generations": 17
+  },
+  "audi-s4": {
+    "source": "/en/audi-s4-model-499",
+    "bodyCounts": {
+      "Sedan": 36,
+      "Station wagon (estate)": 36,
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1991,
+    "to": 2024,
+    "generations": 18
+  },
+  "audi-s5": {
+    "source": "/en/audi-s5-model-504",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Liftback": 6,
+      "Cabriolet": 15,
+      "Fastback": 18,
+      "Coupe": 21
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2007,
+    "to": null,
+    "generations": 14
+  },
+  "audi-s6": {
+    "source": "/en/audi-s6-model-509",
+    "bodyCounts": {
+      "Station wagon (estate)": 39,
+      "Sedan": 39
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1994,
+    "to": 2025,
+    "generations": 18
+  },
+  "audi-s6-e-tron": {
+    "source": "/en/audi-s6-e-tron-model-3478",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Liftback": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "audi-s7": {
+    "source": "/en/audi-s7-model-1977",
+    "bodyCounts": {
+      "Liftback": 27
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2012,
+    "to": 2025,
+    "generations": 5
+  },
+  "audi-s8": {
+    "source": "/en/audi-s8-model-514",
+    "bodyCounts": {
+      "Sedan": 33
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1996,
+    "to": null,
+    "generations": 7
+  },
+  "audi-sq2": {
+    "source": "/en/audi-sq2-model-2580",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "audi-sq5": {
+    "source": "/en/audi-sq5-model-2026",
+    "bodyCounts": {
+      "SUV": 33
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 6
+  },
+  "audi-sq6-e-tron": {
+    "source": "/en/audi-sq6-e-tron-model-3414",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "audi-sq7": {
+    "source": "/en/audi-sq7-model-2100",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 4
+  },
+  "audi-sq8": {
+    "source": "/en/audi-sq8-model-2711",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "audi-sq8-e-tron": {
+    "source": "/en/audi-sq8-e-tron-model-3189",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "audi-sq9": {
+    "source": "/en/audi-sq9-model-4116",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "audi-tt": {
+    "source": "/en/audi-tt-model-519",
+    "bodyCounts": {
+      "Cabriolet": 12,
+      "Coupe": 72,
+      "Roadster": 60
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1998,
+    "to": 2023,
+    "generations": 28
+  },
+  "audi-v8": {
+    "source": "/en/audi-v8-model-524",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1988,
+    "to": 1994,
+    "generations": 2
+  },
+  "aurus-komendant": {
+    "source": "/en/aurus-komendant-model-3292",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "aurus-senat": {
+    "source": "/en/aurus-senat-model-2665",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "austin-allegro": {
+    "source": "/en/austin-allegro-model-550",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1973,
+    "to": 1983,
+    "generations": 1
+  },
+  "austin-ambassador": {
+    "source": "/en/austin-ambassador-model-555",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1982,
+    "to": 1984,
+    "generations": 1
+  },
+  "austin-maestro": {
+    "source": "/en/austin-maestro-model-551",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1983,
+    "to": 1990,
+    "generations": 1
+  },
+  "austin-maxi": {
+    "source": "/en/austin-maxi-model-556",
+    "bodyCounts": {
+      "Hatchback": 9
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1969,
+    "to": 1982,
+    "generations": 2
+  },
+  "austin-metro": {
+    "source": "/en/austin-metro-model-552",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1980,
+    "to": 1990,
+    "generations": 1
+  },
+  "austin-mini": {
+    "source": "/en/austin-mini-model-557",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1967,
+    "to": 1993,
+    "generations": 1
+  },
+  "austin-montego": {
+    "source": "/en/austin-montego-model-553",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1984,
+    "to": 1991,
+    "generations": 2
+  },
+  "austin-princess": {
+    "source": "/en/austin-princess-model-554",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1972,
+    "to": 1982,
+    "generations": 2
+  },
+  "austin-healey-100": {
+    "source": "/en/austin-healey-100-model-3030",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 1953,
+    "to": 1955,
+    "generations": 1
+  },
+  "autobianchi-a-112": {
+    "source": "/en/autobianchi-a-112-model-605",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 1969,
+    "to": 1985,
+    "generations": 1
+  },
+  "avatr-06": {
+    "source": "/en/avatr-06-model-3790",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 2
+  },
+  "avatr-07": {
+    "source": "/en/avatr-07-model-3789",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "avatr-11": {
+    "source": "/en/avatr-11-model-3290",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "avatr-12": {
+    "source": "/en/avatr-12-model-3450",
+    "bodyCounts": {
+      "Fastback": 12
+    },
+    "newestBodies": [
+      "Fastback"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "b-engineering-edonis": {
+    "source": "/en/b.engineering-edonis-model-2709",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2002,
+    "to": 2006,
+    "generations": 1
+  },
+  "bac-mono": {
+    "source": "/en/bac-mono-model-2223",
+    "bodyCounts": {
+      "Roadster": 12
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 2
+  },
+  "baic-bj-2020": {
+    "source": "/en/baic-bj-2020-model-701",
+    "bodyCounts": {
+      "Off-road vehicle": 6
+    },
+    "newestBodies": [
+      "Off-road vehicle"
+    ],
+    "from": 1989,
+    "to": 2005,
+    "generations": 1
+  },
+  "baic-bj30": {
+    "source": "/en/baic-bj30-model-3598",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "baic-bj41": {
+    "source": "/en/baic-bj41-model-4053",
+    "bodyCounts": {
+      "Off-road vehicle": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Off-road vehicle",
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "baic-bj60": {
+    "source": "/en/baic-bj60-model-3599",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "baic-senova-d50": {
+    "source": "/en/baic-senova-d50-model-2757",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 2
+  },
+  "baic-senova-x55": {
+    "source": "/en/baic-senova-x55-model-2777",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 3
+  },
+  "baic-x55": {
+    "source": "/en/baic-x55-model-3600",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "baic-x75": {
+    "source": "/en/baic-x75-model-3601",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "baltasar-revolt": {
+    "source": "/en/baltasar-revolt-model-3021",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "baltijas-dzips-bd": {
+    "source": "/en/baltijas-dzips-bd-model-638",
+    "bodyCounts": {
+      "Pick-up": 6
+    },
+    "newestBodies": [
+      "Pick-up"
+    ],
+    "from": 1998,
+    "to": 1998,
+    "generations": 1
+  },
+  "baojun-310": {
+    "source": "/en/baojun-310-model-3377",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2016,
+    "to": 2021,
+    "generations": 4
+  },
+  "baojun-330": {
+    "source": "/en/baojun-330-model-3378",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2015,
+    "to": 2017,
+    "generations": 1
+  },
+  "baojun-360": {
+    "source": "/en/baojun-360-model-3373",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2018,
+    "to": 2021,
+    "generations": 1
+  },
+  "baojun-510": {
+    "source": "/en/baojun-510-model-3372",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 2
+  },
+  "baojun-530": {
+    "source": "/en/baojun-530-model-3371",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": 2022,
+    "generations": 2
+  },
+  "baojun-730": {
+    "source": "/en/baojun-730-model-2484",
+    "bodyCounts": {
+      "MPV": 12
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2014,
+    "to": 2022,
+    "generations": 2
+  },
+  "baojun-e100": {
+    "source": "/en/baojun-e100-model-2368",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "baojun-e300-kiwi-ev": {
+    "source": "/en/baojun-e300-kiwi-ev-model-3376",
+    "bodyCounts": {
+      "Hatchback": 18
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 3
+  },
+  "baojun-rc-5-valli": {
+    "source": "/en/baojun-rc-5-valli-model-2883",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Liftback": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 3
+  },
+  "baojun-rc-6": {
+    "source": "/en/baojun-rc-6-model-3370",
+    "bodyCounts": {
+      "Liftback": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2019,
+    "to": 2021,
+    "generations": 1
+  },
+  "baojun-rm-5": {
+    "source": "/en/baojun-rm-5-model-2800",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2019,
+    "to": 2021,
+    "generations": 1
+  },
+  "baojun-rs-3": {
+    "source": "/en/baojun-rs-3-model-2784",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "baojun-rs-5": {
+    "source": "/en/baojun-rs-5-model-2802",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": 2021,
+    "generations": 1
+  },
+  "baojun-yep": {
+    "source": "/en/baojun-yep-model-3375",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "baojun-yunduo": {
+    "source": "/en/baojun-yunduo-model-3374",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "baojun-yunhai": {
+    "source": "/en/baojun-yunhai-model-3835",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "baw-pony": {
+    "source": "/en/baw-pony-model-3436",
+    "bodyCounts": {
+      "Quadricycle": 6
+    },
+    "newestBodies": [
+      "Quadricycle"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "bee-bee-xs": {
+    "source": "/en/bee-bee-xs-model-2151",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "belgee-s50": {
+    "source": "/en/belgee-s50-model-3715",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "belgee-x50": {
+    "source": "/en/belgee-x50-model-3713",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "belgee-x70": {
+    "source": "/en/belgee-x70-model-3714",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "bentley-arnage": {
+    "source": "/en/bentley-arnage-model-737",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1998,
+    "to": 2009,
+    "generations": 3
+  },
+  "bentley-azure": {
+    "source": "/en/bentley-azure-model-742",
+    "bodyCounts": {
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1995,
+    "to": 2009,
+    "generations": 2
+  },
+  "bentley-bentayga": {
+    "source": "/en/bentley-bentayga-model-2102",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 3
+  },
+  "bentley-brooklands": {
+    "source": "/en/bentley-brooklands-model-738",
+    "bodyCounts": {
+      "Coupe": 6,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1994,
+    "to": 2011,
+    "generations": 2
+  },
+  "bentley-continental": {
+    "source": "/en/bentley-continental-model-739",
+    "bodyCounts": {
+      "Cabriolet": 27,
+      "Coupe": 30,
+      "Sedan": 3
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1984,
+    "to": null,
+    "generations": 14
+  },
+  "bentley-flying-spur": {
+    "source": "/en/bentley-flying-spur-model-2103",
+    "bodyCounts": {
+      "Sedan": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 5
+  },
+  "bentley-mulsanne": {
+    "source": "/en/bentley-mulsanne-model-740",
+    "bodyCounts": {
+      "Sedan": 21
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1982,
+    "to": 2020,
+    "generations": 4
+  },
+  "bentley-turbo-r": {
+    "source": "/en/bentley-turbo-r-model-741",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1993,
+    "to": 1998,
+    "generations": 1
+  },
+  "bertone-freeclimber": {
+    "source": "/en/bertone-freeclimber-model-792",
+    "bodyCounts": {
+      "Off-road vehicle": 12
+    },
+    "newestBodies": [
+      "Off-road vehicle"
+    ],
+    "from": 1989,
+    "to": 1996,
+    "generations": 2
+  },
+  "bertone-gb110": {
+    "source": "/en/bertone-gb110-model-3568",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "bertone-runabout": {
+    "source": "/en/bertone-runabout-model-3926",
+    "bodyCounts": {
+      "Targa": 6
+    },
+    "newestBodies": [
+      "Targa"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-b70s": {
+    "source": "/en/bestune-b70s-model-3888",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": 2024,
+    "generations": 1
+  },
+  "bestune-e01": {
+    "source": "/en/bestune-e01-model-3624",
+    "bodyCounts": {
+      "CUV": 6
+    },
+    "newestBodies": [
+      "CUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-e05": {
+    "source": "/en/bestune-e05-model-4089",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-pony": {
+    "source": "/en/bestune-pony-model-3755",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-t33": {
+    "source": "/en/bestune-t33-model-3953",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-t55": {
+    "source": "/en/bestune-t55-model-3952",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": 2025,
+    "generations": 1
+  },
+  "bestune-t77": {
+    "source": "/en/bestune-t77-model-2558",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-t90": {
+    "source": "/en/bestune-t90-model-3949",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": 2025,
+    "generations": 1
+  },
+  "bestune-xiaoma": {
+    "source": "/en/bestune-xiaoma-model-3955",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-yueyi-03": {
+    "source": "/en/bestune-yueyi-03-model-3906",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "bestune-yueyi-07": {
+    "source": "/en/bestune-yueyi-07-model-3837",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "bisu-m3": {
+    "source": "/en/bisu-m3-model-2742",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "bisu-t3": {
+    "source": "/en/bisu-t3-model-2743",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "bitter-type-3": {
+    "source": "/en/bitter-type-3-model-863",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1991,
+    "to": 1992,
+    "generations": 1
+  },
+  "bitter-vero": {
+    "source": "/en/bitter-vero-model-2930",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2008,
+    "to": 2008,
+    "generations": 1
+  },
+  "bizzarrini-5300-gt-strada": {
+    "source": "/en/bizzarrini-5300-gt-strada-model-2971",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1964,
+    "to": 1968,
+    "generations": 1
+  },
+  "bmw-02": {
+    "source": "/en/bmw-02-model-943",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1967,
+    "to": 1977,
+    "generations": 1
+  },
+  "bmw-1-series": {
+    "source": "/en/bmw-1-series-model-948",
+    "bodyCounts": {
+      "Hatchback": 51,
+      "Sedan": 6,
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2004,
+    "to": null,
+    "generations": 16
+  },
+  "bmw-1m": {
+    "source": "/en/bmw-1m-model-3458",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2011,
+    "to": 2012,
+    "generations": 1
+  },
+  "bmw-2-series": {
+    "source": "/en/bmw-2-series-model-2027",
+    "bodyCounts": {
+      "Coupe": 33,
+      "MPV": 15,
+      "Minivan": 12,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 13
+  },
+  "bmw-3-series": {
+    "source": "/en/bmw-3-series-model-953",
+    "bodyCounts": {
+      "Sedan": 57,
+      "Station wagon (estate)": 42,
+      "Grand Tourer": 12,
+      "Cabriolet": 21,
+      "Coupe": 21,
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1975,
+    "to": null,
+    "generations": 42
+  },
+  "bmw-3-0-csl": {
+    "source": "/en/bmw-3.0-csl-model-3210",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2022,
+    "to": 2023,
+    "generations": 1
+  },
+  "bmw-4-series": {
+    "source": "/en/bmw-4-series-model-2011",
+    "bodyCounts": {
+      "Coupe": 45,
+      "Cabriolet": 24
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 12
+  },
+  "bmw-5-series": {
+    "source": "/en/bmw-5-series-model-944",
+    "bodyCounts": {
+      "Station wagon (estate)": 39,
+      "Sedan": 66,
+      "Grand Tourer": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1972,
+    "to": null,
+    "generations": 29
+  },
+  "bmw-6-series": {
+    "source": "/en/bmw-6-series-model-949",
+    "bodyCounts": {
+      "Grand Tourer": 12,
+      "Coupe": 39,
+      "Cabriolet": 18
+    },
+    "newestBodies": [
+      "Grand Tourer"
+    ],
+    "from": 1976,
+    "to": 2023,
+    "generations": 15
+  },
+  "bmw-7-series": {
+    "source": "/en/bmw-7-series-model-945",
+    "bodyCounts": {
+      "Sedan": 90
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1977,
+    "to": null,
+    "generations": 26
+  },
+  "bmw-700": {
+    "source": "/en/bmw-700-model-2878",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1962,
+    "to": 1965,
+    "generations": 1
+  },
+  "bmw-8-series": {
+    "source": "/en/bmw-8-series-model-950",
+    "bodyCounts": {
+      "Coupe": 27,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1989,
+    "to": null,
+    "generations": 7
+  },
+  "bmw-e9": {
+    "source": "/en/bmw-e9-model-2954",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1971,
+    "to": 1975,
+    "generations": 1
+  },
+  "bmw-i3": {
+    "source": "/en/bmw-i3-model-2034",
+    "bodyCounts": {
+      "Sedan": 12,
+      "Hatchback": 15
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2013,
+    "to": null,
+    "generations": 5
+  },
+  "bmw-i4": {
+    "source": "/en/bmw-i4-model-2925",
+    "bodyCounts": {
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-i5": {
+    "source": "/en/bmw-i5-model-3260",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-i7": {
+    "source": "/en/bmw-i7-model-3105",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-i8": {
+    "source": "/en/bmw-i8-model-2035",
+    "bodyCounts": {
+      "Roadster": 6,
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2013,
+    "to": 2020,
+    "generations": 3
+  },
+  "bmw-isetta": {
+    "source": "/en/bmw-isetta-model-3015",
+    "bodyCounts": {
+      "Quadricycle": 6
+    },
+    "newestBodies": [
+      "Quadricycle"
+    ],
+    "from": 1955,
+    "to": 1962,
+    "generations": 1
+  },
+  "bmw-ix": {
+    "source": "/en/bmw-ix-model-2924",
+    "bodyCounts": {
+      "SAV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-ix1": {
+    "source": "/en/bmw-ix1-model-3122",
+    "bodyCounts": {
+      "SAV": 6
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "bmw-ix2": {
+    "source": "/en/bmw-ix2-model-3333",
+    "bodyCounts": {
+      "SAC": 6
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "bmw-ix3": {
+    "source": "/en/bmw-ix3-model-2822",
+    "bodyCounts": {
+      "SAV": 12,
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 4
+  },
+  "bmw-ix5": {
+    "source": "/en/bmw-ix5-model-2990",
+    "bodyCounts": {
+      "SAV": 6
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "bmw-m1": {
+    "source": "/en/bmw-m1-model-2979",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1978,
+    "to": 1981,
+    "generations": 1
+  },
+  "bmw-m2": {
+    "source": "/en/bmw-m2-model-2093",
+    "bodyCounts": {
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-m3": {
+    "source": "/en/bmw-m3-model-1986",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Sedan": 27,
+      "Cabriolet": 15,
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1986,
+    "to": null,
+    "generations": 18
+  },
+  "bmw-m4": {
+    "source": "/en/bmw-m4-model-2039",
+    "bodyCounts": {
+      "Cabriolet": 18,
+      "Coupe": 18
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2014,
+    "to": null,
+    "generations": 6
+  },
+  "bmw-m5": {
+    "source": "/en/bmw-m5-model-1987",
+    "bodyCounts": {
+      "Station wagon (estate)": 12,
+      "Sedan": 42
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1985,
+    "to": null,
+    "generations": 14
+  },
+  "bmw-m6": {
+    "source": "/en/bmw-m6-model-951",
+    "bodyCounts": {
+      "Sedan": 12,
+      "Cabriolet": 24,
+      "Coupe": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2005,
+    "to": 2018,
+    "generations": 10
+  },
+  "bmw-m8": {
+    "source": "/en/bmw-m8-model-2343",
+    "bodyCounts": {
+      "Coupe": 33,
+      "Cabriolet": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1992,
+    "to": null,
+    "generations": 8
+  },
+  "bmw-new-class": {
+    "source": "/en/bmw-new-class-model-2961",
+    "bodyCounts": {
+      "Coupe": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1962,
+    "to": 1972,
+    "generations": 2
+  },
+  "bmw-x2": {
+    "source": "/en/bmw-x2-model-2316",
+    "bodyCounts": {
+      "SAC": 6,
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-x3-m": {
+    "source": "/en/bmw-x3-m-model-2625",
+    "bodyCounts": {
+      "SAV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-x4": {
+    "source": "/en/bmw-x4-model-2040",
+    "bodyCounts": {
+      "SAC": 18
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2014,
+    "to": 2025,
+    "generations": 3
+  },
+  "bmw-x4-m": {
+    "source": "/en/bmw-x4-m-model-2624",
+    "bodyCounts": {
+      "SAC": 12
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2019,
+    "to": 2025,
+    "generations": 2
+  },
+  "bmw-x5": {
+    "source": "/en/bmw-x5-model-1985",
+    "bodyCounts": {
+      "SAV": 21,
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2000,
+    "to": null,
+    "generations": 8
+  },
+  "bmw-x5-m": {
+    "source": "/en/bmw-x5-m-model-2480",
+    "bodyCounts": {
+      "SAV": 12,
+      "SUV": 9
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 4
+  },
+  "bmw-x6": {
+    "source": "/en/bmw-x6-model-947",
+    "bodyCounts": {
+      "SAC": 12,
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 5
+  },
+  "bmw-x6-m": {
+    "source": "/en/bmw-x6-m-model-2481",
+    "bodyCounts": {
+      "SAC": 12,
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SAC"
+    ],
+    "from": 2009,
+    "to": null,
+    "generations": 5
+  },
+  "bmw-x7": {
+    "source": "/en/bmw-x7-model-2344",
+    "bodyCounts": {
+      "SAV": 6,
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SAV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "bmw-xm": {
+    "source": "/en/bmw-xm-model-3163",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "bmw-z1": {
+    "source": "/en/bmw-z1-model-1990",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1988,
+    "to": 1991,
+    "generations": 1
+  },
+  "bmw-z3": {
+    "source": "/en/bmw-z3-model-1991",
+    "bodyCounts": {
+      "Coupe": 12,
+      "Roadster": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1995,
+    "to": 2004,
+    "generations": 4
+  },
+  "bmw-z4": {
+    "source": "/en/bmw-z4-model-1992",
+    "bodyCounts": {
+      "Roadster": 27,
+      "Coupe": 3
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2002,
+    "to": 2026,
+    "generations": 7
+  },
+  "bmw-z8": {
+    "source": "/en/bmw-z8-model-952",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2000,
+    "to": 2005,
+    "generations": 1
+  },
+  "bollinger-b1": {
+    "source": "/en/bollinger-b1-model-3204",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": 2017,
+    "generations": 1
+  },
+  "bordrin-iv6": {
+    "source": "/en/bordrin-iv6-model-2704",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "borgward-bx5": {
+    "source": "/en/borgward-bx5-model-2299",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": 2021,
+    "generations": 1
+  },
+  "borgward-bx6": {
+    "source": "/en/borgward-bx6-model-2320",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": 2016,
+    "generations": 1
+  },
+  "borgward-bx7": {
+    "source": "/en/borgward-bx7-model-2297",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": 2021,
+    "generations": 2
+  },
+  "borgward-bxi7": {
+    "source": "/en/borgward-bxi7-model-2409",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": 2018,
+    "generations": 1
+  },
+  "brabham-bt62": {
+    "source": "/en/brabham-bt62-model-2522",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 1
+  },
+  "bremach-suv": {
+    "source": "/en/bremach-suv-model-3062",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "brilliance-a1": {
+    "source": "/en/brilliance-a1-model-980",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": null,
+    "generations": 1
+  },
+  "brilliance-bs4": {
+    "source": "/en/brilliance-bs4-model-985",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2008,
+    "to": 2014,
+    "generations": 1
+  },
+  "brilliance-bs6": {
+    "source": "/en/brilliance-bs6-model-981",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2004,
+    "to": 2008,
+    "generations": 1
+  },
+  "brilliance-m1": {
+    "source": "/en/brilliance-m1-model-982",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2000,
+    "to": 2010,
+    "generations": 1
+  },
+  "brilliance-m2": {
+    "source": "/en/brilliance-m2-model-983",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2006,
+    "to": 2010,
+    "generations": 1
+  },
+  "brilliance-m3": {
+    "source": "/en/brilliance-m3-model-984",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2008,
+    "to": 2011,
+    "generations": 1
+  },
+  "brilliance-v3": {
+    "source": "/en/brilliance-v3-model-2493",
+    "bodyCounts": {
+      "Crossover": 6
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 1
+  },
+  "bristol-blenheim": {
+    "source": "/en/bristol-blenheim-model-997",
+    "bodyCounts": {
+      "Coupe": 12
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1997,
+    "to": 2009,
+    "generations": 2
+  },
+  "bristol-bullet": {
+    "source": "/en/bristol-bullet-model-2352",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "bristol-fighter": {
+    "source": "/en/bristol-fighter-model-998",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2004,
+    "to": 2011,
+    "generations": 1
+  },
+  "bristol-speedster": {
+    "source": "/en/bristol-speedster-model-999",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2003,
+    "to": 2011,
+    "generations": 1
+  },
+  "bufori-cs8": {
+    "source": "/en/bufori-cs8-model-3791",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "bufori-geneva": {
+    "source": "/en/bufori-geneva-model-2746",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 1
+  },
+  "bufori-la-joya": {
+    "source": "/en/bufori-la-joya-model-1052",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2004,
+    "to": 2018,
+    "generations": 1
+  },
+  "bugatti-bolide": {
+    "source": "/en/bugatti-bolide-model-2968",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "bugatti-centodieci": {
+    "source": "/en/bugatti-centodieci-model-3208",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2022,
+    "to": 2022,
+    "generations": 1
+  },
+  "bugatti-chiron": {
+    "source": "/en/bugatti-chiron-model-2112",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "bugatti-divo": {
+    "source": "/en/bugatti-divo-model-2503",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 1
+  },
+  "bugatti-eb-110": {
+    "source": "/en/bugatti-eb-110-model-1069",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1991,
+    "to": 1996,
+    "generations": 1
+  },
+  "bugatti-eb-112": {
+    "source": "/en/bugatti-eb-112-model-1070",
+    "bodyCounts": {
+      "Fastback": 6
+    },
+    "newestBodies": [
+      "Fastback"
+    ],
+    "from": 1993,
+    "to": 1998,
+    "generations": 1
+  },
+  "bugatti-tourbillon": {
+    "source": "/en/bugatti-tourbillon-model-3456",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "bugatti-type-57": {
+    "source": "/en/bugatti-type-57-model-3134",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1934,
+    "to": 1940,
+    "generations": 1
+  },
+  "bugatti-veyron": {
+    "source": "/en/bugatti-veyron-model-1071",
+    "bodyCounts": {
+      "Targa": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Targa"
+    ],
+    "from": 2005,
+    "to": 2015,
+    "generations": 2
+  },
+  "bugatti-w16-mistral": {
+    "source": "/en/bugatti-w16-mistral-model-3763",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2024,
+    "to": 2025,
+    "generations": 1
+  },
+  "buick-cascada": {
+    "source": "/en/buick-cascada-model-2170",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "buick-century": {
+    "source": "/en/buick-century-model-1120",
+    "bodyCounts": {
+      "Sedan": 12,
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1993,
+    "to": 2005,
+    "generations": 3
+  },
+  "buick-electra": {
+    "source": "/en/buick-electra-model-2955",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1975,
+    "to": 1976,
+    "generations": 1
+  },
+  "buick-enclave": {
+    "source": "/en/buick-enclave-model-1125",
+    "bodyCounts": {
+      "SUV": 24,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2007,
+    "to": null,
+    "generations": 5
+  },
+  "buick-encore": {
+    "source": "/en/buick-encore-model-2322",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2012,
+    "to": null,
+    "generations": 3
+  },
+  "buick-encore-gx": {
+    "source": "/en/buick-encore-gx-model-2716",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "buick-envision": {
+    "source": "/en/buick-envision-model-2424",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 4
+  },
+  "buick-envista": {
+    "source": "/en/buick-envista-model-3245",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "buick-excelle": {
+    "source": "/en/buick-excelle-model-1130",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2004,
+    "to": 2007,
+    "generations": 1
+  },
+  "buick-excelle-gt": {
+    "source": "/en/buick-excelle-gt-model-2813",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 3
+  },
+  "buick-gl6": {
+    "source": "/en/buick-gl6-model-2479",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 1
+  },
+  "buick-gl8": {
+    "source": "/en/buick-gl8-model-1135",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2000,
+    "to": 2010,
+    "generations": 1
+  },
+  "buick-hrv-excelle": {
+    "source": "/en/buick-hrv-excelle-model-1121",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2004,
+    "to": 2007,
+    "generations": 1
+  },
+  "buick-lacrosse": {
+    "source": "/en/buick-lacrosse-model-1126",
+    "bodyCounts": {
+      "Sedan": 39
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2004,
+    "to": null,
+    "generations": 8
+  },
+  "buick-le-sabre": {
+    "source": "/en/buick-le-sabre-model-1131",
+    "bodyCounts": {
+      "Sedan": 15
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1986,
+    "to": 2005,
+    "generations": 3
+  },
+  "buick-lucerne": {
+    "source": "/en/buick-lucerne-model-1136",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2005,
+    "to": 2011,
+    "generations": 1
+  },
+  "buick-park-avenue": {
+    "source": "/en/buick-park-avenue-model-1122",
+    "bodyCounts": {
+      "Sedan": 9
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1996,
+    "to": 2012,
+    "generations": 2
+  },
+  "buick-rainier": {
+    "source": "/en/buick-rainier-model-1127",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2004,
+    "to": 2007,
+    "generations": 1
+  },
+  "buick-reatta": {
+    "source": "/en/buick-reatta-model-1132",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1988,
+    "to": 1991,
+    "generations": 2
+  },
+  "buick-regal": {
+    "source": "/en/buick-regal-model-1137",
+    "bodyCounts": {
+      "Fastback": 12,
+      "Station wagon (estate)": 9,
+      "Sedan": 27,
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Fastback"
+    ],
+    "from": 1973,
+    "to": 2020,
+    "generations": 16
+  },
+  "buick-rendezvous": {
+    "source": "/en/buick-rendezvous-model-1123",
+    "bodyCounts": {
+      "Crossover": 6
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2001,
+    "to": 2007,
+    "generations": 1
+  },
+  "buick-riviera": {
+    "source": "/en/buick-riviera-model-1128",
+    "bodyCounts": {
+      "Coupe": 15
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1966,
+    "to": 2000,
+    "generations": 4
+  },
+  "buick-roadmaster": {
+    "source": "/en/buick-roadmaster-model-1133",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 1991,
+    "to": 1996,
+    "generations": 2
+  },
+  "buick-skylark": {
+    "source": "/en/buick-skylark-model-1129",
+    "bodyCounts": {
+      "Sedan": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1994,
+    "to": 2000,
+    "generations": 2
+  },
+  "buick-super": {
+    "source": "/en/buick-super-model-3017",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1945,
+    "to": 1947,
+    "generations": 1
+  },
+  "buick-terraza": {
+    "source": "/en/buick-terraza-model-1134",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2004,
+    "to": 2007,
+    "generations": 1
+  },
+  "buick-velite-6": {
+    "source": "/en/buick-velite-6-model-2686",
+    "bodyCounts": {
+      "Liftback": 12
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "buick-velite-7": {
+    "source": "/en/buick-velite-7-model-3233",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "byd-atto-1": {
+    "source": "/en/byd-atto-1-model-3947",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-atto-2": {
+    "source": "/en/byd-atto-2-model-3564",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-atto-8": {
+    "source": "/en/byd-atto-8-model-4047",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-d1": {
+    "source": "/en/byd-d1-model-3963",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "byd-datang": {
+    "source": "/en/byd-datang-model-4057",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-destroyer-05": {
+    "source": "/en/byd-destroyer-05-model-3644",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "byd-dolphin-g": {
+    "source": "/en/byd-dolphin-g-model-4026",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-dolphin-surf": {
+    "source": "/en/byd-dolphin-surf-model-3685",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-e2": {
+    "source": "/en/byd-e2-model-3097",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "byd-e3": {
+    "source": "/en/byd-e3-model-3099",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2019,
+    "to": 2021,
+    "generations": 1
+  },
+  "byd-e6": {
+    "source": "/en/byd-e6-model-2534",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "byd-e7": {
+    "source": "/en/byd-e7-model-3889",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-emax-7": {
+    "source": "/en/byd-emax-7-model-3528",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-etp3": {
+    "source": "/en/byd-etp3-model-3651",
+    "bodyCounts": {
+      "Van": 6
+    },
+    "newestBodies": [
+      "Van"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "byd-f0": {
+    "source": "/en/byd-f0-model-1148",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": 2015,
+    "generations": 1
+  },
+  "byd-f3": {
+    "source": "/en/byd-f3-model-1149",
+    "bodyCounts": {
+      "Hatchback": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2005,
+    "to": 2013,
+    "generations": 2
+  },
+  "byd-f6": {
+    "source": "/en/byd-f6-model-1150",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2007,
+    "to": 2012,
+    "generations": 1
+  },
+  "byd-f8": {
+    "source": "/en/byd-f8-model-1147",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2009,
+    "to": 2010,
+    "generations": 1
+  },
+  "byd-flyer-ii": {
+    "source": "/en/byd-flyer-ii-model-1151",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2005,
+    "to": 2008,
+    "generations": 1
+  },
+  "byd-m3e": {
+    "source": "/en/byd-m3e-model-3166",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "byd-m6": {
+    "source": "/en/byd-m6-model-3488",
+    "bodyCounts": {
+      "MPV": 12
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2010,
+    "to": null,
+    "generations": 3
+  },
+  "byd-qin": {
+    "source": "/en/byd-qin-model-3468",
+    "bodyCounts": {
+      "Sedan": 24
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 4
+  },
+  "byd-racco": {
+    "source": "/en/byd-racco-model-4102",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-s6": {
+    "source": "/en/byd-s6-model-3992",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2011,
+    "to": 2016,
+    "generations": 1
+  },
+  "byd-s7": {
+    "source": "/en/byd-s7-model-3645",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2014,
+    "to": 2018,
+    "generations": 1
+  },
+  "byd-sea-lion-05": {
+    "source": "/en/byd-sea-lion-05-model-3503",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "byd-sea-lion-06": {
+    "source": "/en/byd-sea-lion-06-model-3803",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-sea-lion-07": {
+    "source": "/en/byd-sea-lion-07-model-3442",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-seagull": {
+    "source": "/en/byd-seagull-model-3246",
+    "bodyCounts": {
+      "Hatchback": 12
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "byd-seal-05": {
+    "source": "/en/byd-seal-05-model-3643",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-seal-06": {
+    "source": "/en/byd-seal-06-model-3647",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6,
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 3
+  },
+  "byd-seal-07": {
+    "source": "/en/byd-seal-07-model-3646",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "byd-seal-08": {
+    "source": "/en/byd-seal-08-model-4085",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-seal-5": {
+    "source": "/en/byd-seal-5-model-3931",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-seal-6": {
+    "source": "/en/byd-seal-6-model-3811",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 2
+  },
+  "byd-seal-u": {
+    "source": "/en/byd-seal-u-model-3318",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-sealion-5": {
+    "source": "/en/byd-sealion-5-model-3943",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-sealion-6": {
+    "source": "/en/byd-sealion-6-model-3798",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-sealion-7": {
+    "source": "/en/byd-sealion-7-model-3547",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-sealion-8": {
+    "source": "/en/byd-sealion-8-model-3946",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-shark": {
+    "source": "/en/byd-shark-model-4073",
+    "bodyCounts": {
+      "Pick-up": 6
+    },
+    "newestBodies": [
+      "Pick-up"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-shark-6": {
+    "source": "/en/byd-shark-6-model-3641",
+    "bodyCounts": {
+      "Pick-up": 6
+    },
+    "newestBodies": [
+      "Pick-up"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "byd-song-l": {
+    "source": "/en/byd-song-l-model-3709",
+    "bodyCounts": {
+      "SUV": 12,
+      "Crossover": 2,
+      "Fastback": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 2
+  },
+  "byd-song-max": {
+    "source": "/en/byd-song-max-model-3193",
+    "bodyCounts": {
+      "MPV": 12
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2017,
+    "to": 2024,
+    "generations": 2
+  },
+  "byd-song-ultra": {
+    "source": "/en/byd-song-ultra-model-3945",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-t3": {
+    "source": "/en/byd-t3-model-3088",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "byd-ti-7": {
+    "source": "/en/byd-ti-7-model-4018",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2026,
+    "to": null,
+    "generations": 1
+  },
+  "byd-xia": {
+    "source": "/en/byd-xia-model-3710",
+    "bodyCounts": {
+      "Minivan": 6
+    },
+    "newestBodies": [
+      "Minivan"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "byd-yuan": {
+    "source": "/en/byd-yuan-model-3091",
+    "bodyCounts": {
+      "Off-road vehicle": 6,
+      "SUV": 8
+    },
+    "newestBodies": [
+      "Off-road vehicle",
+      "SUV"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 2
+  },
+  "byd-yuan-plus": {
+    "source": "/en/byd-yuan-plus-model-3563",
+    "bodyCounts": {
+      "SUV": 18
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 3
+  },
+  "byd-yuan-up": {
+    "source": "/en/byd-yuan-up-model-3562",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-allante": {
+    "source": "/en/cadillac-allante-model-1235",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1989,
+    "to": 1996,
+    "generations": 1
+  },
+  "cadillac-ats": {
+    "source": "/en/cadillac-ats-model-2166",
+    "bodyCounts": {
+      "Coupe": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2013,
+    "to": 2019,
+    "generations": 2
+  },
+  "cadillac-bls": {
+    "source": "/en/cadillac-bls-model-1240",
+    "bodyCounts": {
+      "Station wagon (estate)": 6,
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Station wagon (estate)"
+    ],
+    "from": 2006,
+    "to": 2010,
+    "generations": 2
+  },
+  "cadillac-brougham": {
+    "source": "/en/cadillac-brougham-model-1245",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1990,
+    "to": 1992,
+    "generations": 1
+  },
+  "cadillac-catera": {
+    "source": "/en/cadillac-catera-model-1236",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1996,
+    "to": 2002,
+    "generations": 1
+  },
+  "cadillac-celestiq": {
+    "source": "/en/cadillac-celestiq-model-3150",
+    "bodyCounts": {
+      "Liftback": 6
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-ct4": {
+    "source": "/en/cadillac-ct4-model-2718",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-ct5": {
+    "source": "/en/cadillac-ct5-model-2728",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 2
+  },
+  "cadillac-ct6": {
+    "source": "/en/cadillac-ct6-model-2171",
+    "bodyCounts": {
+      "Sedan": 18
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 3
+  },
+  "cadillac-cts": {
+    "source": "/en/cadillac-cts-model-1241",
+    "bodyCounts": {
+      "Sedan": 15,
+      "Coupe": 6,
+      "Station wagon (estate)": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2003,
+    "to": 2019,
+    "generations": 5
+  },
+  "cadillac-deville": {
+    "source": "/en/cadillac-deville-model-1246",
+    "bodyCounts": {
+      "Sedan": 9
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1960,
+    "to": 2006,
+    "generations": 2
+  },
+  "cadillac-dts": {
+    "source": "/en/cadillac-dts-model-1237",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2006,
+    "to": 2011,
+    "generations": 1
+  },
+  "cadillac-eldorado": {
+    "source": "/en/cadillac-eldorado-model-1242",
+    "bodyCounts": {
+      "Coupe": 21
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 1979,
+    "to": 2002,
+    "generations": 4
+  },
+  "cadillac-elr": {
+    "source": "/en/cadillac-elr-model-2247",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2014,
+    "to": 2016,
+    "generations": 1
+  },
+  "cadillac-escalade": {
+    "source": "/en/cadillac-escalade-model-1247",
+    "bodyCounts": {
+      "SUV": 48,
+      "Pick-up": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 1998,
+    "to": null,
+    "generations": 12
+  },
+  "cadillac-fleetwood": {
+    "source": "/en/cadillac-fleetwood-model-1238",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1950,
+    "to": 1976,
+    "generations": 1
+  },
+  "cadillac-gt4": {
+    "source": "/en/cadillac-gt4-model-3303",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-lse": {
+    "source": "/en/cadillac-lse-model-1243",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1993,
+    "to": 1996,
+    "generations": 1
+  },
+  "cadillac-lyriq": {
+    "source": "/en/cadillac-lyriq-model-2921",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-optiq": {
+    "source": "/en/cadillac-optiq-model-3506",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-seville": {
+    "source": "/en/cadillac-seville-model-1248",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1991,
+    "to": 2004,
+    "generations": 2
+  },
+  "cadillac-sixteen": {
+    "source": "/en/cadillac-sixteen-model-2942",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2003,
+    "to": 2003,
+    "generations": 1
+  },
+  "cadillac-srx": {
+    "source": "/en/cadillac-srx-model-1239",
+    "bodyCounts": {
+      "Crossover": 18
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2003,
+    "to": 2016,
+    "generations": 3
+  },
+  "cadillac-sts": {
+    "source": "/en/cadillac-sts-model-1244",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2004,
+    "to": 2011,
+    "generations": 1
+  },
+  "cadillac-vistiq": {
+    "source": "/en/cadillac-vistiq-model-3531",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-xlr": {
+    "source": "/en/cadillac-xlr-model-1249",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2003,
+    "to": 2009,
+    "generations": 1
+  },
+  "cadillac-xt4": {
+    "source": "/en/cadillac-xt4-model-2408",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 2
+  },
+  "cadillac-xt5": {
+    "source": "/en/cadillac-xt5-model-2165",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 2
+  },
+  "cadillac-xt6": {
+    "source": "/en/cadillac-xt6-model-2602",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "cadillac-xts": {
+    "source": "/en/cadillac-xts-model-2246",
+    "bodyCounts": {
+      "Sedan": 12
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2012,
+    "to": 2020,
+    "generations": 2
+  },
+  "callaway-c12": {
+    "source": "/en/callaway-c12-model-1281",
+    "bodyCounts": {
+      "Cabriolet": 6,
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1998,
+    "to": 2001,
+    "generations": 2
+  },
+  "campagna-t-rex": {
+    "source": "/en/campagna-t-rex-model-2644",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "campagna-v13r": {
+    "source": "/en/campagna-v13r-model-2645",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "carbodies-taxi": {
+    "source": "/en/carbodies-taxi-model-1337",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 1982,
+    "to": 1995,
+    "generations": 1
+  },
+  "caterham-21": {
+    "source": "/en/caterham-21-model-1357",
+    "bodyCounts": {
+      "Roadster": 6
+    },
+    "newestBodies": [
+      "Roadster"
+    ],
+    "from": 1994,
+    "to": 1999,
+    "generations": 1
+  },
+  "caterham-csr": {
+    "source": "/en/caterham-csr-model-1358",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 2004,
+    "to": 2014,
+    "generations": 1
+  },
+  "caterham-project-v": {
+    "source": "/en/caterham-project-v-model-3573",
+    "bodyCounts": {
+      "Coupe": 6
+    },
+    "newestBodies": [
+      "Coupe"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "caterham-seven": {
+    "source": "/en/caterham-seven-model-1359",
+    "bodyCounts": {
+      "Cabriolet": 6
+    },
+    "newestBodies": [
+      "Cabriolet"
+    ],
+    "from": 1992,
+    "to": 2001,
+    "generations": 1
+  },
+  "changan-benben": {
+    "source": "/en/changan-benben-model-2268",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2015,
+    "to": null,
+    "generations": 1
+  },
+  "changan-cm8": {
+    "source": "/en/changan-cm8-model-1428",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2004,
+    "to": 2015,
+    "generations": 1
+  },
+  "changan-cs15": {
+    "source": "/en/changan-cs15-model-2399",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "changan-cs35": {
+    "source": "/en/changan-cs35-model-3037",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2012,
+    "to": 2022,
+    "generations": 2
+  },
+  "changan-cs55": {
+    "source": "/en/changan-cs55-model-2401",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 4
+  },
+  "changan-cs85": {
+    "source": "/en/changan-cs85-model-3039",
+    "bodyCounts": {
+      "Coupe": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Coupe",
+      "SUV"
+    ],
+    "from": 2019,
+    "to": null,
+    "generations": 1
+  },
+  "changan-cs95": {
+    "source": "/en/changan-cs95-model-2402",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 2
+  },
+  "changan-cx70": {
+    "source": "/en/changan-cx70-model-2405",
+    "bodyCounts": {
+      "Crossover": 6
+    },
+    "newestBodies": [
+      "Crossover"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 1
+  },
+  "changan-eado": {
+    "source": "/en/changan-eado-model-2264",
+    "bodyCounts": {
+      "Sedan": 18,
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 4
+  },
+  "changan-lamore": {
+    "source": "/en/changan-lamore-model-3849",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": 2024,
+    "generations": 1
+  },
+  "changan-linmax": {
+    "source": "/en/changan-linmax-model-2403",
+    "bodyCounts": {
+      "MPV": 6
+    },
+    "newestBodies": [
+      "MPV"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "changan-lumin": {
+    "source": "/en/changan-lumin-model-3201",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "changan-raeton": {
+    "source": "/en/changan-raeton-model-2263",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2017,
+    "to": null,
+    "generations": 1
+  },
+  "changan-uni-k": {
+    "source": "/en/changan-uni-k-model-3198",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2021,
+    "to": null,
+    "generations": 1
+  },
+  "changan-uni-t": {
+    "source": "/en/changan-uni-t-model-3197",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2020,
+    "to": null,
+    "generations": 1
+  },
+  "changan-uni-v": {
+    "source": "/en/changan-uni-v-model-3200",
+    "bodyCounts": {
+      "Liftback": 12
+    },
+    "newestBodies": [
+      "Liftback"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 2
+  },
+  "changan-uni-z": {
+    "source": "/en/changan-uni-z-model-3770",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "changan-z-chine": {
+    "source": "/en/changan-z-chine-model-1429",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": 2010,
+    "generations": 1
+  },
+  "changan-nevo-a05": {
+    "source": "/en/changan-nevo-a05-model-3832",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "changan-nevo-a06": {
+    "source": "/en/changan-nevo-a06-model-3842",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "changan-nevo-a07": {
+    "source": "/en/changan-nevo-a07-model-3828",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "changan-nevo-e07": {
+    "source": "/en/changan-nevo-e07-model-3839",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "changan-nevo-hunter-k50": {
+    "source": "/en/changan-nevo-hunter-k50-model-3844",
+    "bodyCounts": {
+      "Pick-up": 12
+    },
+    "newestBodies": [
+      "Pick-up"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 2
+  },
+  "changan-nevo-q05": {
+    "source": "/en/changan-nevo-q05-model-3827",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "changan-nevo-q07": {
+    "source": "/en/changan-nevo-q07-model-3843",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "changfeng-flying": {
+    "source": "/en/changfeng-flying-model-1470",
+    "bodyCounts": {
+      "Off-road vehicle": 6
+    },
+    "newestBodies": [
+      "Off-road vehicle"
+    ],
+    "from": 2007,
+    "to": 2016,
+    "generations": 1
+  },
+  "changfeng-suv": {
+    "source": "/en/changfeng-suv-model-1471",
+    "bodyCounts": {
+      "Off-road vehicle": 6,
+      "SUV": 2
+    },
+    "newestBodies": [
+      "Off-road vehicle",
+      "SUV"
+    ],
+    "from": 2007,
+    "to": 2009,
+    "generations": 1
+  },
+  "chery-a3": {
+    "source": "/en/chery-a3-model-1518",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2008,
+    "to": 2015,
+    "generations": 1
+  },
+  "chery-amulet": {
+    "source": "/en/chery-amulet-model-1523",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2003,
+    "to": 2010,
+    "generations": 1
+  },
+  "chery-arrizo-5": {
+    "source": "/en/chery-arrizo-5-model-2214",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2016,
+    "to": 2019,
+    "generations": 1
+  },
+  "chery-arrizo-8": {
+    "source": "/en/chery-arrizo-8-model-3540",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "chery-arrizo-gx": {
+    "source": "/en/chery-arrizo-gx-model-3274",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2018,
+    "to": 2021,
+    "generations": 1
+  },
+  "chery-c5": {
+    "source": "/en/chery-c5-model-4017",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "chery-e5": {
+    "source": "/en/chery-e5-model-2216",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "chery-eq7": {
+    "source": "/en/chery-eq7-model-3859",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "chery-fora": {
+    "source": "/en/chery-fora-model-1524",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2006,
+    "to": 2010,
+    "generations": 1
+  },
+  "chery-fx": {
+    "source": "/en/chery-fx-model-3434",
+    "bodyCounts": {
+      "Crossover": 6,
+      "Fastback": 2
+    },
+    "newestBodies": [
+      "Crossover",
+      "Fastback"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "chery-j6": {
+    "source": "/en/chery-j6-model-4020",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "chery-kimo-a1": {
+    "source": "/en/chery-kimo-a1-model-1520",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2006,
+    "to": 2015,
+    "generations": 1
+  },
+  "chery-omoda-5": {
+    "source": "/en/chery-omoda-5-model-3272",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2022,
+    "to": null,
+    "generations": 1
+  },
+  "chery-qq6-s21": {
+    "source": "/en/chery-qq6-s21-model-1521",
+    "bodyCounts": {
+      "Sedan": 6
+    },
+    "newestBodies": [
+      "Sedan"
+    ],
+    "from": 2006,
+    "to": 2010,
+    "generations": 1
+  },
+  "chery-sweet-qq": {
+    "source": "/en/chery-sweet-qq-model-1526",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2003,
+    "to": 2013,
+    "generations": 1
+  },
+  "chery-tansuo-06": {
+    "source": "/en/chery-tansuo-06-model-3439",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 1
+  },
+  "chery-tiggo": {
+    "source": "/en/chery-tiggo-model-1522",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2005,
+    "to": 2010,
+    "generations": 1
+  },
+  "chery-tiggo-4": {
+    "source": "/en/chery-tiggo-4-model-3740",
+    "bodyCounts": {
+      "SUV": 12
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 2
+  },
+  "chery-tiggo-5": {
+    "source": "/en/chery-tiggo-5-model-2218",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": 2021,
+    "generations": 1
+  },
+  "chery-tiggo-5x": {
+    "source": "/en/chery-tiggo-5x-model-2419",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2017,
+    "to": 2019,
+    "generations": 1
+  },
+  "chery-tiggo-6": {
+    "source": "/en/chery-tiggo-6-model-3858",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2024,
+    "to": null,
+    "generations": 1
+  },
+  "chery-tiggo-7": {
+    "source": "/en/chery-tiggo-7-model-3262",
+    "bodyCounts": {
+      "SUV": 36
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2016,
+    "to": null,
+    "generations": 6
+  },
+  "chery-tiggo-8": {
+    "source": "/en/chery-tiggo-8-model-3271",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2018,
+    "to": null,
+    "generations": 4
+  },
+  "chery-tiggo-9": {
+    "source": "/en/chery-tiggo-9-model-3273",
+    "bodyCounts": {
+      "SUV": 24
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2023,
+    "to": null,
+    "generations": 4
+  },
+  "chery-tiggo-9x": {
+    "source": "/en/chery-tiggo-9x-model-3861",
+    "bodyCounts": {
+      "SUV": 6
+    },
+    "newestBodies": [
+      "SUV"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "chery-v23": {
+    "source": "/en/chery-v23-model-3836",
+    "bodyCounts": {
+      "SUV": 6,
+      "Crossover": 2
+    },
+    "newestBodies": [
+      "SUV",
+      "Crossover"
+    ],
+    "from": 2025,
+    "to": null,
+    "generations": 1
+  },
+  "chevrolet-agile": {
+    "source": "/en/chevrolet-agile-model-2604",
+    "bodyCounts": {
+      "Hatchback": 6
+    },
+    "newestBodies": [
+      "Hatchback"
+    ],
+    "from": 2009,
+    "to": 2016,
+    "generations": 1
   }
 }

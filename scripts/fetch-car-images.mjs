@@ -42,6 +42,22 @@ const QUERY_OVERRIDES = {
   "omoda-5": "Omoda C5",
   "togg-t10x": "Togg T10X",
   "togg-t10f": "Togg T10F",
+  // Wikipedia's free-text search resolves the Mercedes classes to whichever
+  // chassis-code article ranks highest — "A-Serisi" landed on the W116, which
+  // is a 1972 S-Class. These are top-selling nameplates here, so they are
+  // pinned rather than searched.
+  "mercedes-benz-a-serisi": "Mercedes-Benz A-Class",
+  "mercedes-benz-b-serisi": "Mercedes-Benz B-Class",
+  "mercedes-benz-c-serisi": "Mercedes-Benz C-Class",
+  "mercedes-benz-e-serisi": "Mercedes-Benz E-Class",
+  "mercedes-benz-s-serisi": "Mercedes-Benz S-Class",
+  "mercedes-benz-g-serisi": "Mercedes-Benz G-Class",
+  "bmw-1-serisi": "BMW 1 Series",
+  "bmw-2-serisi": "BMW 2 Series",
+  "bmw-3-serisi": "BMW 3 Series",
+  "bmw-4-serisi": "BMW 4 Series",
+  "bmw-5-serisi": "BMW 5 Series",
+  "bmw-7-serisi": "BMW 7 Series",
 };
 
 const arg = (name, fallback) => {
@@ -49,16 +65,25 @@ const arg = (name, fallback) => {
   return i === -1 ? fallback : process.argv[i + 1];
 };
 
-/** Reject a candidate whose article clearly is not this manufacturer's car. */
-function verify(car, page) {
+/** Reject a candidate whose article clearly is not this manufacturer's car.
+ *
+ *  Checked against the query that was actually used, not the catalogue name:
+ *  searching "BMW 3 Series" and then demanding the word "Serisi" appear in the
+ *  result rejected the correct article every time. */
+function verify(car, page, query) {
   const title = normalize(page.title ?? "");
   const extract = normalize(page.extract ?? "").slice(0, 400);
   const brandTokens = normalize(car.brand).split(/[^a-z0-9]+/).filter((t) => t.length > 1);
 
+  // Any token is enough: "GWM Haval Jolion" lives under "Haval Jolion", and
+  // requiring the parent group's name would reject the correct article.
   const brandOk = brandTokens.some((t) => title.includes(t) || extract.includes(t));
   if (!brandOk) return `brand "${car.brand}" absent from "${page.title}"`;
 
-  const modelTokens = normalize(car.model).split(/[^a-z0-9]+/).filter((t) => t.length > 1);
+  const brandSet = new Set(brandTokens);
+  const modelTokens = normalize(query)
+    .split(/[^a-z0-9]+/)
+    .filter((t) => t.length > 1 && !brandSet.has(t));
   if (modelTokens.length) {
     const modelOk = modelTokens.some((t) => title.includes(t) || extract.includes(t));
     if (!modelOk) return `model "${car.model}" absent from "${page.title}"`;
@@ -66,8 +91,38 @@ function verify(car, page) {
   return null;
 }
 
+/** Wikipedia titles these in English; the catalogue uses Turkish market names.
+ *  Without this the BMW 3 Series and every Mercedes class — some of the most
+ *  searched models in the country — came back with no usable photo at all. */
+function searchQueries(car) {
+  if (QUERY_OVERRIDES[car.slug]) return [QUERY_OVERRIDES[car.slug]];
+  const queries = new Set([`${car.brand} ${car.model}`]);
+  const model = car.model;
+  if (/serisi/i.test(model)) {
+    queries.add(`${car.brand} ${model.replace(/\bSerisi\b/gi, "Series")}`);
+    queries.add(`${car.brand} ${model.replace(/[-\s]?Serisi\b/gi, "-Class")}`);
+  }
+  if (/s[ıi]n[ıi]f[ıi]/i.test(model)) {
+    queries.add(`${car.brand} ${model.replace(/[-\s]?S[ıi]n[ıi]f[ıi]\b/gi, "-Class")}`);
+  }
+  // "GWM Haval Jolion" is listed under the marque, not the parent group.
+  const words = car.brand.split(/\s+/);
+  if (words.length > 1) queries.add(`${words.slice(1).join(" ")} ${model}`);
+  if (/^GWM /i.test(car.brand)) queries.add(model);
+  return [...queries];
+}
+
 async function findCandidate(car) {
-  const query = QUERY_OVERRIDES[car.slug] ?? `${car.brand} ${car.model}`;
+  const problems = [];
+  for (const query of searchQueries(car)) {
+    const result = await searchOnce(car, query);
+    if (result.page) return result;
+    problems.push(result.reason);
+  }
+  return { reason: problems[problems.length - 1] ?? "no usable candidate" };
+}
+
+async function searchOnce(car, query) {
   const qs = new URLSearchParams({
     action: "query", generator: "search", gsrsearch: query, gsrlimit: "3",
     prop: "pageimages|extracts|info", piprop: "original|thumbnail",
@@ -80,7 +135,7 @@ async function findCandidate(car) {
 
   const problems = [];
   for (const page of pages.sort((a, b) => (a.index ?? 0) - (b.index ?? 0))) {
-    const problem = verify(car, page);
+    const problem = verify(car, page, query);
     if (problem) { problems.push(problem); continue; }
     if (!page.original?.source) { problems.push(`"${page.title}" has no image`); continue; }
     if (page.original.width < MIN_SOURCE_WIDTH) {
@@ -91,7 +146,7 @@ async function findCandidate(car) {
     }
     return { page };
   }
-  return { reason: problems[0] ?? "no usable candidate" };
+  return { reason: problems[problems.length - 1] ?? "no usable candidate" };
 }
 
 /** MediaWiki normalises "File:A_B.jpg" to "File:A B.jpg" in its response, so
