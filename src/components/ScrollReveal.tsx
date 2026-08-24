@@ -7,7 +7,7 @@ import { gsap } from "@/lib/gsapConfig";
 export function ScrollReveal({
   children,
   className = "",
-  y = 22,
+  y = 32,
   stagger = 0,
 }: {
   children: React.ReactNode;
@@ -33,8 +33,8 @@ export function ScrollReveal({
         {
           opacity: 1,
           y: 0,
-          duration: 0.7,
-          ease: "power3.out",
+          duration: 0.9,
+          ease: "expo.out",
           stagger: stagger || 0,
           scrollTrigger: {
             trigger: ref.current,
