@@ -7,6 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { CARS } from "@/data/cars";
 import { useCarsStore } from "@/lib/store";
 import { BrandBadge } from "@/components/BrandBadge";
+import { CarPhoto } from "@/components/CarPhoto";
 import { PatronCard } from "@/components/PatronCard";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
@@ -110,7 +111,15 @@ export default function PatronlarPage() {
               locale={locale}
               className="flex items-center gap-2.5 rounded-xl border border-dashed border-border-soft p-3 hover:border-accent/60 transition-colors"
             >
-              <BrandBadge brand={car.brand} size="sm" />
+              <div className="h-10 w-10 shrink-0 overflow-hidden rounded-lg">
+                <CarPhoto
+                  slug={car.slug}
+                  brand={car.brand}
+                  className="h-full w-full"
+                  fallbackBadgeSize="sm"
+                  sizes="40px"
+                />
+              </div>
               <div className="min-w-0">
                 <div className="text-sm font-medium truncate">{car.brand}</div>
                 <div className="text-xs text-text-dim truncate">{car.model}</div>
