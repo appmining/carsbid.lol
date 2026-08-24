@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "@/lib/gsapConfig";
@@ -21,6 +21,33 @@ function RevealWords({ text, className = "" }: { text: string; className?: strin
         </span>
       ))}
     </span>
+  );
+}
+
+function HeroVideoBackground() {
+  const [enabled, setEnabled] = useState(false);
+
+  // One-time capability check after mount — must run after the SSR-matching
+  // initial render, so this can't be a lazy useState initializer.
+  /* eslint-disable react-hooks/set-state-in-effect */
+  useEffect(() => {
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!reduced) setEnabled(true);
+  }, []);
+  /* eslint-enable react-hooks/set-state-in-effect */
+
+  if (!enabled) return null;
+
+  return (
+    <video
+      className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-20"
+      src="/hero-pulse.mp4"
+      poster="/hero-pulse-poster.png"
+      autoPlay
+      muted
+      loop
+      playsInline
+    />
   );
 }
 
@@ -70,6 +97,7 @@ export function Hero() {
 
   return (
     <section ref={root} className="relative overflow-hidden bg-grid-fade">
+      <HeroVideoBackground />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-16 sm:pt-24 pb-12 text-center">
         <h1 className="text-balance font-display text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.04]">
           <RevealWords text={t("titleLine1")} />
