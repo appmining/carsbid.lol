@@ -16,8 +16,8 @@
     "disclaimer": "carsbid.lol is a community project made for fun — it does not reflect real sales figures."
   },
   "hero": {
-    "titleLine1": "Which Car Model Is",
-    "titleLine2": "Turkey's Most Popular",
+    "titleLine1": "The Most Popular Car",
+    "titleLine2": "Model In {country}",
     "titleLine3": "Right Now?",
     "subtitle": "Vote for free, push your favorite model to the top. The year doesn't matter — only the model wins.",
     "ctaVote": "Start Voting",

@@ -52,7 +52,7 @@ function HeroVideoBackground() {
   );
 }
 
-export function Hero() {
+export function Hero({ countryName }: { countryName: string }) {
   const root = useRef<HTMLDivElement>(null);
   const ctaRef = useMagnetic<HTMLAnchorElement>(0.3);
   const t = useTranslations("hero");
@@ -101,8 +101,8 @@ export function Hero() {
       <HeroVideoBackground />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-16 sm:pt-24 pb-12 text-center">
         <h1 className="text-balance font-display text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.04]">
-          <RevealWords text={t("titleLine1")} />
-          <RevealWords text={t("titleLine2")} className="text-accent" />
+          <RevealWords text={t("titleLine1", { country: countryName })} />
+          <RevealWords text={t("titleLine2", { country: countryName })} className="text-accent" />
           <RevealWords text={t("titleLine3")} />
         </h1>
 

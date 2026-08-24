@@ -4,6 +4,7 @@ import { ShowcaseGrid } from "@/components/ShowcaseGrid";
 import { PatronPodium } from "@/components/PatronPodium";
 import { PatronCarousel } from "@/components/PatronCarousel";
 import { RankingSection } from "@/components/RankingSection";
+import { getVisitorCountryName } from "@/lib/geo";
 
 export default async function Home({
   params,
@@ -12,10 +13,11 @@ export default async function Home({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const countryName = await getVisitorCountryName(locale);
 
   return (
     <>
-      <Hero />
+      <Hero countryName={countryName} />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <ShowcaseGrid />
       </div>

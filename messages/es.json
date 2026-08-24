@@ -17,7 +17,7 @@
   },
   "hero": {
     "titleLine1": "¿Cuál Es El Modelo De Auto",
-    "titleLine2": "Más Popular De Turquía",
+    "titleLine2": "Más Popular En {country}",
     "titleLine3": "Ahora Mismo?",
     "subtitle": "Vota gratis, lleva tu modelo favorito a la cima. El año no importa — solo gana el modelo.",
     "ctaVote": "Empezar A Votar",
