@@ -75,6 +75,7 @@ export async function POST(req: NextRequest) {
   try {
     checkoutUrl = await createPatronCheckout({
       orderId,
+      slug: car.slug,
       productName: `${car.brand} ${car.model} — Patronluk`,
       description: body.tagline?.trim() || `${car.brand} ${car.model} sayfasının patronu ol.`,
       priceUsd: body.price,

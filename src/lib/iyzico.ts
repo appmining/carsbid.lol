@@ -1,5 +1,8 @@
 import "server-only";
 import { createHmac, randomBytes, timingSafeEqual } from "crypto";
+import { readFile } from "fs/promises";
+import path from "path";
+import { CAR_IMAGES } from "@/data/carImages.generated";
 
 function requireEnv(name: string): string {
   const value = process.env[name];
@@ -25,14 +28,31 @@ function buildAuthHeader(uriPath: string, body: string): { authorization: string
 
 export interface CreatePatronCheckoutInput {
   orderId: string;
+  slug: string;
   productName: string;
   description: string;
   priceUsd: number;
 }
 
+/** iyzico Link products require a product image (errorCode 150109 without
+ *  one). Use the car's own photo when we have one; otherwise fall back to a
+ *  local site asset so checkout creation never fails on a missing photo. */
+async function encodedProductImage(slug: string): Promise<string> {
+  const carImageUrl = CAR_IMAGES[slug]?.square;
+  if (carImageUrl) {
+    const res = await fetch(carImageUrl);
+    if (res.ok) {
+      return Buffer.from(await res.arrayBuffer()).toString("base64");
+    }
+  }
+  const fallbackPath = path.join(process.cwd(), "public", "hero-pulse-poster.png");
+  return (await readFile(fallbackPath)).toString("base64");
+}
+
 export async function createPatronCheckout(input: CreatePatronCheckoutInput): Promise<string> {
   const baseUrl = requireEnv("IYZICO_BASE_URL");
   const uriPath = "/v2/iyzilink/products";
+  const encodedImageFile = await encodedProductImage(input.slug);
 
   const body = JSON.stringify({
     conversationId: input.orderId,
@@ -40,6 +60,7 @@ export async function createPatronCheckout(input: CreatePatronCheckoutInput): Pr
     description: input.description,
     price: input.priceUsd.toFixed(2),
     currencyCode: "USD",
+    encodedImageFile,
     // Buyer can pay once, then the link stops selling — mirrors a one-time checkout.
     stockEnabled: true,
     stockCount: 1,
