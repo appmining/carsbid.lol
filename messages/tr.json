@@ -74,6 +74,8 @@
     "displayNamePlaceholder": "Örn. Oto Vitrin",
     "handle": "Kullanıcı Adı / Hesap",
     "handlePlaceholder": "@hesabin",
+    "handleLink": "Bağlantı",
+    "handleLinkPlaceholder": "https://siten.com",
     "tagline": "Kısa Açıklama",
     "taglinePlaceholder": "Hesabını bir cümlede tanıt",
     "offer": "Teklif (minimum {min})",

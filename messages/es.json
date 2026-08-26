@@ -74,6 +74,8 @@
     "displayNamePlaceholder": "Ej. Auto Vitrina",
     "handle": "Usuario / Cuenta",
     "handlePlaceholder": "@tucuenta",
+    "handleLink": "Enlace",
+    "handleLinkPlaceholder": "https://tusitio.com",
     "tagline": "Descripción Corta",
     "taglinePlaceholder": "Describe tu cuenta en una frase",
     "offer": "Oferta (mínimo {min})",

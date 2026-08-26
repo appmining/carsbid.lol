@@ -26,6 +26,8 @@ export function BidModal({
   onClose: () => void;
 }) {
   const [platform, setPlatform] = useState<SocialPlatform>("instagram");
+  // Website/Other aren't @handles — asking for one there reads as broken.
+  const isLinkPlatform = platform === "website" || platform === "diger";
   const [handle, setHandle] = useState("");
   const [name, setName] = useState("");
   const [tagline, setTagline] = useState("");
@@ -192,14 +194,15 @@ export function BidModal({
         />
 
         <label htmlFor={fid("handle")} className={LABEL}>
-          {t("handle")}
+          {isLinkPlatform ? t("handleLink") : t("handle")}
         </label>
         <input
           id={fid("handle")}
           value={handle}
           onChange={(e) => setHandle(e.target.value)}
-          placeholder={t("handlePlaceholder")}
-          maxLength={40}
+          placeholder={isLinkPlatform ? t("handleLinkPlaceholder") : t("handlePlaceholder")}
+          type={isLinkPlatform ? "url" : "text"}
+          maxLength={80}
           autoComplete="off"
           autoCapitalize="none"
           spellCheck={false}

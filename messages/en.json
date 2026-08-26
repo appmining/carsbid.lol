@@ -74,6 +74,8 @@
     "displayNamePlaceholder": "E.g. Auto Showroom",
     "handle": "Username / Handle",
     "handlePlaceholder": "@yourhandle",
+    "handleLink": "Link",
+    "handleLinkPlaceholder": "https://yoursite.com",
     "tagline": "Short Description",
     "taglinePlaceholder": "Describe your account in one sentence",
     "offer": "Offer (minimum {min})",
