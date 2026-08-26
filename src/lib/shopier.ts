@@ -1,5 +1,6 @@
 import "server-only";
 import { createHmac, timingSafeEqual } from "crypto";
+import { usdToTry } from "@/lib/fx";
 
 function requireEnv(name: string): string {
   const value = process.env[name];
@@ -7,96 +8,70 @@ function requireEnv(name: string): string {
   return value;
 }
 
-const PAYMENT_URL = "https://www.shopier.com/ShowProduct/api_pay4.php";
+const API_BASE = "https://api.shopier.com/v1";
 
 export interface CreateShopierCheckoutInput {
-  orderId: string;
   productName: string;
   priceUsd: number;
-  callbackUrl: string;
-  locale: string;
-  buyer: {
-    name: string;
-    surname: string;
-    email: string;
-    phone: string;
-    idNumber: string;
-    address: string;
-    city: string;
-    postcode: string;
+  imageUrl: string;
+}
+
+/** Shopier's newer REST API (Personal Access Token, Bearer auth) — a fresh
+ *  "digital product" is created per checkout with the bid price; its own
+ *  storefront page (response.url) IS the checkout link, same shape as
+ *  iyzico's iyzilink. Buyer info is collected on that page, not by us.
+ *  https://developer.shopier.com/reference/post-products */
+export async function createPatronCheckout(
+  input: CreateShopierCheckoutInput
+): Promise<{ checkoutUrl: string; productId: string }> {
+  const token = requireEnv("SHOPIER_PERSONAL_ACCESS_TOKEN");
+  // Shop currency is TRY-only — patron prices are USD everywhere else on
+  // the site, so convert at checkout time with a live rate.
+  const priceTry = await usdToTry(input.priceUsd);
+
+  const res = await fetch(`${API_BASE}/products`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      title: input.productName,
+      type: "digital",
+      media: [{ type: "image", url: input.imageUrl, placement: 1 }],
+      priceData: { currency: "TRY", price: priceTry.toFixed(2) },
+      shippingPayer: "sellerPays",
+      stockQuantity: 1,
+    }),
+  });
+
+  const json = await res.json();
+  if (!res.ok || !json.url || !json.id) {
+    throw new Error(json.message ?? json.error ?? "Shopier ürünü oluşturulamadı.");
+  }
+
+  return { checkoutUrl: json.url as string, productId: String(json.id) };
+}
+
+/** Signature scheme per docs: HMAC-SHA256 keyed by the per-webhook `token`
+ *  (captured once at webhook-subscription creation time), compared against
+ *  the Shopier-Signature header. The exact signed string (raw body only vs.
+ *  id/timestamp mixed in) and encoding (hex vs base64) aren't spelled out
+ *  in the docs beyond "HS256 using the webhook token" — this assumes raw
+ *  body + hex, needs confirming against a real delivery. */
+export function verifyShopierWebhook(rawBody: string, signatureHeader: string | null): boolean {
+  if (!signatureHeader) return false;
+  const secret = requireEnv("SHOPIER_WEBHOOK_TOKEN");
+  const digest = Buffer.from(createHmac("sha256", secret).update(rawBody).digest("hex"), "utf8");
+  const signature = Buffer.from(signatureHeader, "utf8");
+  return digest.length === signature.length && timingSafeEqual(digest, signature);
+}
+
+export interface ShopierOrderCreatedPayload {
+  event: string;
+  data: {
+    id: string;
+    paymentStatus: "paid" | "unpaid";
+    lineItems: Array<{ productId: string }>;
   };
-}
-
-/** Shopier's classic API is a client-submitted HTML form, not a JSON
- *  endpoint that hands back a URL — the buyer's browser POSTs these fields
- *  straight to Shopier's payment page. We build and sign the field map;
- *  the caller renders it as a hidden auto-submitting form.
- *  https://github.com/erkineren/shopier (reference implementation) */
-export function buildShopierCheckoutFields(input: CreateShopierCheckoutInput): {
-  actionUrl: string;
-  fields: Record<string, string>;
-} {
-  const apiKey = requireEnv("SHOPIER_API_KEY");
-  const apiSecret = requireEnv("SHOPIER_API_SECRET");
-  const randomNr = String(Math.floor(100000 + Math.random() * 900000));
-  const totalOrderValue = input.priceUsd.toFixed(2);
-  const currency = "1"; // USD
-
-  const dataToBeHashed = `${randomNr}${input.orderId}${totalOrderValue}${currency}`;
-  const signature = createHmac("sha256", apiSecret).update(dataToBeHashed).digest("base64");
-
-  const fields: Record<string, string> = {
-    API_key: apiKey,
-    website_index: "1",
-    platform_order_id: input.orderId,
-    product_name: input.productName,
-    product_type: "1", // DOWNLOADABLE_VIRTUAL
-    buyer_name: input.buyer.name,
-    buyer_surname: input.buyer.surname,
-    buyer_email: input.buyer.email,
-    buyer_account_age: "0",
-    buyer_id_nr: input.buyer.idNumber,
-    buyer_phone: input.buyer.phone,
-    billing_address: input.buyer.address,
-    billing_city: input.buyer.city,
-    billing_country: "Turkey",
-    billing_postcode: input.buyer.postcode,
-    shipping_address: input.buyer.address,
-    shipping_city: input.buyer.city,
-    shipping_country: "Turkey",
-    shipping_postcode: input.buyer.postcode,
-    total_order_value: totalOrderValue,
-    currency,
-    platform: "0",
-    is_in_frame: "0",
-    current_language: input.locale === "en" || input.locale === "es" ? "1" : "0",
-    modul_version: "1.0.4",
-    random_nr: randomNr,
-    signature,
-    callback: input.callbackUrl,
-  };
-
-  return { actionUrl: PAYMENT_URL, fields };
-}
-
-export interface ShopierCallbackPayload {
-  platform_order_id: string;
-  status: string;
-  installment: string;
-  payment_id: string;
-  random_nr: string;
-  signature: string;
-}
-
-/** Verifies the browser-redirected callback POST. Signature = base64(HMAC-SHA256(
- *  random_nr + platform_order_id, secret)) — both values come back in the
- *  callback itself, nothing needs to be pre-stored to check it. */
-export function verifyShopierCallback(payload: ShopierCallbackPayload): boolean {
-  const apiSecret = requireEnv("SHOPIER_API_SECRET");
-  const expected = Buffer.from(
-    createHmac("sha256", apiSecret).update(`${payload.random_nr}${payload.platform_order_id}`).digest("base64"),
-    "utf8"
-  );
-  const received = Buffer.from(payload.signature ?? "", "utf8");
-  return expected.length === received.length && timingSafeEqual(expected, received);
 }

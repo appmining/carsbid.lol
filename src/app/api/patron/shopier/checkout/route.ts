@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { randomUUID } from "crypto";
 import { CARS } from "@/data/cars.generated";
+import { CAR_IMAGES } from "@/data/carImages.generated";
 import { supabaseAdmin } from "@/lib/supabase/server";
-import { buildShopierCheckoutFields } from "@/lib/shopier";
+import { createPatronCheckout } from "@/lib/shopier";
 import type { SocialPlatform } from "@/lib/types";
-import { routing } from "@/i18n/routing";
 
 const PLATFORMS: SocialPlatform[] = ["instagram", "tiktok", "x", "youtube", "website", "diger"];
 
@@ -16,17 +16,6 @@ interface CheckoutBody {
   handle: string;
   url: string;
   price: number;
-  locale?: string;
-  buyer: {
-    name: string;
-    surname: string;
-    email: string;
-    phone: string;
-    idNumber: string;
-    address: string;
-    city: string;
-    postcode: string;
-  };
 }
 
 function badRequest(message: string) {
@@ -49,20 +38,6 @@ export async function POST(req: NextRequest) {
   }
   if (!PLATFORMS.includes(body.platform)) return badRequest("Geçersiz platform.");
   if (!Number.isFinite(body.price) || body.price <= 0) return badRequest("Geçersiz teklif.");
-
-  const buyer = body.buyer;
-  if (
-    !buyer?.name?.trim() ||
-    !buyer.surname?.trim() ||
-    !buyer.email?.trim() ||
-    !buyer.phone?.trim() ||
-    !buyer.idNumber?.trim() ||
-    !buyer.address?.trim() ||
-    !buyer.city?.trim() ||
-    !buyer.postcode?.trim()
-  ) {
-    return badRequest("Shopier ödeme sayfası için tüm alıcı bilgileri zorunlu.");
-  }
 
   const db = supabaseAdmin();
   const { data: current, error: currentError } = await db
@@ -91,9 +66,6 @@ export async function POST(req: NextRequest) {
     handle: body.handle.trim(),
     url: body.url.trim(),
     price: body.price,
-    buyer_name: `${buyer.name.trim()} ${buyer.surname.trim()}`,
-    buyer_email: buyer.email.trim(),
-    buyer_phone: buyer.phone.trim(),
   });
 
   if (insertError) {
@@ -101,27 +73,23 @@ export async function POST(req: NextRequest) {
   }
 
   const origin = req.nextUrl.origin;
-  const locale = routing.locales.includes(body.locale as (typeof routing.locales)[number])
-    ? (body.locale as string)
-    : routing.defaultLocale;
+  const image = CAR_IMAGES[car.slug];
 
-  const { actionUrl, fields } = buildShopierCheckoutFields({
-    orderId,
-    productName: `${car.brand} ${car.model} — Patronluk`,
-    priceUsd: body.price,
-    callbackUrl: `${origin}/api/patron/shopier/callback`,
-    locale,
-    buyer: {
-      name: buyer.name.trim(),
-      surname: buyer.surname.trim(),
-      email: buyer.email.trim(),
-      phone: buyer.phone.trim(),
-      idNumber: buyer.idNumber.trim(),
-      address: buyer.address.trim(),
-      city: buyer.city.trim(),
-      postcode: buyer.postcode.trim(),
-    },
-  });
+  let checkoutUrl: string;
+  try {
+    const result = await createPatronCheckout({
+      productName: `${car.brand} ${car.model} — Patronluk`,
+      priceUsd: body.price,
+      imageUrl: image?.square ?? `${origin}/hero-pulse-poster.png`,
+    });
+    checkoutUrl = result.checkoutUrl;
+    // The order.created webhook only carries the product id, not our own
+    // order_id — store the mapping now so the webhook can look it back up.
+    await db.from("patron_orders").update({ provider_order_id: result.productId }).eq("order_id", orderId);
+  } catch (err) {
+    await db.from("patron_orders").update({ status: "failed", note: String(err) }).eq("order_id", orderId);
+    return NextResponse.json({ error: "Ödeme başlatılamadı." }, { status: 500 });
+  }
 
-  return NextResponse.json({ actionUrl, fields });
+  return NextResponse.json({ checkoutUrl });
 }
