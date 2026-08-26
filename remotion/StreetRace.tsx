@@ -16,8 +16,6 @@ const INK_MUTED = "#9a9287";
 const BEZEL = "#2a2621";
 const AMBER = "#ffb020";
 const AMBER_BRIGHT = "#ffc65a";
-const RED = "#ff3b30";
-const GREEN = "#3ddc6a";
 
 const SANS = "Arial, Helvetica, sans-serif";
 const CAR_PHOTO = CAR_IMAGES["bmw-3-serisi"].wide;
@@ -58,225 +56,6 @@ function Vignette() {
   );
 }
 
-function TrafficLight({ lit }: { lit: "red" | "green" }) {
-  const dots: Array<{ color: string; on: boolean }> = [
-    { color: RED, on: lit === "red" },
-    { color: AMBER, on: false },
-    { color: GREEN, on: lit === "green" },
-  ];
-  return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: 10,
-        padding: "16px 12px",
-        background: "#0a0908",
-        border: `1px solid ${BEZEL}`,
-        borderRadius: 14,
-      }}
-    >
-      {dots.map((d, i) => (
-        <div
-          key={i}
-          style={{
-            width: 22,
-            height: 22,
-            borderRadius: "50%",
-            background: d.on ? d.color : "#221f1c",
-            boxShadow: d.on ? `0 0 24px 6px ${d.color}` : "none",
-          }}
-        />
-      ))}
-    </div>
-  );
-}
-
-function RedLightScene() {
-  const frame = useCurrentFrame();
-  const progress = interpolate(frame, [0, 60], [0, 1], { extrapolateRight: "clamp" });
-  const zoom = 1.05 + progress * 0.06;
-  const pulse = 0.25 + Math.max(0, Math.sin(frame / 9)) * 0.25 * progress;
-  const lightIn = interpolate(frame, [0, 20], [0, 1], { extrapolateRight: "clamp" });
-
-  return (
-    <AbsoluteFill style={{ background: BG }}>
-      <Img
-        src={CAR_PHOTO}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          filter: `blur(20px) brightness(0.35) saturate(0.9)`,
-          transform: `scale(${zoom})`,
-        }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          background: `radial-gradient(ellipse at center, rgba(255,45,30,${pulse}) 0%, transparent 65%)`,
-        }}
-      />
-      <Vignette />
-      <div style={{ position: "absolute", top: 90, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: lightIn }}>
-        <TrafficLight lit="red" />
-      </div>
-    </AbsoluteFill>
-  );
-}
-
-function LaunchScene() {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const flash = interpolate(frame, [0, 6, 18], [1, 0.55, 0], { extrapolateRight: "clamp" });
-  const blur = interpolate(frame, [0, 30], [2, 22], { extrapolateRight: "clamp" });
-  const split = spring({ frame, fps, config: { damping: 12 } });
-  const titleIn = spring({ frame: frame - 8, fps, config: { damping: 10 } });
-
-  return (
-    <AbsoluteFill style={{ background: BG }}>
-      <div style={{ position: "absolute", inset: 0, display: "flex" }}>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden", transform: `translateX(${-split * 6}px)` }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{
-              width: "200%",
-              height: "100%",
-              objectFit: "cover",
-              filter: `blur(${blur}px) brightness(0.55)`,
-            }}
-          />
-        </div>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden", transform: `translateX(${split * 6}px) scaleX(-1)` }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{
-              width: "200%",
-              height: "100%",
-              objectFit: "cover",
-              filter: `blur(${blur}px) brightness(0.55)`,
-            }}
-          />
-        </div>
-      </div>
-      <Vignette />
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          background: "#eef4ef",
-          opacity: flash,
-        }}
-      />
-      <div style={{ position: "absolute", top: 90, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-        <TrafficLight lit="green" />
-      </div>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <div
-          style={{
-            transform: `scale(${0.7 + titleIn * 0.3})`,
-            opacity: Math.min(1, titleIn * 1.4),
-            fontFamily: SANS,
-            fontWeight: 800,
-            fontSize: 84,
-            color: INK,
-            textAlign: "center",
-          }}
-        >
-          3.20 <span style={{ color: AMBER }}>VS</span> 3.20
-        </div>
-      </AbsoluteFill>
-    </AbsoluteFill>
-  );
-}
-
-function SpeedStreaks({ frame, count }: { frame: number; count: number }) {
-  const lines = Array.from({ length: count }, (_, i) => i);
-  return (
-    <>
-      {lines.map((i) => {
-        const period = 14 + Math.floor(hash(i) * 10);
-        const phase = hash(i + 50) * period;
-        const local = ((frame + phase) % period) / period;
-        const y = 120 + hash(i + 200) * 1680;
-        const width = interpolate(local, [0, 0.5, 1], [0, 340, 0]);
-        const opacity = interpolate(local, [0, 0.15, 0.7, 1], [0, 0.55, 0.3, 0]);
-        return (
-          <div
-            key={i}
-            style={{
-              position: "absolute",
-              top: y,
-              left: local > 0.5 ? "auto" : 0,
-              right: local > 0.5 ? 0 : "auto",
-              width,
-              height: 3,
-              background: `linear-gradient(${local > 0.5 ? "270deg" : "90deg"}, transparent, ${AMBER})`,
-              opacity,
-            }}
-          />
-        );
-      })}
-    </>
-  );
-}
-
-function SpeedCounter({ frame }: { frame: number }) {
-  const value = Math.round(interpolate(frame, [0, 60], [60, 214], { extrapolateRight: "clamp" }));
-  const flicker = 0.85 + Math.sin(frame / 4) * 0.15;
-  return (
-    <div style={{ textAlign: "center", opacity: flicker }}>
-      <div
-        style={{
-          fontFamily: "monospace",
-          fontWeight: 700,
-          fontSize: 110,
-          color: INK,
-          fontVariantNumeric: "tabular-nums",
-        }}
-      >
-        {value}
-      </div>
-      <div style={{ fontFamily: "monospace", fontSize: 22, letterSpacing: 3, color: INK_MUTED }}>
-        KM/S
-      </div>
-    </div>
-  );
-}
-
-function RaceScene() {
-  const frame = useCurrentFrame();
-  const spread = interpolate(frame, [0, 60], [0, 90], { extrapolateRight: "clamp" });
-  const blur = interpolate(frame, [0, 60], [22, 40], { extrapolateRight: "clamp" });
-  const punch = frame % 15 < 2 ? 0.12 : 0;
-
-  return (
-    <AbsoluteFill style={{ background: BG }}>
-      <div style={{ position: "absolute", inset: 0, display: "flex" }}>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden", transform: `translateX(${-spread}px)` }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{ width: "200%", height: "100%", objectFit: "cover", filter: `blur(${blur}px) brightness(0.5)` }}
-          />
-        </div>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden", transform: `translateX(${spread}px) scaleX(-1)` }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{ width: "200%", height: "100%", objectFit: "cover", filter: `blur(${blur}px) brightness(0.5)` }}
-          />
-        </div>
-      </div>
-      <SpeedStreaks frame={frame} count={22} />
-      <div style={{ position: "absolute", inset: 0, background: "#fff", opacity: punch }} />
-      <Vignette />
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <SpeedCounter frame={frame} />
-      </AbsoluteFill>
-    </AbsoluteFill>
-  );
-}
-
 function Grain({ frame }: { frame: number }) {
   const opacity = 0.05 + hash(Math.floor(frame / 2)) * 0.05;
   return (
@@ -293,49 +72,174 @@ function Grain({ frame }: { frame: number }) {
   );
 }
 
-function PhotoFinishScene() {
+function Particles({ frame, count }: { frame: number; count: number }) {
+  const items = Array.from({ length: count }, (_, i) => i);
+  return (
+    <>
+      {items.map((i) => {
+        const startY = 400 + hash(i) * 1400;
+        const x = 60 + hash(i + 40) * 960;
+        const speed = 0.35 + hash(i + 80) * 0.85;
+        const size = 2 + hash(i + 120) * 3;
+        const y = startY - frame * speed;
+        if (y < -20 || y > 1940) return null;
+        const twinkle = 0.25 + Math.max(0, Math.sin(frame / 8 + i)) * 0.55;
+        return (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              left: x,
+              top: y,
+              width: size,
+              height: size,
+              borderRadius: "50%",
+              background: AMBER_BRIGHT,
+              opacity: twinkle,
+              boxShadow: `0 0 ${size * 3}px ${AMBER}`,
+            }}
+          />
+        );
+      })}
+    </>
+  );
+}
+
+function GlitchBars({ frame }: { frame: number }) {
+  if (frame < 0 || frame > 10) return null;
+  const bars = Array.from({ length: 6 }, (_, i) => i);
+  return (
+    <>
+      {bars.map((i) => {
+        const seed = i + frame * 5;
+        const y = hash(seed) * 1920;
+        const h = 4 + hash(seed + 1) * 40;
+        const shift = (hash(seed + 2) - 0.5) * 70;
+        return (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              top: y,
+              left: 0,
+              right: 0,
+              height: h,
+              transform: `translateX(${shift}px)`,
+              background: hash(seed + 3) > 0.5 ? "rgba(255,176,32,0.35)" : "rgba(255,255,255,0.2)",
+              mixBlendMode: "screen",
+            }}
+          />
+        );
+      })}
+    </>
+  );
+}
+
+function HeroLine({
+  text,
+  frame,
+  from,
+  hold,
+}: {
+  text: string;
+  frame: number;
+  from: number;
+  hold: number;
+}) {
+  const local = frame - from;
+  const opacity = interpolate(local, [0, 12, hold, hold + 14], [0, 1, 1, 0], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const y = interpolate(local, [0, 12], [22, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const scale = interpolate(local, [0, 12], [0.92, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  if (opacity <= 0) return null;
+  return (
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
+      <div
+        style={{
+          opacity,
+          transform: `translateY(${y}px) scale(${scale})`,
+          fontFamily: SANS,
+          fontWeight: 800,
+          fontSize: 76,
+          color: INK,
+          textAlign: "center",
+          padding: "0 90px",
+        }}
+      >
+        {text}
+      </div>
+    </AbsoluteFill>
+  );
+}
+
+// Single continuous cinematic shot (0-190f): one hero car photo under a slow
+// zoom/drift camera move, narrated by kinetic type instead of a literal race,
+// ending on a freeze-frame "KAZANAN YOK" stamp.
+function HeroScene() {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const flash = interpolate(frame, [0, 4, 14], [1, 0.4, 0], { extrapolateRight: "clamp" });
-  const stamp = spring({ frame: frame - 6, fps, config: { damping: 9 } });
+
+  const zoom = interpolate(frame, [0, 190], [1.05, 1.34], { extrapolateRight: "clamp" });
+  const panX = interpolate(frame, [0, 190], [0, -26], { extrapolateRight: "clamp" });
+  const shake = Math.sin(frame / 5) * 1.2 + Math.sin(frame / 13) * 0.6;
+  const brightness = interpolate(frame, [0, 190], [0.5, 0.42]);
+
+  const freezeStart = 128;
+  const isFrozen = frame >= freezeStart;
+  const desaturate = interpolate(frame, [freezeStart, freezeStart + 10], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const flash = interpolate(frame, [freezeStart, freezeStart + 3, freezeStart + 14], [0, 1, 0], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const stamp = spring({ frame: frame - (freezeStart + 8), fps, config: { damping: 9 } });
 
   return (
     <AbsoluteFill style={{ background: BG }}>
-      <div style={{ position: "absolute", inset: 0, display: "flex" }}>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden" }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{ width: "200%", height: "100%", objectFit: "cover", filter: "grayscale(1) brightness(0.45) contrast(1.1)" }}
-          />
-        </div>
-        <div style={{ width: "50%", height: "100%", overflow: "hidden", transform: "scaleX(-1)" }}>
-          <Img
-            src={CAR_PHOTO}
-            style={{ width: "200%", height: "100%", objectFit: "cover", filter: "grayscale(1) brightness(0.45) contrast(1.1)" }}
-          />
-        </div>
-      </div>
-      <Grain frame={frame} />
+      <Img
+        src={CAR_PHOTO}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          filter: `brightness(${brightness}) saturate(${1 - desaturate * 0.9}) grayscale(${desaturate})`,
+          transform: `scale(${zoom}) translate(${panX + shake}px, ${shake}px)`,
+        }}
+      />
+      <Particles frame={frame} count={26} />
       <Vignette />
+      {isFrozen && <Grain frame={frame} />}
       <div style={{ position: "absolute", inset: 0, background: "#fff", opacity: flash }} />
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <div
-          style={{
-            transform: `scale(${0.7 + Math.min(1, stamp) * 0.35}) rotate(-6deg)`,
-            opacity: Math.min(1, stamp * 1.4),
-            fontFamily: SANS,
-            fontWeight: 800,
-            fontSize: 88,
-            color: INK,
-            border: `4px solid ${INK}`,
-            borderRadius: 12,
-            padding: "18px 40px",
-            letterSpacing: 2,
-          }}
-        >
-          KAZANAN YOK
-        </div>
-      </AbsoluteFill>
+      <GlitchBars frame={frame - (freezeStart - 8)} />
+
+      <HeroLine text="İki genç." frame={frame} from={0} hold={30} />
+      <HeroLine text="Aynı araba." frame={frame} from={40} hold={30} />
+      <HeroLine text="Aynı gece." frame={frame} from={80} hold={32} />
+
+      {isFrozen && (
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
+          <div
+            style={{
+              transform: `scale(${0.7 + Math.min(1, Math.max(0, stamp)) * 0.35}) rotate(-6deg)`,
+              opacity: Math.min(1, Math.max(0, stamp) * 1.4),
+              fontFamily: SANS,
+              fontWeight: 800,
+              fontSize: 84,
+              color: INK,
+              border: `4px solid ${INK}`,
+              borderRadius: 12,
+              padding: "18px 40px",
+              letterSpacing: 2,
+            }}
+          >
+            KAZANAN YOK
+          </div>
+        </AbsoluteFill>
+      )}
     </AbsoluteFill>
   );
 }
@@ -611,17 +515,8 @@ export function StreetRace() {
         />
       ))}
 
-      <Sequence from={0} durationInFrames={60}>
-        <RedLightScene />
-      </Sequence>
-      <Sequence from={60} durationInFrames={30}>
-        <LaunchScene />
-      </Sequence>
-      <Sequence from={90} durationInFrames={60}>
-        <RaceScene />
-      </Sequence>
-      <Sequence from={150} durationInFrames={40}>
-        <PhotoFinishScene />
+      <Sequence from={0} durationInFrames={190}>
+        <HeroScene />
       </Sequence>
       <Sequence from={190} durationInFrames={40}>
         <TransitionLineScene />
