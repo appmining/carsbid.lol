@@ -123,8 +123,8 @@
     "metaDescription": "What is carsbid.lol and how does it work?",
     "p1": "<strong>carsbid.lol</strong> is a for-fun popularity contest between car models sold in {country}. The model year doesn't matter — whether it's a Fiat Egea, Toyota Corolla, or Tesla Model 3, you're voting for the nameplate alone.",
     "p2": "Every model can have a <strong>patron</strong>: a small ad slot shown on that model's page. Anyone who wants to become the patron bids above the current price (Take Over) to claim the slot and showcase their own social account — Instagram, TikTok, X, YouTube, or a website — to that model's fans.",
-    "p3": "This project is inspired by memleket.lol: we apply the same \"vote, push to the top, take over the ad slot\" mechanic to car models instead of cities.",
-    "p4": "Patron payments are securely processed through Lemon Squeezy; vote and visit counts are tracked server-side in real time."
+    "p3": "We're adapting the pay-to-rank format that's been trending lately to car models — the highest bidder claims the ad slot, and the ranking updates in real time.",
+    "p4": "Patron payments are processed through a secure payment provider; vote and visit counts are tracked server-side in real time."
   },
   "kurallarPage": {
     "title": "Rules",

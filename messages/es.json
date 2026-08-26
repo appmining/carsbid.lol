@@ -123,8 +123,8 @@
     "metaDescription": "¿Qué es carsbid.lol y cómo funciona?",
     "p1": "<strong>carsbid.lol</strong> es un concurso de popularidad por diversión entre los modelos de autos que se venden en {country}. El año del modelo no importa — ya sea un Fiat Egea, un Toyota Corolla o un Tesla Model 3, votas solo por el nombre del modelo.",
     "p2": "Cada modelo puede tener un <strong>patrón</strong>: un pequeño espacio publicitario que aparece en la página de ese modelo. Cualquiera que quiera ser el patrón ofrece más que el precio actual (Tomar) para quedarse con el espacio y mostrar su propia cuenta social — Instagram, TikTok, X, YouTube o un sitio web — a los fans de ese modelo.",
-    "p3": "Este proyecto está inspirado en memleket.lol: aplicamos la misma mecánica de \"votar, subir a la cima, tomar el espacio publicitario\" a modelos de autos en lugar de ciudades.",
-    "p4": "Los pagos de patrocinio se procesan de forma segura a través de Lemon Squeezy; los votos y las visitas se registran en el servidor en tiempo real."
+    "p3": "Estamos adaptando el formato \"puja y sube\" que se ha vuelto viral últimamente a los modelos de auto — quien hace la oferta más alta se queda con el espacio publicitario, y el ranking se actualiza en tiempo real.",
+    "p4": "Los pagos de patrocinio se procesan a través de un proveedor de pago seguro; los votos y las visitas se registran en el servidor en tiempo real."
   },
   "kurallarPage": {
     "title": "Reglas",
