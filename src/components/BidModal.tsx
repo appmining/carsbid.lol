@@ -95,7 +95,7 @@ export function BidModal({
 
     setSubmitting(true);
     try {
-      const res = await fetch("/api/patron/iyzico/checkout", {
+      const res = await fetch("/api/patron/shopier/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ slug, name, tagline, platform, handle, url, price, locale }),
