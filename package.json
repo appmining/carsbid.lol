@@ -11,6 +11,7 @@
     "remotion:render": "remotion render remotion/index.ts Promo out/promo.mp4",
     "remotion:render:hero": "remotion render remotion/index.ts HeroPulse public/hero-pulse.mp4",
     "remotion:still:hero": "remotion still remotion/index.ts HeroPulse public/hero-pulse-poster.png --frame=0",
+    "remotion:render:streetrace": "remotion render remotion/index.ts StreetRace out/streetrace.mp4",
     "data:catalog": "node scripts/scrape-auto-data.mjs",
     "data:powertrain": "node scripts/scrape-powertrain.mjs",
     "data:prominence": "node scripts/fetch-prominence.mjs",
