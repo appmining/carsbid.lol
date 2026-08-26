@@ -57,8 +57,8 @@ export async function createPatronCheckout(
  *  (captured once at webhook-subscription creation time), compared against
  *  the Shopier-Signature header. The exact signed string (raw body only vs.
  *  id/timestamp mixed in) and encoding (hex vs base64) aren't spelled out
- *  in the docs beyond "HS256 using the webhook token" — this assumes raw
- *  body + hex, needs confirming against a real delivery. */
+ *  in the docs beyond "HS256 using the webhook token" — assumed raw body +
+ *  hex, confirmed correct against a real delivery (200, not 401). */
 export function verifyShopierWebhook(rawBody: string, signatureHeader: string | null): boolean {
   if (!signatureHeader) return false;
   const secret = requireEnv("SHOPIER_WEBHOOK_TOKEN");
@@ -67,11 +67,13 @@ export function verifyShopierWebhook(rawBody: string, signatureHeader: string | 
   return digest.length === signature.length && timingSafeEqual(digest, signature);
 }
 
-export interface ShopierOrderCreatedPayload {
-  event: string;
-  data: {
-    id: string;
-    paymentStatus: "paid" | "unpaid";
-    lineItems: Array<{ productId: string }>;
-  };
+/** The body is the Order object directly (confirmed against GET /v1/orders
+ *  and the docs' product.created example, which is likewise unwrapped) —
+ *  event type comes from the Shopier-Event header, not a body field. An
+ *  earlier version assumed a {event, data} envelope; that was wrong and
+ *  silently no-opped every real delivery (200 "ignored", nothing settled). */
+export interface ShopierOrder {
+  id: string;
+  paymentStatus: "paid" | "unpaid";
+  lineItems: Array<{ productId: string }>;
 }
