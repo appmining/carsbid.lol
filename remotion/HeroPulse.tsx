@@ -10,7 +10,7 @@ function hash(n: number): number {
   return x - Math.floor(x);
 }
 
-function GridPulses({
+export function GridPulses({
   width,
   height,
   frame,
@@ -48,7 +48,7 @@ function GridPulses({
   );
 }
 
-function LightSweep({
+export function LightSweep({
   width,
   height,
   frame,
